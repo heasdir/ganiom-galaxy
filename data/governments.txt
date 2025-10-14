@@ -1,0 +1,26 @@
+government "Communist Ganiom"
+	color 1.0 0.3 0.7
+	"player reputation" 100
+	"attitude toward"
+		"The Between" -1000
+		
+government "The Between"
+	color 0.0 0.0 0.0
+	"player reputation" -100
+	"attitude toward"
+		"Communist Ganiom" -1000
+		"Shizivi" -1
+
+government "Shizivi"
+	color 0.5 0.7 0.4
+	"player reputation" 1
+	"attitude toward"
+		"The Between" -1
+		"Communist Ganiom" 1
+		
+government "Hisair"
+	color 1.0 0.0 0.2
+	"player reputation" -1000
+	"attitude toward"
+		"The Between" -10
+		"Communist Ganiom" -1000
