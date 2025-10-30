@@ -1,0 +1,164 @@
+ship "Pinoalin"
+	sprite "ship/pinoalin"
+	thumbnail "thumbnail/unknown"
+	attributes
+		category "Heavy Warship"
+		"cost" 412800000
+		"shields" 7200000
+		"hull" 13290000
+		"required crew" 1800
+		"bunks" 20000
+		"mass" 10500
+		"drag" 12.4
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 50
+		"outfit space" 480
+		"weapon capacity" 170
+		"engine capacity" 120
+		"ramscoop" 100
+		"solar collection" 35
+		"shield generation" 5.4
+		"shield energy" 6.9
+		"hull repair rate" 12
+		"hull energy" 9
+		"hull heat" .1
+		"scan interference" 1
+		"radar jamming" 5
+		"cooling" 55
+		"integrated system" -13
+		weapon
+			"blast radius" 450
+			"shield damage" 6400
+			"hull damage" 3200
+			"hit force" 9600
+	outfits
+		"Electron Beam" 10
+		"Electron Turret" 4
+		
+		
+		"Blue Sun Reactor"
+		"Quantum Vacuum Battery"
+		
+		"Type 4 Radiant Thruster" 
+		"Type 4 Radiant Steering"
+		
+		"Hyperdrive"
+		"Jump Drive"
+    
+    gun -30.5 -256
+    gun -30.5 -256
+    gun -30.5 -256
+    gun -30.5 -256
+    gun -30.5 -256
+    gun -30.5 -256
+    gun -92 -110
+    gun -92 -110
+    gun -92 -110
+    gun -92 -110
+    gun -92 -110
+    turret -92 -110
+    turret -177 101
+    turret -177 101
+    turret -177 101
+    turret -177 101
+    gun -177 101
+    gun -177 101
+    gun -177 101
+    gun 10.5 109.5
+    gun 10.5 109.5
+    gun -1 188
+    gun -1 188
+    engine -111.5 301.5
+    engine -180.5 257.5
+    engine -139 249.5
+	explode "tiny explosion" 120
+	explode "small explosion" 60
+	explode "medium explosion" 70
+	explode "large explosion" 50
+	explode "huge explosion" 15
+	"final explode" "final explosion large"
+	description "This Heavy Warship is powerful, made by the Kem Relicnain. Every faction in the galaxy uses it."
+	
+ship "Neutron Star"
+	sprite "ship/neutron+"
+	thumbnail "thumbnail/unknown"
+	attributes
+		category "Heavy Warship"
+		"cost" 4128000
+		"shields" 7200000
+		"hull" 13290000
+		"required crew" 18
+		"bunks" 20000
+		"mass" 10500
+		"drag" 12.4
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 50
+		"outfit space" 480
+		"weapon capacity" 170
+		"engine capacity" 120
+		"ramscoop" 10
+		"solar collection" 35
+		"shield generation" 5.4
+		"shield energy" 6.9
+		"hull repair rate" 12
+		"hull energy" 9
+		"hull heat" .1
+		"scan interference" 1
+		"radar jamming" 5
+		"cooling" 55
+		"integrated system" -13
+		weapon
+			"blast radius" 450
+			"shield damage" 6400
+			"hull damage" 3200
+			"hit force" 9600
+	outfits
+		"Electron Beam" 17
+		"Electron Turret" 4
+		
+		
+		"Blue Sun Reactor"
+		"Quantum Vacuum Battery"
+		
+		"Type 4 Radiant Thruster" 
+		"Type 4 Radiant Steering"
+		
+		"Hyperdrive"
+		"Jump Drive"
+    
+    gun -30.5 -256
+    gun -30.5 -256
+    gun -30.5 -256
+    gun -30.5 -256
+    gun -30.5 -256
+    gun -30.5 -256
+    gun -92 -110
+    gun -92 -110
+    gun -92 -110
+    gun -92 -110
+    gun -92 -110
+    turret -92 -110
+    turret -177 101
+    turret -177 101
+    turret -177 101
+    turret -177 101
+    gun -177 101
+    gun -177 101
+    gun -177 101
+    gun 10.5 109.5
+    gun 10.5 109.5
+    gun -1 188
+    gun -1 188
+    engine -111.5 301.5
+    engine -180.5 257.5
+    engine -139 249.5
+	explode "tiny explosion" 120
+	explode "small explosion" 60
+	explode "medium explosion" 70
+	explode "large explosion" 50
+	explode "huge explosion" 15
+	"final explode" "final explosion large"
+	description "The Neutron Star is a harvested star by the between."
+	
