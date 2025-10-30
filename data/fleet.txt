@@ -1,0 +1,149 @@
+fleet "Communist Ganiom Avg"
+	government "Communist Ganiom"
+	names "Commune Security"
+	cargo 0
+	personality
+		confusion 2
+		plunders
+	variant 40
+		Aerie 5
+	variant 40
+		Dreadnought
+	variant 20
+		Jackal 10
+		Carrier 2
+	variant 35
+		Dreadnought 2
+		Carrier 5
+	variant 30
+		Carrier 3
+	variant 20
+		Aerie 2
+	variant 20
+		Aerie 
+		Carrier
+	variant 15
+		Kestrel
+		Quicksilver 2
+	variant 15
+		Quicksilver 2
+		Kestrel 3
+	variant 15
+		Quicksilver 5
+	variant 1
+		Quicksilver 10
+		Dreadnought 3
+		Kestrel 5
+		
+fleet "Communist Gainen Military Patrol"
+	government "Communist Ganiom"
+	names "Gainen Commune Security"
+	cargo 0
+	personality
+		confusion 3
+		plunders
+	variant 100
+		Aerie 5
+		
+		
+fleet "Hisair High Fleet"
+	government "Hisair"
+	names "Hisair High"
+	cargo 0
+	personality
+		confusion 40
+		plunders
+	variant 100
+		Aerie 2
+		Dreadnought
+		
+fleet "Gainen Fleet"
+	government "Gainen Republic"
+	names "Destroy and Kill"
+	cargo 0
+	personality
+		confusion 9
+		plunders
+	variant 40
+		Aerie 5
+		Clossusn
+		Carrier 3
+	variant 40
+		Clossusn
+	variant 20
+		Clossusn 2
+	variant 35
+		Clossusn 9
+		
+
+fleet "Kem Relicnainin"
+	government "Kem Relicnain"
+	names "Keinjakyouranaianjaon"
+	cargo 0
+	personality
+		confusion 2
+		plunders
+	variant 40
+		Pinoalin
+	variant 40
+		Neutron Star 6
+	variant 20
+		Pinoalin 2
+	variant 35
+		Dreadnought 2
+		Pinoalin 5
+	variant 30
+		Pinoalin 3
+	variant 20
+		Pinoalin 2
+	variant 20
+		Neutron Star
+		Pinoalin
+	variant 15
+		Pinoalin
+		Neutron Star 2
+	variant 15
+		Pinoalin 10
+		Neutron Star
+	variant 15
+		Pinoalin 5
+	variant 1
+		Pinoalin 5
+		Neutron Star	
+		
+	
+
+fleet "Between Attacker"
+	government "The Between"
+	names "Initk"
+	cargo 0
+	personality
+		confusion 2
+		plunders
+	variant 40
+		Pinoalin
+	variant 40
+		Neutron Star 6
+	variant 20
+		Pinoalin 2
+	variant 35
+		Dreadnought 2
+		Pinoalin 5
+	variant 30
+		Pinoalin 3
+	variant 20
+		Pinoalin 2
+	variant 20
+		Neutron Star 7
+		Pinoalin
+	variant 15
+		Pinoalin
+		Neutron Star 2
+	variant 15
+		Pinoalin 10
+		Neutron Star 7
+	variant 15
+		Pinoalin 5
+	variant 1
+		Pinoalin 5
+		Neutron Star 9
