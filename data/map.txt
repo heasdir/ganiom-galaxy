@@ -1,6 +1,57 @@
+
 galaxy Ganiom
 	pos -10000 -5461
 	sprite ui/ganiomgalaxyg
+
+system Aaasinisianja
+	pos -11683.3 -5426.04
+	government "The Forens"
+	habitable 973.36
+	link Sfrikao
+	link Cinnector
+	asteroids "small rock" 8 3.3488
+	asteroids "medium rock" 46 3.7492
+	asteroids "large rock" 45 4.9868
+	asteroids "small metal" 5 3.3488
+	asteroids "medium metal" 68 2.73
+	asteroids "large metal" 9 3.5308
+	object
+		sprite star/k0
+		distance 43
+		period 10.2252
+		offset 180
+	object
+		sprite star/k0
+		distance 43
+		period 10.2252
+	object
+		sprite planet/gas15
+		distance 331
+		period 77.2085
+	object Fo'kak'ni'si'slok
+		sprite planet/desert3
+		distance 638.44
+		period 206.825
+	object
+		sprite planet/cloud0
+		distance 865.44
+		period 326.421
+	object
+		sprite planet/lava0
+		distance 1829.05
+		period 1002.91
+	object
+		sprite planet/neptune
+		distance 2307.69
+		period 1421.31
+		object
+			sprite planet/ice0
+			distance 214
+			period 15.5974
+		object
+			sprite planet/io
+			distance 311
+			period 27.3258
 
 system Asiot
 	pos -9442.45 -5514.66
@@ -55,6 +106,7 @@ system Between
 	government "The Between"
 	habitable 425.92
 	link Tisar
+	link "Tiraini Between"
 	asteroids "small rock" 11 2.4552
 	asteroids "medium rock" 3 3.8808
 	asteroids "large rock" 42 1.6368
@@ -140,6 +192,93 @@ system "Chola Ka"
 			distance 234
 			period 13.4219
 
+system Cholekrkik'fan
+	pos -11706.1 -5392.65
+	government "The Forens"
+	habitable 486.68
+	link Cinnector
+	link Oisn'nak'foklor
+	asteroids "small rock" 1 8.976
+	asteroids "medium rock" 36 9.438
+	asteroids "large rock" 1 5.214
+	asteroids "small metal" 1 3.63
+	asteroids "medium metal" 14 4.95
+	asteroids "large metal" 2 6.138
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/ice6
+		distance 244.04
+		period 69.1241
+	object Cholintir
+		sprite planet/desert5
+		distance 561.88
+		period 241.492
+		object
+			sprite planet/rock17
+			distance 160
+			period 22.2543
+	object
+		sprite planet/rock13
+		distance 1079.89
+		period 643.439
+		object
+			sprite planet/rock14
+			distance 132
+			period 19.0644
+	object
+		sprite planet/gas17
+		distance 2519.38
+		period 2292.87
+		object
+			sprite planet/rock7
+			distance 237
+			period 15.5882
+
+system Cinnector
+	pos -11728.1 -5421.65
+	government "The Forens"
+	habitable 2372.76
+	link Aaasinisianja
+	link Saimklsoinlaopin
+	link Cholekrkik'fan
+	asteroids "small rock" 2 1.8444
+	asteroids "medium rock" 7 1.74
+	asteroids "large rock" 2 3.8976
+	asteroids "large metal" 1 2.8188
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/ice3
+		distance 207.09
+		period 24.4721
+	object
+		sprite planet/ice0
+		distance 388.09
+		period 62.7815
+	object Si'faleha
+		sprite planet/rock16
+		distance 546.25
+		period 104.838
+	object
+		sprite planet/gas13
+		distance 1410.14
+		period 434.837
+		object
+			sprite planet/io
+			distance 278
+			period 13.0851
+		object
+			sprite planet/dust4
+			distance 366
+			period 19.7666
+	object
+		sprite planet/rhea
+		distance 3122.18
+		period 1432.58
+
 system Cipri
 	pos -9589.03 -5507.1
 	government "The Between"
@@ -190,52 +329,60 @@ system Cipri
 system E'Paramai
 	pos -10291.5 -5621.42
 	government "Communist Ganiom"
-	habitable 135
+	habitable 466.56
 	link "Stekstor Nu"
-	asteroids "small rock" 5 1.9558
-	asteroids "medium rock" 12 1.4938
-	asteroids "large rock" 1 0.8008
-	asteroids "small metal" 6 2.0328
-	asteroids "medium metal" 169 0.9086
-	asteroids "large metal" 4 1.8634
+	asteroids "small rock" 2 2.9376
+	asteroids "medium rock" 9 5.2704
+	asteroids "large rock" 1 3.1968
+	asteroids "small metal" 12 5.832
+	asteroids "medium metal" 7 5.7024
+	asteroids "large metal" 84 4.0176
+	fleet "Communist Ganiom Avg" 890
 	object
-		sprite star/m8
-		period 10
-	object Oxuni
-		sprite planet/rock16
-		distance 227.36
-		period 118.022
-		offset 276.91
-		object Nolok
-			sprite planet/station3
-			distance 127
-			period 19.5332
-	object "Wn Wormholr"
-		sprite planet/wormhole
-		distance 791.77
-		period 766.993
-		offset 225.116
+		sprite star/m4
+		distance 57.5
+		period 22.8377
+		offset 180
+	object
+		sprite star/m4
+		distance 57.5
+		period 22.8377
+	object
+		sprite planet/desert10
+		distance 389.99
+		period 142.622
+		object "Wn Wormholr"
+			sprite planet/wormhole
+			distance 150
+			period 18.808
+	object Tisarnann'r'n
+		sprite planet/gas4
+		distance 1215.24
+		period 784.512
+		object
+			sprite planet/rock3
+			distance 237
+			period 12.8683
+		object
+			sprite planet/ice7
+			distance 364
+			period 24.4934
 		object
 			sprite planet/dust5
-			distance 159
-			period 20.8892
+			distance 530
+			period 43.0339
 	object
-		sprite planet/gas7
-		distance 1778.41
-		period 2581.91
-		offset 24.5112
+		sprite planet/gas3
+		distance 2374.08
+		period 2142.15
 		object
-			sprite planet/rock17
-			distance 236
-			period 12.8973
+			sprite planet/rock0
+			distance 307
+			period 13.7395
 		object
-			sprite planet/dust7
-			distance 320
-			period 20.3636
-		object
-			sprite planet/ice0
-			distance 444
-			period 33.2817
+			sprite planet/dust4
+			distance 429
+			period 22.6961
 
 system E'nos
 	pos -10160.5 -5570.42
@@ -244,6 +391,7 @@ system E'nos
 	link Viraii
 	link Sosvirai
 	asteroids "large metal" 1 7.9866
+	fleet "Communist Ganiom Avg" 200
 	object
 		sprite star/g5
 		period 10
@@ -276,7 +424,271 @@ system E'nos
 			distance 373
 			period 30.7777
 
+system Forecapin
+	pos -11757.6 -5257.29
+	government "The Forens"
+	habitable 1080
+	link Foreisdar
+	asteroids "medium rock" 3 2.925
+	asteroids "large rock" 1 6.165
+	asteroids "small metal" 8 4.005
+	asteroids "medium metal" 18 4.455
+	asteroids "large metal" 1 4.14
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/lava4
+		distance 229.61
+		period 42.3481
+		object
+			sprite planet/rock17
+			distance 118
+			period 16.4411
+	object
+		sprite planet/desert7
+		distance 518.77
+		period 143.817
+	object Vidg'aa'na'ja
+		sprite planet/venus
+		distance 1401.77
+		period 638.798
+		offset 236.84
+		object
+			sprite planet/station2
+			distance 149
+			period 20.7539
+		object Ayib'iiahii'onwnl
+			sprite planet/station3
+			distance 254
+			period 46.1923
+		object Napa'ij
+			sprite planet/station4
+			distance 363
+			period 78.9186
+	object
+		sprite planet/gas3
+		distance 2889.02
+		period 1890.05
+		offset 193.528
+
+system Foreisdar
+	pos -11797.6 -5291.29
+	government Uninhabited
+	habitable 425.92
+	link Occuinstain
+	link Forecapin
+	link Rhti'fsl'rik
+	asteroids "small rock" 6 10.1007
+	asteroids "medium rock" 26 9.3177
+	asteroids "large rock" 3 7.9083
+	asteroids "small metal" 2 6.3423
+	asteroids "large metal" 2 7.3602
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/cloud1
+		distance 174.56
+		period 44.7006
+	object Xtrein'nian'frjaklok
+		sprite planet/desert8
+		distance 403.85
+		period 157.299
+	object
+		sprite planet/lava2
+		distance 998.1
+		period 611.163
+	object
+		sprite planet/gas5
+		distance 2161.46
+		period 1947.68
+		object
+			sprite planet/rock0
+			distance 268
+			period 14.5898
+		object
+			sprite planet/ice0
+			distance 371
+			period 23.7634
+
+system Forenianm
+	pos -11440.9 -5433.51
+	government "Gainen Republic"
+	habitable 233.28
+	link Solobasti
+	link Naksimak
+	link Fornaikao
+	asteroids "small metal" 3 3.2928
+	asteroids "medium metal" 1 3.8976
+	asteroids "large metal" 17 2.016
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/rock11
+		distance 123.09
+		period 35.7648
+	object
+		sprite planet/cloud6
+		distance 446.34
+		period 246.956
+	object
+		sprite planet/ganymede
+		distance 718.98
+		period 504.89
+	object
+		sprite planet/gas4
+		distance 1033.19
+		period 869.744
+	object
+		sprite planet/gas5
+		distance 1959.55
+		period 2271.73
+		object
+			sprite planet/dust1
+			distance 235
+			period 11.9798
+
+system Fornaikao
+	pos -11517.6 -5437.98
+	government "Gainen Republic"
+	habitable 912.6
+	link Forenianm
+	link Javyarm
+	asteroids "small rock" 4 3.7674
+	asteroids "medium rock" 13 6.0858
+	asteroids "large rock" 2 2.9394
+	asteroids "medium metal" 8 5.589
+	asteroids "large metal" 1 4.3056
+	object
+		sprite star/k0
+		distance 47.1378
+		period 13.4401
+	object
+		sprite star/k5
+		distance 53.8622
+		period 13.4401
+		offset 180
+	object
+		sprite planet/rock16
+		distance 244.472
+		period 50.6132
+	object
+		sprite planet/ganymede
+		distance 429.032
+		period 117.667
+	object I'ise
+		sprite planet/forest6
+		distance 756.282
+		period 275.388
+	object
+		sprite planet/gas2
+		distance 2047.97
+		period 1227.17
+		object
+			sprite planet/tethys
+			distance 165
+			period 12.8422
+
+system "Gainen Hom"
+	pos -11240 -5251.56
+	government "Gainen Republic"
+	habitable 486.68
+	link Janial
+	link Siriomene
+	asteroids "small rock" 3 2.3868
+	asteroids "medium rock" 1 6.318
+	asteroids "large rock" 3 6.1776
+	asteroids "medium metal" 25 4.0248
+	asteroids "large metal" 5 5.4288
+	fleet "Gainen Fleet" 900
+	object
+		sprite star/k0
+		period 10
+	object Gainisen
+		sprite planet/cloud5
+		distance 348.69
+		period 118.059
+		object
+			sprite planet/desert4
+			distance 167
+			period 14.104
+	object
+		sprite planet/desert5
+		distance 692.94
+		period 330.736
+	object
+		sprite planet/gas9
+		distance 1396.95
+		period 946.694
+	object
+		sprite planet/gas17
+		distance 1907.64
+		period 1510.72
+		object
+			sprite planet/ice8
+			distance 216
+			period 13.5629
+
+system Gainensiti
+	pos -11234.6 -5354.79
+	government "Gainen Republic"
+	habitable 1566.68
+	link Vicknot
+	link Segonako
+	link Makferuniko
+	asteroids "medium rock" 81 7.8
+	asteroids "large rock" 15 5.64
+	asteroids "small metal" 2 3.84
+	asteroids "medium metal" 139 7.68
+	asteroids "large metal" 44 7.98
+	fleet "Gainen Fleet" 576
+	object
+		sprite star/g0
+		distance 37.8986
+		period 13.6179
+	object
+		sprite star/k0
+		distance 84.1014
+		period 13.6179
+		offset 180
+	object
+		sprite planet/cloud3
+		distance 355.511
+		period 67.7408
+		object
+			sprite planet/tethys
+			distance 120
+			period 14.4546
+	object
+		sprite planet/desert8
+		distance 698.071
+		period 186.389
+	object
+		sprite planet/gas16
+		distance 1525.48
+		period 602.116
+		object
+			sprite planet/dust0
+			distance 187
+			period 13.4605
+	object Gasinas
+		sprite planet/gas7
+		distance 2430.52
+		period 1210.93
+		object
+			sprite planet/dust4
+			distance 254
+			period 14.4006
+		object
+			sprite planet/rhea
+			distance 378
+			period 26.1438
+
 system Hatysa
+	pos 0 0
+	habitable nan
 	object Wormgolin
 		sprite planet/wormhole
 		distance 1260.56
@@ -292,10 +704,11 @@ system Helefolaz
 	asteroids "large rock" 6 5.04
 	asteroids "medium metal" 3 8.904
 	asteroids "large metal" 1 7.98
+	fleet "Communist Ganiom Avg" 900
 	object
 		sprite star/m8
 		period 10
-	object dih
+	object Oftiknqn
 		sprite planet/cloud7
 		distance 145.89
 		period 60.664
@@ -336,6 +749,51 @@ system Helefolaz
 			distance 502
 			period 56.0387
 
+system Hisairfoklaor
+	pos -9360.48 -5488.23
+	government Hisair
+	habitable 425.92
+	asteroids "small rock" 20 2.3331
+	asteroids "medium rock" 14 3.0954
+	asteroids "large rock" 2 2.9568
+	asteroids "medium metal" 31 2.1252
+	asteroids "large metal" 33 3.465
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ganymede
+		distance 133
+		period 29.7285
+	object Seginar'r'r
+		sprite planet/gas6
+		distance 741.69
+		period 391.498
+		object
+			sprite planet/dust4
+			distance 277
+			period 11.7756
+	object
+		sprite planet/gas9
+		distance 1569.13
+		period 1204.72
+		object
+			sprite planet/io
+			distance 232
+			period 13.2502
+	object
+		sprite planet/gas1
+		distance 2867.34
+		period 2975.88
+		object
+			sprite planet/rock17
+			distance 236
+			period 14.4905
+		object
+			sprite planet/rock14
+			distance 363
+			period 27.6424
+
 system Hisar
 	pos -9912.44 -5399.77
 	government Hisair
@@ -347,6 +805,7 @@ system Hisar
 	asteroids "small metal" 4 2.73
 	asteroids "medium metal" 12 2.73
 	asteroids "large metal" 24 1.5
+	fleet "Hisair High Fleet" 100
 	object
 		sprite star/k5
 		period 10
@@ -442,6 +901,7 @@ system Ionan
 	asteroids "small metal" 12 4.2588
 	asteroids "medium metal" 15 5.4756
 	asteroids "large metal" 29 3.8532
+	fleet "Communist Gainen Military Patrol" 900
 	object
 		sprite star/g0
 		period 10
@@ -469,6 +929,43 @@ system Ionan
 			sprite planet/dust0
 			distance 197
 			period 16.7538
+
+system Ira'Ira'Ira'Din
+	pos -11736.6 -5306.29
+	government "The Forens"
+	habitable 625
+	link Rhti'fsl'rik
+	asteroids "small rock" 4 5.4264
+	asteroids "medium rock" 44 3.6312
+	asteroids "large rock" 7 3.0192
+	asteroids "large metal" 1 5.2224
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/lava2
+		distance 148.04
+		period 28.8196
+	object
+		sprite planet/venus
+		distance 331.28
+		period 96.4746
+	object Vakrkin
+		sprite planet/forest0
+		distance 594.28
+		period 231.796
+	object
+		sprite planet/gas9
+		distance 1136.92
+		period 613.359
+		object
+			sprite planet/rock14
+			distance 233
+			period 13.336
+	object
+		sprite planet/rock3
+		distance 3118.96
+		period 2786.99
 
 system Irnsteinaol
 	pos -9671.44 -5489.77
@@ -518,6 +1015,143 @@ system Irnsteinaol
 			distance 304
 			period 13.5386
 
+system Janial
+	pos -11217.6 -5308.31
+	government "Gainen Republic"
+	habitable 2372.76
+	link Segonako
+	link Olacheme
+	link "Gainen Hom"
+	asteroids "small rock" 12 8.8128
+	asteroids "medium rock" 29 4.1472
+	asteroids "large rock" 3 6.48
+	asteroids "small metal" 10 5.4432
+	asteroids "medium metal" 3 5.508
+	asteroids "large metal" 10 6.48
+	fleet "Gainen Fleet" 200
+	object
+		sprite star/f0
+		period 10
+	object
+		sprite planet/rock11
+		distance 153.61
+		period 15.6337
+	object
+		sprite planet/fog0
+		distance 621.02
+		period 127.084
+		object
+			sprite planet/dust1
+			distance 174
+			period 16.9318
+	object
+		sprite planet/dust4
+		distance 940.58
+		period 236.879
+	object
+		sprite planet/cloud0
+		distance 1259.87
+		period 367.216
+	object Al'Nisan
+		sprite planet/gas0
+		distance 2921.76
+		period 1296.88
+		object
+			sprite planet/desert4
+			distance 258
+			period 12.1447
+		object
+			sprite planet/dust5
+			distance 380
+			period 21.7086
+
+system Javyarm
+	pos -11546.3 -5465.04
+	government "Gainen Republic"
+	habitable 455
+	link Fornaikao
+	link Sfrikao
+	asteroids "small rock" 2 8.127
+	asteroids "medium rock" 1 4.347
+	asteroids "large rock" 1 5.985
+	asteroids "small metal" 5 6.363
+	asteroids "medium metal" 6 3.15
+	asteroids "large metal" 10 8.568
+	object
+		sprite star/m0
+		distance 22.8462
+		period 12.6704
+	object
+		sprite star/m8
+		distance 54.1538
+		period 12.6704
+		offset 180
+	object
+		sprite planet/mercury
+		distance 198.164
+		period 52.3107
+	object
+		sprite planet/ocean4
+		distance 473.374
+		period 193.135
+	object
+		sprite planet/gas11
+		distance 887.734
+		period 495.996
+	object
+		sprite planet/gas3
+		distance 2057.82
+		period 1750.52
+		object
+			sprite planet/ice0
+			distance 290
+			period 12.6143
+
+system Makferuniko
+	pos -11295.7 -5355.57
+	government "Gainen Republic"
+	habitable 233.28
+	link Solobasti
+	link Segonako
+	link Gainensiti
+	asteroids "small rock" 2 7.9576
+	asteroids "medium rock" 1 11.9364
+	asteroids "large rock" 9 7.6328
+	asteroids "small metal" 3 6.8208
+	asteroids "large metal" 2 4.9532
+	fleet "Gainen Fleet" 456
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/lava7
+		distance 164.45
+		period 55.2294
+		offset 174.892
+	object "Isa Palechunam"
+		sprite planet/rock16
+		distance 428.26
+		period 232.104
+		offset 22.7989
+	object
+		sprite planet/neptune
+		distance 1018.7
+		period 851.511
+		offset 2.54569
+		object
+			sprite planet/dust7
+			distance 228
+			period 17.1528
+		object
+			sprite planet/oberon
+			distance 316
+			period 27.9874
+	object
+		sprite planet/europa
+		distance 2532.7
+		period 3338.08
+		offset 0.257731
+
 system Naini
 	pos -10011.7 -5456.02
 	government "Communist Ganiom"
@@ -530,6 +1164,8 @@ system Naini
 	asteroids "small metal" 8 2.5272
 	asteroids "medium metal" 4 6.1236
 	asteroids "large metal" 5 6.9498
+	fleet "Hisair High Fleet" 900
+	fleet "Communist Ganiom Avg" 300
 	object
 		sprite star/m0
 		period 10
@@ -622,6 +1258,7 @@ system Nairobai
 	asteroids "small metal" 18 2.8028
 	asteroids "medium metal" 7 1.9404
 	asteroids "large metal" 16 1.7444
+	fleet "Hisair High Fleet" 267
 	object
 		sprite star/k5
 		period 10
@@ -657,6 +1294,104 @@ system Nairobai
 			sprite planet/dust1
 			distance 368
 			period 22.1837
+
+system Naisno
+	pos -9279.42 -5327.89
+	government "Kem Relicnain"
+	habitable 486.68
+	link "Tirani Kem"
+	asteroids "small rock" 3 3.1752
+	asteroids "medium rock" 131 1.638
+	asteroids "large rock" 7 1.89
+	asteroids "medium metal" 72 2.5704
+	asteroids "large metal" 8 3.3768
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock16
+		distance 151.84
+		period 33.9248
+	object Siniar
+		sprite planet/desert8
+		distance 594.45
+		period 262.791
+		object
+			sprite planet/europa
+			distance 149
+			period 23.3285
+	object
+		sprite planet/lava0
+		distance 894.54
+		period 485.107
+	object
+		sprite planet/dust5
+		distance 1075.54
+		period 639.555
+	object
+		sprite planet/gas1
+		distance 3541.54
+		period 3821.43
+		object
+			sprite planet/tethys
+			distance 218
+			period 12.8647
+		object
+			sprite planet/luna
+			distance 296
+			period 20.3542
+		object
+			sprite planet/rock0
+			distance 393
+			period 31.139
+		object
+			sprite planet/dust7
+			distance 483
+			period 42.4264
+
+system Naksimak
+	pos -11447.9 -5478.51
+	government "Gainen Republic"
+	habitable 368.28
+	link Forenianm
+	asteroids "medium rock" 1 3.99
+	asteroids "large rock" 1 4.2
+	asteroids "small metal" 5 2.205
+	asteroids "medium metal" 3 3.29
+	asteroids "large metal" 3 4.06
+	object
+		sprite star/m4
+		distance 34.0909
+		period 18.6937
+	object
+		sprite star/m8
+		distance 58.9091
+		period 18.6937
+		offset 180
+	object
+		sprite planet/desert9
+		distance 189.919
+		period 54.5537
+	object Srunfeot
+		sprite planet/rock6
+		distance 434.209
+		period 188.59
+	object
+		sprite planet/ice4
+		distance 991.419
+		period 650.664
+	object
+		sprite planet/gas15
+		distance 2101.51
+		period 2008.02
+		object
+			sprite planet/dust4
+			distance 224
+			period 17.6469
+		object
+			sprite planet/rock17
+			distance 347
+			period 34.0245
 
 system Nikari
 	pos -9936.44 -5465.77
@@ -717,6 +1452,7 @@ system Nisar
 	asteroids "small metal" 13 4.4044
 	asteroids "medium metal" 6 6.4636
 	asteroids "large metal" 14 4.0612
+	fleet "Hisair High Fleet" 900
 	object
 		sprite star/k0
 		period 10
@@ -741,6 +1477,167 @@ system Nisar
 		distance 1885.88
 		period 1484.94
 
+system Occuinstain
+	pos -11795.6 -5341.29
+	government "The Forens"
+	habitable 320
+	link Pert'tn'ripol
+	link Rhti'fsl'rik
+	link Foreisdar
+	asteroids "small rock" 5 2.5152
+	asteroids "medium rock" 19 2.3424
+	asteroids "large rock" 17 2.016
+	asteroids "small metal" 17 1.248
+	asteroids "medium metal" 8 2.1504
+	asteroids "large metal" 15 2.7264
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/rock14
+		distance 122.76
+		period 30.4138
+	object
+		sprite planet/ice6
+		distance 364.32
+		period 155.493
+	object
+		sprite planet/gas11
+		distance 1260.56
+		period 1000.76
+		object
+			sprite planet/rock7
+			distance 267
+			period 14.3895
+		object
+			sprite planet/desert4
+			distance 361
+			period 22.6224
+		object
+			sprite planet/lava0
+			distance 515
+			period 38.5468
+		object
+			sprite planet/ice0
+			distance 667
+			period 56.8155
+	object
+		sprite planet/gas0
+		distance 3118
+		period 3893.13
+		object
+			sprite planet/europa
+			distance 243
+			period 11.1011
+
+system Oisn'nak'foklor
+	pos -11745.1 -5375.65
+	government "The Forens"
+	habitable 625
+	link Cholekrkik'fan
+	link Rhti'fsl'rik
+	asteroids "small rock" 2 3.0096
+	asteroids "medium rock" 19 6.0648
+	asteroids "large rock" 74 3.876
+	asteroids "small metal" 46 4.1496
+	asteroids "medium metal" 72 2.9184
+	asteroids "large metal" 26 5.1984
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/rock9
+		distance 345.49
+		period 102.748
+		object
+			sprite planet/dust7
+			distance 147
+			period 22.8603
+	object Humansaaeink
+		sprite planet/ice6
+		distance 678.5
+		period 282.777
+	object
+		sprite planet/rock10
+		distance 988.74
+		period 497.443
+		object
+			sprite planet/oberon
+			distance 147
+			period 15
+	object
+		sprite planet/gas7
+		distance 1536.15
+		period 963.32
+		object
+			sprite planet/rhea
+			distance 229
+			period 12.3277
+	object
+		sprite planet/neptune
+		distance 3111.91
+		period 2777.54
+		object
+			sprite planet/rock0
+			distance 229
+			period 17.2657
+		object
+			sprite planet/rock3
+			distance 352
+			period 32.9038
+		object
+			sprite planet/tethys
+			distance 464
+			period 49.7977
+
+system Olacheme
+	pos -11105.7 -5307.57
+	government "Gainen Republic"
+	habitable 851.84
+	link Janial
+	asteroids "small rock" 3 3.36
+	asteroids "medium rock" 68 5.88
+	asteroids "large rock" 5 4.536
+	asteroids "medium metal" 4 6.216
+	asteroids "large metal" 1 4.144
+	object
+		sprite star/k5
+		distance 53.5
+		period 15.169
+		offset 180
+	object
+		sprite star/k5
+		distance 53.5
+		period 15.169
+	object
+		sprite planet/lava2
+		distance 216.46
+		period 43.6463
+	object
+		sprite planet/titan
+		distance 458.82
+		period 134.693
+	object Sevorosinsi
+		sprite planet/gas8
+		distance 1156.31
+		period 538.88
+		object
+			sprite planet/rhea
+			distance 200
+			period 15.0564
+		object
+			sprite planet/io
+			distance 320
+			period 30.4721
+		object
+			sprite planet/rock17
+			distance 479
+			period 55.8059
+	object
+		sprite planet/dust5
+		distance 2087.92
+		period 1307.53
+
 system Onarin
 	pos -10115 -5477.03
 	government "Communist Ganiom"
@@ -753,6 +1650,7 @@ system Onarin
 	asteroids "small metal" 16 6.578
 	asteroids "medium metal" 26 5.98
 	asteroids "large metal" 2 3.3488
+	fleet "Communist Ganiom Avg" 900
 	object
 		sprite star/g0
 		distance 41.0557
@@ -783,6 +1681,81 @@ system Onarin
 		distance 2728.59
 		period 1380.72
 
+system Pert'tn'ripol
+	pos -11794.6 -5430.29
+	government "The Forens"
+	habitable 320
+	link Occuinstain
+	asteroids "small rock" 3 1.596
+	asteroids "medium rock" 2 1.4364
+	asteroids "large rock" 1 1.9684
+	asteroids "small metal" 2 2.4738
+	asteroids "medium metal" 3 3.0856
+	asteroids "large metal" 1 2.7132
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/rock19
+		distance 144.56
+		period 38.8649
+	object "Red Shambala"
+		sprite planet/rock2
+		distance 351
+		period 147.043
+	object
+		sprite planet/dust5
+		distance 654.21
+		period 374.163
+	object
+		sprite planet/lava0
+		distance 1337.45
+		period 1093.71
+	object
+		sprite planet/gas8
+		distance 2149.26
+		period 2228.02
+
+system Rhti'fsl'rik
+	pos -11738.6 -5339.29
+	government "The Forens"
+	habitable 233.28
+	link Oisn'nak'foklor
+	link Occuinstain
+	link Foreisdar
+	link Ira'Ira'Ira'Din
+	asteroids "large rock" 3 3.705
+	asteroids "small metal" 4 3.762
+	asteroids "medium metal" 2 8.037
+	asteroids "large metal" 3 4.218
+	object
+		sprite star/m4
+		period 10
+	object Whsyin
+		sprite planet/rock4
+		distance 205.89
+		period 77.3703
+	object
+		sprite planet/dust5
+		distance 523.58
+		period 313.759
+	object
+		sprite planet/rock12
+		distance 710.87
+		period 496.371
+	object
+		sprite planet/lava1
+		distance 1622.48
+		period 1711.55
+	object
+		sprite planet/neptune
+		distance 2332.73
+		period 2950.65
+		object
+			sprite planet/rock0
+			distance 190
+			period 13.0486
+
 system Rlfdot
 	pos -11050.6 -5443.82
 	government "Communist Ganiom"
@@ -794,6 +1767,7 @@ system Rlfdot
 	asteroids "small metal" 24 2.7144
 	asteroids "medium metal" 144 5.616
 	asteroids "large metal" 31 4.446
+	fleet "Communist Gainen Military Patrol" 900
 	object
 		sprite star/k0
 		period 10
@@ -829,6 +1803,162 @@ system Rlfdot
 			sprite planet/rock17
 			distance 230
 			period 14.9027
+
+system Saimklsoinlaopin
+	pos -11766.1 -5435.65
+	government "The Forens"
+	habitable 1080
+	link Cinnector
+	asteroids "small rock" 55 4.0032
+	asteroids "medium rock" 43 3.9744
+	asteroids "large rock" 42 2.5056
+	asteroids "small metal" 2 1.7568
+	asteroids "medium metal" 2 3.0528
+	asteroids "large metal" 1 4.176
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/rock5
+		distance 238.01
+		period 44.6931
+		offset 79.3391
+	object
+		sprite planet/gas4
+		distance 768.1
+		period 259.104
+		offset 178.958
+		object
+			sprite planet/rock3
+			distance 232
+			period 12.4632
+		object
+			sprite planet/ice0
+			distance 361
+			period 24.1912
+	object Frt'Eliminatr
+		sprite planet/gas12
+		distance 1671.26
+		period 831.599
+		offset 76.0147
+		object
+			sprite planet/oberon
+			distance 280
+			period 12.3061
+		object
+			sprite planet/ice7
+			distance 379
+			period 19.3796
+
+system Segonako
+	pos -11245.7 -5331.57
+	government "Gainen Republic"
+	habitable 1080
+	link Gainensiti
+	link Makferuniko
+	link Janial
+	asteroids "small rock" 59 1.9822
+	asteroids "medium rock" 23 3.8148
+	asteroids "large rock" 157 5.5352
+	asteroids "small metal" 42 4.7498
+	asteroids "medium metal" 10 3.3286
+	asteroids "large metal" 16 4.488
+	fleet "Gainen Fleet" 676
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/rock5
+		distance 144
+		period 21.0325
+	object
+		sprite planet/gas9
+		distance 746
+		period 248.003
+		object
+			sprite planet/oberon
+			distance 216
+			period 11.9034
+		object
+			sprite planet/dust1
+			distance 350
+			period 24.5523
+	object
+		sprite planet/ice7
+		distance 1258.04
+		period 543.112
+	object
+		sprite planet/lava3
+		distance 1419.85
+		period 651.196
+	object
+		sprite planet/gas15
+		distance 1670.1
+		period 830.734
+	object
+		sprite planet/jupiter
+		distance 2468.34
+		period 1492.64
+		object
+			sprite planet/rhea
+			distance 275
+			period 14.3305
+		object
+			sprite planet/dust0
+			distance 412
+			period 26.2789
+
+system Sfrikao
+	pos -11610.3 -5441.04
+	government "Gainen Republic"
+	habitable 425.92
+	link Javyarm
+	link Aaasinisianja
+	asteroids "small rock" 1 10.179
+	asteroids "medium rock" 4 11.1186
+	asteroids "large rock" 1 9.3177
+	asteroids "small metal" 5 6.8904
+	asteroids "medium metal" 9 11.5101
+	asteroids "large metal" 5 7.9083
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ice1
+		distance 270.223
+		period 86.0952
+		offset 137.329
+	object Trimakhol
+		sprite planet/rock11
+		distance 568.263
+		period 262.555
+		offset 188.478
+	object
+		sprite planet/dust7
+		distance 966.263
+		period 582.155
+		offset 47.7662
+	object
+		sprite planet/gas16
+		distance 2660.42
+		period 2659.63
+		offset 3.64829
+		object
+			sprite planet/io
+			distance 188
+			period 13.5686
+		object
+			sprite planet/europa
+			distance 292
+			period 26.2646
+		object
+			sprite planet/callisto
+			distance 465
+			period 52.7809
+		object
+			sprite planet/ice8
+			distance 646
+			period 86.4263
 
 system Shijhom
 	pos -9758.44 -5473.77
@@ -880,6 +2010,8 @@ system Silkar
 	asteroids "large rock" 2 2.9568
 	asteroids "medium metal" 31 2.1252
 	asteroids "large metal" 33 3.465
+	fleet "Hisair High Fleet" 450
+	fleet "Communist Ganiom Avg" 350
 	object
 		sprite star/k5
 		period 10
@@ -959,6 +2091,97 @@ system Silvikari
 		distance 2234.7
 		period 2047.5
 
+system Siriomene
+	pos -11182 -5212.56
+	government "Gainen Republic"
+	habitable 135
+	link "Gainen Hom"
+	asteroids "small rock" 3 2.2848
+	asteroids "medium rock" 13 2.1168
+	asteroids "large rock" 1 3.4272
+	asteroids "small metal" 2 4.536
+	asteroids "large metal" 7 4.9056
+	fleet "Gainen Fleet" 234
+	object
+		sprite star/m8
+		period 10
+	object Siri'Om
+		sprite planet/water1
+		distance 164.61
+		period 72.7072
+	object
+		sprite planet/rock13
+		distance 488.5
+		period 371.698
+		object
+			sprite planet/rock7
+			distance 135
+			period 19.718
+	object
+		sprite planet/desert6
+		distance 956.91
+		period 1019.06
+	object
+		sprite planet/cloud5
+		distance 1546
+		period 2092.7
+		object
+			sprite planet/ice0
+			distance 201
+			period 18.6235
+	object
+		sprite planet/gas12
+		distance 2598.64
+		period 4560.5
+		object
+			sprite planet/dust3
+			distance 295
+			period 13.3082
+
+system Solobasti
+	pos -11361.7 -5381.57
+	government "Gainen Republic"
+	habitable 486.68
+	link Makferuniko
+	link Forenianm
+	asteroids "medium rock" 9 5.6544
+	asteroids "large rock" 1 3.42
+	asteroids "small metal" 12 3.0552
+	asteroids "medium metal" 86 6.4296
+	asteroids "large metal" 12 5.1984
+	fleet "Gainen Fleet" 300
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/tethys
+		distance 109.41
+		period 20.7503
+	object Nisem
+		sprite planet/gas3
+		distance 608.9
+		period 272.431
+	object
+		sprite planet/jupiter
+		distance 1617.71
+		period 1179.75
+		object
+			sprite planet/rhea
+			distance 262
+			period 13.3264
+	object
+		sprite planet/gas9
+		distance 2784.67
+		period 2664.4
+		object
+			sprite planet/rock7
+			distance 225
+			period 12.6551
+		object
+			sprite planet/luna
+			distance 316
+			period 21.063
+
 system Sosvirai
 	pos -10215.5 -5615.42
 	government "Communist Ganiom"
@@ -971,6 +2194,7 @@ system Sosvirai
 	asteroids "small metal" 4 2.4
 	asteroids "medium metal" 56 5.376
 	asteroids "large metal" 22 5.664
+	fleet "Communist Ganiom Avg" 900
 	object
 		sprite star/g0
 		period 10
@@ -1018,6 +2242,7 @@ system "Stekstor Nu"
 	asteroids "large rock" 12 2.1879
 	asteroids "small metal" 8 3.2929
 	asteroids "large metal" 5 2.3426
+	fleet "Communist Ganiom Avg" 900
 	object
 		sprite star/k0
 		period 10
@@ -1049,6 +2274,104 @@ system "Stekstor Nu"
 			sprite planet/dust3
 			distance 498
 			period 55.3702
+
+system Test
+	pos 0 0
+	government "Communist Ganiom"
+	habitable 135
+	link Onarin
+	pos 1001
+
+system "Tiraini Between"
+	pos -9293.95 -5438.62
+	government "The Between"
+	habitable 425.92
+	link Between
+	asteroids "medium rock" 2 1.4756
+	asteroids "large rock" 1 1.9754
+	asteroids "small metal" 2 3.3796
+	asteroids "medium metal" 15 2.023
+	asteroids "large metal" 1 2.9512
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rhea
+		distance 126.56
+		period 27.5957
+	object Ifermerin
+		sprite planet/cloud5
+		distance 555.2
+		period 253.554
+		object
+			sprite planet/desert4
+			distance 186
+			period 16.5782
+	object
+		sprite planet/rock13
+		distance 916.01
+		period 537.336
+	object
+		sprite planet/neptune
+		distance 1409.7
+		period 1025.86
+		object
+			sprite planet/luna
+			distance 203
+			period 14.4104
+	object
+		sprite planet/gas16
+		distance 2234.7
+		period 2047.5
+
+system "Tirani Kem"
+	pos -9267.7 -5367.01
+	government "Kem Relicnain"
+	habitable 2201.68
+	link Naisno
+	asteroids "small rock" 3 7.25
+	asteroids "medium rock" 30 6.815
+	asteroids "large rock" 22 9.135
+	asteroids "small metal" 18 5.2925
+	asteroids "medium metal" 66 5.4375
+	asteroids "large metal" 12 4.4225
+	object
+		sprite star/f5
+		distance 30.0627
+		period 13.5205
+		offset 180
+	object
+		sprite star/k0
+		distance 105.937
+		period 13.5205
+	object
+		sprite planet/ice5
+		distance 300.577
+		period 44.4239
+		offset 355.327
+	object
+		sprite planet/cloud0
+		distance 524.187
+		period 102.309
+		offset 143.276
+	object
+		sprite planet/rock15
+		distance 922.277
+		period 238.767
+		offset 170.974
+	object Olokrefaro
+		sprite planet/gas17
+		distance 1883.12
+		period 696.625
+		offset 11.2649
+		object
+			sprite planet/dust7
+			distance 228
+			period 14.7087
+		object
+			sprite planet/dust4
+			distance 320
+			period 24.4567
 
 system Tisar
 	pos -9312.45 -5504.66
@@ -1133,7 +2456,10 @@ system Vicknot
 	government "Communist Ganiom"
 	habitable 135
 	link Ionan
+	link Gainensiti
 	asteroids "large metal" 1 4.964
+	fleet "Communist Gainen Military Patrol" 900
+	fleet "Gainen Fleet" 912
 	object
 		sprite star/m8
 		period 10
@@ -1190,6 +2516,7 @@ system Viraii
 	asteroids "small metal" 5 3.1096
 	asteroids "medium metal" 12 3.2448
 	asteroids "large metal" 9 2.028
+	fleet "Communist Ganiom Avg" 900
 	object
 		sprite star/m4
 		period 10
@@ -1226,10 +2553,42 @@ system Viraii
 			distance 194
 			period 14.2233
 
+planet Al'Nisan
+	landscape land/brownmountains1
+
+planet Ayib'iiahii'onwnl
+	landscape land/greenmountains1
+	description s
+	spaceport tutt
+
 planet "Between - Home"
 	landscape land/brownmountains1
 	description `Home of the between.`
 	spaceport `Home of the between.`
+
+planet Cholintir
+	landscape land/land27
+	description `Foren Military Base.`
+	spaceport `The forens are nice`
+
+planet Fo'kak'ni'si'slok
+	landscape land/greenmountains2
+	description `Welcome to the land of diversity. Humans,Gainens,???'s and The Forens live peacefully.`
+	spaceport `You see some funny looking people here.`
+
+planet Frt'Eliminatr
+	landscape land/greenmountains1
+	description `Welcone to the land of the ???. The ??? Mainly live here`
+	spaceport `??? ??? ??? you don't understand`
+
+planet Gainisen
+	landscape land/brownmountains1
+	spaceport `Home of the gainen.`
+	shipyard "Gainen Shipyard"
+
+planet Gasinas
+	landscape land/land3
+	spaceport g
 
 planet Gerin
 	landscape "land/moutainsnow5@2x "
@@ -1244,13 +2603,43 @@ planet Hiswren
 	landscape land/moutaingrey1
 	spaceport yes
 
+planet Humansaaeink
+	landscape land/land10
+	description `The foren cant live here, so they gave it to humans`
+	spaceport `Adding more soon.`
+
+planet I'ise
+	landscape land/brownmountains1
+	spaceport eeee
+
+planet Ifermerin
+	landscape land/land12
+	spaceport gfffff
+
+planet "Isa Palechunam"
+	landscape land/moutainsnow5
+	spaceport ef
+	shipyard "Gainen Shipyard"
+
 planet Motafor
 	landscape land/land14
-	spaceport www
+	description `Truly Unknown how this planet exists, a myth says it is a planet that changes systems every century because of the wormhole. Maybe it might even change now!`
+	spaceport `The conditions of this planet are truly extreme, Desert in the west, Mountains in the plain on the center but it always changes.`
+	security 0.9
+
+planet Napa'ij
+	landscape land/greenmountains1
+	description sss
+	spaceport s
 
 planet Nevonsaj
 	landscape land/land14
-	spaceport vuuuu
+	description `Originally Sini"om homeworld, intense massacares happend on this planet`
+	spaceport `"They will destroy, they will kill and they are not peaceful" - Sini'om journalist Katiknai Orijaons(Dead)`
+
+planet Nisem
+	landscape land/moutainsnow5
+	spaceport ee
 
 planet Nolok
 	landscape land/land28
@@ -1260,6 +2649,16 @@ planet Obines
 	landscape "land/moutainsnow5@2x "
 	description .
 
+planet Oftiknqn
+	landscape land/foresttropical0
+	description `How is this real?? You ask its a gas planet with stunning beauty how??? stunning waterfalls, endless cities how??? it is like no other for a reason`
+	spaceport `It is like no other`
+	security 0.9
+
+planet Olokrefaro
+	landscape land/land3
+	spaceport gggggggfe
+
 planet Om'Tiera
 	landscape land/brownmountains1
 	spaceport aaaaaa
@@ -1268,18 +2667,76 @@ planet Oxuni
 	landscape land/land28
 	spaceport ssssss
 
+planet "Red Shambala"
+	landscape land/land28
+	description bcd
+	spaceport abcdefgh
+
+planet Seginar'r'r
+	landscape land/land28
+	spaceport fgeggfeefghgg
+
+planet Sevorosinsi
+	landscape land/brownmountains1
+
+planet Si'faleha
+	landscape land/land27
+	description `Biggest faikure in foren history. you see a person. just walking, go BACK YOUR HALLUCINATING`
+
 planet "Sinava Nava"
 	landscape land/greenmountains1
 	spaceport ddddd
+
+planet Siniar
+	landscape land/land12
+	spaceport ffff
+
+planet Siri'Om
+	landscape land/brownmountains1
+	description `Made by the Gainen for an extinct neighbour known as the Sini'om who got massacared by the communist ganiom`
+	spaceport `The Gainen have made this place extremely beautiful as a way to cope that their friendly neighbours got massacared by the communist ganiom`
+
+planet Srunfeot
+	landscape land/brownmountains1
+	spaceport naish
 
 planet Tirifanailokibasltiranabi
 	landscape land/greenmountains1
 	spaceport d
 
+planet Tisarnann'r'n
+	landscape land/land30
+	description `Cold but populated.`
+	spaceport `its extremely cold`
+	security 0.9
+
 planet Tisurua
 	landscape land/greenmountains1
 	description .
 	spaceport cbbbbbbb
+
+planet Trimakhol
+	landscape land/brownmountains1
+	description `Farthest point of the Gainen Republic. Going more west leaves you in Foren Territory.`
+	spaceport `Someone says "A'am'ksii pok kailna jak nos Ssrijako?" You are confused`
+
+planet Vakrkin
+	landscape land/foresttropical0
+	description .
+	spaceport .
+
+planet Vidg'aa'na'ja
+	landscape land/greenmountains1
+	description `This a popular tourist destination because of sentient rhinos.`
+	spaceport `"Vi, Muur, Ant Eng Sem'Im" Your confused by what the rhino said`
+	"required reputation" 1
+	bribe 0.9
+	security 0.9
+
+planet Whsyin
+	landscape land/greenmountains1
+	description `This planet started the foren leftist revolution.`
+	spaceport `"Di'rni Rgagt'tit. Ware ti ysa!" You are confused.`
 
 planet "Wn Wormholr"
 	landscape ""
@@ -1287,12 +2744,13 @@ planet "Wn Wormholr"
 planet Wormgolin
 	landscape ""
 
+planet Xtrein'nian'frjaklok
+	landscape land/land27
+	description `I, I, I, I, You should leave now!`
+
 planet Yuso
 	landscape land/moutaingrey1
 	description `Homeworld of the Hisair.`
 	spaceport `Homeworld of the hisair`
-
-planet dih
-	landscape land/foresttropical0
-	spaceport `It is like no other`
+	security 0.9
 
