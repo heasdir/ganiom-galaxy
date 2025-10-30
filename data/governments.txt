@@ -1,11 +1,14 @@
 government "Communist Ganiom"
 	color 1.0 0.3 0.7
+	swizzle 24
 	"player reputation" 100
 	"attitude toward"
 		"The Between" -1000
+		"Gainen Republic" -1000
 		
 government "The Between"
 	color 0.0 0.0 0.0
+	swizzle 9
 	"player reputation" -100
 	"attitude toward"
 		"Communist Ganiom" -1000
@@ -13,14 +16,44 @@ government "The Between"
 
 government "Shizivi"
 	color 0.5 0.7 0.4
+	swizzle 18
 	"player reputation" 1
 	"attitude toward"
 		"The Between" -1
 		"Communist Ganiom" 1
+		"Gainen Republic" 1080
 		
 government "Hisair"
 	color 1.0 0.0 0.2
+	swizzle 8
 	"player reputation" -1000
 	"attitude toward"
 		"The Between" -10
 		"Communist Ganiom" -1000
+		"Gainen Republic" -9100
+		
+government "Gainen Republic"
+	color 0.0 0.0 0.9
+	swizzle 12
+	"player reputation" 1
+	"attitude toward"
+		"Shizivi" 1000
+		"The Between" 100
+		"Hisair" -9100
+		"Communist Ganiom" -1000
+		
+government "Kem Relicnain"
+	color 0.7 0.0 0.8
+	swizzle 25
+	"player reputation" -1000
+		
+
+government "The Forens"
+	color 0.7 0.2 0.9
+	swizzle 24
+	"player reputation" 1000
+	"attitude toward"
+		"The Between" 10
+		"Communist Ganiom" -1000
+		"Gainen Republic" 1000
+		"Kem Relicnain" -1000
