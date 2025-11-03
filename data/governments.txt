@@ -46,7 +46,7 @@ government "Kem Relicnain"
 	color 0.7 0.0 0.8
 	swizzle 25
 	"player reputation" -1000
- language "Kem Reli"
+  language "Kem Reli"
 		
 
 government "The Forens"
