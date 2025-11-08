@@ -326,6 +326,53 @@ system Cipri
 			distance 241
 			period 14.0287
 
+system Croll
+	pos -11469.4 -5585.91
+	government "Gainen Republic"
+	habitable 2035
+	link Gainescaf
+	link Northpoint
+	asteroids "medium rock" 1 4.218
+	asteroids "large rock" 1 3.591
+	asteroids "large metal" 1 1.881
+	object
+		sprite star/f5
+		distance 16.0393
+		period 9.13436
+		offset 180
+	object
+		sprite star/m0
+		distance 85.9607
+		period 9.13436
+	object
+		sprite planet/desert3
+		distance 316.651
+		period 49.963
+		offset 336.94
+	object
+		sprite planet/dust6
+		distance 527.141
+		period 107.317
+		offset 35.6044
+	object
+		sprite planet/neptune
+		distance 1411.98
+		period 470.458
+		offset 83.6613
+		object
+			sprite planet/ice7
+			distance 238
+			period 18.2935
+	object
+		sprite planet/gas9
+		distance 2087.59
+		period 845.757
+		offset 202.411
+		object
+			sprite planet/io
+			distance 257
+			period 15.4486
+
 system E'Paramai
 	pos -10291.5 -5621.42
 	government "Communist Ganiom"
@@ -425,7 +472,7 @@ system E'nos
 			period 30.7777
 
 system Forecapin
-	pos -11757.6 -5257.29
+	pos -11765.6 -5272.29
 	government "The Forens"
 	habitable 1080
 	link Foreisdar
@@ -685,6 +732,42 @@ system Gainensiti
 			sprite planet/rhea
 			distance 378
 			period 26.1438
+
+system Gainescaf
+	pos -11450.4 -5520.91
+	government "Gainen Republic"
+	habitable 625
+	link Naksimak
+	link Croll
+	asteroids "small rock" 7 3.9396
+	asteroids "medium rock" 28 3.1752
+	asteroids "large rock" 8 3.087
+	asteroids "small metal" 34 3.4692
+	asteroids "medium metal" 6 3.087
+	asteroids "large metal" 9 1.8228
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert6
+		distance 186.01
+		period 40.5905
+	object
+		sprite planet/europa
+		distance 369.65
+		period 113.712
+	object "Gaie Point"
+		sprite planet/desert8
+		distance 991.21
+		period 499.308
+	object
+		sprite planet/gas4
+		distance 1751.37
+		period 1172.7
+		object
+			sprite planet/tethys
+			distance 224
+			period 11.8241
 
 system Hatysa
 	pos 0 0
@@ -1107,6 +1190,40 @@ system Javyarm
 			distance 290
 			period 12.6143
 
+system Le'esen
+	pos -11472.4 -5706.91
+	government Serbajkil
+	habitable 1080
+	link "Onne Serbajkil"
+	link Northpoint
+	asteroids "medium rock" 1 3.4452
+	asteroids "large rock" 1 3.5728
+	asteroids "medium metal" 11 6.8904
+	asteroids "large metal" 4 3.6366
+	object
+		sprite star/g0
+		period 10
+	object Ore
+		sprite planet/lava4
+		distance 229.61
+		period 42.3481
+		object
+			sprite planet/rock17
+			distance 118
+			period 16.4411
+	object
+		sprite planet/desert7
+		distance 518.77
+		period 143.817
+	object
+		sprite planet/venus
+		distance 1073.77
+		period 428.267
+	object
+		sprite planet/gas3
+		distance 2233.02
+		period 1284.36
+
 system Makferuniko
 	pos -11295.7 -5355.57
 	government "Gainen Republic"
@@ -1354,6 +1471,7 @@ system Naksimak
 	government "Gainen Republic"
 	habitable 368.28
 	link Forenianm
+	link Gainescaf
 	asteroids "medium rock" 1 3.99
 	asteroids "large rock" 1 4.2
 	asteroids "small metal" 5 2.205
@@ -1476,6 +1594,63 @@ system Nisar
 		sprite planet/gas14
 		distance 1885.88
 		period 1484.94
+
+system Northpoint
+	pos -11462.4 -5625.91
+	government "Gainen Republic"
+	habitable 425.92
+	link Croll
+	link "Onne Serbajkil"
+	link Le'esen
+	asteroids "small rock" 1 2.106
+	asteroids "medium rock" 73 4.2444
+	asteroids "large rock" 36 4.374
+	asteroids "small metal" 70 3.6612
+	asteroids "medium metal" 144 2.6568
+	asteroids "large metal" 17 2.0412
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ice1
+		distance 169
+		period 42.582
+		offset 142.411
+	object
+		sprite planet/desert6
+		distance 827.25
+		period 461.159
+		offset 241.649
+		object
+			sprite planet/dust5
+			distance 176
+			period 24.3274
+		object "Northpoint Station"
+			sprite planet/station4
+			distance 334
+			period 63.5983
+	object
+		sprite planet/rhea
+		distance 1679.5
+		period 1334.03
+		offset 116.115
+	object
+		sprite planet/gas12
+		distance 2708.06
+		period 2731.39
+		offset 32.4235
+		object
+			sprite planet/europa
+			distance 286
+			period 12.7038
+		object
+			sprite planet/callisto
+			distance 394
+			period 20.5414
+		object
+			sprite planet/rock3
+			distance 560
+			period 34.807
 
 system Occuinstain
 	pos -11795.6 -5341.29
@@ -1680,6 +1855,58 @@ system Onarin
 		sprite planet/gas7
 		distance 2728.59
 		period 1380.72
+
+system "Onne Serbajkil"
+	pos -11370.4 -5625.91
+	government Serbajkil
+	habitable 135
+	link Northpoint
+	link Le'esen
+	asteroids "small rock" 1 3.3592
+	asteroids "medium rock" 9 3.2708
+	asteroids "large rock" 4 3.0056
+	asteroids "small metal" 12 4.199
+	asteroids "medium metal" 4 2.652
+	asteroids "large metal" 1 2.3868
+	object
+		sprite star/m8
+		period 10
+	object Orei
+		sprite planet/desert0
+		distance 140.01
+		period 57.0337
+	object
+		sprite planet/rock6
+		distance 422.82
+		period 299.314
+	object
+		sprite planet/ice2
+		distance 929.07
+		period 974.913
+	object
+		sprite planet/desert9
+		distance 1120.43
+		period 1291.13
+	object
+		sprite planet/gas2
+		distance 1899.27
+		period 2849.53
+		object
+			sprite planet/ice8
+			distance 186
+			period 15.3704
+		object
+			sprite planet/oberon
+			distance 329
+			period 36.1583
+		object
+			sprite planet/ice7
+			distance 486
+			period 64.9186
+		object
+			sprite planet/rhea
+			distance 615
+			period 92.4118
 
 system Pert'tn'ripol
 	pos -11794.6 -5430.29
@@ -2581,6 +2808,12 @@ planet Frt'Eliminatr
 	description `Welcone to the land of the ???. The ??? Mainly live here`
 	spaceport `??? ??? ??? you don't understand`
 
+planet "Gaie Point"
+	landscape land/land13
+	description `You realise that the majority of people here don't look like the gainen, perhaps another ailen race`
+	spaceport `"??? ??? ???? Serhbajkil " Perhaps they are talking about a system? "Serhbajkil" doesn't look like it would be anything else`
+	shipyard "Gainen Shipyard"
+
 planet Gainisen
 	landscape land/brownmountains1
 	spaceport `Home of the gainen.`
@@ -2645,6 +2878,14 @@ planet Nolok
 	landscape land/land28
 	spaceport wxwww
 
+planet ""
+	landscape land/land13
+
+planet "Northpoint Station"
+	landscape land/land13
+	description `Farthest Northern Frontier Of the Gainen, Yet no gainen is here. Going more west,north or east goes to ??? territory.`
+	spaceport `"??? ??? Serbajkil Wenj" Seems like they keep talking about Serbajkil?a`
+
 planet Obines
 	landscape "land/moutainsnow5@2x "
 	description .
@@ -2662,6 +2903,19 @@ planet Olokrefaro
 planet Om'Tiera
 	landscape land/brownmountains1
 	spaceport aaaaaa
+
+planet Ore
+	landscape land/land27
+	description `There is nothing here anymore, everyone either died or moved to other systems.`
+
+planet Oref
+	landscape land/land23
+	description `In 2390, The star of this system became`
+
+planet Orei
+	landscape land/land23
+	description `Everything, feels weird somehow, they speak your language when they look at you? the gainen had human translators but these people can talk to you normally?`
+	spaceport `"Welcome. We are the serbajkil. We look foward to be friends with your race, human."`
 
 planet Oxuni
 	landscape land/land28
