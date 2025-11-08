@@ -13,3 +13,20 @@ news "Serbajkil Recruitment"
 			"No rebellions will tear us apart!"
 			"Bring order and unity to the serbajkil!"
 			"Be a part of something and join us! "
+
+news "Serbajkil Civilian"
+	location
+		government "Serbajkil"
+	name
+		word
+			"Serbajkil Civilian"
+	message
+		word
+			"Human, can you help me find my dad? We look alike"
+			"Human, can you help me find my son? "
+			"Hi?"
+			"This is awkward "
+			"I want to go to this system I will only give 100 credits I am poor"
+			"Exploring is great!"
+			"I want to be a pilot."
+
