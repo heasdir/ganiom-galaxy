@@ -3,15 +3,15 @@ government "Communist Ganiom"
 	swizzle 24
 	"player reputation" 100
 	"attitude toward"
-		"The Between" -1000
-		"Gainen Republic" -1000
+		"The Between" -10
+		"Gainen Republic" -10
 		
 government "The Between"
 	color 0.0 0.0 0.0
 	swizzle 9
-	"player reputation" -100
+	"player reputation" -10
 	"attitude toward"
-		"Communist Ganiom" -1000
+		"Communist Ganiom" -10
 		"Shizivi" -1
 
 government "Shizivi"
@@ -21,40 +21,54 @@ government "Shizivi"
 	"attitude toward"
 		"The Between" -1
 		"Communist Ganiom" 1
-		"Gainen Republic" 1080
+		"Gainen Republic" 10
 		
 government "Hisair"
 	color 1.0 0.0 0.2
 	swizzle 8
-	"player reputation" -1000
+	"player reputation" -10
 	"attitude toward"
 		"The Between" -10
-		"Communist Ganiom" -1000
-		"Gainen Republic" -9100
+		"Communist Ganiom" -10
+		"Gainen Republic" -91
 		
 government "Gainen Republic"
 	color 0.0 0.0 0.9
 	swizzle 12
 	"player reputation" 1
 	"attitude toward"
-		"Shizivi" 1000
-		"The Between" 100
-		"Hisair" -9100
-		"Communist Ganiom" -1000
+		"Shizivi" 10
+		"The Between" 10
+		"Hisair" -91
+		"Communist Ganiom" -10
 		
 government "Kem Relicnain"
 	color 0.7 0.0 0.8
 	swizzle 25
-	"player reputation" -1000
+	"player reputation" -10
+	"attitude toward"
+		"The Forens" -20
 	language "Kem Reli"
 		
 
 government "The Forens"
 	color 0.7 0.2 0.9
 	swizzle 24
-	"player reputation" 1000
+	"player reputation" 10
 	"attitude toward"
 		"The Between" 10
-		"Communist Ganiom" -1000
-		"Gainen Republic" 1000
-		"Kem Relicnain" -1000
+		"Communist Ganiom" -10
+		"Gainen Republic" 10
+		"Kem Relicnain" -20
+		"Serbajkil" 9
+		
+government "Serbajkil"
+	color 0.6 0.9 0.1
+	swizzle 24
+	"player reputation" 10
+	"attitude toward"
+		"The Between" 10
+		"Communist Ganiom" -1
+		"Gainen Republic" 10
+		"Kem Relicnain" -.5
+		"The Forens" 9
