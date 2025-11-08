@@ -1,0 +1,15 @@
+news "Serbajkil Recruitment"
+	location
+		government "Serbajkil"
+	name
+		word
+			"Serbajkil Recruitment"
+	message
+		word
+			"Join the serbajkil!"
+			"Bring peace and unity!"
+			"We shall not be controlled by any another race!"
+			"Join the Serbajkil, Off with the Hisair! "
+			"No rebellions will tear us apart!"
+			"Bring order and unity to the serbajkil!"
+			"Be a part of something and join us! "
