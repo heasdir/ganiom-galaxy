@@ -84,32 +84,32 @@ fleet "Kem Relicnainin"
 		confusion 2
 		plunders
 	variant 40
-		Pinoalin
+		Aerie
 	variant 40
-		Neutron Star 6
+		Aerie 6
 	variant 20
-		Pinoalin 2
+		Aerie 2
 	variant 35
 		Dreadnought 2
-		Pinoalin 5
+		Aerie 5
 	variant 30
-		Pinoalin 3
+		Carrier 3
 	variant 20
-		Pinoalin 2
+		Dreadnought 2
 	variant 20
-		Neutron Star
-		Pinoalin
+		Aerie 4
+		Carrier
 	variant 15
-		Pinoalin
-		Neutron Star 2
+		Dreadnought
+		Carrier 2
 	variant 15
-		Pinoalin 10
-		Neutron Star
+		Carrier 10
+		Aerie 9
 	variant 15
-		Pinoalin 5
+		Aerie 5
 	variant 1
-		Pinoalin 5
-		Neutron Star	
+		Aerie 5
+		Carrier	
 		
 	
 
@@ -121,29 +121,28 @@ fleet "Between Attacker"
 		confusion 2
 		plunders
 	variant 40
-		Pinoalin
+		Dreadnought 
 	variant 40
-		Neutron Star 6
+		Carrier 6
 	variant 20
-		Pinoalin 2
+		Carrier 2
 	variant 35
-		Dreadnought 2
-		Pinoalin 5
+		Carrier 2
+		Aerie 5
 	variant 30
-		Pinoalin 3
+		Carrier 3
 	variant 20
 		Pinoalin 2
 	variant 20
-		Neutron Star 7
-		Pinoalin
+		Korsmanath A'awoj 7
+		Sapira A'awoj 9
 	variant 15
-		Pinoalin
-		Neutron Star 2
+		K-IG "Dancer" 12
 	variant 15
-		Pinoalin 10
-		Neutron Star 7
+		Vareti'het 10
+		Telis'het 7
 	variant 15
-		Pinoalin 5
+		Vareti'het 5
 	variant 1
 		Pinoalin 5
 		Neutron Star 9
