@@ -149,6 +149,63 @@ system Between
 			distance 270
 			period 26.8819
 
+system "Bruchaven Gateway"
+	pos -10868.9 -4720.2
+	government Uninhabited
+	habitable 945
+	link "Lai Mou"
+	asteroids "small rock" 9 3.5816
+	asteroids "medium rock" 60 2.9282
+	asteroids "large rock" 23 3.0734
+	asteroids "small metal" 5 1.5004
+	asteroids "medium metal" 127 2.3958
+	asteroids "large metal" 5 2.1296
+	object
+		sprite star/g5
+		distance 33.5238
+		period 12.8173
+		offset 180
+	object
+		sprite star/m0
+		distance 65.4762
+		period 12.8173
+	object
+		sprite planet/mercury
+		distance 240.316
+		period 48.4751
+	object
+		sprite planet/cloud2
+		distance 513.206
+		period 151.28
+	object
+		sprite planet/gas11
+		distance 1366.9
+		period 657.578
+		object
+			sprite planet/dust1
+			distance 260
+			period 13.8273
+		object
+			sprite planet/dust4
+			distance 399
+			period 26.2868
+		object
+			sprite planet/rock0
+			distance 538
+			period 41.1577
+	object
+		sprite planet/gas7
+		distance 3048.26
+		period 2189.88
+		object
+			sprite planet/desert4
+			distance 218
+			period 11.4503
+		object
+			sprite planet/luna
+			distance 363
+			period 24.6031
+
 system "Chola Ka"
 	pos -9817.44 -5486.77
 	government Shizivi
@@ -372,6 +429,49 @@ system Croll
 			sprite planet/io
 			distance 257
 			period 15.4486
+
+system Daiou
+	pos -11058.9 -5035.2
+	government Uninhabited
+	habitable 425.92
+	link Siriomene
+	link "Lai Mou"
+	asteroids "medium rock" 2 1.4756
+	asteroids "large rock" 1 1.9754
+	asteroids "small metal" 2 3.3796
+	asteroids "medium metal" 15 2.023
+	asteroids "large metal" 1 2.9512
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rhea
+		distance 126.56
+		period 27.5957
+	object
+		sprite planet/cloud5
+		distance 555.2
+		period 253.554
+		object
+			sprite planet/desert4
+			distance 186
+			period 16.5782
+	object
+		sprite planet/rock13
+		distance 916.01
+		period 537.336
+	object
+		sprite planet/neptune
+		distance 1409.7
+		period 1025.86
+		object
+			sprite planet/luna
+			distance 203
+			period 14.4104
+	object
+		sprite planet/gas16
+		distance 2234.7
+		period 2047.5
 
 system E'Paramai
 	pos -10291.5 -5621.42
@@ -1190,6 +1290,53 @@ system Javyarm
 			distance 290
 			period 12.6143
 
+system "Lai Mou"
+	pos -10964.9 -4860.2
+	government Uninhabited
+	habitable 425.92
+	link Daiou
+	link "Bruchaven Gateway"
+	asteroids "small rock" 20 2.3331
+	asteroids "medium rock" 14 3.0954
+	asteroids "large rock" 2 2.9568
+	asteroids "medium metal" 31 2.1252
+	asteroids "large metal" 33 3.465
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ganymede
+		distance 133
+		period 29.7285
+	object
+		sprite planet/gas6
+		distance 741.69
+		period 391.498
+		object
+			sprite planet/dust4
+			distance 277
+			period 11.7756
+	object
+		sprite planet/gas9
+		distance 1569.13
+		period 1204.72
+		object
+			sprite planet/io
+			distance 232
+			period 13.2502
+	object
+		sprite planet/gas1
+		distance 2867.34
+		period 2975.88
+		object
+			sprite planet/rock17
+			distance 236
+			period 14.4905
+		object
+			sprite planet/rock14
+			distance 363
+			period 27.6424
+
 system Le'esen
 	pos -11472.4 -5706.91
 	government Serbajkil
@@ -1269,6 +1416,100 @@ system Makferuniko
 		period 3338.08
 		offset 0.257731
 
+system Makrayuwa
+	pos -10591.9 -4699.2
+	government "Bruchaven Issarei"
+	habitable 320
+	link Pakqf
+	asteroids "large metal" 1 7.344
+	object
+		sprite star/m0
+		period 10
+	object "Abeni "
+		sprite planet/ice6
+		distance 255.96
+		period 91.5679
+		object
+			sprite planet/rock17
+			distance 156
+			period 24.4934
+	object
+		sprite planet/rock14
+		distance 559
+		period 295.531
+	object
+		sprite planet/dust2
+		distance 730.01
+		period 441.04
+	object
+		sprite planet/gas5
+		distance 1870.97
+		period 1809.61
+		object
+			sprite planet/dust3
+			distance 242
+			period 12.519
+		object
+			sprite planet/callisto
+			distance 355
+			period 22.2428
+		object
+			sprite planet/miranda
+			distance 450
+			period 31.7443
+
+system Maneru
+	pos -10672.9 -4660.2
+	government Uninhabited
+	habitable 2140.92
+	asteroids "small rock" 11 3.699
+	asteroids "medium rock" 2 2.565
+	asteroids "large rock" 54 1.998
+	asteroids "small metal" 2 2.808
+	asteroids "medium metal" 1 1.539
+	asteroids "large metal" 1 2.214
+	object
+		sprite star/f5
+		distance 20.69
+		period 9.16874
+	object
+		sprite star/k5
+		distance 83.31
+		period 9.16874
+		offset 180
+	object
+		sprite planet/rock10
+		distance 303.72
+		period 45.7583
+	object
+		sprite planet/lava3
+		distance 609.81
+		period 130.182
+	object
+		sprite planet/jupiter
+		distance 1157.9
+		period 340.617
+		object
+			sprite planet/luna
+			distance 257
+			period 12.9468
+		object
+			sprite planet/dust5
+			distance 359
+			period 21.3749
+	object
+		sprite planet/gas9
+		distance 2060.19
+		period 808.39
+		object
+			sprite planet/rock7
+			distance 220
+			period 12.2356
+		object
+			sprite planet/rock14
+			distance 347
+			period 24.2373
+
 system Naini
 	pos -10011.7 -5456.02
 	government "Communist Ganiom"
@@ -1318,6 +1559,42 @@ system Naini
 			sprite planet/dust3
 			distance 418
 			period 26.8551
+
+system Nairiafq
+	pos -10429.9 -4669.2
+	government "Bruchaven Issarei"
+	habitable 425.92
+	link Pakqf
+	asteroids "small rock" 5 3.264
+	asteroids "medium rock" 3 1.704
+	asteroids "large rock" 1 1.536
+	asteroids "small metal" 104 1.32
+	asteroids "medium metal" 18 2.52
+	asteroids "large metal" 5 1.824
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ice8
+		distance 110.44
+		period 22.495
+	object
+		sprite planet/cloud1
+		distance 507.69
+		period 221.714
+	object Isrhsiw
+		sprite planet/gas13
+		distance 1122.69
+		period 729.098
+		offset 113.126
+		object
+			sprite planet/rock0
+			distance 293
+			period 14.1583
+		object
+			sprite planet/miranda
+			distance 432
+			period 25.3475
 
 system Nairivi
 	pos -9864.44 -5469.77
@@ -1765,6 +2042,55 @@ system Oisn'nak'foklor
 			distance 464
 			period 49.7977
 
+system Okfaleu
+	pos -10798.9 -4691.2
+	government Uninhabited
+	habitable 5000
+	asteroids "large metal" 1 4.1344
+	object
+		sprite star/a0
+		period 10
+	object
+		sprite planet/titan
+		distance 180.01
+		period 13.6622
+	object
+		sprite planet/gas2
+		distance 918.22
+		period 157.397
+		object
+			sprite planet/europa
+			distance 176
+			period 14.1476
+		object
+			sprite planet/dust3
+			distance 320
+			period 34.6848
+		object
+			sprite planet/luna
+			distance 412
+			period 50.6711
+		object
+			sprite planet/rock0
+			distance 560
+			period 80.2965
+	object
+		sprite planet/desert9
+		distance 1681.63
+		period 390.095
+	object
+		sprite planet/gas6
+		distance 2286.52
+		period 618.497
+		object
+			sprite planet/ice7
+			distance 304
+			period 13.5386
+		object
+			sprite planet/ice8
+			distance 407
+			period 20.9728
+
 system Olacheme
 	pos -11105.7 -5307.57
 	government "Gainen Republic"
@@ -1907,6 +2233,51 @@ system "Onne Serbajkil"
 			sprite planet/rhea
 			distance 615
 			period 92.4118
+
+system Pakqf
+	pos -10506.9 -4662.2
+	government "Bruchaven Issarei"
+	habitable 2140.92
+	link Makrayuwa
+	link Nairiafq
+	asteroids "medium rock" 6 1.3398
+	asteroids "large rock" 4 2.7951
+	asteroids "medium metal" 15 3.3033
+	asteroids "large metal" 3 1.9404
+	object
+		sprite star/f5
+		distance 19.4964
+		period 8.38685
+		offset 180
+	object
+		sprite star/k5
+		distance 78.5036
+		period 8.38685
+	object
+		sprite planet/titan
+		distance 278.464
+		period 40.171
+		offset 137.439
+	object
+		sprite planet/gas3
+		distance 787.154
+		period 190.919
+		offset 327.357
+	object
+		sprite planet/cloud8
+		distance 1172.11
+		period 346.908
+		offset 290.548
+	object
+		sprite planet/rock10
+		distance 1669.36
+		period 589.639
+		offset 102.034
+	object
+		sprite planet/gas11
+		distance 3482.61
+		period 1776.71
+		offset 272.281
 
 system Pert'tn'ripol
 	pos -11794.6 -5430.29
@@ -2323,6 +2694,7 @@ system Siriomene
 	government "Gainen Republic"
 	habitable 135
 	link "Gainen Hom"
+	link Daiou
 	asteroids "small rock" 3 2.2848
 	asteroids "medium rock" 13 2.1168
 	asteroids "large rock" 1 3.4272
@@ -2780,6 +3152,11 @@ system Viraii
 			distance 194
 			period 14.2233
 
+planet "Abeni "
+	landscape land/greenmountains1
+	description `Abeni is a rocky planet, controlled by the bruchaven issaren. It is also the capital of bruchaven issaren`
+	spaceport oeiwowk
+
 planet Al'Nisan
 	landscape land/brownmountains1
 
@@ -2854,6 +3231,11 @@ planet "Isa Palechunam"
 	spaceport ef
 	shipyard "Gainen Shipyard"
 
+planet Isrhsiw
+	landscape land/greenmountains1
+	description `Cold and icy, the bruchaven live here, somehow while a human would freeze by the intese cold.`
+	spaceport fgeefgggggg
+
 planet Motafor
 	landscape land/land14
 	description `Truly Unknown how this planet exists, a myth says it is a planet that changes systems every century because of the wormhole. Maybe it might even change now!`
@@ -2877,9 +3259,6 @@ planet Nisem
 planet Nolok
 	landscape land/land28
 	spaceport wxwww
-
-planet ""
-	landscape land/land13
 
 planet "Northpoint Station"
 	landscape land/land13
