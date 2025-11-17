@@ -1462,6 +1462,7 @@ system Maneru
 	pos -10672.9 -4660.2
 	government Uninhabited
 	habitable 2140.92
+	link Okfaleu
 	asteroids "small rock" 11 3.699
 	asteroids "medium rock" 2 2.565
 	asteroids "large rock" 54 1.998
@@ -2046,6 +2047,7 @@ system Okfaleu
 	pos -10798.9 -4691.2
 	government Uninhabited
 	habitable 5000
+	link Maneru
 	asteroids "large metal" 1 4.1344
 	object
 		sprite star/a0
