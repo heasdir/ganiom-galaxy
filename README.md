@@ -4,6 +4,10 @@ Inspired by Galactic War.
 To find the galaxy, go to hatysa in the far north.
 # New Races
 These are the new races, 
-Bruchaven
-Foren
-Serbajkil
+Bruchaven, 
+Foren, 
+And Serbajkil
+## Other Stuff
+Serbajkil has news 
+Gainen has a shipyard
+Gainen, The Between, Hisair, Communist Ganiom And Kem relicnain have fleets(only Hisair, Gainen and Communist Ganiom are currently used)
