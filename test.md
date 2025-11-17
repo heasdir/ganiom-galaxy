@@ -1,0 +1,1 @@
+The word [clickable](https://example.com)link.
