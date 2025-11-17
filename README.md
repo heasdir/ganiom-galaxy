@@ -7,7 +7,9 @@ These are the new races,
 Bruchaven, 
 Foren, 
 And Serbajkil
-## Other Stuff
+## Dialogs 
 Serbajkil has news 
+## Shipyards
 Gainen has a shipyard
+### Fleets
 Gainen, The Between, Hisair, Communist Ganiom And Kem relicnain have fleets(only Hisair, Gainen and Communist Ganiom are currently used)
