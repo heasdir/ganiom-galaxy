@@ -499,7 +499,7 @@ system E'Paramai
 		distance 389.99
 		period 142.622
 		object "Wn Wormholr"
-			sprite planet/wormhole
+			sprite planet/wormhole-animated
 			distance 150
 			period 18.808
 	object Tisarnann'r'n
@@ -873,7 +873,7 @@ system Hatysa
 	pos 0 0
 	habitable nan
 	object Wormgolin
-		sprite planet/wormhole
+		sprite planet/wormhole-animated
 		distance 1260.56
 		period 27.5957
 
@@ -1461,7 +1461,6 @@ system Makrayuwa
 system Maneru
 	pos -10672.9 -4660.2
 	government Uninhabited
-	habitable 2140.92
 	link Okfaleu
 	asteroids "small rock" 11 3.699
 	asteroids "medium rock" 2 2.565
@@ -1470,7 +1469,7 @@ system Maneru
 	asteroids "medium metal" 1 1.539
 	asteroids "large metal" 1 2.214
 	object
-		sprite star/black-hole
+		sprite star/coal-black-hole
 		distance 20.69
 		period 9.16874
 	object
@@ -1478,6 +1477,10 @@ system Maneru
 		distance 83.31
 		period 9.16874
 		offset 180
+	object
+		sprite star/black-hole-core
+		distance 20.69
+		period 9.16874
 	object
 		sprite planet/rock10
 		distance 303.72
@@ -2372,7 +2375,7 @@ system Rlfdot
 		sprite star/k0
 		period 10
 	object "Wn Wormholr"
-		sprite planet/wormhole
+		sprite planet/wormhole-animated
 		distance 108.56
 		period 20.5089
 	object Motafor
@@ -2615,38 +2618,13 @@ system Silkar
 	object
 		sprite star/black-hole
 		period 10
+	object
+		sprite star/black-hole-core
+		period 10
 	object Wormgolin
-		sprite planet/wormhole
-		distance 133
+		sprite planet/wormhole-animated
+		distance 9000
 		period 29.7285
-	object
-		sprite planet/gas6
-		distance 741.69
-		period 391.498
-		object
-			sprite planet/dust4
-			distance 277
-			period 11.7756
-	object
-		sprite planet/gas9
-		distance 1569.13
-		period 1204.72
-		object
-			sprite planet/io
-			distance 232
-			period 13.2502
-	object
-		sprite planet/gas1
-		distance 2867.34
-		period 2975.88
-		object
-			sprite planet/rock17
-			distance 236
-			period 14.4905
-		object
-			sprite planet/rock14
-			distance 363
-			period 27.6424
 
 system Silvikari
 	pos -9959.44 -5484.77
