@@ -17,4 +17,4 @@ Gainen, The Between, Hisair, Communist Ganiom And Kem relicnain have fleets(only
 ### Ships
 ![Neutron Star](images/ship/neutron+.png)
 ![Pinoalin](images/ship/pinoalin.png)
-![Gainen Colossus](images/ship/gainen  colossus.png)
+**Gainen Colossus does not show**
