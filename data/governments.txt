@@ -72,3 +72,8 @@ government "Serbajkil"
 		"Gainen Republic" 10
 		"Kem Relicnain" -.5
 		"The Forens" 9
+
+government "Bruchaven Issarei"
+	color 0.1 0.4 0.3
+	swizzle 24
+	"player reputation" 10
