@@ -1470,11 +1470,11 @@ system Maneru
 	asteroids "medium metal" 1 1.539
 	asteroids "large metal" 1 2.214
 	object
-		sprite star/f5
+		sprite star/black-hole
 		distance 20.69
 		period 9.16874
 	object
-		sprite star/k5
+		sprite star/nova
 		distance 83.31
 		period 9.16874
 		offset 180
@@ -2613,7 +2613,7 @@ system Silkar
 	fleet "Hisair High Fleet" 450
 	fleet "Communist Ganiom Avg" 350
 	object
-		sprite star/k5
+		sprite star/black-hole
 		period 10
 	object Wormgolin
 		sprite planet/wormhole
