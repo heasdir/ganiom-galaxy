@@ -14,3 +14,7 @@ Serbajkil has news
 Gainen has a shipyard
 ### Fleets
 Gainen, The Between, Hisair, Communist Ganiom And Kem relicnain have fleets(only Hisair, Gainen and Communist Ganiom are currently used)
+### Ships
+![Neutron Star](images/ship/neutron+.png)
+![Pinoalin](images/ship/pinoalin.png)
+![Gainen Colossus](images/ship/gainen colossus.png)
