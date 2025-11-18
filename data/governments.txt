@@ -87,3 +87,4 @@ government "Bruchaven Mekrut"
 	"attitude toward"
 		"Bruchaven Issarei" -1
 	langauge "Bruchaven"
+# Bruchaven Mekrut is an exiled splinter faction of Bruchaven Issarei
