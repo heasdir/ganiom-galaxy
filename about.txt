@@ -1,2 +1,7 @@
-Ganiom is an addon which adds a new galaxy, adds 16 races(my expectations) and new systems, goverments etc.
-To enter the galaxy find hatysa in the far north(controlled by Pirates)
+name "Ganiom"
+about "Ganiom is a plugin that adds many races and a new galaxy."
+about "There are many races. Some of which are not currently implemented yet."
+about "You are free to explore the galaxy anywhere you want!"
+about "Check the Readme.md for more details!"
+authors
+	Heasdir
