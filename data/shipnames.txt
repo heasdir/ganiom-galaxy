@@ -6,6 +6,8 @@ phrase "Commune Security"
 		"Masef"
 		"Hele"
 		"K-18"
+	word 
+	     " "
 	word
 	    "Dover"
 	    "Makerf"
@@ -26,6 +28,8 @@ phrase "Initk"
 		"Tirani" 
 		"Ahahe" 
 		"Mak's" 
+	word 
+	     " "
 	word
 	    "Between"
 	    "Kemiit"
@@ -33,14 +37,15 @@ phrase "Initk"
 	
 phrase "Kenjak"
 	word
-		"Hulusafi"
-		"Naissnak" 
-		"Amache"
-		"Ghoursu"
-		"Mahai"
-		"Tirani" 
-		"Kemnaqat" 
-		"Malaskshe" 
+		"Hulusafi "
+		"Naissnak " 
+		"Amache "
+		"Ghoursu "
+		"Mahai "
+		"Tirani " 
+		"Kemnaqat " 
+		"Malaskshe " 
+		
 	word
 	    "Hajais"
 	    "Kemwbai" 
