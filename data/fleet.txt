@@ -78,7 +78,7 @@ fleet "Gainen Fleet"
 
 fleet "Kem Relicnainin"
 	government "Kem Relicnain"
-	names "Keinjakyouranaianjaon"
+	names "Kenjak"
 	cargo 0
 	personality
 		confusion 2
