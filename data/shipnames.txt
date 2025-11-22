@@ -1,0 +1,52 @@
+phrase "Commune Security"
+	word
+		"John"
+		"Jahsi" 
+		"Naja"
+		"Masef"
+		"Hele"
+		"
+	word
+	    "Dover"
+	    "Makerf"
+	    "Masinsef"
+	    "Basin"
+	    "Freedom"
+	    "6th"
+	    "4th"
+	    "Thrdar"
+	   
+phrase "Initk"
+	word
+		"Makerat"
+		"Kakshs" 
+		"Inasg"
+		"Gaisu"
+		"Majaid"
+		"Tirani" 
+		"Ahahe" 
+		"Mak's" 
+	word
+	    "Between"
+	    "Kemiit"
+	    "Hisaiit"
+	
+phrase "Kenjak"
+	word
+		"Hulusafi"
+		"Naissnak" 
+		"Amache"
+		"Ghoursu"
+		"Mahai"
+		"Tirani" 
+		"Kemnaqat" 
+		"Malaskshe" 
+	word
+	    "Hajais"
+	    "Kemwbai" 
+	    "Exrwts" 
+	    "Masy" 
+	    "Akanai" 
+	    "Ajagisj" 
+	    "Kemiit"
+	    
