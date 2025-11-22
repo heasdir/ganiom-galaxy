@@ -601,6 +601,7 @@ system E'Paramai
 		period 142.622
 		object "Wn Wormholr"
 			sprite planet/wormhole-red
+			distance 150
 			period 18.808
 	object Tisarnann'r'n
 		sprite planet/gas4
@@ -970,9 +971,11 @@ system Gainescaf
 			period 11.8241
 
 system Hatysa
+	pos 0 0
 	habitable nan
 	object Wormgolin
 		sprite planet/wormhole-red
+			scale 3.0
 		distance 1260.56
 		period 27.5957
 
