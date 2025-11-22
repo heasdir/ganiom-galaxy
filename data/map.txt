@@ -971,7 +971,6 @@ system Gainescaf
 			period 11.8241
 
 system Hatysa
-	pos 0 0
 	habitable nan
 	object Wormgolin
 		sprite planet/wormhole-red
