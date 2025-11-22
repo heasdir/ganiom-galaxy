@@ -37,7 +37,7 @@ fleet "Communist Ganiom Avg"
 		
 fleet "Communist Gainen Military Patrol"
 	government "Communist Ganiom"
-	names "Gainen Commune Security"
+	names "Commune Security"
 	cargo 0
 	personality
 		confusion 3
