@@ -495,7 +495,7 @@ system Daiou
 		sprite star/k5
 		period 10
 	object
-		sprite planet/rhea
+		sprite planet/vajra/vajra
 		distance 126.56
 		period 27.5957
 	object
@@ -724,6 +724,7 @@ system Foreisdar
 	pos -11797.6 -5291.29
 	government Uninhabited
 	habitable 425.92
+	haze _menu/haze-coal
 	link Occuinstain
 	link Forecapin
 	link Rhti'fsl'rik
@@ -1534,6 +1535,7 @@ system "Lai Mou"
 	pos -10964.9 -4860.2
 	government Uninhabited
 	habitable 425.92
+	haze _menu/haze-red
 	link Daiou
 	link "Bruchaven Gateway"
 	asteroids "small rock" 20 2.3331
@@ -1545,7 +1547,7 @@ system "Lai Mou"
 		sprite star/k5
 		period 10
 	object
-		sprite planet/ganymede
+		sprite planet/beryl/beryl
 		distance 133
 		period 29.7285
 	object
@@ -1747,6 +1749,7 @@ system Maneru
 	pos -10672.9 -4660.2
 	government Uninhabited
 	habitable nan
+	haze _menu/haze-red
 	link Okfaleu
 	asteroids "small rock" 11 3.699
 	asteroids "medium rock" 2 2.565
@@ -2428,11 +2431,11 @@ system Okfaleu
 		sprite star/a0
 		period 10
 	object
-		sprite planet/titan
+		sprite planet/beryl/beryl
 		distance 180.01
 		period 13.6622
 	object
-		sprite planet/gas2
+		sprite planet/vajra/vajra
 		distance 918.22
 		period 157.397
 		object
@@ -2877,6 +2880,7 @@ system "Sector E5 E1 "
 	pos -10207.8 -4146.66
 	government "Bruchaven Mekrut"
 	habitable 320
+	haze _menu/haze-red
 	link Makaro
 	asteroids "small rock" 7 1.9057
 	asteroids "medium rock" 16 2.6163
