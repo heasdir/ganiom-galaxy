@@ -86,5 +86,5 @@ government "Bruchaven Mekrut"
 	"player reputation" -1000
 	"attitude toward"
 		"Bruchaven Issarei" -1
-	langauge "Bruchaven"
+	language "Bruchaven"
 # Bruchaven Mekrut is an exiled splinter faction of Bruchaven Issarei
