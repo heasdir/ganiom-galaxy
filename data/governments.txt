@@ -41,6 +41,8 @@ government "Gainen Republic"
 		"The Between" 10
 		"Hisair" -91
 		"Communist Ganiom" -10
+	"friendly hail" "friendly gainen" 
+	"hostile hail" "hostile gainen" 
 		
 government "Kem Relicnain"
 	color 0.7 0.0 0.8
