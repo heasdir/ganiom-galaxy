@@ -1,0 +1,22 @@
+     phrase "friendly gainen"
+	word
+		"Who were the Sini'oms?"
+		"Who are the bruchaven?"
+		"The ??? are so mysterious, I wonder why"
+		"Is there another inhabited galaxy?"
+		"Are you a communist ganiom spy?"
+		"Why is the galaxy named 'Ganiom' in the first place?"
+		"The Hisair should not be trusted"
+		"My reactors aren't working, help me!"
+		"Join the gainen for peace and unity!"
+		"It's not fair that communist ganiom has the wormhole!"
+		"Why do only human ships work for us?"
+		"My engines aren't working properly"
+		
+		
+phrase "hostile gainen"
+	word
+		"You have done a big big big mistake."
+		"I knew it! You are those bloody communist Ganiom spies!"
+		"You absolute traitor!" 
+		"Say goodbye to being friends with the foren and serbajkil!" 
