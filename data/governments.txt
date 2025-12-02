@@ -33,16 +33,20 @@ government "Hisair"
 		"Gainen Republic" -91
 		
 government "Gainen Republic"
-	color 0.0 0.0 0.9
 	swizzle 12
-	"player reputation" 1
+	color 0.1 0.2 0.9
+	
+	"player reputation" 100
 	"attitude toward"
-		"Shizivi" 10
-		"The Between" 10
-		"Hisair" -91
-		"Communist Ganiom" -10
-	"friendly hail" "friendly gainen" 
-	"hostile hail" "hostile gainen" 
+		"Communist Ganiom" -1
+		"The Forens" 1
+		"Kem Relicnain" -.1
+		"Hisair" -.1
+		"Merchant" .01
+		"The Between" .1
+	"bribe" .2
+	"friendly hail" "friendly gainen"
+	"hostile hail" "hostile gainen"
 		
 government "Kem Relicnain"
 	color 0.7 0.0 0.8
