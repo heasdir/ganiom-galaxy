@@ -42,7 +42,6 @@ ship "Clossusn"
 		
 		"Fusion Drive"
 
-		
 		"Hyperdrive"
 		"Jump Drive"
     
