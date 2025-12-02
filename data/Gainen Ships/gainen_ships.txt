@@ -40,7 +40,8 @@ ship "Clossusn"
 		"Blue Sun Reactor"
 		"Quantum Vacuum Battery"
 		
-		"Qormana Ne"
+		"Fusion Drive"
+
 		
 		"Hyperdrive"
 		"Jump Drive"
