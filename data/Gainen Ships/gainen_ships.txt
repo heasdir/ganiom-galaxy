@@ -2,7 +2,7 @@ ship "Clossusn"
 	sprite "ship/gainen colossus"
 	thumbnail "ship/gainen colossus"
 	attributes
-		category "Heavy Warship & Transport"
+		category "Heavy Warship"
 		"cost" 41280000
 		"shields" 7200000
 		"hull" 13290000
@@ -15,7 +15,7 @@ ship "Clossusn"
 		"cargo space" 50
 		"outfit space" 4800
 		"weapon capacity" 1700
-		"engine capacity" 120
+		"engine capacity" 1200
 		"ramscoop" 10
 		"solar collection" 35
 		"shield generation" 5.4
@@ -40,8 +40,7 @@ ship "Clossusn"
 		"Blue Sun Reactor"
 		"Quantum Vacuum Battery"
 		
-		"Type 4 Radiant Thruster" 
-		"Type 4 Radiant Steering"
+		"Qormana Ne"
 		
 		"Hyperdrive"
 		"Jump Drive"
