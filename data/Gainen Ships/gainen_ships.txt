@@ -1,6 +1,6 @@
 ship "Clossusn"
 	sprite "ship/gainen colossus"
-	thumbnail "ship/gainen colossus"
+	thumbnail "thumbnail/gnicol"
 	attributes
 		category "Heavy Warship"
 		"cost" 41280000
