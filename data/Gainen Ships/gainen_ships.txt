@@ -74,7 +74,7 @@ ship "Clossusn"
      engine -180.5 257.5
      engine -139 249.5
  	explode "tiny explosion" 120
-  	explode "small explosion" 60
+ 	explode "small explosion" 60
 	explode "medium explosion" 70
 	explode "large explosion" 50
 	explode "huge explosion" 15
