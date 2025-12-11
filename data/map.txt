@@ -151,54 +151,6 @@ system Asiot
 			distance 373
 			period 28.7925
 
-system Between
-	pos -9278.45 -5479.66
-	government "The Between"
-	habitable 425.92
-	link Tisar
-	link "Tiraini Between"
-	asteroids "small rock" 11 2.4552
-	asteroids "medium rock" 3 3.8808
-	asteroids "large rock" 42 1.6368
-	asteroids "small metal" 58 2.6928
-	asteroids "medium metal" 11 2.7192
-	asteroids "large metal" 16 3.564
-	object
-		sprite star/k5
-		period 10
-	object "Between - Home"
-		sprite planet/desert2
-		distance 352.96
-		period 128.524
-		object
-			sprite planet/dust3
-			distance 170
-			period 24.8256
-	object
-		sprite planet/ice5
-		distance 708.85
-		period 365.786
-	object
-		sprite planet/neptune
-		distance 1133.26
-		period 739.419
-		object
-			sprite planet/rhea
-			distance 193
-			period 13.3588
-	object
-		sprite planet/gas2
-		distance 1754.35
-		period 1424.2
-		object
-			sprite planet/dust0
-			distance 189
-			period 15.7437
-		object
-			sprite planet/rock0
-			distance 270
-			period 26.8819
-
 system "Bruchaven Gateway"
 	pos -10868.9 -4720.2
 	government Uninhabited
@@ -441,6 +393,7 @@ system Cipri
 	asteroids "small metal" 6 8.0808
 	asteroids "medium metal" 4 3.549
 	asteroids "large metal" 85 3.3306
+	fleet "Between Attacker" 90
 	object
 		sprite star/m0
 		period 10
@@ -1356,6 +1309,7 @@ system Hisairfoklaor
 	asteroids "large rock" 2 2.9568
 	asteroids "medium metal" 31 2.1252
 	asteroids "large metal" 33 3.465
+	fleet "Hisair High Fleet" 90
 	object
 		sprite star/k5
 		period 10
@@ -1455,6 +1409,7 @@ system Holomaybi
 	asteroids "small metal" 4 3.1262
 	asteroids "medium metal" 70 2.4882
 	asteroids "large metal" 20 2.9986
+	fleet "Between Attacker" 90
 	object
 		sprite star/m0
 		period 10
@@ -2313,6 +2268,7 @@ system Nairobai
 	asteroids "medium metal" 7 1.9404
 	asteroids "large metal" 16 1.7444
 	fleet "Hisair High Fleet" 267
+	fleet "Between Attacker" 680
 	object
 		sprite star/k5
 		period 10
@@ -3733,12 +3689,13 @@ system "Tiraini Between"
 	pos -9293.95 -5438.62
 	government "The Between"
 	habitable 425.92
-	link Between
+	link Tisar
 	asteroids "medium rock" 2 1.4756
 	asteroids "large rock" 1 1.9754
 	asteroids "small metal" 2 3.3796
 	asteroids "medium metal" 15 2.023
 	asteroids "large metal" 1 2.9512
+	fleet "Between Attacker" 670
 	object
 		sprite star/k5
 		period 10
@@ -3782,6 +3739,7 @@ system "Tirani Kem"
 	asteroids "small metal" 18 5.2925
 	asteroids "medium metal" 66 5.4375
 	asteroids "large metal" 12 4.4225
+	fleet "Kem Relicnainin" 890
 	object
 		sprite star/f5
 		distance 30.0627
@@ -3825,7 +3783,7 @@ system Tisar
 	government "The Between"
 	habitable 425.92
 	link Holomaybi
-	link Between
+	link "Tiraini Between"
 	asteroids "medium rock" 3 5.049
 	asteroids "large rock" 1 7.0686
 	asteroids "medium metal" 2 7.1874
@@ -3870,6 +3828,7 @@ system Tje
 	asteroids "small metal" 9 3.7488
 	asteroids "medium metal" 75 2.8512
 	asteroids "large metal" 15 4.0128
+	fleet "Between Attacker" 70
 	object
 		sprite star/k5
 		period 10
