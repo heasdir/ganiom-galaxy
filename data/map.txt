@@ -256,6 +256,49 @@ system "Bruchaven Gateway"
 			distance 363
 			period 24.6031
 
+system Bruica
+	pos -10302.9 -4672.28
+	government "Bruchaven Issarei"
+	habitable 233.28
+	link Ekamo
+	link Hayqi
+	link Rqaba
+	asteroids "small rock" 5 3.4992
+	asteroids "medium rock" 4 2.7216
+	asteroids "large rock" 9 3.24
+	asteroids "large metal" 1 4.1796
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/rock5
+		distance 226.01
+		period 88.9842
+	object
+		sprite planet/gas4
+		distance 756.1
+		period 544.49
+		object
+			sprite planet/rock3
+			distance 232
+			period 12.4632
+		object
+			sprite planet/ice0
+			distance 361
+			period 24.1912
+	object FAIL-000000
+		sprite planet/gas12
+		distance 1659.26
+		period 1770.08
+		object
+			sprite planet/oberon
+			distance 280
+			period 12.3061
+		object
+			sprite planet/ice7
+			distance 379
+			period 19.3796
+
 system "Chola Ka"
 	pos -9817.44 -5486.77
 	government Shizivi
@@ -574,6 +617,45 @@ system Deria
 			distance 562
 			period 80.7271
 
+system Dukkmut
+	pos -10151 -4536.78
+	government "Bruchaven Issarei"
+	habitable 425.92
+	link "Extravagance Regional"
+	asteroids "small rock" 20 5.7868
+	asteroids "medium rock" 56 3.9882
+	asteroids "large rock" 6 3.4017
+	asteroids "small metal" 62 4.7702
+	asteroids "medium metal" 84 3.3626
+	asteroids "large metal" 73 3.6363
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/cloud7
+		distance 175.64
+		period 45.1161
+	object "Sevreya Wel Bruchaben Sama'a"
+		sprite planet/ice6
+		distance 418.25
+		period 165.787
+	object
+		sprite planet/desert1
+		distance 930.21
+		period 549.879
+		object
+			sprite planet/rock14
+			distance 156
+			period 16.9135
+	object
+		sprite planet/titan
+		distance 1402.62
+		period 1018.14
+	object
+		sprite planet/gas4
+		distance 2636.43
+		period 2623.74
+
 system E'Paramai
 	pos -10291.5 -5621.42
 	government "Communist Ganiom"
@@ -672,6 +754,96 @@ system E'nos
 			distance 373
 			period 30.7777
 
+system Ekamo
+	pos -10380.4 -4704.06
+	government "Bruchaven Issarei"
+	habitable 858.28
+	link Nairiafq
+	link Bruica
+	asteroids "small rock" 2 3.2045
+	asteroids "medium rock" 4 1.6133
+	asteroids "large rock" 2 2.3426
+	asteroids "small metal" 8 2.8288
+	asteroids "medium metal" 4 1.5912
+	asteroids "large metal" 5 2.6299
+	object
+		sprite star/g5
+		distance 26.3645
+		period 13.0438
+	object
+		sprite star/m4
+		distance 70.6355
+		period 13.0438
+		offset 180
+	object
+		sprite planet/gas8
+		distance 323.475
+		period 79.4342
+	object "Foryurda Ekamo"
+		sprite planet/ice1
+		distance 713.965
+		period 260.472
+		object
+			sprite planet/tethys
+			distance 161
+			period 17.4597
+	object
+		sprite planet/gas4
+		distance 1673.97
+		period 935.115
+		object
+			sprite planet/rock3
+			distance 237
+			period 12.8683
+		object
+			sprite planet/ice7
+			distance 364
+			period 24.4934
+		object
+			sprite planet/dust5
+			distance 530
+			period 43.0339
+
+system "Extravagance Regional"
+	pos -10151 -4571.4
+	government "Bruchaven Issarei"
+	habitable 425.92
+	link Dukkmut
+	link "Hidden Reflections"
+	asteroids "small rock" 8 5.22
+	asteroids "medium rock" 6 3.9
+	asteroids "large rock" 8 4.56
+	asteroids "small metal" 53 8.16
+	asteroids "medium metal" 198 4.26
+	asteroids "large metal" 13 3.84
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/cloud1
+		distance 173
+		period 44.1027
+	object
+		sprite planet/dust2
+		distance 553.56
+		period 252.431
+	object
+		sprite planet/miranda
+		distance 824.45
+		period 458.82
+	object
+		sprite planet/cloud0
+		distance 1194.26
+		period 799.916
+		object
+			sprite planet/dust5
+			distance 157
+			period 24.2428
+	object
+		sprite planet/jupiter
+		distance 2438.15
+		period 2333.39
+
 system Forecapin
 	pos -11765.6 -5272.29
 	government "The Forens"
@@ -724,7 +896,6 @@ system Foreisdar
 	pos -11797.6 -5291.29
 	government Uninhabited
 	habitable 425.92
-	haze _menu/haze-coal
 	link Occuinstain
 	link Forecapin
 	link Rhti'fsl'rik
@@ -733,33 +904,41 @@ system Foreisdar
 	asteroids "large rock" 3 7.9083
 	asteroids "small metal" 2 6.3423
 	asteroids "large metal" 2 7.3602
+	haze _menu/haze-coal
 	object
 		sprite star/k5
 		period 10
+		haze _menu/haze-coal
 	object
 		sprite planet/cloud1
 		distance 174.56
 		period 44.7006
+		haze _menu/haze-coal
 	object Xtrein'nian'frjaklok
 		sprite planet/desert8
 		distance 403.85
 		period 157.299
+		haze _menu/haze-coal
 	object
 		sprite planet/lava2
 		distance 998.1
 		period 611.163
+		haze _menu/haze-coal
 	object
 		sprite planet/gas5
 		distance 2161.46
 		period 1947.68
+		haze _menu/haze-coal
 		object
 			sprite planet/rock0
 			distance 268
 			period 14.5898
+			haze _menu/haze-coal
 		object
 			sprite planet/ice0
 			distance 371
 			period 23.7634
+			haze _menu/haze-coal
 
 system Forenianm
 	pos -11440.9 -5433.51
@@ -972,10 +1151,10 @@ system Gainescaf
 			period 11.8241
 
 system Hatysa
+	pos 0 0
 	habitable nan
 	object Wormgolin
 		sprite planet/wormhole-red
-			scale 3.0
 		distance 1260.56
 		period 27.5957
 
@@ -984,6 +1163,7 @@ system Hayqi
 	government "Bruchaven Issarei"
 	habitable 625
 	link Nairiafq
+	link Bruica
 	asteroids "large metal" 1 5.148
 	object
 		sprite star/g5
@@ -1117,6 +1297,55 @@ system Helfp
 			sprite planet/rock14
 			distance 364
 			period 24.4934
+
+system "Hidden Reflections"
+	pos -10174.7 -4591.44
+	government "Bruchaven Issarei"
+	habitable 659.2
+	link "Extravagance Regional"
+	asteroids "small rock" 19 2.1164
+	asteroids "medium rock" 5 3.432
+	asteroids "large rock" 4 1.5444
+	asteroids "small metal" 1 2.7456
+	asteroids "medium metal" 2 3.0888
+	asteroids "large metal" 9 1.6302
+	object
+		sprite star/k5
+		distance 31.1417
+		period 12.861
+		offset 180
+	object
+		sprite star/m4
+		distance 56.8583
+		period 12.861
+	object
+		sprite planet/desert3
+		distance 223.548
+		period 52.0725
+	object
+		sprite planet/rock8
+		distance 442.038
+		period 144.791
+	object
+		sprite planet/gas11
+		distance 1061
+		period 538.423
+		object
+			sprite planet/rock17
+			distance 264
+			period 14.1476
+		object
+			sprite planet/rock7
+			distance 342
+			period 20.8601
+	object
+		sprite planet/rock3
+		distance 1838.84
+		period 1228.48
+	object
+		sprite planet/gas15
+		distance 2253.05
+		period 1666.12
 
 system Hisairfoklaor
 	pos -9360.48 -5488.23
@@ -1531,11 +1760,72 @@ system Jonkalo
 			distance 417
 			period 22.366
 
+system Kema
+	pos -10168.8 -4644.79
+	government "Bruchaven Issarei"
+	habitable 1566.68
+	link Rqaba
+	asteroids "medium rock" 2 4.5441
+	asteroids "large rock" 1 6.426
+	asteroids "small metal" 3 3.9015
+	asteroids "medium metal" 3 3.9015
+	asteroids "large metal" 4 3.1212
+	object
+		sprite star/g0
+		distance 32.9283
+		period 11.0288
+		offset 180
+	object
+		sprite star/k0
+		distance 73.0717
+		period 11.0288
+	object
+		sprite planet/rock4
+		distance 244.832
+		period 38.7143
+	object
+		sprite planet/venus
+		distance 908.722
+		period 276.832
+		offset 57.6721
+		object
+			sprite planet/io
+			distance 160
+			period 23.094
+		object Aerie
+			sprite planet/station5
+			distance 329
+			period 68.0947
+	object
+		sprite planet/gas6
+		distance 2221.72
+		period 1058.29
+		offset 328.088
+		object
+			sprite planet/dust1
+			distance 286
+			period 12.3542
+		object
+			sprite planet/lava0
+			distance 409
+			period 21.1276
+		object
+			sprite planet/rock14
+			distance 532
+			period 31.3424
+		object
+			sprite planet/station3
+			distance 632
+			period 40.5826
+		object Ajma
+			sprite planet/station6
+			distance 789
+			period 56.6083
+
 system "Lai Mou"
 	pos -10964.9 -4860.2
 	government Uninhabited
 	habitable 425.92
-	haze _menu/haze-red
 	link Daiou
 	link "Bruchaven Gateway"
 	asteroids "small rock" 20 2.3331
@@ -1543,41 +1833,51 @@ system "Lai Mou"
 	asteroids "large rock" 2 2.9568
 	asteroids "medium metal" 31 2.1252
 	asteroids "large metal" 33 3.465
+	haze _menu/haze-red
 	object
 		sprite star/k5
 		period 10
+		haze _menu/haze-red
 	object
 		sprite planet/beryl/beryl
 		distance 133
 		period 29.7285
+		haze _menu/haze-red
 	object
 		sprite planet/gas6
 		distance 741.69
 		period 391.498
+		haze _menu/haze-red
 		object
 			sprite planet/dust4
 			distance 277
 			period 11.7756
+			haze _menu/haze-red
 	object
 		sprite planet/gas9
 		distance 1569.13
 		period 1204.72
+		haze _menu/haze-red
 		object
 			sprite planet/io
 			distance 232
 			period 13.2502
+			haze _menu/haze-red
 	object
 		sprite planet/gas1
 		distance 2867.34
 		period 2975.88
+		haze _menu/haze-red
 		object
 			sprite planet/rock17
 			distance 236
 			period 14.4905
+			haze _menu/haze-red
 		object
 			sprite planet/rock14
 			distance 363
 			period 27.6424
+			haze _menu/haze-red
 
 system Le'esen
 	pos -11472.4 -5706.91
@@ -1749,7 +2049,6 @@ system Maneru
 	pos -10672.9 -4660.2
 	government Uninhabited
 	habitable nan
-	haze _menu/haze-red
 	link Okfaleu
 	asteroids "small rock" 11 3.699
 	asteroids "medium rock" 2 2.565
@@ -1757,51 +2056,63 @@ system Maneru
 	asteroids "small metal" 2 2.808
 	asteroids "medium metal" 1 1.539
 	asteroids "large metal" 1 2.214
+	haze _menu/haze-red
 	object
 		sprite star/coal-black-hole
 		distance 20.69
 		period 9.16874
+		haze _menu/haze-red
 	object
 		sprite star/nova
 		distance 83.31
 		period 9.16874
 		offset 180
+		haze _menu/haze-red
 	object
 		sprite star/black-hole-core
 		distance 20.69
 		period 9.16874
+		haze _menu/haze-red
 	object
 		sprite planet/rock10
 		distance 303.72
 		period 45.7583
+		haze _menu/haze-red
 	object
 		sprite planet/lava3
 		distance 609.81
 		period 130.182
+		haze _menu/haze-red
 	object
 		sprite planet/jupiter
 		distance 1157.9
 		period 340.617
+		haze _menu/haze-red
 		object
 			sprite planet/luna
 			distance 257
 			period 12.9468
+			haze _menu/haze-red
 		object
 			sprite planet/dust5
 			distance 359
 			period 21.3749
+			haze _menu/haze-red
 	object
 		sprite planet/gas9
 		distance 2060.19
 		period 808.39
+		haze _menu/haze-red
 		object
 			sprite planet/rock7
 			distance 220
 			period 12.2356
+			haze _menu/haze-red
 		object
 			sprite planet/rock14
 			distance 347
 			period 24.2373
+			haze _menu/haze-red
 
 system Mayqi
 	pos -10362.8 -4374.66
@@ -1913,6 +2224,7 @@ system Nairiafq
 	habitable 425.92
 	link Pakqf
 	link Hayqi
+	link Ekamo
 	asteroids "small rock" 5 3.264
 	asteroids "medium rock" 3 1.704
 	asteroids "large rock" 1 1.536
@@ -2421,6 +2733,44 @@ system Oisn'nak'foklor
 			distance 464
 			period 49.7977
 
+system Okamarierlra
+	pos -10178.4 -4626.06
+	government "Bruchaven Issarei"
+	habitable 320
+	asteroids "small rock" 16 1.7204
+	asteroids "medium rock" 15 2.2814
+	asteroids "large rock" 64 1.7952
+	asteroids "small metal" 4 2.7302
+	asteroids "medium metal" 75 2.6367
+	asteroids "large metal" 7 1.8139
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/cloud0
+		distance 151.29
+		period 41.6103
+	object
+		sprite planet/rock12
+		distance 472.54
+		period 229.69
+	object
+		sprite planet/rock6
+		distance 895.75
+		period 599.467
+		object
+			sprite planet/dust3
+			distance 128
+			period 18.2044
+	object
+		sprite planet/gas4
+		distance 1377.91
+		period 1143.71
+	object
+		sprite planet/gas15
+		distance 3974.2
+		period 5602.21
+
 system Okfaleu
 	pos -10798.9 -4691.2
 	government Uninhabited
@@ -2830,6 +3180,54 @@ system Rlfdot
 			distance 230
 			period 14.9027
 
+system Rqaba
+	pos -10239 -4654.83
+	government "Bruchaven Issarei"
+	habitable 135
+	link Bruica
+	link Kema
+	asteroids "small rock" 9 1.764
+	asteroids "medium rock" 9 1.6128
+	asteroids "large rock" 108 1.092
+	asteroids "small metal" 16 2.1
+	asteroids "medium metal" 87 1.4112
+	asteroids "large metal" 12 2.2176
+	object
+		sprite star/m8
+		period 10
+	object FAIL-700100
+		sprite planet/cloud6
+		distance 153.56
+		period 65.5104
+	object
+		sprite planet/rock15
+		distance 357.81
+		period 233.009
+	object
+		sprite planet/gas10
+		distance 920.3
+		period 961.141
+		object
+			sprite planet/rock14
+			distance 236
+			period 19.0838
+		object
+			sprite planet/tethys
+			distance 342
+			period 33.2917
+	object
+		sprite planet/gas17
+		distance 1709.46
+		period 2433.22
+		object
+			sprite planet/dust7
+			distance 224
+			period 14.3234
+	object
+		sprite planet/neptune
+		distance 3626.35
+		period 7517.92
+
 system Saimklsoinlaopin
 	pos -11766.1 -5435.65
 	government "The Forens"
@@ -2880,7 +3278,6 @@ system "Sector E5 E1 "
 	pos -10207.8 -4146.66
 	government "Bruchaven Mekrut"
 	habitable 320
-	haze _menu/haze-red
 	link Makaro
 	asteroids "small rock" 7 1.9057
 	asteroids "medium rock" 16 2.6163
@@ -2888,33 +3285,41 @@ system "Sector E5 E1 "
 	asteroids "small metal" 100 3.6499
 	asteroids "medium metal" 26 2.261
 	asteroids "large metal" 2 3.876
+	haze _menu/haze-red
 	object
 		sprite star/m0
 		period 10
+		haze _menu/haze-red
 	object
 		sprite planet/dust2
 		distance 175.76
 		period 52.1033
+		haze _menu/haze-red
 	object Ratow
 		sprite planet/ice4
 		distance 366.97
 		period 157.192
+		haze _menu/haze-red
 	object
 		sprite planet/gas5
 		distance 806.97
 		period 512.591
+		haze _menu/haze-red
 		object
 			sprite planet/luna
 			distance 276
 			period 15.2479
+			haze _menu/haze-red
 	object
 		sprite planet/ice6
 		distance 1256.21
 		period 995.585
+		haze _menu/haze-red
 	object
 		sprite planet/gas16
 		distance 2244.21
 		period 2377.28
+		haze _menu/haze-red
 
 system Segonako
 	pos -11245.7 -5331.57
@@ -3600,6 +4005,15 @@ planet "Abeni "
 	description `Abeni is a rocky planet, controlled by the bruchaven issaren. It is also the capital of bruchaven issaren`
 	spaceport oeiwowk
 
+planet Aerie
+	landscape land/greenmountains2
+	description `This station wasnt made by the bruchaven. it stays as a relic of an unknown race.`
+
+planet Ajma
+	landscape land/greenmountains2
+	description `The only station made by the bruchaven  and the only station with a spaceport. There are unlandable stations with hidden meanings near the station. this station is the only reason the surronding systems arent uninhabited.`
+	spaceport `The people here mainly are explorers and trade jump drives. They say they have explored the lannen space. what is the lannen space?`
+
 planet Al'Nisan
 	landscape land/brownmountains1
 
@@ -3618,10 +4032,23 @@ planet Cholintir
 	description `Foren Military Base.`
 	spaceport `The forens are nice`
 
+planet FAIL-000000
+	landscape land/greenmountains2
+	description `????????????????????? fungus ???????????¿?¿¿¿¿¿¿?¿¿¿?¿¿¿??¿???????¿¿¿¿¿??????????!(!-+--&&--&&*££*&-__&&&&_&&_ Seems to be no information about this planet.`
+
+planet FAIL-700100
+	landscape land/greenmountains2
+	description `Just a fungal planet? what are the bruchaven hiding.`
+
 planet Fo'kak'ni'si'slok
 	landscape land/greenmountains2
 	description `Welcome to the land of diversity. Humans,Gainens,???'s and The Forens live peacefully.`
 	spaceport `You see some funny looking people here.`
+
+planet "Foryurda Ekamo"
+	landscape ""
+	description `This planet has no reason to be colonized, but it is.`
+	spaceport `The landscape is too bad. its hell but still colonized.`
 
 planet Frt'Eliminatr
 	landscape land/greenmountains1
@@ -3778,6 +4205,11 @@ planet Seginar'r'r
 
 planet Sevorosinsi
 	landscape land/brownmountains1
+
+planet "Sevreya Wel Bruchaben Sama'a"
+	landscape land/land23
+	description `Welcome to the hidden explorers colony. This is used for fueling and then you are supposed to go explore. Thats it. `
+	spaceport fuel
 
 planet Si'faleha
 	landscape land/land27
