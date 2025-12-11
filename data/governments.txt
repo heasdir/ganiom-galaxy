@@ -9,7 +9,7 @@ government "Communist Ganiom"
 government "The Between"
 	color 0.0 0.0 0.0
 	swizzle 9
-	"player reputation" -10
+	"player reputation" 10
 	"attitude toward"
 		"Communist Ganiom" -10
 		"Shizivi" -1
@@ -47,11 +47,11 @@ government "Gainen Republic"
 	"bribe" .2
 	"friendly hail" "friendly gainen"
 	"hostile hail" "hostile gainen"
-		
+	
 government "Kem Relicnain"
 	color 0.7 0.0 0.8
 	swizzle 25
-	"player reputation" -10
+	"player reputation" -1000
 	"attitude toward"
 		"The Forens" -20
 	language "Kem Reli"
@@ -78,7 +78,7 @@ government "Serbajkil"
 		"Gainen Republic" 10
 		"Kem Relicnain" -.5
 		"The Forens" 9
-
+		
 government "Bruchaven Issarei"
 	color 0.1 0.4 0.3
 	swizzle 24
@@ -93,4 +93,4 @@ government "Bruchaven Mekrut"
 	"attitude toward"
 		"Bruchaven Issarei" -1
 	language "Bruchaven"
-# Bruchaven Mekrut is an exiled splinter faction of Bruchaven Issarei
+# Bruchaven Mekrut is an exiled splinter faction of Bruchaven Issarei 
