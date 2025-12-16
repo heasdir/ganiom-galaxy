@@ -1,8 +1,11 @@
 ship "Behemoth" "Bruchaven Beheija"
 	outfits
 		"Jump Drive"
-		
-		
+				
 ship "Sparrow" "Bruchaven Lakan"
+	outfits
+		"Jump Drive"
+				
+ship "Vangaurd" "Bruchaven Parsessys"
 	outfits
 		"Jump Drive"
