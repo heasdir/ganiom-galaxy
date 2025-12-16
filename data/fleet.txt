@@ -59,7 +59,7 @@ fleet "Hisair High Fleet"
 		
 fleet "Gainen Fleet"
 	government "Gainen Republic"
-	names "Destroy and Kill"
+	names "Aksene"
 	cargo 0
 	personality
 		confusion 9
@@ -146,3 +146,16 @@ fleet "Between Attacker"
 	variant 1
 		Pinoalin 5
 		Neutron Star 9
+		
+		
+fleet "Issarei Fleet"
+	government "Bruchaven Issarei"
+	names "Kenjak"
+	cargo 600
+	personality
+		confusion 2
+		plunders
+	variant 100
+		Bruchaven Beheija 2
+		Bruchaven Lakan 4
+		Bruchaven Parsessys 9
