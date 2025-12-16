@@ -1964,6 +1964,7 @@ system Makrayuwa
 	habitable 320
 	link Pakqf
 	asteroids "large metal" 1 7.344
+	fleet "Issarei Fleet" 100
 	object
 		sprite star/m0
 		period 10
@@ -2971,47 +2972,47 @@ system "Osi Lannenr"
 system Pakqf
 	pos -10506.9 -4662.2
 	government "Bruchaven Issarei"
-	habitable 2140.92
+	habitable 233.28
 	link Makrayuwa
 	link Nairiafq
-	asteroids "medium rock" 6 1.3398
-	asteroids "large rock" 4 2.7951
-	asteroids "medium metal" 15 3.3033
-	asteroids "large metal" 3 1.9404
+	asteroids "small rock" 8 4.08
+	asteroids "medium rock" 2 3.36
+	asteroids "large rock" 1 2.88
+	asteroids "small metal" 4 5.68
+	asteroids "medium metal" 9 3.32
+	asteroids "large metal" 1 5.2
+	fleet "Issarei Fleet" 120
 	object
-		sprite star/f5
-		distance 19.4964
-		period 8.38685
-		offset 180
+		sprite star/m4
+		period 10
 	object
-		sprite star/k5
-		distance 78.5036
-		period 8.38685
+		sprite planet/venus
+		distance 244.04
+		period 99.8419
 	object
-		sprite planet/titan
-		distance 278.464
-		period 40.171
-		offset 137.439
+		sprite planet/gas12
+		distance 1057.68
+		period 900.85
+		object
+			sprite planet/miranda
+			distance 297
+			period 13.4437
+		object
+			sprite planet/dust3
+			distance 445
+			period 24.6561
 	object
-		sprite planet/gas3
-		distance 787.154
-		period 190.919
-		offset 327.357
+		sprite planet/gas9
+		distance 1770.64
+		period 1951.27
 	object
-		sprite planet/cloud8
-		distance 1172.11
-		period 346.908
-		offset 290.548
-	object
-		sprite planet/rock10
-		distance 1669.36
-		period 589.639
-		offset 102.034
-	object
-		sprite planet/gas11
-		distance 3482.61
-		period 1776.71
-		offset 272.281
+		sprite planet/uranus
+		distance 2335.53
+		period 2955.97
+		object
+			sprite planet/callisto
+			distance 255
+			period 17.3974
 
 system Pert'tn'ripol
 	pos -11794.6 -5430.29
