@@ -18,3 +18,21 @@ Gainen, The Between, Hisair, Communist Ganiom And Kem relicnain have fleets(only
 ![Neutron Star](images/ship/neutron+.png)
 ![Pinoalin](images/ship/pinoalin.png)
 **Gainen Colossus does not show**
+
+# Planned Storyline
+
+Communist Ganiom-Hisair War
+
+Vic'Na-Onnari War
+
+Serbajkil, Foren, Gainen-Hisair War
+
+Intergalactic Foren-Hisair War
+
+The Between-Onnari War
+
+The Between-Hisair War
+
+Meghafokluaya Hisair-Hisair War
+
+J-1 - J-2 Union
