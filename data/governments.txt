@@ -71,6 +71,7 @@ government "The Forens"
 government "Serbajkil"
 	color 0.6 0.9 0.1
 	swizzle 24
+	display name "???"
 	"player reputation" 10
 	"attitude toward"
 		"The Between" 10
