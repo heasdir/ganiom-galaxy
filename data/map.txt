@@ -575,6 +575,7 @@ system Dika'mki
 	government Serbajkil
 	habitable 233.28
 	link "Ulke Mavru"
+	link Hsa'Dinkada
 	asteroids "small rock" 8 4.2891
 	asteroids "medium rock" 25 5.6202
 	asteroids "large rock" 4 4.4863
@@ -811,6 +812,51 @@ system Ekamo
 			sprite planet/dust5
 			distance 530
 			period 43.0339
+
+system Et'setri
+	pos -11897.2 -5784.91
+	government Serbajkil
+	habitable 425.92
+	link "Ullerv Outoj"
+	link Ilka
+	link Nakma
+	link Pontiere
+	asteroids "medium rock" 3 5.616
+	asteroids "large rock" 3 5.8032
+	asteroids "small metal" 1 6.4584
+	asteroids "medium metal" 1 4.8204
+	asteroids "large metal" 1 6.084
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/ice5
+		distance 177.64
+		period 45.8888
+	object Inakma
+		sprite planet/water0
+		distance 376.48
+		period 141.582
+	object
+		sprite planet/desert6
+		distance 1031.48
+		period 642.077
+		object
+			sprite planet/callisto
+			distance 178
+			period 24.7432
+	object
+		sprite planet/cloud6
+		distance 1645.29
+		period 1293.48
+	object
+		sprite planet/gas7
+		distance 2091.18
+		period 1853.46
+		object
+			sprite planet/ice0
+			distance 262
+			period 15.0863
 
 system "Extravagance Regional"
 	pos -10151 -4571.4
@@ -1496,6 +1542,94 @@ system Holomaybi
 		sprite planet/gas2
 		distance 2492.03
 		period 2781.73
+
+system Hsa'Dinkada
+	pos -11771.7 -5723.46
+	government Serbajkil
+	habitable 1080
+	link "Ulke Mavru"
+	link Dika'mki
+	link Ilka
+	asteroids "small rock" 2 1.3651
+	asteroids "large rock" 1 0.935
+	asteroids "small metal" 26 1.8326
+	asteroids "medium metal" 3 2.6928
+	asteroids "large metal" 2 1.9448
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/cloud1
+		distance 181.21
+		period 29.6908
+	object
+		sprite planet/rock13
+		distance 417.1
+		period 103.683
+	object
+		sprite planet/gas12
+		distance 794.79
+		period 272.726
+	object
+		sprite planet/gas0
+		distance 2247.74
+		period 1297.08
+		offset 56.1745
+		object
+			sprite planet/oberon
+			distance 270
+			period 13.0018
+		object
+			sprite planet/luna
+			distance 363
+			period 20.2683
+		object Sancleva
+			sprite planet/station2
+			distance 476
+			period 30.4346
+
+system Ilka
+	pos -11828.2 -5803.91
+	government Serbajkil
+	habitable 233.28
+	link Et'setri
+	link Hsa'Dinkada
+	link Pontiere
+	link Vyltraj
+	link Nakma
+	link Ponega
+	asteroids "large metal" 1 1.836
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/desert1
+		distance 165.96
+		period 55.9921
+	object
+		sprite planet/rock1
+		distance 399.96
+		period 209.482
+	object
+		sprite planet/jupiter
+		distance 1114.77
+		period 974.763
+		object
+			sprite planet/ice8
+			distance 274
+			period 14.2524
+		object
+			sprite planet/rhea
+			distance 424
+			period 27.4353
+	object
+		sprite planet/neptune
+		distance 2285.26
+		period 2861.04
+		object
+			sprite planet/rock0
+			distance 188
+			period 12.8431
 
 system Ionan
 	pos -11144.6 -5391.82
@@ -2448,6 +2582,49 @@ system Naisqu
 			distance 287
 			period 12.419
 
+system Nakma
+	pos -11866.2 -5859.91
+	government Serbajkil
+	habitable 973.36
+	link Ilka
+	link Vyltraj
+	link Et'setri
+	asteroids "small rock" 2 5.0456
+	asteroids "medium rock" 10 3.6652
+	asteroids "large rock" 5 4.1412
+	asteroids "small metal" 2 5.1884
+	asteroids "medium metal" 200 4.522
+	asteroids "large metal" 3 5.8072
+	object
+		sprite star/k0
+		distance 59.5
+		period 16.6435
+		offset 180
+	object
+		sprite star/k0
+		distance 59.5
+		period 16.6435
+	object
+		sprite planet/io
+		distance 232.5
+		period 45.4525
+	object
+		sprite planet/lava6
+		distance 513.74
+		period 149.293
+	object
+		sprite planet/lava2
+		distance 679.35
+		period 227.02
+	object
+		sprite planet/gas17
+		distance 1979.39
+		period 1129.07
+		object
+			sprite planet/callisto
+			distance 241
+			period 15.9845
+
 system Naksimak
 	pos -11447.9 -5478.51
 	government "Gainen Republic"
@@ -3129,6 +3306,90 @@ system Pakqf
 			distance 255
 			period 17.3974
 
+system Parafimka
+	pos -11772.2 -5894.91
+	government Uninhabited
+	habitable 945
+	link Ponega
+	asteroids "small rock" 81 7.9895
+	asteroids "medium rock" 10 6.1161
+	asteroids "large rock" 1 8.0997
+	asteroids "small metal" 31 7.2181
+	asteroids "medium metal" 109 7.5487
+	asteroids "large metal" 9 4.6835
+	object
+		sprite star/g5
+		distance 33.8624
+		period 13.012
+		offset 180
+	object
+		sprite star/m0
+		distance 66.1376
+		period 13.012
+	object
+		sprite planet/jupiter
+		distance 344.498
+		period 83.2
+	object
+		sprite planet/gas4
+		distance 1140.06
+		period 500.881
+		object
+			sprite planet/luna
+			distance 224
+			period 11.8241
+		object
+			sprite planet/dust4
+			distance 361
+			period 24.1912
+		object
+			sprite planet/rock14
+			distance 508
+			period 40.3825
+	object
+		sprite planet/dust7
+		distance 2185.07
+		period 1329.05
+
+system Parafsomanth
+	pos -11767.2 -5955.91
+	government Uninhabited
+	habitable 1705
+	asteroids "small rock" 7 8.316
+	asteroids "medium rock" 18 4.4968
+	asteroids "large rock" 2 8.4392
+	asteroids "medium metal" 1 8.7472
+	asteroids "large metal" 8 7.7616
+	object
+		sprite star/g0
+		distance 40.3226
+		period 11.176
+	object
+		sprite star/g5
+		distance 69.6774
+		period 11.176
+		offset 180
+	object
+		sprite planet/mars
+		distance 285.567
+		period 46.7478
+	object
+		sprite planet/desert7
+		distance 571.567
+		period 132.373
+	object Parafkorsa
+		sprite planet/desert5
+		distance 1121.38
+		period 363.769
+		object
+			sprite planet/dust1
+			distance 141
+			period 18.4104
+	object
+		sprite planet/jupiter
+		distance 2005.63
+		period 870.108
+
 system Pert'tn'ripol
 	pos -11794.6 -5430.29
 	government "The Forens"
@@ -3163,6 +3424,80 @@ system Pert'tn'ripol
 		sprite planet/gas8
 		distance 2149.26
 		period 2228.02
+
+system Ponega
+	pos -11764.2 -5855.91
+	government Serbajkil
+	habitable 625
+	link Ilka
+	link Parafimka
+	asteroids "large metal" 1 3.036
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/lava6
+		distance 184.29
+		period 40.0288
+	object
+		sprite planet/gas10
+		distance 837.18
+		period 387.568
+		object
+			sprite planet/dust5
+			distance 204
+			period 15.3371
+		object
+			sprite planet/dust1
+			distance 303
+			period 27.7627
+		object
+			sprite planet/europa
+			distance 471
+			period 53.8057
+	object
+		sprite planet/gas16
+		distance 1592.07
+		period 1016.4
+	object
+		sprite planet/jupiter
+		distance 1982.71
+		period 1412.57
+
+system Pontiere
+	pos -11842.2 -5763.91
+	government Serbajkil
+	habitable 233.28
+	link Ilka
+	link Et'setri
+	asteroids "large metal" 1 3.78
+	object
+		sprite star/m4
+		period 10
+	object Ula'miva
+		sprite planet/desert10
+		distance 244.25
+		period 99.9708
+	object
+		sprite planet/dust2
+		distance 498.49
+		period 291.478
+	object
+		sprite planet/gas16
+		distance 1224.65
+		period 1122.38
+		object
+			sprite planet/callisto
+			distance 194
+			period 14.2233
+	object
+		sprite planet/gas7
+		distance 1815.41
+		period 2025.74
+		object
+			sprite planet/rock7
+			distance 262
+			period 15.0863
 
 system Rhti'fsl'rik
 	pos -11738.6 -5339.29
@@ -3345,6 +3680,53 @@ system Saimklsoinlaopin
 			sprite planet/ice7
 			distance 379
 			period 19.3796
+
+system "Sarafin Paraf"
+	pos -11772.2 -5922.91
+	government Uninhabited
+	habitable 2859.44
+	asteroids "large metal" 1 2.772
+	object
+		sprite star/f0
+		distance 20.9347
+		period 10.2042
+		offset 180
+	object
+		sprite star/k0
+		distance 102.065
+		period 10.2042
+	object
+		sprite planet/cloud1
+		distance 319.955
+		period 42.8108
+	object
+		sprite planet/cloud8
+		distance 658.795
+		period 126.487
+		object
+			sprite planet/ice8
+			distance 147
+			period 21.5375
+	object
+		sprite planet/gas3
+		distance 2102.05
+		period 720.913
+		object
+			sprite planet/dust0
+			distance 297
+			period 13.0737
+		object
+			sprite planet/dust7
+			distance 386
+			period 19.3707
+		object
+			sprite planet/dust4
+			distance 551
+			period 33.0364
+		object
+			sprite planet/io
+			distance 711
+			period 48.4249
 
 system "Sector E5 E1 "
 	pos -10207.8 -4146.66
@@ -3979,6 +4361,7 @@ system "Ulke Mavru"
 	habitable 486.68
 	link Dika'mki
 	link "Ullerv Outoj"
+	link Hsa'Dinkada
 	asteroids "small rock" 27 6.7488
 	asteroids "medium rock" 57 4.56
 	asteroids "large rock" 10 3.192
@@ -4023,8 +4406,10 @@ system "Ulke Mavru"
 system "Ullerv Outoj"
 	pos -11934.9 -5769.35
 	government Serbajkil
-	habitable 5000
+	habitable 425.92
 	link "Ulke Mavru"
+	link Vi'binaa
+	link Et'setri
 	asteroids "small rock" 50 3.1008
 	asteroids "medium rock" 13 1.9584
 	asteroids "large rock" 16 2.8016
@@ -4032,36 +4417,99 @@ system "Ullerv Outoj"
 	asteroids "medium metal" 43 2.72
 	asteroids "large metal" 6 3.944
 	object
-		sprite star/a0
+		sprite star/k5
 		period 10
 	object
-		sprite planet/gas2
-		distance 259.21
-		period 23.6076
+		sprite planet/dust1
+		distance 147.64
+		period 34.7698
 	object
-		sprite planet/ice1
-		distance 530.77
-		period 69.1727
+		sprite planet/ganymede
+		distance 293.89
+		period 97.6502
+	object Dka'MJi
+		sprite planet/ice5
+		distance 498.33
+		period 215.611
 	object
-		sprite planet/cloud3
-		distance 878.58
-		period 147.315
+		sprite planet/dust7
+		distance 972.62
+		period 587.91
 	object
-		sprite planet/gas16
-		distance 1373.19
-		period 287.853
+		sprite planet/gas13
+		distance 3574.62
+		period 4142.29
 		object
-			sprite planet/europa
-			distance 190
-			period 13.7857
+			sprite planet/io
+			distance 276
+			period 12.9442
+		object
+			sprite planet/ice0
+			distance 425
+			period 24.734
+		object
+			sprite planet/callisto
+			distance 532
+			period 34.64
+
+system Vi'binaa
+	pos -11990.7 -5902.46
+	government Vic'Na
+	habitable 851.84
+	link "Ullerv Outoj"
+	asteroids "small rock" 2 1.3104
+	asteroids "medium rock" 24 2.0592
+	asteroids "large rock" 26 2.1216
+	asteroids "small metal" 20 2.0124
+	asteroids "medium metal" 11 0.8268
+	asteroids "large metal" 8 1.9344
 	object
-		sprite planet/gas9
-		distance 2550.35
-		period 728.576
+		sprite star/k5
+		distance 58
+		period 17.1225
+		offset 180
+	object
+		sprite star/k5
+		distance 58
+		period 17.1225
+	object
+		sprite planet/rock14
+		distance 229.29
+		period 47.5837
+	object
+		sprite planet/cloud8
+		distance 405.9
+		period 112.075
+	object CixAVic
+		sprite planet/wormhole
+		distance 1698.08
+		period 958.997
+		offset 300.428
+		object "Vic'na Border Security"
+			sprite planet/dust5
+			distance 191
+			period 13.8946
+		object
+			sprite planet/tethys
+			distance 306
+			period 28.176
+		object
+			sprite planet/ice8
+			distance 423
+			period 45.7939
+	object
+		sprite planet/gas6
+		distance 3415.92
+		period 2736.16
+		offset 39.297
 		object
 			sprite planet/dust3
-			distance 224
-			period 12.5708
+			distance 279
+			period 11.9034
+		object
+			sprite planet/dust1
+			distance 426
+			period 22.4584
 
 system Vicknot
 	pos -11176.6 -5382.82
@@ -4165,6 +4613,69 @@ system Viraii
 			distance 194
 			period 14.2233
 
+system Vyltraj
+	pos -11821.2 -5866.91
+	government Serbajkil
+	habitable 973.36
+	link Ilka
+	link Nakma
+	asteroids "small metal" 48 1.027
+	asteroids "medium metal" 32 1.365
+	asteroids "large metal" 12 1.066
+	object
+		sprite star/k0
+		distance 50
+		period 12.821
+		offset 180
+	object
+		sprite star/k0
+		distance 50
+		period 12.821
+	object
+		sprite planet/rock4
+		distance 312.04
+		period 70.6706
+	object
+		sprite planet/rock11
+		distance 517.88
+		period 151.101
+	object
+		sprite planet/gas8
+		distance 1000.84
+		period 405.948
+		object
+			sprite planet/desert4
+			distance 218
+			period 17.1341
+		object
+			sprite planet/rock7
+			distance 333
+			period 32.3477
+	object Ikmastga
+		sprite planet/dust7
+		distance 1477.84
+		period 728.391
+	object
+		sprite planet/gas16
+		distance 2526.73
+		period 1628.4
+		object
+			sprite planet/io
+			distance 188
+			period 13.5686
+		object
+			sprite planet/europa
+			distance 292
+			period 26.2646
+		object
+			sprite planet/callisto
+			distance 465
+			period 52.7809
+		object
+			sprite planet/ice8
+			distance 646
+			period 86.4263
+
 system Xee'rafa
 	pos -11508.9 -5791.35
 	government Serbajkil
@@ -4237,10 +4748,18 @@ planet Cholintir
 	description `Foren Military Base.`
 	spaceport `The forens are nice`
 
+planet CixAVic
+	landscape land/brownmountains1
+
 planet Daajka
 	landscape land/greenmountains1
 	description `The Serbajkil Capital.`
 	spaceport ..
+
+planet Dka'MJi
+	landscape land/brownmountains1
+	description .
+	spaceport .
 
 planet FAIL-000000
 	landscape land/greenmountains2
@@ -4311,6 +4830,16 @@ planet I'ise
 planet Ifermerin
 	landscape land/land12
 	spaceport gfffff
+
+planet Ikmastga
+	landscape land/lakemountains1
+	description .
+	spaceport .
+
+planet Inakma
+	landscape land/greenmountains1
+	description f
+	spaceport f
 
 planet "Isa Palechunam"
 	landscape land/moutainsnow5
@@ -4397,6 +4926,10 @@ planet Oxuni
 	landscape land/land28
 	spaceport ssssss
 
+planet Parafkorsa
+	landscape land/lakemountains1
+	description `Paraf homeworld, is now gone.`
+
 planet Qnanei
 	landscape land/greenmountains1
 	description `not landable because it is owned by hpatile favtion.`
@@ -4413,6 +4946,11 @@ planet "Red Shambala"
 	landscape land/land28
 	description bcd
 	spaceport abcdefgh
+
+planet Sancleva
+	landscape land/brownmountains1
+	description e
+	spaceport f
 
 planet Seginar'r'r
 	landscape land/land28
@@ -4448,6 +4986,7 @@ planet Srunfeot
 	spaceport naish
 
 planet Synde
+	landscape ""
 
 planet Tirifanailokibasltiranabi
 	landscape land/greenmountains1
@@ -4469,9 +5008,19 @@ planet Trimakhol
 	description `Farthest point of the Gainen Republic. Going more west leaves you in Foren Territory.`
 	spaceport `Someone says "A'am'ksii pok kailna jak nos Ssrijako?" You are confused`
 
+planet Ula'miva
+	landscape land/foresttropical0
+	description .
+	spaceport .
+
 planet Vakrkin
 	landscape land/foresttropical0
 	description .
+	spaceport .
+
+planet "Vic'na Border Security"
+	landscape land/mountainsnow0
+	description `This moon is simply used for vic'na communication before entering the wormhole.`
 	spaceport .
 
 planet Vidg'aa'na'ja
