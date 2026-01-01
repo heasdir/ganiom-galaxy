@@ -95,3 +95,10 @@ government "Bruchaven Mekrut"
 		"Bruchaven Issarei" -1
 	language "Bruchaven"
 # Bruchaven Mekrut is an exiled splinter faction of Bruchaven Issarei 
+
+government "Vic'Na"
+	color 0.7 0.3 0.7
+	swizzle 24
+	"player reputation" 1
+	"attitude toward"
+		"Onnari" -1000
