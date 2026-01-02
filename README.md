@@ -36,3 +36,7 @@ The Between-Hisair War
 Meghafokluaya Hisair-Hisair War
 
 J-1 - J-2 Union
+
+
+
+Building the plugin will be limited to only making systems and planets before March 2026, after I get a new laptop.
