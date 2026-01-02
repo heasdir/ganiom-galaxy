@@ -6,7 +6,8 @@ To find the galaxy, go to hatysa in the far north.
 # New Races
 These are the new races, 
 Bruchaven, 
-Foren, 
+Foren,
+Vic'Na 
 And Serbajkil
 ## Dialogs 
 Serbajkil has news 
