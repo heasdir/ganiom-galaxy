@@ -1,0 +1,13 @@
+news "Vic'Na"
+	location
+		government "Vic'Na"
+	name
+		word
+			"Vic'Na"
+	message
+		word
+			"Ik'man Te'rin Haj'ma'a?"
+			"Kal'ik'na serij'na "
+			"A Vic'Na stares at you with confusion."
+			"A Group of Vic'Na Stares at you in confusion."
+			"Gai'hin Tor'ika Vic'Na Ina'la On'n'ari?"
