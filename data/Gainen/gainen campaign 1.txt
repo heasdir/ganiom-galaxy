@@ -1,51 +1,50 @@
-mission `First Contact: Gainen Republic`
+mission "First Contact: Gainen Republic"
 	landing
-	invisible
 	to offer
-		not `fist contact: gainen`
-		not system `Isa Palechunam`
+		not "fist contact: gainen"
+		not system "Isa Palechunam"
 	source
-		government `Gainen Republic`
+		government "Gainen Republic"
 	on offer
 		conversation
-			`As you land, the atmosphere of the starport feels heavy. A group of Gainen officials approaches your vessel.`
-			`The translator crackles: Being from beyond the Wn link, you have entered the territory of the Gainen Republic. Identify your intent. Are you a scout, or an isolated traveler?`
+			"As you land, the atmosphere of the starport feels heavy. A group of Gainen officials approaches your vessel."
+			"The translator crackles: Being from beyond the Wormhole link, you have entered the territory of the Gainen Republic. Identify your intent. Are you a scout, or an isolated traveler?"
 			choice
-				` I am a traveler from a distant galaxy called the Milky Way.`
+				"I am a traveler from a distant galaxy called the Milky Way."
 					goto `milky_way`
 			choice
-				` I am just exploring. I found the wormhole by accident.`
-					goto `accident`
+				"I am just exploring. I found the wormhole by accident."
+					goto "accident"
 
-			label `milky_way`
-				`Milky Way? Unknown. But if you come in peace, Gainisen will permit your presence.`
-				goto `next_step`
+			label "milky_way"
+				"Milky Way? Unknown. But if you come in peace, Gainisen will permit your presence."
+				goto `next_step"
 
-			label `accident`
-				`A dangerous accident. The currents of the Wn link have claimed many Gainen pilots. You are either very skilled or very lucky.`
-				goto `next_step`
+			label "accident"
+				"A dangerous accident. The currents of the Wormhole link to the core have claimed many Gainen pilots. You are either very skilled or very lucky."
+				goto "next_step"
 
-			label `next_step`
-			`The official narrows his gaze. Whatever your origin, you are here now. But you look... familiar. Too familiar.`
+			label "next_step"
+			"The official narrows his gaze. Whatever your origin, you are here now. But you look... familiar. Too familiar."
 			choice
-				` What do you mean?`
-					goto `explain_familiar`
+				"What do you mean?"
+					goto "explain_familiar"
 			choice
-				` I am just a pilot.`
-					goto `just_pilot`
+				"I am just a pilot."
+					goto "just_pilot"
 
 			label `explain_familiar`
-				`The Ganiom. They look like you. Go to Isa Palechunam in Makferuiko. Our security forces there will determine if you are a friend or a target.`
+				"The humans. They look like you. Go to Isa Palechunam in Makferuiko. Our security forces there will determine if you are a friend or a target."
 				goto `contact_end`
 
-			label `just_pilot`
-				`Perhaps. But security is not a matter of -perhaps-. Go to Isa Palechunam for screening. Now.`
+			label "just_pilot"
+				"Perhaps. But security is not a matter of -perhaps-. Go to Isa Palechunam for screening. Now."
 				goto `contact_end`
 
-			label `contact_end`
+			label "contact_end"
 				accept
 	on complete
-		set `fist contact: gainen`
+		set "fist contact: gainen"
 
 mission `Gainen: The Spy Accusation`
 	landing
