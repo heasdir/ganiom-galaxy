@@ -1,0 +1,20 @@
+mission "Gainen: Cargo"
+	name "Cargo to <planet>"
+	job
+	repeat
+	description "Bring <cargo> to <destination>. The authority will pay you <payment>."
+	cargo random 20 35
+	to offer
+		random < 10
+		#"cargo space" > 20
+	source
+		government "Gainen Republic"
+	destination
+		#attributes "mining"
+		distance 2 20
+		government "Gainen Republic"
+	on visit
+		dialog "generic cargo on visit"
+	on complete
+		payment
+		payment 250000
