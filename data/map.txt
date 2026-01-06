@@ -151,6 +151,41 @@ system Asiot
 			distance 373
 			period 28.7925
 
+system Biridthaa
+	pos -11163.9 -6639.81
+	government Vic'Na
+	habitable 425.92
+	link Ir'mawad
+	link Ki'lad
+	asteroids "small rock" 1 3.2448
+	asteroids "large rock" 8 4.3992
+	asteroids "small metal" 12 4.1808
+	asteroids "medium metal" 19 2.1216
+	asteroids "large metal" 31 2.5584
+	object
+		sprite star/k5
+		period 10
+	object CixAVic
+		sprite planet/rock11
+		distance 158.36
+		period 38.6246
+	object Bra'jk'in
+		sprite planet/cloud5
+		distance 504.8
+		period 219.824
+	object
+		sprite planet/gas14
+		distance 1060.84
+		period 669.685
+	object
+		sprite planet/dust0
+		distance 1528.88
+		period 1158.66
+	object
+		sprite planet/dust7
+		distance 3341.32
+		period 3743.46
+
 system "Bruchaven Gateway"
 	pos -10868.9 -4720.2
 	government Uninhabited
@@ -626,6 +661,39 @@ system Dika'mki
 			distance 603
 			period 78.823
 
+system Drakmagan
+	pos -11157.9 -6707.81
+	government Drak(Ganiom)
+	habitable 233.28
+	asteroids "medium rock" 9 6.3336
+	asteroids "large rock" 5 7.3138
+	asteroids "small metal" 7 6.4844
+	asteroids "medium metal" 25 8.294
+	asteroids "large metal" 19 5.3534
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/mars
+		distance 182.25
+		period 64.4351
+	object Drakmagani
+		sprite planet/jupiter
+		distance 500.01
+		period 292.812
+	object
+		sprite planet/gas2
+		distance 1318.97
+		period 1254.51
+	object
+		sprite planet/gas3
+		distance 2763.66
+		period 3804.94
+		object
+			sprite planet/tethys
+			distance 265
+			period 11.0188
+
 system Dukkmut
 	pos -10151 -4536.78
 	government "Bruchaven Issarei"
@@ -1073,6 +1141,57 @@ system Fornaikao
 			distance 165
 			period 12.8422
 
+system Ga'tame
+	pos -11200.9 -6718.81
+	government Vic'Na
+	habitable 2340
+	link Perenthe
+	link Ki'lad
+	link Vic'Naia
+	asteroids "small rock" 5 3.3984
+	asteroids "medium rock" 4 3.5712
+	asteroids "large rock" 5 3.888
+	asteroids "small metal" 3 2.736
+	asteroids "medium metal" 2 4.2912
+	asteroids "large metal" 2 2.9376
+	object
+		sprite star/f5
+		distance 35.7906
+		period 12.8265
+		offset 180
+	object
+		sprite star/g5
+		distance 98.2094
+		period 12.8265
+	object
+		sprite planet/rock4
+		distance 266.459
+		period 35.9665
+	object
+		sprite planet/ice4
+		distance 590.549
+		period 118.669
+	object
+		sprite planet/uranus
+		distance 1549.59
+		period 504.402
+		object
+			sprite planet/rhea
+			distance 234
+			period 15.2932
+		object
+			sprite planet/luna
+			distance 355
+			period 28.5769
+		object
+			sprite planet/desert4
+			distance 443
+			period 39.8363
+		object
+			sprite planet/io
+			distance 579
+			period 59.5239
+
 system "Gainen Hom"
 	pos -11240 -5251.56
 	government "Gainen Republic"
@@ -1243,6 +1362,51 @@ system Hayqi
 		distance 2466.55
 		period 1959.99
 
+system He'ile
+	pos -11065.2 -6703.56
+	government Vic'Na
+	habitable 625
+	link Il'ka
+	link Ir'at'ga
+	link Le'het
+	asteroids "small rock" 15 2.838
+	asteroids "medium rock" 37 2.31
+	asteroids "large rock" 61 2.222
+	asteroids "small metal" 6 2.508
+	asteroids "medium metal" 65 1.496
+	asteroids "large metal" 12 3.212
+	object
+		sprite star/g5
+		period 10
+	object
+		sprite planet/desert5
+		distance 241.64
+		period 60.0998
+	object
+		sprite planet/cloud6
+		distance 466.4
+		period 161.16
+	object Fruga'le
+		sprite planet/lava2
+		distance 705.69
+		period 299.945
+	object
+		sprite planet/lava7
+		distance 1151.3
+		period 625.033
+	object
+		sprite planet/gas7
+		distance 1451.3
+		period 884.618
+	object
+		sprite planet/gas12
+		distance 3094.3
+		period 2754
+		object
+			sprite planet/io
+			distance 294
+			period 13.2405
+
 system Helefolaz
 	pos -10049.6 -5471.02
 	government "Communist Ganiom"
@@ -1351,6 +1515,50 @@ system Helfp
 			sprite planet/rock14
 			distance 364
 			period 24.4934
+
+system Hetipuron
+	pos -11059.6 -6595.47
+	government Uninhabited
+	habitable 1080
+	link Onnsriawa
+	link Nanaskibja
+	asteroids "medium metal" 4 7.2268
+	asteroids "large metal" 1 10.3936
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/dust6
+		distance 137.09
+		period 19.537
+	object
+		sprite planet/dust4
+		distance 378.25
+		period 89.5399
+	object
+		sprite planet/rock13
+		distance 1029.25
+		period 401.911
+	object
+		sprite planet/gas7
+		distance 2443.69
+		period 1470.34
+		object
+			sprite planet/ice0
+			distance 247
+			period 13.8094
+		object
+			sprite planet/dust1
+			distance 402
+			period 28.6728
+		object
+			sprite planet/ice8
+			distance 515
+			period 41.5759
+		object
+			sprite planet/rock0
+			distance 686
+			period 63.917
 
 system "Hidden Reflections"
 	pos -10174.7 -4591.44
@@ -1588,6 +1796,50 @@ system Hsa'Dinkada
 			distance 476
 			period 30.4346
 
+system Il'ka
+	pos -11124.9 -6691.81
+	government Vic'Na
+	habitable 425.92
+	link Ki'lad
+	link He'ile
+	asteroids "small rock" 10 2.7232
+	asteroids "medium rock" 2 4.048
+	asteroids "large rock" 11 2.4656
+	asteroids "small metal" 2 3.68
+	asteroids "medium metal" 14 3.7168
+	asteroids "large metal" 1 1.84
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/rock3
+		distance 125.81
+		period 27.3507
+	object
+		sprite planet/ocean6
+		distance 349.81
+		period 126.807
+	object
+		sprite planet/rock11
+		distance 855.1
+		period 484.642
+	object
+		sprite planet/gas3
+		distance 2477.06
+		period 2389.47
+		object
+			sprite planet/desert4
+			distance 261
+			period 10.7702
+		object
+			sprite planet/ice7
+			distance 393
+			period 19.9
+		object
+			sprite planet/europa
+			distance 500
+			period 28.5575
+
 system Ilka
 	pos -11828.2 -5803.91
 	government Serbajkil
@@ -1631,6 +1883,53 @@ system Ilka
 			distance 188
 			period 12.8431
 
+system Ilksa`Majsa
+	pos -11059.6 -6780.47
+	government Vic'Na
+	habitable 1080
+	link Le'het
+	asteroids "small rock" 10 2.9232
+	asteroids "medium rock" 54 6.552
+	asteroids "large rock" 18 4.7376
+	asteroids "small metal" 46 7.56
+	asteroids "medium metal" 34 4.3344
+	asteroids "large metal" 31 6.4512
+	object
+		sprite star/g0
+		period 10
+	object Ref
+		sprite planet/dust2
+		distance 150.36
+		period 22.4412
+	object
+		sprite planet/desert0
+		distance 445.17
+		period 114.324
+	object
+		sprite planet/forest4
+		distance 796.42
+		period 273.566
+	object
+		sprite planet/desert4
+		distance 987.11
+		period 377.482
+	object
+		sprite planet/water0
+		distance 1411.72
+		period 645.611
+	object
+		sprite planet/gas14
+		distance 2444.97
+		period 1471.49
+		object
+			sprite planet/europa
+			distance 235
+			period 14.671
+		object
+			sprite planet/dust1
+			distance 379
+			period 30.0481
+
 system Ionan
 	pos -11144.6 -5391.82
 	government "Communist Ganiom"
@@ -1671,6 +1970,99 @@ system Ionan
 			sprite planet/dust0
 			distance 197
 			period 16.7538
+
+system Ir'at'ga
+	pos -11058.6 -6663.47
+	government Vic'Na
+	habitable 1715
+	link He'ile
+	asteroids "small rock" 8 10.332
+	asteroids "medium rock" 24 4.788
+	asteroids "large rock" 5 10.164
+	asteroids "small metal" 8 4.452
+	asteroids "medium metal" 15 8.064
+	asteroids "large metal" 1 12.348
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/rock11
+		distance 200.84
+		period 27.4918
+	object
+		sprite planet/dust6
+		distance 487.8
+		period 104.062
+		offset 303.423
+		object P6-4-9
+			sprite planet/station2
+			distance 134
+			period 29.4306
+	object
+		sprite planet/cloud1
+		distance 809.69
+		period 222.539
+		offset 344.823
+	object
+		sprite planet/ice2
+		distance 1233.5
+		period 418.443
+		offset 317.501
+	object
+		sprite planet/gas6
+		distance 2246.31
+		period 1028.33
+		offset 62.8778
+
+system Ir'mawad
+	pos -11156.9 -6602.81
+	government Vic'Na
+	habitable 486.68
+	link Biridthaa
+	asteroids "small rock" 4 4.8654
+	asteroids "medium rock" 12 4.9572
+	asteroids "large rock" 2 4.4982
+	asteroids "small metal" 1 5.4621
+	asteroids "large metal" 3 4.9113
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock8
+		distance 181.56
+		period 44.3576
+	object
+		sprite planet/lava1
+		distance 370.72
+		period 129.422
+	object "Ik:samme 60-20-90-40"
+		sprite planet/earth
+		distance 635.41
+		period 290.415
+	object
+		sprite planet/desert2
+		distance 1074.42
+		period 638.557
+	object
+		sprite planet/neptune
+		distance 1600.42
+		period 1160.88
+	object
+		sprite planet/uranus
+		distance 7038.11
+		period 10705.9
+		object
+			sprite planet/dust3
+			distance 232
+			period 15.0975
+		object
+			sprite planet/ice0
+			distance 319
+			period 24.3422
+		object
+			sprite planet/dust1
+			distance 487
+			period 45.9163
 
 system Ira'Ira'Ira'Din
 	pos -11736.6 -5306.29
@@ -1966,6 +2358,48 @@ system Kema
 			distance 789
 			period 56.6083
 
+system Ki'lad
+	pos -11155.9 -6677.81
+	government Vic'Na
+	habitable 320
+	link Biridthaa
+	link Il'ka
+	link Perenthe
+	link Ga'tame
+	asteroids "medium metal" 10 7.575
+	asteroids "large metal" 2 8.85
+	object
+		sprite star/m0
+		period 10
+	object Kla'ik
+		sprite planet/rock16
+		distance 332.56
+		period 135.609
+		object Minin
+			sprite planet/luna
+			distance 154
+			period 26.0824
+	object
+		sprite planet/lava3
+		distance 834.56
+		period 539.103
+	object
+		sprite planet/venus
+		distance 1052.57
+		period 763.592
+	object
+		sprite planet/gas11
+		distance 1755.98
+		period 1645.37
+		object
+			sprite planet/rock14
+			distance 239
+			period 12.1864
+		object
+			sprite planet/ice7
+			distance 380
+			period 24.4317
+
 system "Lai Mou"
 	pos -10964.9 -4860.2
 	government Uninhabited
@@ -2058,6 +2492,113 @@ system Le'esen
 		sprite planet/gas3
 		distance 2233.02
 		period 1284.36
+
+system Le'het
+	pos -11098.6 -6737.47
+	government Vic'Na
+	habitable 486.68
+	link He'ile
+	link Ilksa`Majsa
+	asteroids "small rock" 1 5.0337
+	asteroids "medium rock" 46 3.213
+	asteroids "large rock" 1 2.856
+	asteroids "small metal" 9 1.785
+	asteroids "medium metal" 21 4.3197
+	asteroids "large metal" 14 5.2836
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock14
+		distance 170.84
+		period 40.4877
+	object Da'in:ska;908
+		sprite planet/gas15
+		distance 770.84
+		period 388.047
+		object
+			sprite planet/desert4
+			distance 226
+			period 17.8838
+		object
+			sprite planet/lava0
+			distance 340
+			period 33.0001
+		object
+			sprite planet/oberon
+			distance 440
+			period 48.5821
+	object
+		sprite planet/gas2
+		distance 1484.8
+		period 1037.39
+	object
+		sprite planet/rock6
+		distance 1752.96
+		period 1330.75
+	object
+		sprite planet/gas7
+		distance 3032.37
+		period 3027.69
+		object
+			sprite planet/miranda
+			distance 257
+			period 14.6565
+		object
+			sprite planet/dust7
+			distance 373
+			period 25.6268
+		object
+			sprite planet/rock3
+			distance 485
+			period 37.9965
+		object
+			sprite planet/tethys
+			distance 602
+			period 52.5443
+
+system "Lone Star"
+	pos -11059.6 -6818.47
+	government Omnis
+	habitable 659.2
+	asteroids "small rock" 109 3.168
+	asteroids "medium rock" 7 4.048
+	asteroids "large rock" 195 3.7664
+	asteroids "medium metal" 6 3.6608
+	asteroids "large metal" 8 4.0128
+	object
+		sprite star/k5
+		distance 29.3723
+		period 11.7806
+		offset 180
+	object
+		sprite star/m4
+		distance 53.6277
+		period 11.7806
+	object "Ganiom Cheat"
+		sprite planet/desert2
+		distance 216.318
+		period 49.5666
+	object
+		sprite planet/lava3
+		distance 458.928
+		period 153.168
+	object
+		sprite planet/cloud2
+		distance 685.488
+		period 279.609
+	object
+		sprite planet/forest6
+		distance 1101.49
+		period 569.536
+	object
+		sprite planet/gas2
+		distance 3765.74
+		period 3600.2
+		object
+			sprite planet/tethys
+			distance 165
+			period 12.8422
 
 system Makaro
 	pos -10366.8 -4294.66
@@ -2670,6 +3211,44 @@ system Naksimak
 			distance 347
 			period 34.0245
 
+system Nanaskibja
+	pos -11064.6 -6636.47
+	government Uninhabited
+	habitable 233.28
+	link Hetipuron
+	asteroids "large metal" 1 1.53
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/desert5
+		distance 299.96
+		period 136.056
+		object
+			sprite planet/dust5
+			distance 183
+			period 27.2214
+	object
+		sprite planet/rock17
+		distance 608.45
+		period 393.06
+	object
+		sprite planet/gas9
+		distance 975.89
+		period 798.404
+		object
+			sprite planet/oberon
+			distance 247
+			period 14.5558
+	object
+		sprite planet/gas1
+		distance 2293.45
+		period 2876.44
+		object
+			sprite planet/rhea
+			distance 242
+			period 15.0466
+
 system Nik'taj
 	pos -11382.9 -5715.35
 	government Serbajkil
@@ -3213,6 +3792,45 @@ system "Onne Serbajkil"
 			distance 615
 			period 92.4118
 
+system Onnsriawa
+	pos -11092.6 -6566.47
+	government Uninhabited
+	habitable 1080
+	link Hetipuron
+	asteroids "small rock" 1 1.9488
+	asteroids "medium rock" 5 1.1872
+	asteroids "large rock" 1 3.1136
+	asteroids "small metal" 52 1.1872
+	asteroids "medium metal" 20 1.1872
+	asteroids "large metal" 12 2.6208
+	object
+		sprite star/g0
+		period 10
+	object FAIL-99689000
+		sprite planet/rock5
+		distance 226.49
+		period 41.4879
+	object
+		sprite planet/gas16
+		distance 721.25
+		period 235.764
+		object
+			sprite planet/europa
+			distance 195
+			period 14.3334
+	object
+		sprite planet/gas10
+		distance 1455.25
+		period 675.701
+	object
+		sprite planet/gas6
+		distance 2669.25
+		period 1678.54
+		object
+			sprite planet/oberon
+			distance 273
+			period 11.5215
+
 system "Osi Lannenr"
 	pos -10207.8 -4035.66
 	government Lannen
@@ -3390,6 +4008,63 @@ system Parafsomanth
 		distance 2005.63
 		period 870.108
 
+system Perenthe
+	pos -11190.9 -6671.81
+	government Vic'Na
+	habitable 1050.92
+	link Ki'lad
+	link Ga'tame
+	asteroids "large metal" 1 8.1926
+	object
+		sprite star/g5
+		distance 44.5811
+		period 14.2352
+	object
+		sprite star/k5
+		distance 65.4189
+		period 14.2352
+		offset 180
+	object
+		sprite planet/rock15
+		distance 296.419
+		period 62.97
+		offset 77.6323
+		object Petin
+			sprite planet/station3
+			distance 108
+			period 21.8679
+	object
+		sprite planet/gas4
+		distance 936.309
+		period 353.512
+		offset 87.578
+		object
+			sprite planet/rock3
+			distance 265
+			period 15.2148
+		object
+			sprite planet/dust7
+			distance 365
+			period 24.5944
+	object
+		sprite planet/gas16
+		distance 1718.31
+		period 878.875
+		offset 86.5595
+	object
+		sprite planet/gas6
+		distance 2499.56
+		period 1541.95
+		offset 32.4699
+		object
+			sprite planet/lava0
+			distance 305
+			period 13.6055
+		object
+			sprite planet/luna
+			distance 427
+			period 22.5375
+
 system Pert'tn'ripol
 	pos -11794.6 -5430.29
 	government "The Forens"
@@ -3498,6 +4173,70 @@ system Pontiere
 			sprite planet/rock7
 			distance 262
 			period 15.0863
+
+system "Protomous Thanthiya"
+	pos -11070.2 -6734.56
+	government Vic'Na
+	habitable 1400
+	asteroids "small rock" 11 3.422
+	asteroids "medium rock" 162 3.567
+	asteroids "large rock" 3 1.479
+	asteroids "small metal" 9 2.494
+	asteroids "medium metal" 60 3.828
+	asteroids "large metal" 45 2.233
+	object
+		sprite star/g0
+		distance 26.7429
+		period 13.5293
+		offset 180
+	object
+		sprite star/m0
+		distance 90.2571
+		period 13.5293
+	object
+		sprite planet/rock0
+		distance 282.257
+		period 50.6948
+		offset 332.786
+		object Protomous
+			sprite planet/station2
+			distance 83
+			period 27.4327
+	object
+		sprite planet/desert4
+		distance 634.547
+		period 170.88
+		offset 171.265
+	object
+		sprite planet/gas4
+		distance 1423.91
+		period 574.405
+		offset 132.959
+		object
+			sprite planet/tethys
+			distance 226
+			period 11.9828
+		object
+			sprite planet/rock14
+			distance 375
+			period 25.612
+		object
+			sprite planet/oberon
+			distance 485
+			period 37.6712
+		object
+			sprite planet/rock3
+			distance 638
+			period 56.8366
+	object
+		sprite planet/gas8
+		distance 3066.12
+		period 1815.01
+		offset 17.9716
+		object
+			sprite planet/dust3
+			distance 199
+			period 14.9436
 
 system Rhti'fsl'rik
 	pos -11738.6 -5339.29
@@ -4511,6 +5250,41 @@ system Vi'binaa
 			distance 426
 			period 22.4584
 
+system Vic'Naia
+	pos -11164.2 -6750.56
+	government Vic'Na
+	habitable 320
+	link Ga'tame
+	asteroids "small rock" 9 7.02
+	asteroids "medium rock" 50 8.034
+	asteroids "large rock" 32 8.58
+	asteroids "small metal" 11 4.602
+	asteroids "medium metal" 9 4.914
+	asteroids "large metal" 20 6.552
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/rock19
+		distance 144.56
+		period 38.8649
+	object Haty'sa
+		sprite planet/rock2
+		distance 351
+		period 147.043
+	object
+		sprite planet/dust5
+		distance 654.21
+		period 374.163
+	object
+		sprite planet/lava0
+		distance 1337.45
+		period 1093.71
+	object
+		sprite planet/gas8
+		distance 2149.26
+		period 2228.02
+
 system Vicknot
 	pos -11176.6 -5382.82
 	government "Communist Ganiom"
@@ -4743,13 +5517,23 @@ planet "Between - Home"
 	description `Home of the between.`
 	spaceport `Home of the between.`
 
+planet Bra'jk'in
+	landscape land/foresttropical0
+	description .
+	spaceport .
+
 planet Cholintir
 	landscape land/land27
 	description `Foren Military Base.`
 	spaceport `The forens are nice`
 
 planet CixAVic
-	landscape land/brownmountains1
+	landscape ""
+
+planet Da'in:ska;908
+	landscape "land/moutainsnow1@2x "
+	description .
+	spaceport .
 
 planet Daajka
 	landscape land/greenmountains1
@@ -4761,6 +5545,14 @@ planet Dka'MJi
 	description .
 	spaceport .
 
+planet Drakmagani
+	landscape land/land26
+	description `This planet is the antartica of Vic'Na Space.`
+	spaceport `To this day, the drak still live today. They sell their archons here on Drakmagani.`
+	spaceport `	,`
+	shipyard Drak
+	outfitter "Drak All"
+
 planet FAIL-000000
 	landscape land/greenmountains2
 	description `????????????????????? fungus ???????????¿?¿¿¿¿¿¿?¿¿¿?¿¿¿??¿???????¿¿¿¿¿??????????!(!-+--&&--&&*££*&-__&&&&_&&_ Seems to be no information about this planet.`
@@ -4768,6 +5560,10 @@ planet FAIL-000000
 planet FAIL-700100
 	landscape land/greenmountains2
 	description `Just a fungal planet? what are the bruchaven hiding.`
+
+planet FAIL-99689000
+	landscape land/land27
+	description `Another fail, of some other race.`
 
 planet Fo'kak'ni'si'slok
 	landscape land/greenmountains2
@@ -4784,6 +5580,11 @@ planet Frt'Eliminatr
 	description `Welcone to the land of the ???. The ??? Mainly live here`
 	spaceport `??? ??? ??? you don't understand`
 
+planet Fruga'le
+	landscape land/land0
+	description .
+	spaceport .
+
 planet "Gaie Point"
 	landscape land/land13
 	description `You realise that the majority of people here don't look like the gainen, perhaps another ailen race`
@@ -4794,6 +5595,204 @@ planet Gainisen
 	landscape land/brownmountains1
 	spaceport `Home of the gainen.`
 	shipyard "Gainen Shipyard"
+
+planet "Ganiom Cheat"
+	landscape land/land27
+	description `You found it! Omnis in Ganiom!`
+	spaceport .
+    outfitter "omnis"
+	shipyard "omnis"
+	outfitter "aberrant"
+	shipyard "aberrant"
+	outfitter "avgi"
+	shipyard "avgi"
+	outfitter "developer"
+	shipyard "developer"
+	outfitter "bunrodea"
+	shipyard "bunrodea"
+	outfitter "coalition"
+	shipyard "coalition"
+	outfitter "drak"
+	shipyard "drak"
+	outfitter "gegno"
+	shipyard "gegno"
+	outfitter "hai"
+	shipyard "hai"
+	outfitter "human"
+	shipyard "human"
+	shipyard "iije"
+	shipyard "incipias"
+	outfitter "incipias"
+	outfitter "kahet"
+	shipyard "kahet"
+	outfitter "korath"
+	shipyard "korath"
+	outfitter "pug"
+	shipyard "pug"
+	outfitter "quarg"
+	shipyard "quarg"
+	outfitter "remnant"
+	shipyard "remnant"
+	outfitter "rulei"
+	shipyard "rulei"
+	outfitter "sheragi"
+	shipyard "sheragi"
+	outfitter "successors"
+	shipyard "successors"
+	outfitter "vyrmeid"
+	shipyard "vyrmeid"
+	outfitter "wanderer"
+	shipyard "wanderer"
+	outfitter "whispering void"
+	shipyard "whispering void"
+#	Avgi
+	outfitter "Avgi Atomics"
+	outfitter "Avgi Dissonance Smuggling"
+	outfitter "Avgi Electronics"
+	outfitter "Avgi Engineering"
+	outfitter "Avgi General"
+	outfitter "Avgi Militia Surplus"
+	outfitter "Avgi Nanomaterials"
+	outfitter "Avgi Propulsion"
+	outfitter "Avgi Specialized"
+	outfitter "Avgi Superconductors"
+	outfitter "Avgi Torches"
+	outfitter "Avgi Twilight Guard"
+#	Bunrodea
+	outfitter "Bunrodea Advanced"
+	outfitter "Bunrodea Basic"
+	outfitter "Bunrodea Capital"
+	shipyard "Bunrodea Advanced"
+	shipyard "Bunrodea Basic"
+	shipyard "Bunrodea Capital"
+#	Coalition
+	outfitter "Coalition Advanced"
+	outfitter "Coalition Basics"
+	outfitter "Heliarch Basics"
+	outfitter "Heliarch"
+	shipyard "Arach"
+	shipyard "Coalition Basics"
+	shipyard "Kimek"
+	shipyard "Saryd"
+#	Gegno
+	outfitter "Gegno Basic"
+	outfitter "Gegno Intermediate"
+	outfitter "Scin Advanced"
+	outfitter "Scin Basic"
+	outfitter "Scin Intermediate"
+	outfitter "Vi Basic"
+	outfitter "Vi Intermediate"
+	shipyard "Gegno Advanced"
+	shipyard "Gegno Basic"
+	shipyard "Gegno Intermediate"
+	shipyard "Scin Cargo"
+	shipyard "Scin Utility"
+	shipyard "Scin Warships"
+	shipyard "Vi Cargo"
+	shipyard "Vi Utility"
+	shipyard "Vi Warships I"
+	shipyard "Vi Warships II"
+#	Hai
+	outfitter "Hai Advanced"
+	outfitter "Hai Basics"
+	outfitter "Hai Intermediate"
+	outfitter "Hai Security"
+	outfitter "Unfettered Basics"
+	shipyard "Imo Loo Mer Advanced"
+	shipyard "Imo Loo Mer Basics"
+	shipyard "Mon Ki i'Hiya Advanced"
+	shipyard "Mon Ki i'Hiya Basics"
+	shipyard "Mon Ki o'Uden Advanced"
+	shipyard "Yeer e Ki Advanced"
+	shipyard "Yeer e Ki Basics"
+#	Human
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Deep Sky Advanced"
+	outfitter "Deep Sky Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Delta V Basics"
+	outfitter "FW Security"
+	outfitter "Kraz Advanced"
+	outfitter "Kraz Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Security"
+	outfitter "Northern Explorers"
+	outfitter "Nuke"
+	outfitter "Pirate Outfits"
+	outfitter "Stack Core"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicated Security"
+	shipyard "Advanced Core Pirates"
+	shipyard "Advanced Northern Pirates"
+	shipyard "Advanced Southern Pirates"
+	shipyard "Basic Ships"
+	shipyard "Betelgeuse Advanced"
+	shipyard "Betelgeuse Basics"
+	shipyard "Core Pirates"
+	shipyard "Lionheart Advanced"
+	shipyard "Lionheart Basics"
+	shipyard "Luxury Ships"
+	shipyard "Megaparsec Advanced"
+	shipyard "Megaparsec Basics"
+	shipyard "Navy Advanced"
+	shipyard "Navy Basics"
+	shipyard "Northern Pirates"
+	shipyard "Southbound Advanced"
+	shipyard "Southbound Basics"
+	shipyard "Southern Pirates"
+	shipyard "Syndicate Advanced"
+	shipyard "Syndicate Basics"
+	shipyard "Tarazed Advanced"
+	shipyard "Tarazed Basics"
+#	Incipias
+	outfitter "Hicemus"
+	shipyard "Hicemus"
+#	Ka'het
+	outfitter "Ka'het"
+#	Korath
+	outfitter "Korath Basics"
+	outfitter "Korath Exiles"
+	outfitter "Korath Exiles Remnant Donations"
+#	Remnant
+	outfitter "Remnant Core"
+	outfitter "Remnant Salvage"
+	outfitter "Remnant"
+	outfitter "Void Sprite Parts"
+	shipyard "Remnant Puffin"
+	shipyard "Remnant Salvage Ships"
+	shipyard "Remnant"
+#	Successors
+	outfitter "High Houses Light"
+	outfitter "High Houses Heavy"
+	outfitter "People's Houses"
+	outfitter "Successor Basics"
+	outfitter "Successor Civilian"
+	outfitter "Successor Heavy"
+	outfitter "Successor High Tech"
+	outfitter "Successor Weapons Basics"
+	outfitter "Successor Weapons Heavy"
+	shipyard "High Houses Light"
+	shipyard "High Houses Heavy"
+	shipyard "New Houses Light"
+	shipyard "People's Houses"
+	shipyard "Successor Basics"
+	shipyard "Successor Civilian"
+	shipyard "Successor Heavy"
+	shipyard "Waterlining"
+#	Wanderer
+	outfitter "Wanderer Advanced"
+	outfitter "Wanderer Basics"
+	shipyard "Wanderer Advanced"
+	shipyard "Wanderer Basics"
+#	Whispering Void
+	outfitter "Elenctic Commune Basic"
+	shipyard "Elenctic Commune Basic"
 
 planet Gasinas
 	landscape land/land3
@@ -4809,6 +5808,11 @@ planet Halon
 	spaceport g
 	shipyard g
 	outfitter d
+
+planet Haty'sa
+	landscape land/brownmountains1
+	description .
+	spaceport .
 
 planet Hirotovaisni
 	landscape land/moutainsnow3
@@ -4831,6 +5835,11 @@ planet Ifermerin
 	landscape land/land12
 	spaceport gfffff
 
+planet "Ik:samme 60-20-90-40"
+	landscape land/foresttropical0
+	description `This huge station is currently in progress. It is the capital of the Vic'Na `
+	spaceport .
+
 planet Ikmastga
 	landscape land/lakemountains1
 	description .
@@ -4851,6 +5860,11 @@ planet Isrhsiw
 	description `Cold and icy, the bruchaven live here, somehow while a human would freeze by the intese cold.`
 	spaceport fgeefgggggg
 
+planet Kla'ik
+	landscape land/greenmountains1
+	description .
+	spaceport .
+
 planet Lympaii
 	landscape land/foresttropical0
 	description .
@@ -4861,6 +5875,9 @@ planet Mekrut
 	description `Hostile faction, not landable.`
 	spaceport fgg
 	shipyard Mekrut
+
+planet Minin
+	landscape land/land27
 
 planet Motafor
 	landscape land/land14
@@ -4926,9 +5943,22 @@ planet Oxuni
 	landscape land/land28
 	spaceport ssssss
 
+planet P6-4-9
+	landscape ""
+	description .
+	spaceport .
+
 planet Parafkorsa
 	landscape land/lakemountains1
 	description `Paraf homeworld, is now gone.`
+
+planet Petin
+	landscape land/land27
+
+planet Protomous
+	landscape land/brownmountains1
+	description `This is a secret station. Purpose is unknown`
+	spaceport .
 
 planet Qnanei
 	landscape land/greenmountains1
@@ -4946,6 +5976,10 @@ planet "Red Shambala"
 	landscape land/land28
 	description bcd
 	spaceport abcdefgh
+
+planet Ref
+	landscape land/land27
+	description .
 
 planet Sancleva
 	landscape land/brownmountains1
