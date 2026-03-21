@@ -86,6 +86,7 @@ ship "Macavtre"
 		"cargo space" 10
 		"outfit space" 900
 		"weapon capacity" 30
+		"engine capacity" 230
 		"ramscoop" 10
 		"solar collection" 35
 		"shield generation" 5.4
@@ -108,5 +109,5 @@ ship "Macavtre"
 	engine 12 49
 	engine -18 52
 	explode "tiny explosion" 340
-	description `The gainen made this during the golden age of gainen civilization, they were powerful."
+	description `The gainen made this during the golden age of gainen civilization, they were powerful.`
 # All Gainen ships have not been defined yet, this is WIP
