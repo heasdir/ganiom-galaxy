@@ -4,12 +4,12 @@ ship "Clossusn"
 	attributes
 		category "Heavy Warship"
 		"cost" 41280000
-		"shields" 7200000
-		"hull" 13290000
-		"required crew" 1800000
-		"bunks" 200000000000
-		"mass" 10500
-		"drag" 12.4
+		"shields" 720000
+		"hull" 132900
+		"required crew" 180
+		"bunks" 2000
+		"mass" 1050
+		"drag" 3
 		"heat dissipation" .8
 		"fuel capacity" 600
 		"cargo space" 50
