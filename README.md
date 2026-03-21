@@ -38,6 +38,7 @@ Meghafokluaya Hisair-Hisair War
 
 J-1 - J-2 Union
 
+## Changelogs
 
-
-Building the plugin will be limited to only making systems and planets before March 2026, after I get a new laptop.
+V0.052 - Bugfix
+V0.051 - Added missions, that don't even work for some reasom
