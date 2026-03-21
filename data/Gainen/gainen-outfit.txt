@@ -1,0 +1,41 @@
+outfitter "Gainen Normals"
+	"Local Map"
+	"Qari Mnal"
+	"Experimental J-X Turret"
+	"Hassal Engines"
+	"Jump Drive"
+	"Experimental Drive"
+	"Enhanced Cooling Systems"
+	"Dyson Cooling"
+	
+
+outfit "Qari Mnal"
+	category "Guns"
+	cost 580000
+	thumbnail "outfit/ballistic cannon"
+	"mass" 18
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	weapon
+		sprite "projectile/inhibitor"
+			"frame rate" 10
+			"no repeat"
+		sound "inhibitor"
+		"hit effect" "inhibitor impact" 4
+		"inaccuracy" .3
+		"velocity" 40
+		"random velocity" .5
+		"lifetime" 30
+		"reload" 12
+		"cluster"
+		"firing energy" 35
+		"firing heat" 52
+		"firing force" 15
+		"shield damage" 56
+		"hull damage" 49.5
+		"hit force" 45
+		"slowing damage" .8
+	description `This is an ancient cannon, used by drones. Made by the Gainen, this holds similar technology to the inhibitor Cannon, as if they have borrowed the technology.`
+
+# more will be added later!
