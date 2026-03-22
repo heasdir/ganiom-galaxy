@@ -67,18 +67,16 @@
 	description `The Gainen made this in the civil war, to attack Communist Ganiom. After this ship was created, the Gainen shortly won. This beast, made by stealing materials with spies, has 3 guns and 4 turrets. Because it is old, the Qari Mnal and other weapons are not in this ship.`
 
 
-
 ship "Macavtre"
-	sprite "ship/gainen macavtre"
+	sprite "ship/macavtre"
 	thumbnail "thumbnail/macavtre_thumb
 	attributes
 		category "Interceptor"
 		"cost" 95000
 		"shields" 6300
 		"hull" 9000
-		"required crew" 0
-		"automaton" 1
-		"bunks" 0
+		"required crew" 1
+		"bunks" 1
 		"mass" 90
 		"drag" 2.4
 		"heat dissipation" .6
@@ -94,15 +92,17 @@ ship "Macavtre"
 		"hull repair rate" 9
 		"hull energy" 9
 		"hull heat" .1
-		"cooling" 14
+		"cooling" 5500
 	outfits
 		"Qari Mnal" 2
 		
-		
-		"Quantum Vacuum Battery"
+		"Blue Sun Reactor"
 		
 		
 		"Fusion Drive"
+		
+		"Hyperdrive"
+		"Jump Drive"
 	
 	gun -34.5 -16.5
 	gun -26.5 23
@@ -110,4 +110,51 @@ ship "Macavtre"
 	engine -18 52
 	explode "tiny explosion" 340
 	description `The gainen made this during the golden age of gainen civilization, they were powerful.`
+
+
+ship "Severosinsi"
+	sprite "ship/severosinsi"
+	thumbnail "thumbnail/severosinsi_thumb"
+	attributes
+		category "Light Warship"
+		cost "7920000"
+		"shields" 34900
+		"hull" 63900
+		"required crew" 40
+		"bunks" 50
+		"mass" 700
+		"drag" 4.2
+		"heat dissipation" .7
+		"fuel capacity" 900
+		"cargo space" 70
+		"outfit space" 1000
+		"weapon capacity" 176
+		"engine capacity" 1700
+		"ramscoop" 40
+		"solar collection" 95
+		"shield generation" 70
+		"shield energy" 4.2
+		"hull repair rate" 12
+		"hull energy" 9
+		"hull heat" .1
+		"scan interference" 1
+		"radar jamming" 5
+		"cooling" 5500
+	outfits
+		"G-7" 4
+		"Blue Sun Reactor"
+		"Quantum Vaccum Battery"
+		"Experimental Drive"
+		"Hyperdrive"
+#		"Hassal Engines"
+		"Fusion Drive
+	
+	gun -60.5 -47
+	gun -66 6.5
+	gun -66.5 59.5
+	gun -88.5 108
+	engine -3.5 -34
+	explode "tiny explosion" 140
+	explode "small explosion" 70
+	description "The Severosinsi is a light warship designed to attack the communist Ganiom and other enemies of the Gainen."
 # All Gainen ships have not been defined yet, this is WIP
