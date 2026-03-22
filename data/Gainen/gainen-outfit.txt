@@ -7,7 +7,7 @@ outfitter "Gainen Normals"
 	"Experimental Drive"
 	"Enhanced Cooling Systems"
 	"Dyson Cooling"
-	
+	"G-7"
 
 outfit "Qari Mnal"
 	category "Guns"
@@ -37,5 +37,58 @@ outfit "Qari Mnal"
 		"hit force" 45
 		"slowing damage" .8
 	description `This is an ancient cannon, used by drones. Made by the Gainen, this holds similar technology to the inhibitor Cannon, as if they have borrowed the technology.`
+	
+outfit "G-7"
+	category "Secondary Weapons"
+	cost 19700000
+	thumbnail "outfit/ionic afterburner"
+	"mass" 44
+	"outfit space" -44
+	"weapon capacity" -44
+	"gun ports" -1
+	weapon
+		sprite "projectile/missile"
+		sound "sidewinder"
+		"fire effect" "meteor fire"
+		"die effect" "medium explosion"
+		"hit effect" "nuke explosion" 3
+		"live effect" "smoke" 50
+		"inaccuracy" 10
+		"velocity" 12
+		"random velocity" 3
+		"lifetime" 450
+		"reload" 60
+		"burst count" 2
+		"burst reload" 5
+		"firing energy" 120
+		"firing heat" 80
+		"acceleration" 1.5
+		"drag" .1
+		"turn" 8
+		"homing" 4
+		"optical tracking" 1
+		"radar tracking" 1
+		"missile strength" 15
+		"shield damage" 5800
+		"hull damage" 6850
+		"blast radius" 50
+		"stream"
+		"safe"
+	description "Gainen missile used by light Warships to attack ships without anti-missile."
+
+outfit "Experimental Drive"
+	category "Systems"
+	series "Drives"
+	index 30
+	cost 5000000
+	thumbnail "outfit/jump drive"
+	"mass" 40
+	"outfit space" -20
+	"jump speed" .3
+	"jump fuel" 200
+	"jump drive" 1
+	"jump range" 500
+	description "A faster, and higher range version of the jump drive. The Experimental Drive is made by two factions, Reisbruth and Gainen."
+
 
 # more will be added later!
