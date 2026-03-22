@@ -5595,6 +5595,7 @@ planet Gainisen
 	landscape land/brownmountains1
 	spaceport `Home of the gainen.`
 	shipyard "Gainen Shipyard"
+	outfitter "Gainen Normals"
 
 planet "Ganiom Cheat"
 	landscape land/land27
@@ -5793,10 +5794,14 @@ planet "Ganiom Cheat"
 #	Whispering Void
 	outfitter "Elenctic Commune Basic"
 	shipyard "Elenctic Commune Basic"
+#	Gainen
+	outfitter "Gainen Normals"
+	shipyard "Gainen Shipyard"
 
 planet Gasinas
 	landscape land/land3
 	spaceport g
+	outfitter "Gainen Normals"
 
 planet Gerin
 	landscape "land/moutainsnow5@2x "
@@ -5829,7 +5834,8 @@ planet Humansaaeink
 
 planet I'ise
 	landscape land/brownmountains1
-	spaceport eeee
+	spaceport `I'ise is a gainen world, a very peaceful world.`
+	outfitter "Gainen Normals"
 
 planet Ifermerin
 	landscape land/land12
@@ -5898,6 +5904,7 @@ planet Nevonsaj
 planet Nisem
 	landscape land/moutainsnow5
 	spaceport ee
+	outfitter "Gainen Normals"
 
 planet Nolok
 	landscape land/land28
