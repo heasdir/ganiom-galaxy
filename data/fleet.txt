@@ -68,12 +68,17 @@ fleet "Gainen Fleet"
 		Aerie 5
 		Clossusn
 		Carrier 3
+		Severosinsi 4
 	variant 40
 		Clossusn
+		Macavtre
 	variant 20
 		Clossusn 2
+		Severosinsi 2
 	variant 35
 		Clossusn 9
+		Macavtre 4
+		Severosinsi 3
 		
 
 fleet "Kem Relicnainin"
