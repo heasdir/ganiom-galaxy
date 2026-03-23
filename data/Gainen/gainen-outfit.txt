@@ -90,5 +90,32 @@ outfit "Experimental Drive"
 	"jump range" 500
 	description "A faster, and higher range version of the jump drive. The Experimental Drive is made by two factions, Reisbruth and Gainen."
 
+outfit "Hassal Engines"
+	category "Engines"
+	"cost" 67000000
+	thumbnail "outfit/unknown"
+	"mass" 45
+	"outfit space" -7
+	"engine capacity" -7
+	"thrust" 80
+	"thrusting energy" 22
+	"thrusting heat" 30
+	"turn" 1805
+	"turning energy" 22
+	"turning heat" 30
+	"reverse thrust" 80
+	"thrusting energy" 22
+	"thrusting heat" 30
+	"slowing protection" 3
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 9
+	"flare sound" "plasma huge"
+	"steering flare sprite" "effect/remnant flare/large"
+		"frame rate" 9
+	"steering flare sound" "plasma medium"
+	"reverse flare sprite" "effect/remnant flare/large"
+		"frame rate" 9
+	"flare sound" "plasma huge"
+	description `Gainen Engines`
 
 # more will be added later!
