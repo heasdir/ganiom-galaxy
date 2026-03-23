@@ -41,7 +41,7 @@
 		"Quantum Vacuum Battery"
 		
 		
-		"Fusion Drive" 3
+		"Hassal Engines" 3
 		
 
 		"Hyperdrive"
@@ -68,7 +68,7 @@
 
 
 ship "Macavtre"
-	sprite "ship/macavtre"
+	sprite "ship/gainen macavtre"
 	thumbnail "thumbnail/macavtre_thumb
 	attributes
 		category "Interceptor"
@@ -99,7 +99,7 @@ ship "Macavtre"
 		"Blue Sun Reactor"
 		
 		
-		"Fusion Drive"
+		"Hassal Engines"
 		
 		"Hyperdrive"
 		"Jump Drive"
@@ -146,8 +146,7 @@ ship "Severosinsi"
 		"Quantum Vaccum Battery"
 		"Experimental Drive"
 		"Hyperdrive"
-#		"Hassal Engines"
-		"Fusion Drive
+		"Hassal Engines"
 	
 	gun -60.5 -47
 	gun -66 6.5
