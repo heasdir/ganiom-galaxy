@@ -41,5 +41,10 @@ J-1 - J-2 Union
 
 ## Changelogs
 
+V0.053 - Added the new Severosinsi and Macavtre Gainen ships, and a new outfitter(Gainen Outfitter). 
+
 V0.052 - Bugfix
-V0.051 - Added missions, that don't even work for some reasom
+
+
+V0.051 - Added missions, that don't even work for some reason
+
