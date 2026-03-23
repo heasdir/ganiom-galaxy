@@ -1,142 +1,29 @@
-mission "First Contact: Gainen Republic"
-	landing
-	to offer
-		not "fist contact: gainen"
-		not system "Isa Palechunam"
-	source
-		government "Gainen Republic"
-	on offer
-		conversation
-			"As you land, the atmosphere of the starport feels heavy. A group of Gainen officials approaches your vessel."
-			"The translator crackles: Being from beyond the Wormhole link, you have entered the territory of the Gainen Republic. Identify your intent. Are you a scout, or an isolated traveler?"
-			choice
-				"I am a traveler from a distant galaxy called the Milky Way."
-					goto `milky_way`
-			choice
-				"I am just exploring. I found the wormhole by accident."
-					goto "accident"
-
-			label "milky_way"
-				"Milky Way? Unknown. But if you come in peace, Gainisen will permit your presence."
-				goto `next_step"
-
-			label "accident"
-				"A dangerous accident. The currents of the Wormhole link to the core have claimed many Gainen pilots. You are either very skilled or very lucky."
-				goto "next_step"
-
-			label "next_step"
-			"The official narrows his gaze. Whatever your origin, you are here now. But you look... familiar. Too familiar."
-			choice
-				"What do you mean?"
-					goto "explain_familiar"
-			choice
-				"I am just a pilot."
-					goto "just_pilot"
-
-			label `explain_familiar`
-				"The humans. They look like you. Go to Isa Palechunam in Makferuiko. Our security forces there will determine if you are a friend or a target."
-				goto `contact_end`
-
-			label "just_pilot"
-				"Perhaps. But security is not a matter of -perhaps-. Go to Isa Palechunam for screening. Now."
-				goto `contact_end`
-
-			label "contact_end"
-				accept
-	on complete
-		set "fist contact: gainen"
-
-mission `Gainen: The Spy Accusation`
+mission "Sudden Appearance"
 	landing
 	invisible
-	to offer
-		has `fist contact: gainen`
-		not `gainen: cleared of spying`
 	source
-		system `Isa Palechunam`
+		goverment "Gainen Republic"
 	on offer
 		conversation
-			`Security forces surround your ship. Halt! You have the face of a Ganiom! And a blue ship? Are you a bloody spy or not?`
+			`The gainen have similar technology to the remnants, they look unusually tall and are orange-skinned. Perhaps they are the predecessor race the remnants talked about, but we don't know.`
+			`Most of them are peaceful, but the authority is questioning you about if you are a communist Ganiom spy or not.`
+			`Who are you on why are you here?`
 			choice
-				` I am not saying a single word.`
-					goto `spy_silence`
+			`I'm only travelling, what's the problem?`
+				goto interrogation
+			label interrogation 
+			`Most travellers are usually Serbajkil or Foren in the gainen republic, you are not. You are a human, travelling in our space. For you to prove yourself, you must fight and liberate Vicknot.`
 			choice
-				` You mean those sick bastards who did that to Siri Om? I am nothing like them!`
-					goto `spy_praise`
-
-			label `spy_silence`
-				`Silence! Only a Magenta rat hides behind a wall of quiet! If you will not cooperate, we will treat you as an enemy of the Republic!`
-				on accept
-					`reputation: Gainen Republic` -= 500
-				goto `interrogation_phase_2`
-
-			label `spy_praise`
-				`You know of Siri Om? The Ganiom claim it was a -liberation.- You speak with the fire of someone who has felt the Magenta sting.`
-				on accept
-					`reputation: Gainen Republic` += 100
-					`reputation: Communist Ganiom` -= 1000
-				goto `interrogation_phase_2`
-
-			label `interrogation_phase_2`
-			`The official narrows his eye-stalks. Even if you hate them, you could be a double agent. Why should we trust a human flying a blue ship?`
-			choice
-				` Because I want to make money, and the Ganiom are broke.`
-					goto `mercenary`
-			choice
-				` Because I will help you wipe them out.`
-					goto `warrior`
-
-			label `mercenary`
-				`A mercenary heart... at least that is honest. The Republic is rich enough to buy your loyalty.`
-				goto `spy_conclusion`
-
-			label `warrior`
-				`Bold words. We shall see if your cannons match your tongue.`
-				goto `spy_conclusion`
-
-			label `spy_conclusion`
-				`Go to our capital planet, Gainisen. If you want to prove you are not Magenta, we have work for you.`
+			`On it, Sir.`
+				goto praise
+			`I don't have a good enough ship yet`
+				decline
+			label praise
+			`Now, go to Vicknot.`
+			"gainen c" ++
 				accept
-	on complete
-		set `gainen: cleared of spying`
-
-mission `Gainen vs Hisair 1`
-	name `Scavenger Cleanup`
-	landing
-	invisible
-	source `Gainisen`
-	to offer
-		has `gainen: cleared of spying`
-		not `gainen: hisair 1 complete`
 	on accept
-		dialog `The official at Gainisen sighs. The Hisair High Fleet is loitering in Gainen Hom orbit. They are picking through debris like space-vermin. Clear them out and we will pay you a -nuisance fee-.`
-	npc
-		government `Hisair`
-		personality `aggressive`
-		system `Gainen Hom`
-		fleet `Hisair High Fleet` 1
-		dialog `The Hisair ships crackle: Gainen home is our home now! Give us your shiny engines!`
-	on complete
-		payment 750000
-		set `gainen: hisair 1 complete`
-		dialog `The trash has been collected. Your payment of 750,000 has been authorized. The official barely checks his screen: The nuisance is gone. Take your credits.`
+		"reputation: Communist Ganiom" <?= -10
 
-mission `Gainen Frontline 0`
-	name `The Gasinas Trap`
-	landing
-	invisible
-	source `Gainisen`
-	to offer
-		has `gainen: hisair 1 complete`
-		not `Gainen: Gasinas Escaped`
-	on visit
-		dialog `As you enter orbit at Gasinas, the sky turns Magenta. The occupation forces were waiting! New meat from the Old Home? Welcome to the Commune!`
-		npc
-			government `Communist Ganiom`
-			personality `aggressive`
-			system `Gasinas`
-			fleet `Communist Gainen Military Patrol` 1
-	on complete
-		payment 5000000
-		set `Gainen: Gasinas Escaped`
-		dialog `You survived? Remarkable. Here is your 5,000,000 credit bonus. We need to talk about a counter-offensive.`
+mission "Liberate Vicknot"
+	autosave
