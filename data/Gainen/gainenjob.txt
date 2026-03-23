@@ -5,8 +5,7 @@ mission "Gainen: Cargo"
 	description "Bring <cargo> to <destination>. The authority will pay you <payment>."
 	cargo random 20 35
 	to offer
-		random < 10
-		#"cargo space" > 20
+		"cargo space" > 20
 	source
 		government "Gainen Republic"
 	destination
@@ -17,4 +16,44 @@ mission "Gainen: Cargo"
 		dialog "generic cargo on visit"
 	on complete
 		payment
-		payment 250000
+		payment 950000
+
+mission "Gainen: Cargo 2"
+	name "Medium Cargo to <planet>"
+	job
+	repeat
+	description "Bring <cargo> to <destination>. The authority will pay you <payment>."
+	cargo random 40 75
+	to offer
+		"cargo space" > 20
+	source
+		government "Gainen Republic"
+	destination
+		#attributes "mining"
+		distance 2 20
+		government "Gainen Republic"
+	on visit
+		dialog "generic cargo on visit"
+	on complete
+		payment
+		payment 12350000
+
+mission "Gainen: Cargo 3"
+	name "Large Cargo to <planet>"
+	job
+	repeat
+	description "Bring <cargo> to <destination>. The authority will pay you <payment>."
+	cargo random 90 400
+	to offer
+		"cargo space" > 20
+	source
+		government "Gainen Republic"
+	destination
+		#attributes "mining"
+		distance 2 20
+		government "Gainen Republic"
+	on visit
+		dialog "generic cargo on visit"
+	on complete
+		payment
+		payment 8029000
