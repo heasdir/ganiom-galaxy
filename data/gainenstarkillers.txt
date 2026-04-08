@@ -1,0 +1,360 @@
+ship "Qari Hexa"
+	sprite "ship/gainescaf"
+		scale 5
+	thumbnail "thumbnail/gainescaf_thumb
+	attributes
+		category "Star-Killer"
+		"cost" 4500000
+		"shields" 74000
+		"hull" 124000
+		"required crew" 6000
+		"bunks" 12000
+		"mass" 1600
+		"drag" 2.1
+		"heat dissipation" 1
+		"fuel capacity" 12000
+		"cargo space" 160
+		"outfit space" 14000
+		"weapon capacity" 33200
+		"engine capacity" 2400
+		"ramscoop" 50
+		"solar collection" 1950
+		"shield generation" 1000
+		"shield energy" 10.4
+		"hull repair rate" 290
+		"hull energy" 7
+		"hull heat" .9
+		"scan interference" 1
+		"radar jamming" 5
+		"cooling" 5550 #Dyson Cooling Systems
+	outfits
+		"G-7" 120
+		"Blue Sun Reactor"
+		"Quantum Vaccum Battery"
+		"Experimental Drive"
+		"Hyperdrive"
+		"Hassal Engines"
+	
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	gun 4 34
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 150
+	explode "small explosion" 90
+	explode "medium explosion" 50
+	description `This heavily modified Gainescaf has 120 gunports.`
+
+ship "G12 Attack"
+	sprite "ship/g12attack"
+		scale 2
+	thumbnail "thumbnail/g12attack_thumb"
+	attributes
+		category "Star-Killer"
+		"cost" 945500000
+		"shields" 7244000
+		"hull" 17445300
+		"required crew" 647000
+		"bunks" 9000000
+		"mass" 16000
+		"drag" 1.1
+		"heat dissipation" 1
+		"fuel capacity" 14000
+		"cargo space" 16000
+		"outfit space" 14000
+		"weapon capacity" 33200
+		"engine capacity" 9400
+		"ramscoop" 50
+		"solar collection" 1950
+		"shield generation" 1000
+		"shield energy" 10.4
+		"hull repair rate" 290
+		"hull energy" 7
+		"hull heat" .9
+		"scan interference" 1
+		"radar jamming" 10
+		"cooling" 5550 #Dyson Cooling Systems
+	outfits
+		"G-7" 4
+		"Experimental J-X Turret" 16
+		"Blue Sun Reactor" 6
+		"Quantum Vacuum Battery 2
+		"Experimental Drive"
+		"Hyperdrive"
+		"Hassal Engines" 22
+	
+	engine -168.5 33.5
+	engine 127 19.5
+	gun -26.5 -323
+	gun -26.5 -323
+	engine -202 270
+	engine 171.5 250.5
+	turret -24 -16.5
+	turret -113.5 -36.5
+	turret -58.5 -104
+	turret -127.5 -80
+	turret -41 139
+	turret -106 99.5
+	turret 31 22
+	turret -53 -39
+	turret -53 -101.5
+	engine -48 126.5
+	turret -82.5 -73.5
+	turret -82.5 -73.5
+	turret -82.5 -73.5
+	gun -82.5 -73.5
+	gun -73.5 -93
+	gun -73.5 -93
+	engine 172.5 294
+	turret -31 -239
+	turret -31 -239
+	turret -138 156
+	turret -138 156
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Mega-Drone" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	explode "large explosion" 900
+	description `The G-12 Attack is an absolute beast.`
+	description `Star-Killers are extraordinary large in size, and are most likely slow`

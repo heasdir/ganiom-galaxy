@@ -1,0 +1,8 @@
+category "bay type"
+	"Light Warship"
+	"Medium Warship"
+	"Mega-Drone"
+	
+category "ship"
+	"Star-Killer"
+	"Mega-Drone"
