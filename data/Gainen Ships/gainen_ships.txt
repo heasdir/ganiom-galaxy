@@ -1,4 +1,4 @@
-    ship "Clossusn"
+ship "Clossusn"
 	sprite "ship/gainen colossus"
 	thumbnail "ship/gainen colossus"
 	attributes
@@ -41,9 +41,9 @@
 		"Quantum Vacuum Battery"
 		
 		
-		"Hassal Engines" 3
+		"Fusion Drive" 3
 		
-
+		
 		"Hyperdrive"
 		"Jump Drive"
 	
@@ -68,7 +68,7 @@
 
 
 ship "Macavtre"
-	sprite "ship/gainen macavtre"
+	sprite "ship/macavtre"
 	thumbnail "thumbnail/macavtre_thumb
 	attributes
 		category "Interceptor"
@@ -156,4 +156,56 @@ ship "Severosinsi"
 	explode "tiny explosion" 140
 	explode "small explosion" 70
 	description "The Severosinsi is a light warship designed to attack the communist Ganiom and other enemies of the Gainen."
+
+ship "Gainescaf"
+	sprite "ship/gainescaf"
+	thumbnail "thumbnail/gainescaf_thumb
+	attributes
+		category "Medium Warship"
+		"cost" 4500000
+		"shields" 74000
+		"hull" 124000
+		"required crew" 60
+		"bunks" 120
+		"mass" 1600
+		"drag" 2.1
+		"heat dissipation" 1
+		"fuel capacity" 1200
+		"cargo space" 160
+		"outfit space" 1400
+		"weapon capacity" 332
+		"engine capacity" 2400
+		"ramscoop" 50
+		"solar collection" 195
+		"shield generation" 100
+		"shield energy" 9.4
+		"hull repair rate" 29
+		"hull energy" 7
+		"hull heat" .8
+		"scan interference" 1
+		"radar jamming" 5
+		"cooling" 5550 #Dyson Cooling Systems
+	outfits
+		"G-7" 3
+		"Experimental J-X Turret" 5
+		"Blue Sun Reactor"
+		"Quantum Vaccum Battery"
+		"Experimental Drive"
+		"Hyperdrive"
+		"Hassal Engines"
+	
+	turret -25 -292
+	turret 48.5 -282
+	engine 125 137
+	engine -133 123.5
+	gun -31.5 -207.5
+	gun 43.5 -207
+	turret 5.5 7
+	gun 61.5 -44
+	turret 65.5 115.5
+	turret -49.5 114.5
+	explode "tiny explosion" 150
+	explode "small explosion" 90
+	explode "medium explosion" 50
+	description `Gainescaf Shipyards, part of the Gainen Shipyard company, has made another ship known as the Gainescaf. The Gainescaf introduces the newly made Experimental J-X Turret, and the G-7.`
 # All Gainen ships have not been defined yet, this is WIP
