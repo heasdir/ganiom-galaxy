@@ -5858,7 +5858,9 @@ planet Inakma
 
 planet "Isa Palechunam"
 	landscape land/moutainsnow5
-	spaceport ef
+	description `Isa Palechunam is a cold world, inhabited by the gainen. It is one of the biggest hubs in the gainen republic, and the heart of the gainen army.`
+	spaceport `The spaceport feels cold, because a mountain is below it. Isa Palechunam is filled with mountain ranges.`
+	outfitter "Gainen Normals"
 	shipyard "Gainen Shipyard"
 
 planet Isrhsiw
@@ -5914,6 +5916,7 @@ planet "Northpoint Station"
 	landscape land/land13
 	description `Farthest Northern Frontier Of the Gainen, Yet no gainen is here. Going more west,north or east goes to ??? territory.`
 	spaceport `"??? ??? Serbajkil Wenj" Seems like they keep talking about Serbajkil?a`
+	outfitter "Gainen Normals"
 
 planet Obines
 	landscape "land/moutainsnow5@2x "
@@ -6021,6 +6024,7 @@ planet Siri'Om
 	landscape land/brownmountains1
 	description `Made by the Gainen for an extinct neighbour known as the Sini'om who got massacared by the communist ganiom`
 	spaceport `The Gainen have made this place extremely beautiful as a way to cope that their friendly neighbours got massacared by the communist ganiom`
+	shipyard `Gainen Shipyard`
 
 planet Srunfeot
 	landscape land/brownmountains1
@@ -6048,6 +6052,8 @@ planet Trimakhol
 	landscape land/brownmountains1
 	description `Farthest point of the Gainen Republic. Going more west leaves you in Foren Territory.`
 	spaceport `Someone says "A'am'ksii pok kailna jak nos Ssrijako?" You are confused`
+	outfitter "Gainen Normals"
+	shipyard "Gainen Shipyard"
 
 planet Ula'miva
 	landscape land/foresttropical0
@@ -6092,4 +6098,6 @@ planet Yuso
 	description `Homeworld of the Hisair.`
 	spaceport `Homeworld of the hisair`
 	security 0.9
+	tribute 560000
+		fleet "Hisair High" 34
 
