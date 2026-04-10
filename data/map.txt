@@ -67,6 +67,7 @@ system Asiner
 	asteroids "small metal" 2 1.8122
 	asteroids "medium metal" 1 1.2597
 	asteroids "large metal" 1 1.8122
+	fleet "Mekrut Fleet" 340
 	object
 		sprite star/g5
 		period 10
@@ -1476,6 +1477,7 @@ system Helfp
 	asteroids "small metal" 84 4.785
 	asteroids "medium metal" 29 2.508
 	asteroids "large metal" 3 1.716
+	fleet "Mekrut Fleet" 340
 	object
 		sprite star/k5
 		period 10
@@ -2250,6 +2252,7 @@ system Jonkalo
 	asteroids "small metal" 95 7.128
 	asteroids "medium metal" 29 5.184
 	asteroids "large metal" 7 2.754
+	fleet "Mekrut Fleet" 450
 	object
 		sprite star/k5
 		distance 59
@@ -2267,8 +2270,8 @@ system Jonkalo
 		sprite planet/gas10
 		distance 547.05
 		period 175.356
-	object
-		sprite planet/gas15
+	object Mekrut
+		sprite planet/earth
 		distance 1445.14
 		period 752.915
 		object
@@ -2613,6 +2616,7 @@ system Makaro
 	asteroids "small metal" 2 1.92
 	asteroids "medium metal" 3 2.88
 	asteroids "large metal" 19 1.5
+	fleet "Mekrut Fleet" 900
 	object
 		sprite star/k5
 		period 10
@@ -2816,6 +2820,7 @@ system Mayqi
 	asteroids "small metal" 2 2.9568
 	asteroids "medium metal" 2 4.0992
 	asteroids "large metal" 1 2.4192
+	fleet "Mekrut Fleet" 456
 	object
 		sprite star/k0
 		period 10
@@ -3099,6 +3104,7 @@ system Naisqu
 	link Mayqi
 	link Helfp
 	asteroids "large metal" 1 2.178
+	fleet "Mekrut Fleet" 908
 	object
 		sprite star/a5
 		period 10
@@ -4478,6 +4484,7 @@ system "Sector E5 E1 "
 	asteroids "small metal" 100 3.6499
 	asteroids "medium metal" 26 2.261
 	asteroids "large metal" 2 3.876
+	fleet "Mekrut Fleet" 95
 	haze _menu/haze-red
 	object
 		sprite star/m0
@@ -5810,9 +5817,14 @@ planet Gerin
 
 planet Halon
 	landscape land/greenmountains1
-	spaceport g
-	shipyard g
-	outfitter d
+	description `Halon is a Mekrut world, originating from the Ka. Today, Halon is a massive world. With the Mekrut population being over 140 Billion+ people. Diverse in culture.`
+	spaceport `Halon is a hilly world, with the spaceport being in a satelite city of the biggest city in Halon. It is particularly interesting."
+	shipyard "Halon Basic"
+	shipyard "Halon Advanced"
+	shipyard "Mekrutar Basic"
+	shipyard "Mekrutar Advanced"
+	outfitter "Mekrut Outfitters"
+	outfitter "Ratow Outfitters"
 
 planet Haty'sa
 	landscape land/brownmountains1
@@ -5858,7 +5870,9 @@ planet Inakma
 
 planet "Isa Palechunam"
 	landscape land/moutainsnow5
-	spaceport ef
+	description `Isa Palechunam is a cold world, inhabited by the gainen. It is one of the biggest hubs in the gainen republic, and the heart of the gainen army.`
+	spaceport `The spaceport feels cold, because a mountain is below it. Isa Palechunam is filled with mountain ranges.`
+	outfitter "Gainen Normals"
 	shipyard "Gainen Shipyard"
 
 planet Isrhsiw
@@ -5878,9 +5892,15 @@ planet Lympaii
 
 planet Mekrut
 	landscape land/greenmountains1
-	description `Hostile faction, not landable.`
-	spaceport fgg
-	shipyard Mekrut
+	description `Mekrut is the capital of Bruchaven Mekrut, a republic that has the most happy people in the galaxy. It is a major world. Originating from the Ya, it shows a diverse world with over 1 trillion people.`
+	spaceport `Mekrut is a hilly world, like most mekrutar worlds. the spaceport is in a city.
+	shipyard "Mekrutar Basic"
+	shipyard "Mekrutar Advanced"
+	shipyard "Halon Advanced"
+	shipyard "Lannen-Mekrutar Shipyard"
+	outfitter "Ratow Outfitters"
+	outfitter "Mekrut Outfitters"
+	outfitter "Gainescaf Basic"
 
 planet Minin
 	landscape land/land27
@@ -5914,6 +5934,7 @@ planet "Northpoint Station"
 	landscape land/land13
 	description `Farthest Northern Frontier Of the Gainen, Yet no gainen is here. Going more west,north or east goes to ??? territory.`
 	spaceport `"??? ??? Serbajkil Wenj" Seems like they keep talking about Serbajkil?a`
+	outfitter "Gainen Normals"
 
 planet Obines
 	landscape "land/moutainsnow5@2x "
@@ -5974,10 +5995,14 @@ planet Qnanei
 
 planet Ratow
 	landscape land/greenmountains1
-	description `Hostile faction, not landable.`
-	spaceport ff
-	shipyard "Mekrut Shipyards"
+	description `Ratow is a Mekrut planet, filled with the Ka. It is a major planet. Originating from the Ka.`
+	spaceport `Ratow is a hilly world, like all mekrut worlds. it is less diverse. However, most ka in bruchaven live in ratow.`
+	shipyard "Mekrutar Advanced"
+	shipyard "Gainen Shipyard"
 	outfitter "Ratow Outifitters"
+	outfitter "Mekrut Telecommunications INC."
+	outfitter "Gainescaf Advanced"
+	outfitter "Ka Mexage Advanced"
 
 planet "Red Shambala"
 	landscape land/land28
@@ -6021,6 +6046,7 @@ planet Siri'Om
 	landscape land/brownmountains1
 	description `Made by the Gainen for an extinct neighbour known as the Sini'om who got massacared by the communist ganiom`
 	spaceport `The Gainen have made this place extremely beautiful as a way to cope that their friendly neighbours got massacared by the communist ganiom`
+	shipyard `Gainen Shipyard`
 
 planet Srunfeot
 	landscape land/brownmountains1
@@ -6048,6 +6074,8 @@ planet Trimakhol
 	landscape land/brownmountains1
 	description `Farthest point of the Gainen Republic. Going more west leaves you in Foren Territory.`
 	spaceport `Someone says "A'am'ksii pok kailna jak nos Ssrijako?" You are confused`
+	outfitter "Gainen Normals"
+	shipyard "Gainen Shipyard"
 
 planet Ula'miva
 	landscape land/foresttropical0
@@ -6092,4 +6120,6 @@ planet Yuso
 	description `Homeworld of the Hisair.`
 	spaceport `Homeworld of the hisair`
 	security 0.9
+	tribute 560000
+		fleet "Hisair High" 34
 

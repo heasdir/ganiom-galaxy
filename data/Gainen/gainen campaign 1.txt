@@ -1,22 +1,23 @@
 mission "Sudden Appearance"
+name "Sudden Appearance"
 	landing
 	invisible
 	source
-		goverment "Gainen Republic"
+		government "Gainen Republic"
 	on offer
 		conversation
 			`The gainen have similar technology to the remnants, they look unusually tall and are orange-skinned. Perhaps they are the predecessor race the remnants talked about, but we don't know.`
 			`Most of them are peaceful, but the authority is questioning you about if you are a communist Ganiom spy or not.`
 			`Who are you on why are you here?`
 			choice
-			`I'm only travelling, what's the problem?`
+			`	I'm only travelling, what's the problem?`
 				goto interrogation
 			label interrogation 
-			`Most travellers are usually Serbajkil or Foren in the gainen republic, you are not. You are a human, travelling in our space. For you to prove yourself, you must fight and liberate Vicknot.`
+			`	Most travellers are usually Serbajkil or Foren in the gainen republic, you are not. You are a human, travelling in our space. For you to prove yourself, you must fight and liberate Vicknot.`
 			choice
-			`On it, Sir.`
+			`	On it, Sir.`
 				goto praise
-			`I don't have a good enough ship yet`
+			`	I don't have a good enough ship yet`
 				decline
 			label praise
 			`Now, go to Vicknot.`

@@ -1,4 +1,4 @@
-     phrase "friendly gainen"
+phrase "friendly gainen"
 	word
 		"Who were the Sini'oms?"
 		"Who are the bruchaven?"
@@ -19,4 +19,51 @@ phrase "hostile gainen"
 		"You have done a big big big mistake."
 		"I knew it! You are those bloody communist Ganiom spies!"
 		"You absolute traitor!" 
-		"Say goodbye to being friends with the foren and serbajkil!" 
+		"Say goodbye to being friends with the foren and serbajkil!"
+		
+		
+phrase "normal hisair"
+	word
+		"Hand us your money!"
+		"Get ready to be destroyed by the Hisair!"
+		
+		
+phrase "friendly hisair"
+	word
+		"Join Hisair, the greatest drug empire in the galaxy!"
+		"Hisair is the greatest drug empire in the galaxy!"
+		
+		
+phrase "mekrut hail"
+	word
+		"Assayuk "
+		"Hadba "
+		"Ei "
+		"Ianu "
+		"Ae "
+		"Fango "
+		"Meks "
+		"Chau "
+		"Varanu "
+		"Akmu "
+		"Vassyo "
+		"Ruki "
+		"Al "
+	word
+		"Hussenali "
+		"Carbonsysa "
+		"Sxyhyfantain "
+		"Mekrut "
+		"Ntur "
+		"Dukkmut "
+		"Ekke Bruica Rakksa "
+		"La "
+		"Stiba "
+	word
+		"Ein"
+		"La"
+	word
+		"'ch"
+		"'krab"
+		"'stik"
+		"'aimot"

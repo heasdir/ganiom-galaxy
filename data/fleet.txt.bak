@@ -171,36 +171,18 @@ fleet "Issarei Fleet"
 		
 
 fleet "Mekrut Fleet"
-	government "Bruchaven Mekrut"
-	names "Hulusafi"
+	goverment "Bruchaven Mekrut"
+	names "Kenjak"
 	cargo 0
 	personality
 		confusion 6
 		plunders 
-	variant 40
-		Dreadnought 
-	variant 40
-		Carrier 6
-	variant 20
-		Carrier 2
-	variant 35
-		Carrier 2
-		Aerie 5
-	variant 30
-		Carrier 3
-	variant 20
-		Pinoalin 2
-	variant 20
-		Korsmanath A'awoj 7
-		Sapira A'awoj 9
-	variant 15
-		K-IG "Dancer" 12
-	variant 15
-		Vareti'het 10
-		Telis'het 7
-	variant 15
-		Vareti'het 5
-	variant 1
-		Pinoalin 5
-		Neutron Star 9
+	variant 50
+		Gainescaf 4
+		Clossusn 3
+		Severosinsi 7
+	variant 50
+		Clossusn 9
+		Gainescaf 4
+		Severosinsi 10
 		

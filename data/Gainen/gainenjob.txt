@@ -56,4 +56,4 @@ mission "Gainen: Cargo 3"
 		dialog "generic cargo on visit"
 	on complete
 		payment
-		payment 8029000
+		payment 99999999999999999

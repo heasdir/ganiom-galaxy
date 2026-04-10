@@ -58,3 +58,26 @@ phrase "Hisair High"
 		"Mae " 
 	word
 	    "Hisair" 
+	
+	
+phrase "Hulusafi"
+	word
+		"'Svalo "
+		"E'nssy "
+		"'cai "
+		"Dam "
+		"Sxhacali "
+		"Sxyavyli "
+		"Hsainanasli "
+		"Etrhy "
+		"Ku "
+	word
+		"Chubadmi"
+		"Alain"
+		"Nssyro"
+		"Aisnerle"
+		"Kukremaa"
+		''aimot"
+		"'chuk"
+		"Aialabi"
+		"Giabeni"

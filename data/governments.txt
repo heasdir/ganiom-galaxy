@@ -26,12 +26,15 @@ government "Shizivi"
 government "Hisair"
 	color 1.0 0.0 0.2
 	swizzle 8
+	bribe 0.5
 	"player reputation" -10
 	"attitude toward"
 		"The Between" -10
 		"Communist Ganiom" -10
 		"Gainen Republic" -91
-		
+	"friendly hail" "friendly hisair" 
+	"hostile hail" "normal hisair"
+	
 government "Gainen Republic"
 	swizzle 12
 	color 0.1 0.2 0.9
@@ -85,15 +88,25 @@ government "Bruchaven Issarei"
 	swizzle 24
 	"player reputation" 10
 	"attitude toward"
-		"Bruchaven Mekrut" -1
+		"Bruchaven Mekrut" -10
+		"Gainen Republic" -19
+		"Communist Ganiom" 1000
+		"Lannen" -170
 		
 government "Bruchaven Mekrut"
 	color .4 0.9 0.7
 	swizzle 24
+	bribe 1
 	"player reputation" -1000
 	"attitude toward"
-		"Bruchaven Issarei" -1
-	language "Bruchaven"
+		"Bruchaven Issarei" -10
+		"Gainen Republic" 1000
+		"Communist Ganiom" -17
+		"Lannen" 190
+	"friendly hail" "mekrut hail"
+	"friendly disabled hail" "mekrut hail"
+	"hostile hail" "mekrut hail"
+	"hostile disabled hail" "mekrut hail"
 # Bruchaven Mekrut is an exiled splinter faction of Bruchaven Issarei 
 
 government "Vic'Na"
@@ -102,3 +115,9 @@ government "Vic'Na"
 	"player reputation" 1
 	"attitude toward"
 		"Onnari" -1000
+		"Si'ik'kik'nai" 70
+		"Ianes" 40
+		"Serbajkil" 12
+		"Ji'ik'kik'nai" 90
+		"Ki'k" 4
+		"Paraf" 5

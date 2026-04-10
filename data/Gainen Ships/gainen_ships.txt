@@ -25,7 +25,7 @@ ship "Clossusn"
 		"hull heat" .1
 		"scan interference" 1
 		"radar jamming" 5
-		"cooling" 55
+		"cooling" 5500
 		"integrated system" -13
 		weapon
 			"blast radius" 450
@@ -58,6 +58,17 @@ ship "Clossusn"
 	engine -111.5 301.5
 	engine -180.5 257.5
 	engine -139 249.5
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
+	bay "Medium Warship" 0 0
 	explode "tiny explosion" 120
 	explode "small explosion" 60
 	explode "medium explosion" 70
@@ -208,4 +219,49 @@ ship "Gainescaf"
 	explode "small explosion" 90
 	explode "medium explosion" 50
 	description `Gainescaf Shipyards, part of the Gainen Shipyard company, has made another ship known as the Gainescaf. The Gainescaf introduces the newly made Experimental J-X Turret, and the G-7.`
+	
+	
+ship "Festafar"
+	sprite "ship/festafar"
+	thumbnail "thumbnail/festafar_thumb"
+	attributes
+		category "Mega-Drone"
+		"cost" 4500
+		"shields" 6000
+		"hull" 9000
+		"required crew" 0
+		"automaton" 1
+		"bunks" 1
+		"mass" 20
+		"drag" 1.1
+		"heat dissipation" 1
+		"fuel capacity" 0
+		"cargo space" 40
+		"outfit space" 1400
+		"weapon capacity" 6767
+		"engine capacity" 6767
+		"solar collection" 195
+		"shield generation" 100
+		"shield energy" 9.4
+		"hull repair rate" 29
+		"hull energy" 7
+		"hull heat" .8
+		"scan interference" 1
+		"radar jamming" 5
+		"cooling" 5550 #Dyson Cooling Systems
+	outfits
+		"Experimental J-X Turret" 5
+		"Hassal Engines" 2
+		"Blue Sun Reactor"
+		"Quantum Vacuum Battery"
+	
+	turret 5 -15
+	turret 5 -15
+	turret 5 -15
+	turret -1 6.5
+	turret -1 6.5
+	engine -1.5 37
+	engine -1.5 37
+	explode "tiny explosion" 45
+	description `The Festafar is a mega drone, and one of the first mega drones created. It is has a high number of turrets.`
 # All Gainen ships have not been defined yet, this is WIP
