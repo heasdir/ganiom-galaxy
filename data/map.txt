@@ -1,3 +1,17 @@
+#	Avgi
+#	Bunrodea
+#	Coalition
+#	Gegno
+#	Hai
+#	Human
+#	Incipias
+#	Ka'het
+#	Korath
+#	Remnant
+#	Successors
+#	Wanderer
+#	Whispering Void
+#	Gainen
 
 galaxy Ganiom
 	pos -10000 -5461
@@ -558,8 +572,10 @@ system Daiou
 system Deria
 	pos -10216.8 -4122.66
 	government Lannen
-	habitable 625
-	link "Osi Lannenr"
+	habitable 425.92
+	link "Osi Lannen"
+	link Havasabanaua
+	link Sialobi
 	asteroids "small rock" 9 4.617
 	asteroids "medium rock" 8 4.9005
 	asteroids "large rock" 2 2.106
@@ -567,44 +583,40 @@ system Deria
 	asteroids "medium metal" 4 4.4955
 	asteroids "large metal" 2 4.86
 	object
-		sprite star/g5
+		sprite star/k5
 		period 10
 	object
-		sprite planet/desert7
-		distance 173.81
-		period 36.6633
+		sprite planet/desert6
+		distance 196.69
+		period 53.465
+	object Ag-deria
+		sprite planet/ocean3
+		distance 667.38
+		period 334.161
+		object
+			sprite planet/dust3
+			distance 171
+			period 25.045
 	object
-		sprite planet/rock5
-		distance 555.17
-		period 209.295
+		sprite planet/gas14
+		distance 1682.67
+		period 1337.81
+		object
+			sprite planet/rhea
+			distance 217
+			period 13.0181
 	object
-		sprite planet/ocean2
-		distance 854.06
-		period 399.349
+		sprite planet/gas8
+		distance 2550.83
+		period 2497
 		object
-			sprite planet/oberon
-			distance 158
-			period 17.2398
-	object
-		sprite planet/gas2
-		distance 2697.62
-		period 2241.77
+			sprite planet/ice8
+			distance 194
+			period 14.384
 		object
-			sprite planet/europa
-			distance 184
-			period 15.1231
-		object
-			sprite planet/rock0
-			distance 323
-			period 35.1737
-		object
-			sprite planet/io
-			distance 467
-			period 61.1491
-		object
-			sprite planet/dust5
-			distance 562
-			period 80.7271
+			sprite planet/rock3
+			distance 308
+			period 28.7742
 
 system Dika'mki
 	pos -11717.9 -5716.35
@@ -1332,6 +1344,47 @@ system Hatysa
 		distance 1260.56
 		period 27.5957
 
+system Havasabanaua
+	pos -10323.5 -4084.11
+	government Lannen
+	habitable 1715
+	link Mina
+	link Deria
+	link Sialobi
+	asteroids "small rock" 53 2.304
+	asteroids "medium rock" 3 3.996
+	asteroids "large rock" 11 2.556
+	asteroids "small metal" 31 1.944
+	asteroids "medium metal" 7 1.872
+	asteroids "large metal" 1 3.168
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/rock2
+		distance 227.29
+		period 33.0977
+	object
+		sprite planet/desert4
+		distance 446.58
+		period 91.1542
+	object
+		sprite planet/ice0
+		distance 1041.82
+		period 324.801
+	object
+		sprite planet/desert6
+		distance 1221.66
+		period 412.433
+	object
+		sprite planet/gas5
+		distance 3286.91
+		period 1820.16
+		object
+			sprite planet/dust1
+			distance 248
+			period 12.9875
+
 system Hayqi
 	pos -10391.8 -4553.66
 	government "Bruchaven Issarei"
@@ -1370,6 +1423,7 @@ system He'ile
 	link Il'ka
 	link Ir'at'ga
 	link Le'het
+	link Yu'mase
 	asteroids "small rock" 15 2.838
 	asteroids "medium rock" 37 2.31
 	asteroids "large rock" 61 2.222
@@ -2243,6 +2297,53 @@ system Javyarm
 			distance 290
 			period 12.6143
 
+system Jeanlivwa
+	pos -10190.5 -3979.11
+	government Lannen
+	habitable 135
+	link Mina
+	link Lannen
+	asteroids "small rock" 3 2.9876
+	asteroids "medium rock" 107 3.696
+	asteroids "large rock" 16 2.7412
+	asteroids "medium metal" 10 2.4332
+	asteroids "large metal" 1 2.5564
+	object
+		sprite star/m8
+		period 10
+	object Hassaberut
+		sprite planet/desert3
+		distance 156.25
+		period 67.2393
+	object
+		sprite planet/gas1
+		distance 1080.61
+		period 1222.92
+		object
+			sprite planet/dust1
+			distance 242
+			period 15.0466
+		object
+			sprite planet/dust7
+			distance 379
+			period 29.49
+		object
+			sprite planet/luna
+			distance 499
+			period 44.5519
+		object
+			sprite planet/io
+			distance 641
+			period 64.8638
+	object
+		sprite planet/gas14
+		distance 2469.86
+		period 4225.73
+		object
+			sprite planet/rock14
+			distance 236
+			period 14.7648
+
 system Jonkalo
 	pos -10607.8 -4307.66
 	government "Bruchaven Mekrut"
@@ -2459,6 +2560,57 @@ system "Lai Mou"
 			distance 363
 			period 27.6424
 			haze _menu/haze-red
+
+system Lannen
+	pos -10192.5 -3932.11
+	government Lannen
+	habitable 425.92
+	link Jeanlivwa
+	asteroids "small rock" 1 1.105
+	asteroids "medium rock" 18 1.261
+	asteroids "large rock" 2 0.689
+	asteroids "small metal" 11 1.573
+	asteroids "medium metal" 38 0.988
+	asteroids "large metal" 3 1.43
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert7
+		distance 200
+		period 54.8202
+	object
+		sprite planet/ice5
+		distance 590.84
+		period 278.356
+		object
+			sprite planet/rock14
+			distance 179
+			period 23.687
+	object
+		sprite planet/gas14
+		distance 1496.05
+		period 1121.54
+		object
+			sprite planet/rock7
+			distance 211
+			period 12.4819
+		object
+			sprite planet/europa
+			distance 340
+			period 25.5315
+	object
+		sprite planet/gas9
+		distance 2343.01
+		period 2198.15
+		object
+			sprite planet/ice7
+			distance 271
+			period 16.728
+		object
+			sprite planet/ice8
+			distance 376
+			period 27.3383
 
 system Le'esen
 	pos -11472.4 -5706.91
@@ -2860,6 +3012,46 @@ system Mayqi
 			sprite planet/rock17
 			distance 609
 			period 79.1085
+
+system Mina
+	pos -10193.5 -4030.11
+	government Lannen
+	habitable 1505.92
+	link Havasabanaua
+	link "Osi Lannen"
+	link Jeanlivwa
+	asteroids "medium rock" 1 2.4684
+	asteroids "large rock" 3 1.0812
+	asteroids "large metal" 3 2.856
+	object
+		sprite star/g0
+		distance 31.9598
+		period 12.3816
+		offset 180
+	object
+		sprite star/k5
+		distance 81.0402
+		period 12.3816
+	object
+		sprite planet/ice3
+		distance 292.04
+		period 51.4426
+	object
+		sprite planet/rock1
+		distance 730.08
+		period 203.336
+	object Sialieb
+		sprite planet/ocean5
+		distance 1372.89
+		period 524.34
+	object
+		sprite planet/gas15
+		distance 1826.9
+		period 804.88
+		object
+			sprite planet/luna
+			distance 187
+			period 13.4605
 
 system Naini
 	pos -10011.7 -5456.02
@@ -3837,53 +4029,41 @@ system Onnsriawa
 			distance 273
 			period 11.5215
 
-system "Osi Lannenr"
-	pos -10207.8 -4035.66
+system "Osi Lannen"
+	pos -10206.8 -4081.66
 	government Lannen
-	habitable 945
+	habitable 233.28
 	link Deria
+	link Mina
+	link Sialobi
 	asteroids "small rock" 12 10.4922
 	asteroids "medium rock" 1 5.2461
 	asteroids "large rock" 6 9.2394
 	asteroids "medium metal" 5 11.4318
 	asteroids "large metal" 1 6.9687
 	object
-		sprite star/g5
-		distance 33.5238
-		period 12.8173
+		sprite star/m4
+		period 10
+	object Ad-Osini
+		sprite planet/lava6
+		distance 180.25
+		period 63.3774
 	object
-		sprite star/m0
-		distance 65.4762
-		period 12.8173
-		offset 180
-	object
-		sprite planet/desert2
-		distance 292.166
-		period 64.9814
-	object
-		sprite planet/mars
-		distance 607.976
-		period 195.063
+		sprite planet/gas11
+		distance 729.86
+		period 516.393
 		object
-			sprite planet/dust1
-			distance 126
-			period 18.9022
+			sprite planet/io
+			distance 236
+			period 11.9576
 	object
-		sprite planet/gas15
-		distance 1070.23
-		period 455.572
+		sprite planet/gas10
+		distance 1656.75
+		period 1766.07
 	object
-		sprite planet/gas16
-		distance 2736.12
-		period 1862.28
-		object
-			sprite planet/ice7
-			distance 218
-			period 16.9427
-		object
-			sprite planet/rock14
-			distance 327
-			period 31.1257
+		sprite planet/gas17
+		distance 2113.56
+		period 2544.74
 
 system Pakqf
 	pos -10506.9 -4662.2
@@ -4670,6 +4850,54 @@ system Shijhom
 			distance 232
 			period 14.391
 
+system Sialobi
+	pos -10243.5 -4085.11
+	government Lannen
+	habitable 320
+	link Havasabanaua
+	link Deria
+	link "Osi Lannen"
+	asteroids "small rock" 4 4.992
+	asteroids "medium rock" 49 3.1616
+	asteroids "large rock" 2 5.7408
+	asteroids "medium metal" 5 3.3696
+	asteroids "large metal" 5 4.7008
+	object
+		sprite star/m0
+		period 10
+	object Sz-Sialobi
+		sprite planet/venus
+		distance 272.09
+		period 100.358
+		object
+			sprite planet/dust5
+			distance 155
+			period 22.02
+	object
+		sprite planet/desert10
+		distance 678.98
+		period 395.613
+	object
+		sprite planet/gas10
+		distance 1882.07
+		period 1825.74
+		object
+			sprite planet/miranda
+			distance 218
+			period 16.9427
+		object
+			sprite planet/rock0
+			distance 361
+			period 36.1042
+		object
+			sprite planet/dust4
+			distance 473
+			period 54.1488
+		object
+			sprite planet/rock14
+			distance 633
+			period 83.8306
+
 system Silkar
 	pos -10000 -5461
 	government Uninhabited
@@ -5101,6 +5329,53 @@ system Tje
 			distance 296
 			period 14.3763
 
+system Treas'se
+	pos -10995.5 -6666.11
+	government Vic'Na
+	habitable 320
+	link Yu'mase
+	asteroids "medium metal" 1 4.374
+	asteroids "large metal" 2 3.8394
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/lava1
+		distance 123
+		period 30.503
+		offset 200.224
+	object Haj'li
+		sprite planet/ocean9
+		distance 373.388
+		period 161.334
+		offset 95.7395
+	object
+		sprite planet/desert6
+		distance 897.748
+		period 601.474
+		offset 13.5662
+		object
+			sprite planet/dust4
+			distance 139
+			period 17.0745
+	object
+		sprite planet/gas15
+		distance 1694.84
+		period 1560.19
+		offset 2.69561
+		object
+			sprite planet/dust7
+			distance 205
+			period 15.45
+		object
+			sprite planet/ice0
+			distance 332
+			period 31.8423
+		object
+			sprite planet/dust5
+			distance 491
+			period 57.269
+
 system "Ulke Mavru"
 	pos -11760.9 -5671.35
 	government Serbajkil
@@ -5497,14 +5772,75 @@ system Xee'rafa
 		distance 3764.8
 		period 2381.07
 
+system Yu'mase
+	pos -10992.5 -6704.11
+	government Vic'Na
+	habitable 233.28
+	link He'ile
+	link Treas'se
+	asteroids "small rock" 37 2.808
+	asteroids "medium rock" 34 1.566
+	asteroids "large rock" 32 2.511
+	asteroids "medium metal" 25 2.781
+	asteroids "large metal" 3 2.997
+	object
+		sprite star/m4
+		period 10
+	object
+		sprite planet/titan
+		distance 153.36
+		period 49.7381
+	object Ga'ratri
+		sprite planet/rock15
+		distance 327.8
+		period 155.43
+	object
+		sprite planet/rock18
+		distance 527.29
+		period 317.099
+	object
+		sprite planet/uranus
+		distance 1042.1
+		period 881.019
+		object
+			sprite planet/rhea
+			distance 247
+			period 16.5851
+		object
+			sprite planet/miranda
+			distance 356
+			period 28.6978
+	object
+		sprite planet/gas12
+		distance 1991.99
+		period 2328.37
+		object
+			sprite planet/tethys
+			distance 273
+			period 11.8476
+		object
+			sprite planet/io
+			distance 406
+			period 21.4869
+
 planet "Abeni "
 	landscape land/greenmountains1
 	description `Abeni is a rocky planet, controlled by the bruchaven issaren. It is also the capital of bruchaven issaren`
 	spaceport oeiwowk
 
+planet Ad-Osini
+	landscape land/land18
+	description `Ad-Osini is a world with archipelagos everywhere.`
+	spaceport .
+
 planet Aerie
 	landscape land/greenmountains2
 	description `This station wasnt made by the bruchaven. it stays as a relic of an unknown race.`
+
+planet Ag-deria
+	landscape land/foresttropical0
+	description .
+	spaceport .
 
 planet Ajma
 	landscape land/greenmountains2
@@ -5592,6 +5928,9 @@ planet Fruga'le
 	description .
 	spaceport .
 
+planet Ga'ratri
+	landscape land/foresttropical0
+
 planet "Gaie Point"
 	landscape land/land13
 	description `You realise that the majority of people here don't look like the gainen, perhaps another ailen race`
@@ -5608,88 +5947,37 @@ planet "Ganiom Cheat"
 	landscape land/land27
 	description `You found it! Omnis in Ganiom!`
 	spaceport .
-    outfitter "omnis"
-	shipyard "omnis"
-	outfitter "aberrant"
-	shipyard "aberrant"
-	outfitter "avgi"
-	shipyard "avgi"
-	outfitter "developer"
-	shipyard "developer"
-	outfitter "bunrodea"
-	shipyard "bunrodea"
-	outfitter "coalition"
-	shipyard "coalition"
-	outfitter "drak"
-	shipyard "drak"
-	outfitter "gegno"
-	shipyard "gegno"
-	outfitter "hai"
-	shipyard "hai"
-	outfitter "human"
-	shipyard "human"
-	shipyard "iije"
-	shipyard "incipias"
-	outfitter "incipias"
-	outfitter "kahet"
-	shipyard "kahet"
-	outfitter "korath"
-	shipyard "korath"
-	outfitter "pug"
-	shipyard "pug"
-	outfitter "quarg"
-	shipyard "quarg"
-	outfitter "remnant"
-	shipyard "remnant"
-	outfitter "rulei"
-	shipyard "rulei"
-	outfitter "sheragi"
-	shipyard "sheragi"
-	outfitter "successors"
-	shipyard "successors"
-	outfitter "vyrmeid"
-	shipyard "vyrmeid"
-	outfitter "wanderer"
-	shipyard "wanderer"
-	outfitter "whispering void"
+	spaceport de
+	shipyard omnis
+	shipyard aberrant
+	shipyard avgi
+	shipyard developer
+	shipyard bunrodea
+	shipyard coalition
+	shipyard drak
+	shipyard gegno
+	shipyard hai
+	shipyard human
+	shipyard iije
+	shipyard incipias
+	shipyard kahet
+	shipyard korath
+	shipyard pug
+	shipyard quarg
+	shipyard remnant
+	shipyard rulei
+	shipyard sheragi
+	shipyard successors
+	shipyard vyrmeid
+	shipyard wanderer
 	shipyard "whispering void"
-#	Avgi
-	outfitter "Avgi Atomics"
-	outfitter "Avgi Dissonance Smuggling"
-	outfitter "Avgi Electronics"
-	outfitter "Avgi Engineering"
-	outfitter "Avgi General"
-	outfitter "Avgi Militia Surplus"
-	outfitter "Avgi Nanomaterials"
-	outfitter "Avgi Propulsion"
-	outfitter "Avgi Specialized"
-	outfitter "Avgi Superconductors"
-	outfitter "Avgi Torches"
-	outfitter "Avgi Twilight Guard"
-#	Bunrodea
-	outfitter "Bunrodea Advanced"
-	outfitter "Bunrodea Basic"
-	outfitter "Bunrodea Capital"
 	shipyard "Bunrodea Advanced"
 	shipyard "Bunrodea Basic"
 	shipyard "Bunrodea Capital"
-#	Coalition
-	outfitter "Coalition Advanced"
-	outfitter "Coalition Basics"
-	outfitter "Heliarch Basics"
-	outfitter "Heliarch"
-	shipyard "Arach"
+	shipyard Arach
 	shipyard "Coalition Basics"
-	shipyard "Kimek"
-	shipyard "Saryd"
-#	Gegno
-	outfitter "Gegno Basic"
-	outfitter "Gegno Intermediate"
-	outfitter "Scin Advanced"
-	outfitter "Scin Basic"
-	outfitter "Scin Intermediate"
-	outfitter "Vi Basic"
-	outfitter "Vi Intermediate"
+	shipyard Kimek
+	shipyard Saryd
 	shipyard "Gegno Advanced"
 	shipyard "Gegno Basic"
 	shipyard "Gegno Intermediate"
@@ -5700,12 +5988,6 @@ planet "Ganiom Cheat"
 	shipyard "Vi Utility"
 	shipyard "Vi Warships I"
 	shipyard "Vi Warships II"
-#	Hai
-	outfitter "Hai Advanced"
-	outfitter "Hai Basics"
-	outfitter "Hai Intermediate"
-	outfitter "Hai Security"
-	outfitter "Unfettered Basics"
 	shipyard "Imo Loo Mer Advanced"
 	shipyard "Imo Loo Mer Basics"
 	shipyard "Mon Ki i'Hiya Advanced"
@@ -5713,29 +5995,6 @@ planet "Ganiom Cheat"
 	shipyard "Mon Ki o'Uden Advanced"
 	shipyard "Yeer e Ki Advanced"
 	shipyard "Yeer e Ki Basics"
-#	Human
-	outfitter "Ammo North"
-	outfitter "Ammo South"
-	outfitter "Basic Outfits"
-	outfitter "Common Outfits"
-	outfitter "Deep Sky Advanced"
-	outfitter "Deep Sky Basics"
-	outfitter "Delta V Advanced"
-	outfitter "Delta V Basics"
-	outfitter "FW Security"
-	outfitter "Kraz Advanced"
-	outfitter "Kraz Basics"
-	outfitter "Lovelace Advanced"
-	outfitter "Lovelace Basics"
-	outfitter "Lovelace Security"
-	outfitter "Northern Explorers"
-	outfitter "Nuke"
-	outfitter "Pirate Outfits"
-	outfitter "Stack Core"
-	outfitter "Syndicate Advanced"
-	outfitter "Syndicate Assistance"
-	outfitter "Syndicate Basics"
-	outfitter "Syndicated Security"
 	shipyard "Advanced Core Pirates"
 	shipyard "Advanced Northern Pirates"
 	shipyard "Advanced Southern Pirates"
@@ -5758,24 +6017,106 @@ planet "Ganiom Cheat"
 	shipyard "Syndicate Basics"
 	shipyard "Tarazed Advanced"
 	shipyard "Tarazed Basics"
-#	Incipias
-	outfitter "Hicemus"
-	shipyard "Hicemus"
-#	Ka'het
-	outfitter "Ka'het"
-#	Korath
+	shipyard Hicemus
+	shipyard "Remnant Puffin"
+	shipyard "Remnant Salvage Ships"
+	shipyard Remnant
+	shipyard "High Houses Light"
+	shipyard "High Houses Heavy"
+	shipyard "New Houses Light"
+	shipyard "People's Houses"
+	shipyard "Successor Basics"
+	shipyard "Successor Civilian"
+	shipyard "Successor Heavy"
+	shipyard Waterlining
+	shipyard "Wanderer Advanced"
+	shipyard "Wanderer Basics"
+	shipyard "Elenctic Commune Basic"
+	shipyard "Gainen Shipyard"
+	shipyard developer
+	outfitter aberrant
+	outfitter avgi
+	outfitter developer
+	outfitter bunrodea
+	outfitter coalition
+	outfitter drak
+	outfitter gegno
+	outfitter hai
+	outfitter human
+	outfitter incipias
+	outfitter kahet
+	outfitter korath
+	outfitter pug
+	outfitter quarg
+	outfitter remnant
+	outfitter rulei
+	outfitter sheragi
+	outfitter successors
+	outfitter vyrmeid
+	outfitter wanderer
+	outfitter "whispering void"
+	outfitter "Avgi Atomics"
+	outfitter "Avgi Dissonance Smuggling"
+	outfitter "Avgi Electronics"
+	outfitter "Avgi Engineering"
+	outfitter "Avgi General"
+	outfitter "Avgi Militia Surplus"
+	outfitter "Avgi Nanomaterials"
+	outfitter "Avgi Propulsion"
+	outfitter "Avgi Specialized"
+	outfitter "Avgi Superconductors"
+	outfitter "Avgi Torches"
+	outfitter "Avgi Twilight Guard"
+	outfitter "Bunrodea Advanced"
+	outfitter "Bunrodea Basic"
+	outfitter "Bunrodea Capital"
+	outfitter "Coalition Advanced"
+	outfitter "Coalition Basics"
+	outfitter "Heliarch Basics"
+	outfitter Heliarch
+	outfitter "Gegno Basic"
+	outfitter "Gegno Intermediate"
+	outfitter "Scin Advanced"
+	outfitter "Scin Basic"
+	outfitter "Scin Intermediate"
+	outfitter "Vi Basic"
+	outfitter "Vi Intermediate"
+	outfitter "Hai Advanced"
+	outfitter "Hai Basics"
+	outfitter "Hai Intermediate"
+	outfitter "Hai Security"
+	outfitter "Unfettered Basics"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Deep Sky Advanced"
+	outfitter "Deep Sky Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Delta V Basics"
+	outfitter "FW Security"
+	outfitter "Kraz Advanced"
+	outfitter "Kraz Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Security"
+	outfitter "Northern Explorers"
+	outfitter Nuke
+	outfitter "Pirate Outfits"
+	outfitter "Stack Core"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicated Security"
+	outfitter Hicemus
+	outfitter Ka'het
 	outfitter "Korath Basics"
 	outfitter "Korath Exiles"
 	outfitter "Korath Exiles Remnant Donations"
-#	Remnant
 	outfitter "Remnant Core"
 	outfitter "Remnant Salvage"
-	outfitter "Remnant"
+	outfitter Remnant
 	outfitter "Void Sprite Parts"
-	shipyard "Remnant Puffin"
-	shipyard "Remnant Salvage Ships"
-	shipyard "Remnant"
-#	Successors
 	outfitter "High Houses Light"
 	outfitter "High Houses Heavy"
 	outfitter "People's Houses"
@@ -5785,25 +6126,11 @@ planet "Ganiom Cheat"
 	outfitter "Successor High Tech"
 	outfitter "Successor Weapons Basics"
 	outfitter "Successor Weapons Heavy"
-	shipyard "High Houses Light"
-	shipyard "High Houses Heavy"
-	shipyard "New Houses Light"
-	shipyard "People's Houses"
-	shipyard "Successor Basics"
-	shipyard "Successor Civilian"
-	shipyard "Successor Heavy"
-	shipyard "Waterlining"
-#	Wanderer
 	outfitter "Wanderer Advanced"
 	outfitter "Wanderer Basics"
-	shipyard "Wanderer Advanced"
-	shipyard "Wanderer Basics"
-#	Whispering Void
 	outfitter "Elenctic Commune Basic"
-	shipyard "Elenctic Commune Basic"
-#	Gainen
 	outfitter "Gainen Normals"
-	shipyard "Gainen Shipyard"
+	outfitter developer
 
 planet Gasinas
 	landscape land/land3
@@ -5815,16 +6142,26 @@ planet Gerin
 	description onnnmnnmnnnooppoonoooooon
 	spaceport nnooo
 
+planet Haj'li
+	landscape land/foresttropical0
+	description e
+	spaceport f
+
 planet Halon
 	landscape land/greenmountains1
 	description `Halon is a Mekrut world, originating from the Ka. Today, Halon is a massive world. With the Mekrut population being over 140 Billion+ people. Diverse in culture.`
-	spaceport `Halon is a hilly world, with the spaceport being in a satelite city of the biggest city in Halon. It is particularly interesting."
+	spaceport `Halon is a hilly world, with the spaceport being in a satelite city of the biggest city in Halon. It is particularly interesting."`
 	shipyard "Halon Basic"
 	shipyard "Halon Advanced"
 	shipyard "Mekrutar Basic"
 	shipyard "Mekrutar Advanced"
 	outfitter "Mekrut Outfitters"
 	outfitter "Ratow Outfitters"
+
+planet Hassaberut
+	landscape land/brownmountains1
+	description e
+	spaceport f
 
 planet Haty'sa
 	landscape land/brownmountains1
@@ -5872,8 +6209,8 @@ planet "Isa Palechunam"
 	landscape land/moutainsnow5
 	description `Isa Palechunam is a cold world, inhabited by the gainen. It is one of the biggest hubs in the gainen republic, and the heart of the gainen army.`
 	spaceport `The spaceport feels cold, because a mountain is below it. Isa Palechunam is filled with mountain ranges.`
-	outfitter "Gainen Normals"
 	shipyard "Gainen Shipyard"
+	outfitter "Gainen Normals"
 
 planet Isrhsiw
 	landscape land/greenmountains1
@@ -5885,6 +6222,9 @@ planet Kla'ik
 	description .
 	spaceport .
 
+planet ""
+	landscape land/foresttropical0
+
 planet Lympaii
 	landscape land/foresttropical0
 	description .
@@ -5893,7 +6233,7 @@ planet Lympaii
 planet Mekrut
 	landscape land/greenmountains1
 	description `Mekrut is the capital of Bruchaven Mekrut, a republic that has the most happy people in the galaxy. It is a major world. Originating from the Ya, it shows a diverse world with over 1 trillion people.`
-	spaceport `Mekrut is a hilly world, like most mekrutar worlds. the spaceport is in a city.
+	spaceport `Mekrut is a hilly world, like most mekrutar worlds. the spaceport is in a city.`
 	shipyard "Mekrutar Basic"
 	shipyard "Mekrutar Advanced"
 	shipyard "Halon Advanced"
@@ -6034,6 +6374,11 @@ planet Si'faleha
 	landscape land/land27
 	description `Biggest faikure in foren history. you see a person. just walking, go BACK YOUR HALLUCINATING`
 
+planet Sialieb
+	landscape land/mountainsnow0
+	description f
+	spaceport f
+
 planet "Sinava Nava"
 	landscape land/greenmountains1
 	spaceport ddddd
@@ -6046,7 +6391,7 @@ planet Siri'Om
 	landscape land/brownmountains1
 	description `Made by the Gainen for an extinct neighbour known as the Sini'om who got massacared by the communist ganiom`
 	spaceport `The Gainen have made this place extremely beautiful as a way to cope that their friendly neighbours got massacared by the communist ganiom`
-	shipyard `Gainen Shipyard`
+	shipyard "Gainen Shipyard"
 
 planet Srunfeot
 	landscape land/brownmountains1
@@ -6054,6 +6399,11 @@ planet Srunfeot
 
 planet Synde
 	landscape ""
+
+planet Sz-Sialobi
+	landscape land/foresttropical0
+	description e
+	spaceport f
 
 planet Tirifanailokibasltiranabi
 	landscape land/greenmountains1
@@ -6074,8 +6424,8 @@ planet Trimakhol
 	landscape land/brownmountains1
 	description `Farthest point of the Gainen Republic. Going more west leaves you in Foren Territory.`
 	spaceport `Someone says "A'am'ksii pok kailna jak nos Ssrijako?" You are confused`
-	outfitter "Gainen Normals"
 	shipyard "Gainen Shipyard"
+	outfitter "Gainen Normals"
 
 planet Ula'miva
 	landscape land/foresttropical0

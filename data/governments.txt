@@ -121,3 +121,13 @@ government "Vic'Na"
 		"Ji'ik'kik'nai" 90
 		"Ki'k" 4
 		"Paraf" 5
+
+
+government "Lannen"
+	color 0.3 0.4 0.2
+	swizzle 9
+	"player reputation" 160
+	"attitude toward"
+		"Bruchaven Issarei" -1
+		"Bruchaven Mekrut" 190
+		"Gainen Republic" 1000
