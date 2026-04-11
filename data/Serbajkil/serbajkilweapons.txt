@@ -7,24 +7,24 @@ outfit "Serbajkil NT"
 	"weapon capacity" -4
 	"turret mounts" -1
 	weapon
-		sprite "projectile/neutron bolt"
-		sound "neutron bolt"
+		sprite "projectile/seeker"
+		sound "proton"
 		"hardpoint sprite" "hardpoint/experimental jx gainen hp"
 		"hardpoint offset" 8.
 		"hardpoint offset" 10
 		"hit effect" "neutron explosion"
 		"inaccuracy" .1
-		"turret turn" 3
+		"turret turn" 10
 		"range override" 7800
 		"velocity override" 29
-		"velocity" 25
+		"velocity" 29
 		"acceleration" 1
 		"drag" .06
 		"homing" 3
 		"turn" 1
 		"tracking" 1
 		"lifetime" 280
-		"reload" 120
+		"reload" 40
 		"firing heat" 10
 		"shield damage" 99800
 		"hull damage" 99500
