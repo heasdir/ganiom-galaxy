@@ -12,18 +12,18 @@ outfit "Serbajkil NT"
 		"hardpoint sprite" "hardpoint/experimental jx gainen hp"
 		"hardpoint offset" 8.
 		"hardpoint offset" 10
-		"hit effect" "particle impact"
+		"hit effect" "neutron explosion"
 		"inaccuracy" .1
 		"turret turn" 3
-		"range override" 600
+		"range override" 7800
 		"velocity override" 29
-		"velocity" 11
+		"velocity" 25
 		"acceleration" 1
 		"drag" .06
 		"homing" 3
 		"turn" 1
 		"tracking" 1
-		"lifetime" 28
+		"lifetime" 280
 		"reload" 120
 		"firing heat" 10
 		"shield damage" 99800
