@@ -1,0 +1,32 @@
+outfit "Serbajkil NT"
+	category "Turrets"
+	cost 9500000
+	thumbnail "outfit/experimentaljxthumb"
+	mass 30
+	"outfit space" -4
+	"weapon capacity" -4
+	"turret mounts" -1
+	weapon
+		sprite "projectile/neutron bolt"
+		sound "neutron bolt"
+		"hardpoint sprite" "hardpoint/experimental jx gainen hp"
+		"hardpoint offset" 8.
+		"hardpoint offset" 10
+		"hit effect" "particle impact"
+		"inaccuracy" .1
+		"turret turn" 3
+		"range override" 600
+		"velocity override" 29
+		"velocity" 12000
+		"acceleration" 20
+		"drag" .06
+		"homing" 3
+		"turn" 1
+		"tracking" 1
+		"lifetime" 28
+		"firing heat" 10
+		"shield damage" 99800
+		"hull damage" 99500
+		"disruption damage" 49600
+		"safe"
+	description `Unbuyable serbajkil weapon used for 'disciplining' another species.`
