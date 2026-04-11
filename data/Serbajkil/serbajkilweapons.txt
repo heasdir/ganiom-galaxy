@@ -17,13 +17,14 @@ outfit "Serbajkil NT"
 		"turret turn" 3
 		"range override" 600
 		"velocity override" 29
-		"velocity" 12000
-		"acceleration" 20
+		"velocity" 11
+		"acceleration" 1
 		"drag" .06
 		"homing" 3
 		"turn" 1
 		"tracking" 1
 		"lifetime" 28
+		"reload" 120
 		"firing heat" 10
 		"shield damage" 99800
 		"hull damage" 99500
