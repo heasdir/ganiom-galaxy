@@ -1,0 +1,60 @@
+outfit "Reisbruth Ivacath Mine"
+	category "Turrets"
+	cost 7000000
+	thumbnail "outfit/unknown"
+	mass 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	weapon
+		sprite "projectile/korath minelayer"
+			"frame rate" .6
+			"no repeat"
+		sound "thrasher"
+		"fire effect" "minelayer fire"
+		"hit effect" "huge explosion"
+		"die effect" "minelayer split" 5
+		"inaccuracy" .1
+		"turret turn" 3
+		"range override" 340
+		"velocity override" 20
+		"velocity" 95
+		"acceleration" 2
+		"drag" .07
+		"homing" 4
+		"turn" 1
+		"tracking" 1
+		"lifetime" 23
+		"reload" 12
+		"burst count" 3
+		"burst reload" 5
+		"firing heat" 10
+		"shield damage" 3900
+		"hull damage" 2300
+		"safe"
+	description `This weapon is particularly used by the Reisbruth and Eremas for bombing.`
+	description `This weapon is expensive and is only used in heavy warships.`
+
+
+outfit "Reisbruth Beam"
+	category "Guns"
+	cost 670450
+	thumbnail "outfit/ka'het ravager beam"
+	"mass" 11
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	weapon
+		sprite "projectile/ravager beam"
+			"frame rate" 15
+		sound "disruptor"
+		"hit effect" "ravager impact"
+		"inaccuracy" .1
+		"velocity" 480
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 3.7
+		"firing heat" 1.5
+		"shield damage" 180
+		"hull damage" 470
+	description `Reisbruth beams are famously known for being the most versatile weapons in their area.`

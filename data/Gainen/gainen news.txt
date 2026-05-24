@@ -1,0 +1,21 @@
+news "Gainescaf Shipyards"
+	location
+		government "Gainen Republic"
+	name
+		word
+			"Gainescaf Shipyards"
+	message
+		word
+			"The brand new Gainescaf has the new experimental J-X Turret!"
+			"The Severosinsi utilizes G-7s to attack hostile factions!"
+
+news "Sfrikao Shipyards"
+	location 
+		government "Gainen Republic"
+		name
+			word "Sfrikao Shipyards"
+	message
+		word
+			"G12 Attacks is our creation!"
+			"Sfrikao Shipyards provides the Gainen Republic with carriers, the Clossusn, one of the first Gainen carriers came from us, Sfrikao Shipyards."
+			"Trust Sfrikao Shipyards, 600 years of experience and design"

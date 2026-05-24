@@ -2,7 +2,7 @@ ship "Alkorel"
 	sprite "ship/serbajkil alkorel"
 	thumbnail "ship/serbajkil alkorel"
 	attributes
-		category "Star-Killer"
+		category "Heavy Warship"
 		"cost" 4500000
 		"shields" 7400000
 		"hull" 12400000

@@ -3,7 +3,7 @@ ship "Qari Hexa"
 		scale 5
 	thumbnail "thumbnail/gainescaf_thumb
 	attributes
-		category "Star-Killer"
+		category "Heavy Warship"
 		"cost" 4500000
 		"shields" 74000
 		"hull" 124000
@@ -167,7 +167,7 @@ ship "G12 Attack"
 		scale 2
 	thumbnail "thumbnail/g12attack_thumb"
 	attributes
-		category "Star-Killer"
+		category "Heavy Warship"
 		"cost" 945500000
 		"shields" 7244000
 		"hull" 17445300
