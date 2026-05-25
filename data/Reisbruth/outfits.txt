@@ -58,3 +58,47 @@ outfit "Reisbruth Beam"
 		"shield damage" 180
 		"hull damage" 470
 	description `Reisbruth beams are famously known for being the most versatile weapons in their area.`
+
+
+outfit "Reisbruth ADV"
+	category "Turrets"
+	cost 1000000
+	thumbnail "outfit/unknown"
+	"mass" 70
+	"outfit space" -70
+	"weapon capacity" -70
+	"turret mounts" -1
+	weapon
+		"velocity" 500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 10
+		"firing heat" 1
+		"anti-missile" 400
+		"safe"
+	description "Anti-missile System"
+
+
+outfit "Reisbruth Decayer"
+	category "Turrets"
+	cost 1000000
+	thumbnail "outfit/unknown"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"turret mounts" -1
+	weapon
+		"velocity" 3000
+		"turret turn" 360
+		"lifetime" 100
+		"reload" 1
+		"firing energy" 1
+		"shield damage" 7000
+		"hull damage" 1000
+		"disruption damage" 99000
+		"piercing" .7
+		phasing
+		"firing heat" 1
+		"hit force" -10
+		"safe"
+	description "Decay Field used by Reisbruth."

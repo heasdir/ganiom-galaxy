@@ -1,0 +1,114 @@
+ship "Reisbruth Axanysi"
+	sprite "ship/reisbruth axanysi"
+	attributes
+		category "Heavy Warship"
+		"cost" 839000
+		"shields" 170000
+		"hull" 132900
+		"required crew" 20
+		"bunks" 25
+		"mass" 2050
+		"drag" .9
+		"heat dissipation" .8
+		"fuel capacity" 1700
+		"cargo space" 50
+		"outfit space" 4800
+		"weapon capacity" 1700
+		"engine capacity" 1200
+		"ramscoop" 10
+		"solar collection" 35
+		"shield generation" 34.4
+		"shield energy" 6.9
+		"hull repair rate" 55
+		"hull energy" 7
+		"hull heat" .1
+		"scan interference" 10
+		"radar jamming" 9
+		"cooling" 445
+	outfits
+		"Reisbruth Ivacath Mine" 2
+		"Reisbruth Beam" 8
+		"Hassal Engines"
+		"Blue Sun Reactor"
+		"Quantum Vacuum Battery"
+		"Experimental Drive" 9
+		"Reisbruth ADV"
+	
+	engine 73 141
+	engine -71 131
+	turret 1 -38
+	turret -8.5 24.5
+	gun 5 80.5
+	gun 2.5 -111
+	gun -17 -18
+	gun 25.5 1
+	gun 15 49
+	gun 78 97
+	gun -68 85.5
+	gun -68 85.5
+	turret 1 53.5
+	turret 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	explode "tiny explosion" 120
+	explode "small explosion" 60
+	explode "medium explosion" 70
+	explode "large explosion" 50
+	explode "huge explosion" 15
+	description `The Axanysi is a multipurpose ship used for capturing planets or defending civilians.`
+
+
+ship "Reisbruth TX-45"
+	sprite "ship/tx 45"
+	attributes
+		category "Heavy Warship"
+		"cost" 839000
+		"shields" 9700000
+		"hull" 1329000
+		"required crew" 20
+		"bunks" 25
+		"mass" 2050
+		"drag" .9
+		"heat dissipation" .8
+		"fuel capacity" 1700
+		"cargo space" 50
+		"outfit space" 4800
+		"weapon capacity" 1700
+		"engine capacity" 1200
+		"ramscoop" 10
+		"solar collection" 35
+		"shield generation" 34937
+		"shield energy" 6.9
+		"hull repair rate" 55000
+		"hull energy" 7
+		"hull heat" .1
+		"scan interference" 10
+		"radar jamming" 9
+		"cooling" 445
+	outfits
+		"Reisbruth Decayer" 5
+		"Hassal Engines" 2
+		"Blue Sun Reactor"
+		"Quantum Vacuum Battery"
+		"Experimental Drive" 9
+		"Reisbruth ADV"
+	
+	turret -2.5 -4.5
+	turret 2.5 44
+	turret 11 -37
+	turret 11 -37
+	turret 11 -37
+	engine -17.5 76
+	engine 20.5 77
+	explode "tiny explosion" 120
+	explode "small explosion" 60
+	explode "medium explosion" 70
+	explode "large explosion" 50
+	explode "huge explosion" 15
+	description `TX-45 is a star killer like warship.`

@@ -119,7 +119,7 @@ outfit "Hassal Engines"
 	"reverse flare sprite" "effect/remnant flare/large"
 		"frame rate" 9
 	"flare sound" "plasma huge"
-	description `Gainen Engines`
+	description `These engines are used by both the Gainen and Reisbruth for many reasons, including efficiency and speed.`
 
 outfit "Experimental J-X Turret"
 	category "Turrets"
