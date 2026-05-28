@@ -71,9 +71,9 @@ ship "Reisbruth TX-45"
 		"cost" 839000
 		"shields" 9700000
 		"hull" 1329000
-		"required crew" 20
-		"bunks" 25
-		"mass" 2050
+		"required crew" 195
+		"bunks" 205
+		"mass" 3078
 		"drag" .9
 		"heat dissipation" .8
 		"fuel capacity" 1700
@@ -98,6 +98,7 @@ ship "Reisbruth TX-45"
 		"Quantum Vacuum Battery"
 		"Experimental Drive" 9
 		"Reisbruth ADV"
+		"Reisbruth Hyperi" 195
 	
 	turret -2.5 -4.5
 	turret 2.5 44
@@ -106,9 +107,125 @@ ship "Reisbruth TX-45"
 	turret 11 -37
 	engine -17.5 76
 	engine 20.5 77
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
 	explode "tiny explosion" 120
 	explode "small explosion" 60
 	explode "medium explosion" 70
 	explode "large explosion" 50
 	explode "huge explosion" 15
-	description `TX-45 is a star killer like warship.`
+	description `TX-45 is a star killer like warship made for combatting powerful intergalactic entities or as a rare civilian-buyable ship.`
+
+
+ship "Eremas Rusharce"
+	sprite "ship/eremas rusharce"
+	attributes
+		category "Fighter"
+		"cost" 175000
+		"shields" 2700
+		"hull" 1302
+		"required crew" 0
+		"automaton" 1
+		"bunks" 0
+		"mass" 207
+		"drag" .9
+		"heat dissipation" .8
+		"fuel capacity" 1700
+		"cargo space" 50
+		"outfit space" 4800
+		"weapon capacity" 1700
+		"engine capacity" 1200
+		"ramscoop" 10
+		"solar collection" 35
+		"shield generation" 34
+		"shield energy" 6.9
+		"hull repair rate" 18
+		"hull energy" 7
+		"hull heat" .1
+		"scan interference" 10
+		"radar jamming" 9
+		"cooling" 445
+	outfits
+		"Reisbruth Beam" 2
+		"Reisbruth ADV"
+		"Hassal Engines"
+		"Blue Sun Reactor"
+		"Quantum Vacuum Battery"
+		"Experimental Drive"
+	
+	turret 0 4.5
+	gun 0 4.5
+	gun 0 4.5
+	engine -25 30
+	engine 30 34
+	explode "tiny explosion" 120
+	description `Eremas Rusharce is a fighter used by both Reisbruth and Eremas.`
+
+
+ship "Eremas Rusharce" "ER RUAC Decayer"
+	sprite "ship/eremas rusharce"
+	attributes
+		category "Fighter"
+		"cost" 175000
+		"shields" 2700
+		"hull" 1302
+		"required crew" 0
+		"automaton" 1
+		"bunks" 0
+		"mass" 207
+		"drag" .9
+		"heat dissipation" .8
+		"fuel capacity" 1700
+		"cargo space" 50
+		"outfit space" 4800
+		"weapon capacity" 1700
+		"engine capacity" 1200
+		"ramscoop" 10
+		"solar collection" 35
+		"shield generation" 34
+		"shield energy" 6.9
+		"hull repair rate" 18
+		"hull energy" 7
+		"hull heat" .1
+		"scan interference" 10
+		"radar jamming" 9
+		"cooling" 445
+	outfits
+		"Reisbruth Decayer" 2
+		"Reisbruth ADV"
+		"Hassal Engines"
+		"Blue Sun Reactor"
+		"Quantum Vacuum Battery"
+		"Experimental Drive"
+		
+	
+	turret 0 4.5
+	turret 0 4.5
+	turret 0 4.5
+	engine -25 30
+	engine 30 34
+	explode "tiny explosion" 120
+	description `Eremas Rusharce is a fighter used by both Reisbruth and Eremas.`
+	description `Decayer Variant.`

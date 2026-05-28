@@ -81,7 +81,7 @@ outfit "Reisbruth ADV"
 
 outfit "Reisbruth Decayer"
 	category "Turrets"
-	cost 1000000
+	cost 100000000
 	thumbnail "outfit/unknown"
 	"mass" 60
 	"outfit space" -60
@@ -102,3 +102,14 @@ outfit "Reisbruth Decayer"
 		"hit force" -10
 		"safe"
 	description "Decay Field used by Reisbruth."
+
+
+outfit "Reisbruth Hyperi"
+	category "Hand to Hand"
+	cost 369000
+	thumbnail "outfit/enforcer confrontation gear"
+	"capture attack" 39
+	"capture defense" 49
+	"unplunderable" 1
+	description "Anything who dares boarding a Reisbruth ship will be met by this."
+	

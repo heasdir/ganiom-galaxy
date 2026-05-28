@@ -204,3 +204,28 @@ fleet "Mekrut Fleet"
 		Pinoalin 5
 		Neutron Star 9
 		
+fleet "Reisbruth Fleet"
+	government "Reisbruth"
+	names "Rekkebruthi"
+	cargo 0
+	personality
+		confusion 2
+		plunders 
+	variant 40
+		"Reisbruth Axanysi"
+	variant 40
+		'Reisbruth Axanysi"
+		"Eremas Rusharce" 8
+	variant 20
+		"Reisbruth Axanysi" 2
+	variant 35
+		"Reisbruth Axanysi" 3
+		Macavtre 4
+		"Eremas Rusharce" 24
+	variant 30
+		"Reisbruth Axanysi" 5
+	variant 20
+		"Reisbruth TX-45"
+	variant 20
+		"Reisbruth TX-45"
+		"ER RUAC Decayer" 24

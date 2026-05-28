@@ -1,0 +1,153 @@
+mission "Sudden Appearance"
+	name "Sudden Appearance"
+	landing
+	invisible
+	source
+		government "Gainen Republic"
+	on offer
+		conversation
+			`The Gainen you encounter look unusually tall with orange skin. A Gainen authority officer approaches you before you can leave the landing pad.`
+			`"You are not Serbajkil. You are not Foren. You are human. Are you a Communist Ganiom spy?"`
+			choice
+				`	"I'm only travelling. I mean no harm."`
+					goto travelling
+				`	"Communist Ganiom? I don't even know what that is."`
+					goto confused
+			label confused
+			`	The officer narrows their eyes. "Convenient answer. Communist Ganiom are humans, just like you, and they have caused us much grief. If you are not one of them, prove it."`
+				goto task
+			label travelling
+			`	"Travellers don't usually end up this far from the Milky Way," the officer says. "You're either very lost, very brave, or a Communist Ganiom agent. Which is it?"`
+			choice
+				`	"Very lost, honestly."`
+					goto task
+				`	"Very brave."`
+					goto task
+			label task
+			`	The officer sighs. "Either way, you can prove your intentions. Communist Ganiom forces have been raiding our systems. Help us repel them and we will consider you an ally."`
+			choice
+				`	"I'll help."`
+					goto accept
+				`	"I don't have a strong enough ship yet."`
+					decline
+			label accept
+			`	"Good. We will contact you when they strike next."`
+				accept
+	on accept
+		"reputation: Communist Ganiom" <?= -10
+		"gainen c" ++
+
+
+mission "Defend Gainen 1"
+	name "Defend <system>"
+	autosave
+	description "Communist Ganiom forces are attacking <system>. Repel them and defend the Gainen Republic."
+	landing
+	source
+		government "Gainen Republic"
+	to offer
+		has "Sudden Appearance: done"
+	on offer
+		dialog `A Gainen Republic alert comes through. "Communist Ganiom forces have entered <system>! All available ships respond immediately!"`
+	npc kill
+		government "Communist Ganiom"
+		personality heroic
+		fleet
+			names "Commune Security"
+			variant
+				Dreadnought 2
+				Aerie 5
+		fleet
+			names "Commune Security"
+			variant
+				Carrier 3
+				Aerie 3
+	on complete
+		payment 5000000
+		"reputation: Gainen Republic" += 20
+		"reputation: Communist Ganiom" <?= -20
+		"gainen c" ++
+		dialog `The Communist Ganiom forces have been repelled. A Gainen officer contacts you. "Well done, human. The Gainen Republic thanks you. Here is <payment> for your service."`
+
+
+mission "Defend Gainen 2"
+	name "Defend <system>"
+	description "Communist Ganiom forces are attacking <system> again. Repel them."
+	landing
+	source
+		government "Gainen Republic"
+	to offer
+		has "Defend Gainen 1: done"
+	on offer
+		dialog `Another Communist Ganiom attack has been detected in <system>. "They are getting bolder," the officer says. "We need your help again."`
+	npc kill
+		government "Communist Ganiom"
+		personality heroic
+		fleet
+			names "Commune Security"
+			variant
+				Dreadnought 3
+				Carrier 2
+				Aerie 5
+		fleet
+			names "Commune Security"
+			variant
+				Carrier 5
+				Aerie 8
+	on complete
+		payment 8000000
+		"reputation: Gainen Republic" += 20
+		"reputation: Communist Ganiom" <?= -20
+		"gainen c" ++
+		dialog `Another Communist Ganiom fleet destroyed. The officer contacts you again. "They keep coming. But so do you. Here is <payment>. We are glad to have you on our side."`
+
+
+mission "Defend Gainen 3"
+	name "Defend <system>: Major Attack"
+	description "A large Communist Ganiom fleet is attacking <system>. This is their biggest assault yet."
+	landing
+	source
+		government "Gainen Republic"
+	to offer
+		has "Defend Gainen 2: done"
+	on offer
+		conversation
+			`A Gainen officer bursts into the spaceport looking alarmed.`
+			`"Human! A massive Communist Ganiom fleet has been detected heading for <system>. This is their largest attack yet. We need every ship available."`
+			choice
+				`	"I'm ready. Let's go."`
+					goto accept
+				`	"How large are we talking?"`
+					goto size
+			label size
+			`	"Larger than anything we have seen before. Multiple carriers, dreadnoughts, the works. TECHNOLOGY will not be enough alone. We need you."`
+			choice
+				`	"I'm in."`
+					goto accept
+				`	"I need more time to prepare."`
+					decline
+			label accept
+			`	"Good. Move out immediately."`
+				accept
+	npc kill
+		government "Communist Ganiom"
+		personality heroic
+		fleet
+			names "Commune Security"
+			variant
+				Dreadnought 5
+				Carrier 5
+				Aerie 10
+				Kestrel 3
+		fleet
+			names "Commune Security"
+			variant
+				Dreadnought 3
+				Carrier 8
+				Quicksilver 5
+	on complete
+		payment 12000000
+		"reputation: Gainen Republic" += 50
+		"reputation: Communist Ganiom" <?= -50
+		"gainen c" ++
+		dialog `The Communist Ganiom fleet has been destroyed. The Gainen officer shakes your hand. "You have proven yourself beyond doubt. You are a true ally of the Gainen Republic. Here is <payment>.`

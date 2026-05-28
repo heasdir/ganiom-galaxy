@@ -1,0 +1,21 @@
+mission "SF : A Foren Delivery"
+	name "A Foren Delivery"
+	landing
+	source 
+		planet "Trimakhol"
+	on offer
+		conversation
+			`A foren walks up to you, and says this.`
+			`Olum'arbi Has'nasaji?`
+			`You realize you haven't activated your foren translator, so you activate it.`
+			choice
+				`	*Activate It*`
+					goto activated
+			label activated
+			`	You Successfully activated your foren translator, and now it works clearly.`
+				goto forentranslated
+			label forentranslated
+			`	Would you be interested in delivering to Aaasananija?`
+			choice
+				`	Yes`
+					complete

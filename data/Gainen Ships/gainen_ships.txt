@@ -168,6 +168,7 @@ ship "Severosinsi"
 	explode "small explosion" 70
 	description "The Severosinsi is a light warship designed to attack the communist Ganiom and other enemies of the Gainen."
 
+
 ship "Gainescaf"
 	sprite "ship/gainescaf"
 	thumbnail "thumbnail/gainescaf_thumb

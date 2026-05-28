@@ -131,3 +131,15 @@ government "Lannen"
 		"Bruchaven Issarei" -1
 		"Bruchaven Mekrut" 190
 		"Gainen Republic" 1000
+
+
+government "Reisbruth"
+	color 0.6 0.7 0.9
+	swizzle 9
+	"player reputation" 147
+	"attitude toward"
+		"The Forens" 70
+		"Bruchaven Mekrut" 90
+		"Gainen Republic" 1000
+		"Communist Ganiom" -70
+		"The Wings" -0.5

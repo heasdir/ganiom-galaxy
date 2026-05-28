@@ -167,6 +167,109 @@ system Asiot
 			distance 373
 			period 28.7925
 
+system Axayusu
+	pos -11753.3 -5222.37
+	government Reisbruth
+	habitable 486.68
+	link Kablonik
+	asteroids "medium rock" 2 1.4756
+	asteroids "large rock" 1 1.9754
+	asteroids "small metal" 2 3.3796
+	asteroids "medium metal" 15 2.023
+	asteroids "large metal" 1 2.9512
+	fleet "Reisbruth Fleet" 99
+	object
+		sprite star/k0
+		period 10
+	object Hsahi
+		sprite planet/ice2
+		distance 331.909
+		period 109.639
+		offset 171.241
+		object
+			sprite planet/oberon
+			distance 123
+			period 17.1483
+	object
+		sprite planet/rock2
+		distance 769.669
+		period 387.163
+		offset 228.864
+	object
+		sprite planet/uranus
+		distance 1223.08
+		period 775.568
+		offset 68.0381
+	object
+		sprite planet/desert9
+		distance 1561.97
+		period 1119.3
+		offset 36.1964
+	object
+		sprite planet/gas5
+		distance 3403.22
+		period 3599.76
+		offset 4.97564
+		object
+			sprite planet/lava0
+			distance 258
+			period 13.7809
+		object
+			sprite planet/rhea
+			distance 422
+			period 28.8281
+
+system Ayonomac
+	pos -11791.3 -5169.37
+	government Reisbruth
+	habitable 5000
+	link Nisitar
+	link Kablonik
+	asteroids "large metal" 1 4.1344
+	object
+		sprite star/a0
+		period 10
+	object
+		sprite planet/titan
+		distance 180.01
+		period 13.6622
+	object
+		sprite planet/gas2
+		distance 918.22
+		period 157.397
+		object
+			sprite planet/europa
+			distance 176
+			period 14.1476
+		object
+			sprite planet/dust3
+			distance 320
+			period 34.6848
+		object
+			sprite planet/luna
+			distance 412
+			period 50.6711
+		object
+			sprite planet/rock0
+			distance 560
+			period 80.2965
+	object
+		sprite planet/desert9
+		distance 1681.63
+		period 390.095
+	object
+		sprite planet/gas6
+		distance 2286.52
+		period 618.497
+		object
+			sprite planet/ice7
+			distance 304
+			period 13.5386
+		object
+			sprite planet/ice8
+			distance 407
+			period 20.9728
+
 system Biridthaa
 	pos -11163.9 -6639.81
 	government Vic'Na
@@ -2401,6 +2504,50 @@ system Jonkalo
 			distance 417
 			period 22.366
 
+system Kablonik
+	pos -11810.3 -5223.37
+	government Reisbruth
+	habitable 1715
+	link Axayusu
+	link Ayonomac
+	asteroids "small rock" 9 3.5816
+	asteroids "medium rock" 60 2.9282
+	asteroids "large rock" 23 3.0734
+	asteroids "small metal" 5 1.5004
+	asteroids "medium metal" 127 2.3958
+	asteroids "large metal" 5 2.1296
+	object
+		sprite star/f5
+		period 10
+	object
+		sprite planet/cloud8
+		distance 300.16
+		period 50.2293
+		object
+			sprite planet/miranda
+			distance 161
+			period 24.6864
+	object
+		sprite planet/rock3
+		distance 768.85
+		period 205.916
+	object Kabkonik
+		sprite planet/lava0
+		distance 1141.01
+		period 372.273
+	object
+		sprite planet/rock1
+		distance 1620.77
+		period 630.246
+	object
+		sprite planet/gas7
+		distance 2083.18
+		period 918.371
+		object
+			sprite planet/oberon
+			distance 255
+			period 14.4857
+
 system Kema
 	pos -10168.8 -4644.79
 	government "Bruchaven Issarei"
@@ -3589,6 +3736,48 @@ system Nisar
 		sprite planet/gas14
 		distance 1885.88
 		period 1484.94
+
+system Nisitar
+	pos -11846.3 -5134.37
+	government Reisbruth
+	habitable 1080
+	link Ayonomac
+	asteroids "small rock" 20 2.3331
+	asteroids "medium rock" 14 3.0954
+	asteroids "large rock" 2 2.9568
+	asteroids "medium metal" 31 2.1252
+	asteroids "large metal" 33 3.465
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/desert1
+		distance 296.56
+		period 62.1609
+		object
+			sprite planet/io
+			distance 169
+			period 19.0712
+	object
+		sprite planet/ocean4
+		distance 798.32
+		period 274.545
+	object "Shatabbi Lolaksi"
+		sprite planet/cloud3
+		distance 1097.28
+		period 442.409
+	object
+		sprite planet/gas15
+		distance 1692.17
+		period 847.255
+		object
+			sprite planet/rock17
+			distance 213
+			period 16.3631
+		object
+			sprite planet/ice8
+			distance 289
+			period 25.8609
 
 system Northpoint
 	pos -11462.4 -5625.91
@@ -5948,7 +6137,7 @@ planet "Ganiom Cheat"
 	landscape land/land27
 	description `You found it! Omnis in Ganiom!`
 	spaceport .
-	spaceport de
+	spaceport `	de`
 	shipyard omnis
 	shipyard aberrant
 	shipyard avgi
@@ -6177,6 +6366,14 @@ planet Hiswren
 	landscape land/moutaingrey1
 	spaceport yes
 
+planet Hsahi
+	landscape land/foresttropical0
+	description f
+	spaceport d
+	shipyard "Reisbruth Shipyard"
+	shipyard "Gainen Shipyard"
+	outfitter Rekkebruth
+
 planet Humansaaeink
 	landscape land/land10
 	description `The foren cant live here, so they gave it to humans`
@@ -6218,13 +6415,18 @@ planet Isrhsiw
 	description `Cold and icy, the bruchaven live here, somehow while a human would freeze by the intese cold.`
 	spaceport fgeefgggggg
 
+planet Kabkonik
+	landscape land/greenmountains1
+	description d
+	spaceport d
+	shipyard "Reisbruth Shipyard"
+	shipyard "Gainen Shipyard"
+	outfitter Rekkebruth
+
 planet Kla'ik
 	landscape land/greenmountains1
 	description .
 	spaceport .
-
-planet ""
-	landscape land/foresttropical0
 
 planet Lympaii
 	landscape land/foresttropical0
@@ -6261,6 +6463,8 @@ planet Nevonsaj
 	landscape land/land14
 	description `Originally Sini"om homeworld, intense massacares happend on this planet`
 	spaceport `"They will destroy, they will kill and they are not peaceful" - Sini'om journalist Katiknai Orijaons(Dead)`
+	tribute 560
+		fleet "Communist Gainen Military Patrol" 2
 
 planet Nisem
 	landscape land/moutainsnow5
@@ -6370,6 +6574,14 @@ planet "Sevreya Wel Bruchaben Sama'a"
 	landscape land/land23
 	description `Welcome to the hidden explorers colony. This is used for fueling and then you are supposed to go explore. Thats it. `
 	spaceport fuel
+
+planet "Shatabbi Lolaksi"
+	landscape land/foresttropical0
+	description f
+	spaceport d
+	shipyard "Reisbruth Shipyard"
+	shipyard "Gainen Shipyard"
+	outfitter Rekkebruth
 
 planet Si'faleha
 	landscape land/land27
