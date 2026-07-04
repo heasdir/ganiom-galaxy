@@ -1,0 +1,92 @@
+# ============================================================
+# GAINEN REPUBLIC START
+# "Rich. Respected. Ready."
+# ============================================================
+
+start "Gainen Republic Start"
+	name "Gainen Republic Start"
+	description "You are a decorated officer of the Gainen Republic. Wealthy, respected, and ready to explore the galaxy."
+	thumbnail "thumbnail/gainen_start"
+	date 1 1 3013
+	system "Gainensiti"
+	planet "Gainisen"
+	
+	account
+		credits 200000000
+		salaries 50000
+		maintenance 10000
+		score 1000
+		history
+			50000000
+			75000000
+			100000000
+			150000000
+			200000000
+		# No mortgages — debt-free
+	
+	conversation
+		`Welcome, Commander. You are a decorated officer of the Gainen Republic. Your service record is impeccable, your ship is state-of-the-art, and your bank account reflects your success.`
+		`"The galaxy is yours to explore. The Gainen Republic stands with you."`
+		`"Your first mission: explore the Ganiom Galaxy. Make contact with the Foren, Reisbruth, and other factions. But beware — Hisair and Communist Ganiom are always watching."`
+		`"Good luck, Commander. The galaxy awaits."`
+			accept
+	
+	# ============================================================
+	# SHIP: Clossusn (Corrected Loadout)
+	# ============================================================
+	ship "Clossusn"
+		name "G.S.S. Gainen's Pride"
+		thumbnail "thumbnail/clossusn_thumb"
+		outfits
+			# GUNS (4 hardpoints)
+			"Qari Mnal" 4
+			
+			# TURRETS (4 hardpoints)
+			"Experimental J-X Turret" 4
+			
+			# SYSTEMS
+			"Blue Sun Reactor" 2
+			"Quantum Vacuum Battery" 2
+			"Experimental Drive" 1
+			"Hyperdrive" 1
+			"Enhanced Cooling Systems" 1
+			"Dyson Cooling" 1
+			
+			# ENGINES (4x Hassal Engines)
+			"Hassal Engines" 4
+		
+		# Default fighters in the 8 bays (optional)
+		bay "Light Warship" 4
+		bay "Medium Warship" 2
+		bay "Light Warship" 2
+	
+	# ============================================================
+	# REPUTATIONS
+	# ============================================================
+	
+	# ALLIES
+	"reputation: Gainen Republic" = 100
+	"reputation: The Forens" = 50
+	"reputation: Reisbruth" = 50
+	"reputation: Lannen" = 50
+	"reputation: Bruchaven Mekrut" = 30
+	"reputation: The Between" = 10
+	"reputation: Shizivi" = 5
+	"reputation: Vic'Na" = 1
+	
+	# ENEMIES
+	"reputation: Communist Ganiom" = -100
+	"reputation: Hisair" = -100
+	"reputation: Bruchaven Issarei" = -50
+	"reputation: Kem Relicnain" = -50
+	
+	# ============================================================
+	# CAMPAIGN FLAGS
+	# ============================================================
+	"gainen_start" = 1
+	"foren_contact" = 0
+	"gainen_campaign" = 0
+	"foren_c" = 0
+	"gainen_c" = 0
+	"gainen_escort" = 0
+	"gainen_hisair" = 0

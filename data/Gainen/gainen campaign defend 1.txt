@@ -151,3 +151,4 @@ mission "Defend Gainen 3"
 		"reputation: Communist Ganiom" <?= -50
 		"gainen c" ++
 		dialog `The Communist Ganiom fleet has been destroyed. The Gainen officer shakes your hand. "You have proven yourself beyond doubt. You are a true ally of the Gainen Republic. Here is <payment>.`
+		dialog `Go to Makferuniko to continue the campaign.`

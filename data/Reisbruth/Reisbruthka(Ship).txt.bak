@@ -229,5 +229,3 @@ ship "Eremas Rusharce" "ER RUAC Decayer"
 	explode "tiny explosion" 120
 	description `Eremas Rusharce is a fighter used by both Reisbruth and Eremas.`
 	description `Decayer Variant.`
-
-ship "Reisbruth Hava"

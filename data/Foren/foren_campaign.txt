@@ -1,0 +1,575 @@
+# ============================================================
+# FOREN CAMPAIGN — COMPLETE MISSIONS
+# "The Oldest Beings. The Longest Grudge. The Final Stand."
+# ============================================================
+
+# ============================================================
+# ARC 1: THE HISAIR OFFENSIVE
+# ============================================================
+
+# --- MISSION 1: TROUBLE IN FOREN SPACE (INTRO) ---
+mission "Foren Campaign 1: Intro"
+	name "Trouble in Foren Space"
+	landing
+	invisible
+	source
+		government "The Forens"
+	to offer
+		has "SF : A Foren Delivery: done"
+	on offer
+		conversation
+			`A Foren approaches you urgently. Your translator activates automatically this time.`
+			`"Human. You have delivered for us before. We need your help again, but this time it is not cargo."`
+			`"Hisair forces have been attacking our planets. Fo'kak'ni'si'slok was hit yesterday. They are getting bolder."`
+			choice
+				`	"What do you need from me?"`
+					goto task
+				`	"Why is Hisair attacking you?"`
+					goto reason
+			label reason
+			`	"Resources. Territory. Hisair wants what we have. They have always been a problem for this galaxy. The diplomatic council says never trust a Hisair. We learned this the hard way."`
+				goto task
+			label task
+			`	"We need someone to defend our planets. Our ships are stretched thin. Will you help?"`
+			choice
+				`	"I'll defend your planets."`
+					goto accept
+				`	"I need more time."`
+					decline
+			label accept
+			`	"We are grateful, human. Fo'kak'ni'si'slok needs you first. Move quickly."`
+				accept
+	on accept
+		"foren c" ++
+
+
+# --- MISSION 2: DEFEND FO'KAK'NI'SI'SLOK ---
+mission "Foren Campaign 1: Fo'kak'ni'si'slok"
+	name "Defend Fo'kak'ni'si'slok"
+	landing
+	description "Hisair forces are attacking Fo'kak'ni'si'slok. Repel them."
+	source
+		government "The Forens"
+	destination "Fo'kak'ni'si'slok"
+	to offer
+		has "Foren Campaign 1: Intro: done"
+	on offer
+		dialog `Hisair forces have been spotted near Fo'kak'ni'si'slok. Get there and repel them before they cause more damage.`
+	npc kill
+		government "Hisair"
+		personality heroic
+		system "Aaasinisianja"
+		fleet
+			names "Hisair Private Forces"
+			variant
+				"Dreadnought" 2
+				"Falcon" 4
+		fleet
+			names "Hisair Private Forces"
+			variant
+				"Carrier" 2
+				"Sparrow" 6
+	on visit
+		dialog `Land on Fo'kak'ni'si'slok to complete the defense.`
+	on complete
+		payment 10000000
+		"reputation: The Forens" += 15
+		"reputation: Hisair" <?= -20
+		"foren c" ++
+		dialog `Fo'kak'ni'si'slok is safe for now. The Foren contact you. "Thank you, human. But Hisair has also struck Cholintir. We need you there next."`
+
+
+# --- MISSION 3: DEFEND CHOLINTIR ---
+mission "Foren Campaign 1: Cholintir"
+	name "Defend Cholintir"
+	landing
+	description "Hisair forces are now attacking Cholintir. Repel them."
+	source
+		government "The Forens"
+	destination "Cholintir"
+	to offer
+		has "Foren Campaign 1: Fo'kak'ni'si'slok: done"
+	on offer
+		dialog `Hisair has moved on to Cholintir. Get there immediately and drive them back.`
+	npc kill
+		government "Hisair"
+		personality heroic
+		system "Cholekrkik'fan"
+		fleet
+			names "Hisair Private Forces"
+			variant
+				"Dreadnought" 3
+				"Carrier" 2
+				"Falcon" 5
+		fleet
+			names "Hisair Private Forces"
+			variant
+				"Dreadnought" 2
+				"Falcon" 6
+				"Sparrow" 8
+	on visit
+		dialog `Land on Cholintir to complete the defense.`
+	on complete
+		payment 12000000
+		"reputation: The Forens" += 15
+		"reputation: Hisair" <?= -25
+		"foren c" ++
+		dialog `Cholintir is defended. The Foren contact you again. "Hisair is relentless. Now they are hitting Vakrkin. We cannot let them take it."`
+
+
+# --- MISSION 4: DEFEND VAKRKIN ---
+mission "Foren Campaign 1: Vakrkin"
+	name "Defend Vakrkin"
+	landing
+	description "Hisair forces are attacking Vakrkin. This is their most aggressive assault yet."
+	source
+		government "The Forens"
+	destination "Vakrkin"
+	to offer
+		has "Foren Campaign 1: Cholintir: done"
+	on offer
+		conversation
+			`The Foren contact sounds more alarmed than before.`
+			`"Human. Vakrkin is under heavy attack. This is the largest Hisair force we have seen. We fear they are trying to establish a foothold in our territory."`
+			choice
+				`	"I'm on my way."`
+					goto accept
+				`	"How many ships?"`
+					goto numbers
+			label numbers
+			`	"More than before. Much more. But you have defended us twice already. We trust you."`
+			label accept
+			`	"Go now. Vakrkin cannot hold much longer."`
+				accept
+	npc kill
+		government "Hisair"
+		personality heroic
+		system "Ira'Ira'Ira'Din"
+		fleet
+			names "Hisair Private Forces"
+			variant
+				"Dreadnought" 4
+				"Carrier" 3
+				"Falcon" 8
+		fleet
+			names "Hisair Private Forces"
+			variant
+				"Dreadnought" 3
+				"Carrier" 4
+				"Sparrow" 10
+				"Falcon" 6
+	on visit
+		dialog `Land on Vakrkin to complete the defense.`
+	on complete
+		payment 15000000
+		"reputation: The Forens" += 25
+		"reputation: Hisair" <?= -40
+		"foren c" ++
+		dialog `Vakrkin is saved. The Foren contact you with relief. "Hisair will not stop, but you have bought us time. We owe you much. Here is <payment>."`
+
+
+# --- MISSION 5: THE FOREN COUNTERATTACK ---
+mission "Foren Campaign 1: Counterattack"
+	name "The Foren Counterattack"
+	landing
+	description "The Foren are launching a counterattack against Hisair supply lines. Join them."
+	source
+		government "The Forens"
+	to offer
+		has "Foren Campaign 1: Vakrkin: done"
+	on offer
+		conversation
+			`A Foren commander meets you. They look determined.`
+			`"Human. You have defended our planets. Now we take the fight to Hisair."`
+			`"We have located a Hisair supply convoy in the Tje system. If we destroy it, we will cripple their operations."`
+			`"Will you join us?"`
+			choice
+				`	"Let's do it."`
+					goto accept
+				`	"This is risky."`
+					goto risk
+			label risk
+			`	"All wars are risky, human. But we have no choice."`
+				goto accept
+			label accept
+			`	"Good. Move out."`
+				accept
+	waypoint "Tje"
+	npc kill
+		government "Hisair"
+		personality heroic
+		system "Tje"
+		fleet
+			names "Hisair Private Forces"
+			variant
+				"Hauler III" 5
+				"Dreadnought" 2
+				"Falcon" 4
+		fleet
+			names "Hisair Private Forces"
+			variant
+				"Carrier" 2
+				"Sparrow" 8
+	on complete
+		payment 18000000
+		"reputation: The Forens" += 30
+		"reputation: Hisair" <?= -50
+		"foren c" ++
+		dialog `The supply convoy is destroyed. The Foren commander nods. "Hisair will feel this. Now they know we are not weak."`
+
+
+# ============================================================
+# ARC 2: THE TRUTH ABOUT HISAIR
+# ============================================================
+
+# --- MISSION 6: THE HISAIR DATA CORE ---
+mission "Foren Campaign 2: Data"
+	name "The Hisair Data Core"
+	landing
+	description "The Foren have discovered a Hisair data core containing classified information. Retrieve it."
+	source
+		government "The Forens"
+	destination "Vakrkin"
+	to offer
+		has "Foren Campaign 1: Counterattack: done"
+	on offer
+		conversation
+			`A Foren intelligence officer pulls you aside. They look worried.`
+			`"Human. We intercepted a Hisair transmission. They are hiding something. Something big."`
+			`"We have located a data core in Hisairfoklaor. It contains their most classified files. If we can retrieve it, we will know their true plans."`
+			choice
+				`	"I'll get the data."`
+					goto accept
+				`	"This sounds dangerous."`
+					goto danger
+			label danger
+			`	"It is. But we have no other option."`
+			label accept
+			`	"Move quickly. Hisair will not let us take it without a fight."`
+				accept
+	waypoint "Hisairfoklaor"
+	npc kill
+		government "Hisair"
+		personality heroic
+		system "Hisairfoklaor"
+		fleet
+			names "Hisair High Fleet"
+			variant
+				"Dreadnought" 3
+				"Falcon" 6
+				"Sparrow" 10
+	on visit
+		dialog `You have the data core. Land on Vakrkin to deliver it.`
+	on complete
+		payment 22000000
+		"reputation: The Forens" += 40
+		"reputation: Hisair" <?= -60
+		"foren c" ++
+		dialog `The data core is decrypted. The Foren intelligence officer looks pale. "Human... Hisair is planning to attack the Gainen Republic. They want to use the Foren System Killer."`
+
+
+# --- MISSION 7: WARN THE GAINEN ---
+mission "Foren Campaign 2: Warn"
+	name "Warn the Gainen"
+	landing
+	description "Hisair is planning to use the Foren System Killer against the Gainen Republic. Warn them."
+	source
+		government "The Forens"
+	destination "Gainisen"
+	to offer
+		has "Foren Campaign 2: Data: done"
+	on offer
+		dialog `"Human. You must go to the Gainen Republic. Warn them of Hisair's plan. If Hisair uses the System Killer, millions will die."`
+	npc kill
+		government "Hisair"
+		personality pursuing
+		system "Gainensiti"
+		fleet
+			names "Hisair High Fleet"
+			variant
+				"Dreadnought" 4
+				"Carrier" 3
+				"Falcon" 8
+	on visit
+		dialog `You have arrived at Gainisen. Land to deliver the warning.`
+	on complete
+		payment 25000000
+		"reputation: The Forens" += 30
+		"reputation: Gainen Republic" += 40
+		"reputation: Hisair" <?= -70
+		"foren c" ++
+		dialog `The Gainen Republic high command listens to your warning. A senior officer stands. "Hisair is planning to use the Foren System Killer? We need to prepare. Thank you, human."`
+
+
+# --- MISSION 8: DESTROY THE HISAIR SHIPYARD ---
+mission "Foren Campaign 2: Shipyard"
+	name "Destroy the Hisair Shipyard"
+	landing
+	description "Hisair is building a new fleet in their secret shipyard. Destroy it."
+	source
+		government "The Forens"
+	to offer
+		has "Foren Campaign 2: Warn: done"
+	on offer
+		conversation
+			`A Foren officer contacts you. They look urgent.`
+			`"Human. We have located a secret Hisair shipyard in the Nisar system. They are building a new fleet. If we destroy it, Hisair's war effort will be crippled."`
+			choice
+				`	"Let's destroy it."`
+					goto accept
+				`	"This is a big target."`
+					goto risk
+			label risk
+			`	"It is. But we have no other option."`
+			label accept
+			`	"Move out. The Foren fleet will support you."`
+				accept
+	waypoint "Nisar"
+	npc kill
+		government "Hisair"
+		personality heroic
+		system "Nisar"
+		fleet
+			names "Hisair High Fleet"
+			variant
+				"Dreadnought" 5
+				"Carrier" 5
+				"Falcon" 10
+				"Sparrow" 15
+	on complete
+		payment 30000000
+		"reputation: The Forens" += 50
+		"reputation: Hisair" <?= -100
+		"foren c" ++
+		event "hisair_shipyard_destroyed"
+		dialog `The Hisair shipyard is destroyed. The Foren officer claps you on the shoulder. "Hisair is crippled. We have won this battle, human. But the war is not over."`
+
+
+# ============================================================
+# ARC 3: THE FOREN ALLIANCE
+# ============================================================
+
+# --- MISSION 9: THE FOREN-GAINEN PACT ---
+mission "Foren Campaign 3: Pact"
+	name "The Foren-Gainen Pact"
+	landing
+	description "The Foren want to formalize an alliance with the Gainen Republic. Escort the diplomats."
+	source
+		government "The Forens"
+	destination "Gainisen"
+	to offer
+		has "Foren Campaign 2: Shipyard: done"
+	on offer
+		conversation
+			`A Foren diplomat approaches you. They look dignified.`
+			`"Human. You have helped us more than any outsider. We want to formalize an alliance with the Gainen Republic."`
+			`"We need you to escort our diplomats to Gainisen. Hisair will try to stop us."`
+			choice
+				`	"I will escort you."`
+					goto accept
+				`	"This is a big responsibility."`
+					goto responsibility
+			label responsibility
+			`	"Yes. But you are the only one we trust."`
+			label accept
+			`	"Thank you, human. Let us depart."`
+				accept
+	npc escort
+		government "The Forens"
+		personality escort heroic
+		fleet
+			names "Foren Diplomatic Fleet"
+			variant
+				"Clossusn" 2
+	npc kill
+		government "Hisair"
+		personality heroic
+		system "Gainensiti"
+		fleet
+			names "Hisair High Fleet"
+			variant
+				"Dreadnought" 3
+				"Falcon" 6
+	on visit
+		dialog `You have arrived at Gainisen. Land to complete the escort.`
+	on complete
+		payment 35000000
+		"reputation: The Forens" += 50
+		"reputation: Gainen Republic" += 50
+		"reputation: Hisair" <?= -80
+		"foren c" ++
+		event "foren_gainen_pact_signed"
+		dialog `The Foren diplomats are received by the Gainen Republic. A joint declaration is signed. The Foren-Gainen Pact is now official. "Together, we will defeat Hisair."`
+
+
+# ============================================================
+# ARC 4: THE PANJAA REVELATION
+# ============================================================
+
+# --- MISSION 10: THE PANJAA FILES ---
+mission "Foren Campaign 4: Panjaa"
+	name "The Panjaa Files"
+	landing
+	description "The Foren have discovered files about the Panjaa genocide. Find the truth."
+	source
+		government "The Forens"
+	destination "Fo'kak'ni'si'slok"
+	to offer
+		has "Foren Campaign 3: Pact: done"
+	on offer
+		conversation
+			`A Foren archivist approaches you with a data chip.`
+			`"Human. We have discovered something terrible. The Panjaa — also known as the Biyaniiar by the Bruchaven — were not just killed. They were erased by Hisair using stolen Foren technology."`
+			`"Their home systems were in the Daiou region. We need you to go there. Find the truth. Find any remnants."`
+			choice
+				`	"I will find the truth."`
+					goto accept
+				`	"This is dangerous."`
+					goto danger
+			label danger
+			`	"All truth is dangerous. But it must be uncovered."`
+			label accept
+			`	"Good. We will support you. Go to the Daiou system — that was the heart of Panjaa space."`
+				accept
+	waypoint "Daiou"
+	npc kill
+		government "Hisair"
+		personality heroic
+		system "Daiou"
+		fleet
+			names "Hisair High Fleet"
+			variant
+				"Dreadnought" 4
+				"Carrier" 4
+				"Falcon" 8
+	on complete
+		payment 40000000
+		"reputation: The Forens" += 60
+		"reputation: Hisair" <?= -150
+		"foren c" ++
+		event "panjaa_genocide_exposed"
+		dialog `You have uncovered the truth: Hisair used stolen Foren technology to kill the Panjaa in the Daiou region. The galaxy must know.`
+
+
+# --- MISSION 11: EXPOSE HISAIR ---
+mission "Foren Campaign 4: Expose"
+	name "Expose Hisair"
+	landing
+	description "The evidence is clear: Hisair committed genocide against the Panjaa. Expose them to the galaxy."
+	source
+		government "The Forens"
+	destination "Northpoint Station"
+	to offer
+		has "Foren Campaign 4: Panjaa: done"
+	on offer
+		dialog `"Human. You have the evidence. Now you must broadcast it to the galaxy. Go to Northpoint Station. The Gainen Republic will help you share the truth."`
+	npc kill
+		government "Hisair"
+		personality pursuing
+		system "Northpoint"
+		fleet
+			names "Hisair High Fleet"
+			variant
+				"Dreadnought" 5
+				"Carrier" 5
+				"Falcon" 10
+	on visit
+		dialog `You have arrived at Northpoint Station. Land to broadcast the evidence.`
+	on complete
+		payment 45000000
+		"reputation: The Forens" += 70
+		"reputation: Gainen Republic" += 50
+		"reputation: Hisair" <?= -200
+		"foren c" ++
+		dialog `The evidence is broadcast across the galaxy. Hisair is exposed as genocidal. The Panjaa will be remembered. The galaxy is outraged. Hisair's allies abandon them. "The truth is out."`
+
+
+# ============================================================
+# ARC 5: THE FINAL STRIKE
+# ============================================================
+
+# --- MISSION 12: THE FINAL BATTLE ---
+mission "Foren Campaign 5: Final"
+	name "The Final Battle"
+	landing
+	description "The coalition of Foren, Gainen, and Reisbruth launches the final strike against Hisair."
+	source
+		government "The Forens"
+	to offer
+		has "Foren Campaign 4: Expose: done"
+	on offer
+		conversation
+			`A Foren commander, a Gainen officer, and a Reisbruth diplomat stand before you.`
+			`"Human. Hisair is exposed. Their allies are gone. Now we strike."`
+			`"We will attack Hisairfoklaor, the heart of Hisair space. This is the final battle."`
+			choice
+				`	"I am ready."`
+					goto accept
+				`	"This is it."`
+					goto final
+			label final
+			`	"Yes. This is it."`
+			label accept
+			`	"Move out. The galaxy watches."`
+				accept
+	waypoint "Hisairfoklaor"
+	npc kill
+		government "Hisair"
+		personality heroic
+		system "Hisairfoklaor"
+		fleet
+			names "Hisair High Fleet"
+			variant
+				"Dreadnought" 8
+				"Carrier" 8
+				"Falcon" 15
+				"Sparrow" 20
+		fleet
+			names "Hisair High Fleet"
+			variant
+				"Dreadnought" 6
+				"Carrier" 6
+				"Falcon" 12
+				"Sparrow" 15
+	on complete
+		payment 75000000
+		"reputation: The Forens" += 100
+		"reputation: Gainen Republic" += 80
+		"reputation: Reisbruth" += 80
+		"reputation: Hisair" <?= -500
+		"foren c" ++
+		event "hisair_defeated"
+		dialog `The Hisair stronghold is destroyed. The coalition pushes forward. Hisar is next.`
+
+
+# --- MISSION 13: THE HISAIR TRIBUNAL (EPILOGUE) ---
+mission "Foren Campaign 5: Tribunal"
+	name "The Hisair Tribunal"
+	landing
+	invisible
+	source
+		government "The Forens"
+	destination "Vakrkin"
+	to offer
+		has "Foren Campaign 5: Final: done"
+	on offer
+		conversation
+			`A galaxy-wide tribunal convenes at Vakrkin. Hisair's leaders are on trial.`
+			`"Human. Your actions have brought Hisair to justice. The Panjaa will be remembered. The galaxy is at peace."`
+			choice
+				`	"This is justice."`
+					goto justice
+				`	"Will Hisair return?"`
+					goto return
+			label justice
+			`	"Yes. Justice has been served."`
+			label return
+			`	"Hisair is defeated. But they will always be a threat. We will watch."`
+				accept
+	on accept
+		"reputation: The Forens" += 100
+		"reputation: Gainen Republic" += 100
+		"reputation: Reisbruth" += 100
+		"reputation: Hisair" <?= -1000
+		event "hisair_tribunal"
+		dialog `Hisair is defeated. The galaxy is at peace. The Foren, Gainen, and Reisbruth are united. The Panjaa are remembered. You are a hero.`

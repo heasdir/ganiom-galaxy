@@ -1,21 +1,36 @@
 mission "SF : A Foren Delivery"
 	name "A Foren Delivery"
 	landing
-	source 
+	description "Deliver <cargo> to <destination>. Payment: <payment>."
+	cargo random 5 6
+	to offer
+		"cargo space" > 5
+	source
 		planet "Trimakhol"
+	destination "Fo'kak'ni'si'slok"
 	on offer
 		conversation
-			`A foren walks up to you, and says this.`
-			`Olum'arbi Has'nasaji?`
-			`You realize you haven't activated your foren translator, so you activate it.`
+			`A Foren walks up to you and says something.`
+			`"Olum'arbi Has'nasaji?"`
+			`You realize you haven't activated your Foren translator, so you activate it.`
 			choice
 				`	*Activate It*`
 					goto activated
+				`	*Ignore them*`
+					decline
 			label activated
-			`	You Successfully activated your foren translator, and now it works clearly.`
-				goto forentranslated
-			label forentranslated
-			`	Would you be interested in delivering to Aaasananija?`
+			`	You successfully activated your Foren translator, and now it works clearly.`
+			`	"Would you be interested in delivering to Aaasinisianja?"`
 			choice
-				`	Yes`
-					complete
+				`	"Yes."`
+					accept
+				`	"No, sorry."`
+					decline
+	on visit
+		dialog `You have arrived at <destination> but have not yet landed. Land to complete the delivery.`
+	on complete
+		payment 858000
+		dialog `The Foren thanks you warmly. "Thank you for delivering! I will make sure to contact you in the future!"`
+
+#Foren - Foren Campaign
+#TESTING---

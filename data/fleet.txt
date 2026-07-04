@@ -229,3 +229,130 @@ fleet "Reisbruth Fleet"
 	variant 20
 		"Reisbruth TX-45"
 		"ER RUAC Decayer" 24
+
+# ============================================================
+# FOREN CAMPAIGN FLEETS
+# ============================================================
+
+# --- FOREN DEFENSE FLEET ---
+fleet "Foren Defense Fleet"
+	government "The Forens"
+	names "Foren Defense"
+	cargo 0
+	personality
+		confusion 1
+	variant 100
+		"Clossusn" 2
+		"Severosinsi" 4
+
+
+# --- FOREN OCCUPATION FLEET ---
+fleet "Foren Occupation Fleet"
+	government "The Forens"
+	names "Foren Occupation"
+	cargo 0
+	personality
+		confusion 1
+	variant 100
+		"Clossusn" 3
+		"Severosinsi" 6
+		"Gainescaf" 1
+
+
+# --- FOREN MEMORIAL FLEET ---
+fleet "Foren Memorial Fleet"
+	government "The Forens"
+	names "Foren Memorial"
+	cargo 0
+	personality
+		confusion 1
+	variant 100
+		"Clossusn" 1
+
+
+# --- FOREN DIPLOMATIC FLEET ---
+fleet "Foren Diplomatic Fleet"
+	government "The Forens"
+	names "Foren Diplomatic"
+	cargo 0
+	personality
+		escort
+	variant 100
+		"Clossusn" 2
+
+
+# ============================================================
+# GAINEN DEFENSE FLEET (POST-HISAIR COLLAPSE)
+# ============================================================
+
+fleet "Gainen Defense Fleet"
+	government "Gainen Republic"
+	names "Gainen Defense"
+	cargo 0
+	personality
+		confusion 1
+	variant 100
+		"Gainescaf" 2
+		"Severosinsi" 4
+		"Clossusn" 1
+
+
+# ============================================================
+# HISAIR REMNANT FLEETS (POST-COLLAPSE)
+# ============================================================
+
+fleet "Hisair Remnant"
+	government "Hisair"
+	names "Hisair Remnant"
+	cargo 0
+	personality
+		confusion 3
+		plunders
+		disables
+	variant 40
+		"Falcon" 2
+		"Sparrow" 3
+	variant 30
+		"Dreadnought" 1
+		"Falcon" 2
+		"Sparrow" 4
+	variant 20
+		"Carrier" 1
+		"Falcon" 3
+		"Sparrow" 5
+	variant 10
+		"Falcon" 1
+		"Sparrow" 2
+
+
+# ============================================================
+# HISAIR PRIVATE FORCES (EXISTING — KEEP IF NOT ALREADY DEFINED)
+# ============================================================
+
+fleet "Hisair Private Forces"
+	government "Hisair"
+	names "Hisair Private Forces"
+	cargo 0
+	personality
+		confusion 2
+		plunders
+	variant 40
+		"Dreadnought" 2
+		"Falcon" 4
+	variant 30
+		"Carrier" 2
+		"Sparrow" 6
+	variant 20
+		"Hauler III" 3
+		"Falcon" 2
+	variant 10
+		"Dreadnought" 1
+		"Falcon" 2
+		"Sparrow" 4
+
+
+# ============================================================
+# HISAIR HIGH FLEET (EXISTING — KEEP IF NOT ALREADY DEFINED)
+# ============================================================
+
+#ALREADY DEFINED

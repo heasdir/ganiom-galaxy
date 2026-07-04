@@ -1,0 +1,214 @@
+# Gainen Campaign Part 2 - Hisair Arc
+# Starts at Isa Palechunam, ends at Northpoint Station
+
+
+mission "Gainen Hisair 1"
+	name "The Hisair Problem"
+	landing
+	invisible
+	source
+		planet "Isa Palechunam"
+	to offer
+		has "Defend Gainen 3: done"
+	on offer
+		conversation
+			`A high ranking Gainen Republic intelligence officer approaches you. She looks serious.`
+			`"Human. You have proven yourself against Communist Ganiom. But there is a bigger problem. Hisair."`
+			`"They have been supplying Communist Ganiom with weapons and resources. Without Hisair support, Communist Ganiom would collapse within weeks."`
+			choice
+				`	"What do you need me to do?"`
+					goto task
+				`	"Why not deal with Hisair directly?"`
+					goto explain
+			label explain
+			`	"We cannot. Hisair controls the Oganesson supply in this region. Without it, our ships cannot function. We must be careful. Very careful."`
+				goto task
+			label task
+			`	"We need you to intercept a Hisair supply convoy heading to Communist Ganiom territory. Destroy it. Do not let that cargo reach them."`
+			choice
+				`	"Consider it done."`
+					goto accept
+				`	"I need more time."`
+					decline
+			label accept
+			`	"Good. The convoy is marked on your map. Move quickly."`
+				accept
+	on accept
+		"gainen hisair" ++
+
+
+mission "Gainen Hisair 1: Convoy"
+	name "Intercept Hisair Convoy"
+	description "Destroy the Hisair supply convoy before it reaches Communist Ganiom territory."
+	landing
+	source
+		planet "Isa Palechunam"
+	to offer
+		has "Gainen Hisair 1: done"
+	waypoint "Gainensiti"
+	on offer
+		dialog `The Hisair convoy has been spotted in the Gainensiti system. Intercept and destroy it before it reaches Communist Ganiom space.`
+	npc kill
+		government "Hisair"
+		personality heroic
+		system "Gainensiti"
+		fleet
+			names "Hisair High Fleet"
+			variant
+				"Hauler III" 3
+				"Falcon" 2
+		fleet
+			names "Hisair High Fleet"
+			variant
+				"Dreadnought" 1
+				"Falcon" 4
+	on complete
+		payment 10000000
+		"reputation: Gainen Republic" += 15
+		"reputation: Hisair" <?= -20
+		"gainen hisair" ++
+		dialog `The Hisair convoy has been destroyed. The intelligence officer contacts you. "Excellent work. Communist Ganiom will not receive those supplies. Here is <payment>. But this is only the beginning. Hisair will not be happy."`
+
+
+mission "Gainen Hisair 2"
+	name "Hisair Retaliation"
+	landing
+	description "Hisair forces are retaliating against Gainen Republic systems. Repel them."
+	source
+		planet "Isa Palechunam"
+	to offer
+		has "Gainen Hisair 1: Convoy: done"
+	on offer
+		conversation
+			`The intelligence officer contacts you urgently.`
+			`"As expected, Hisair is retaliating. Their private forces are attacking our supply lines. This is what they do - they hit back hard and fast."`
+			`"Never trust a Hisair. The diplomatic council warned us. Now we see why."`
+			choice
+				`	"I'll deal with them."`
+					goto accept
+				`	"How many ships are we talking?"`
+					goto numbers
+			label numbers
+			`	"Enough to cause serious damage. But nothing you cannot handle. We have faith in your capabilities."`
+			label accept
+			`	"Move out. Protect our supply lines."`
+				accept
+	npc kill
+		government "Hisair"
+		personality heroic
+		system "Fornaikao"
+		fleet
+			names "Hisair High Fleet"
+			variant
+				"Dreadnought" 2
+				"Falcon" 5
+				"Sparrow" 8
+		fleet
+			names "Hisair High Fleet"
+			variant
+				"Carrier" 2
+				"Falcon" 6
+	on complete
+		payment 14000000
+		"reputation: Gainen Republic" += 20
+		"reputation: Hisair" <?= -30
+		"gainen hisair" ++
+		dialog `Hisair forces have been repelled. "They will regroup," the officer warns. "But we have bought time. Here is <payment>. We are getting closer to the truth about Hisair."`
+
+
+mission "Gainen Hisair 3"
+	name "The Truth About Hisair"
+	landing
+	invisible
+	source
+		planet "Isa Palechunam"
+	to offer
+		has "Gainen Hisair 2: done"
+	on offer
+		conversation
+			`The intelligence officer pulls you aside quietly. She looks troubled.`
+			`"I have discovered something. Something that changes everything."`
+			`"The Sini'Om massacre. We blamed Communist Ganiom. But our intelligence suggests it was Hisair. They used Communist Ganiom logos as a false flag."`
+			choice
+				`	"Are you certain?"`
+					goto certain
+				`	"Communist Ganiom has been innocent this whole time?"`
+					goto innocent
+			label certain
+			`	"Not yet. But the evidence is mounting. I need you to retrieve a data core from a Hisair outpost. It may contain proof."`
+				goto task
+			label innocent
+			`	"Of the massacre, yes. They are still our enemies in other ways. But the Sini'Om... that was Hisair."`
+				goto task
+			label task
+			`	"There is a Hisair outpost in Fornaikao. Get in, retrieve the data core, get out. Do not engage unless necessary."`
+			choice
+				`	"I will get the data."`
+					goto accept
+				`	"This is too dangerous."`
+					decline
+			label accept
+			`	"Be careful. Hisair does not take kindly to intruders."`
+				accept
+	on accept
+		"gainen hisair" ++
+
+
+mission "Gainen Hisair 3: Data"
+	name "Retrieve Hisair Data Core"
+	description "Retrieve the data core from the Hisair outpost in Fornaikao and return to Isa Palechunam."
+	source
+		planet "Isa Palechunam"
+	destination "I'ise"
+	to offer
+		has "Gainen Hisair 3: done"
+	on offer
+		dialog `Head to Fornaikao and retrieve the data core from the Hisair outpost at I'ise.`
+	npc kill
+		government "Hisair"
+		personality heroic
+		system "Fornaikao"
+		fleet
+			names "Hisair High Fleet"
+			variant
+				"Dreadnought" 3
+				"Falcon" 6
+				"Sparrow" 10
+	on visit
+		dialog `Destroy the Hisair forces in Fornaikao first before landing on I'ise.`
+	on complete
+		payment 16000000
+		"reputation: Gainen Republic" += 25
+		"reputation: Hisair" <?= -50
+		"gainen hisair" ++
+		dialog `You return with the data core. The officer's eyes widen as she reviews it. "This is it. This is the proof. Hisair orchestrated the Sini'Om massacre and blamed Communist Ganiom. The entire galaxy needs to know." She pauses. "But first, we need to present this to the Gainen Republic high command at Northpoint Station."`
+
+
+mission "Gainen Hisair 4: Northpoint"
+	name "Report to Northpoint Station"
+	description "Bring the evidence of Hisair's crimes to Northpoint Station and report to Gainen Republic high command."
+	source
+		planet "I'ise"
+	destination "Northpoint Station"
+	to offer
+		has "Gainen Hisair 3: Data: done"
+	on offer
+		dialog `Head to Northpoint Station with the data core. Gainen Republic high command must see this evidence.`
+	npc
+		government "Hisair"
+		personality pursuing
+		fleet
+			names "Hisair High Fleet"
+			variant
+				"Dreadnought" 4
+				"Carrier" 2
+				"Falcon" 8
+	on visit
+		dialog `You have arrived at Northpoint Station. Land to deliver the evidence.`
+	on complete
+		payment 20000000
+		"reputation: Gainen Republic" += 50
+		"reputation: Hisair" <?= -100
+		"reputation: Communist Ganiom" += 30
+		"gainen hisair" ++
+		dialog `You deliver the data core to Gainen Republic high command. The room goes silent as they review the evidence. A senior officer stands. "Hisair orchestrated the Sini'Om massacre. Communist Ganiom was framed." He turns to you. "You have done the Gainen Republic a great service, human. And perhaps Communist Ganiom as well. Here is <payment>. The galaxy will know the truth."`

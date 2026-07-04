@@ -1,0 +1,209 @@
+# Gainen Campaign - Escort Missions
+# Escorts Clossusn ships to key Gainen Republic planets
+# Final mission escorts to Reisbruth planet Hsahi
+
+
+mission "Gainen Escort 1"
+	name "Escort to Gasinas"
+	landing
+	description "Escort the Gainen Republic Clossusn to Gasinas in the Gainensiti system. Do not let it be destroyed."
+	source
+		government "Gainen Republic"
+	destination "Gasinas"
+	to offer
+		has "Gainen Hisair 4: Northpoint : done"
+	on offer
+		conversation
+			`A Gainen Republic officer approaches you at the spaceport.`
+			`"Human. We have a Clossusn carrying vital supplies and personnel to Gainensiti. Communist Ganiom forces have been spotted in the area. We need an escort."`
+			choice
+				`	"I'll escort it."`
+					goto accept
+				`	"What's a Clossusn?"`
+					goto explain
+			label explain
+			`	"One of our finest carriers. Built during the war against Communist Ganiom. It carries seven light warship bays and four medium warship bays. It is not defenseless, but against a determined Communist Ganiom force it needs support."`
+			choice
+				`	"I'll do it."`
+					goto accept
+				`	"I'm not ready for this."`
+					decline
+			label accept
+			`	"Good. The Clossusn will depart when you are ready. Do not let it be destroyed."`
+				accept
+	npc escort
+		government "Gainen Republic"
+		personality escort heroic
+		fleet
+			names "Gainen Military"
+			variant
+				"Clossusn"
+	npc kill
+		government "Communist Ganiom"
+		personality heroic
+		fleet
+			names "Commune Security"
+			variant
+				Dreadnought 2
+				Aerie 4
+	on visit
+		dialog `You have arrived at Gasinas but have not landed. Land to complete the escort.`
+	on complete
+		payment 8000000
+		"reputation: Gainen Republic" += 15
+		"gainen escort" ++
+		dialog `The Clossusn lands safely at Gasinas. The officer contacts you. "Well done. The supplies have arrived safely. Here is <payment>. We have more escorts that need protection."`
+
+
+mission "Gainen Escort 2"
+	name "Escort to Isa Palechunam"
+	landing
+	description "Escort the Gainen Republic Clossusn to Isa Palechunam in the Makferuniko system. Do not let it be destroyed."
+	source
+		government "Gainen Republic"
+	destination "Isa Palechunam"
+	to offer
+		has "Gainen Escort 1: done"
+	on offer
+		dialog `The same officer contacts you again. "Another Clossusn needs escort to Isa Palechunam in the Makferuniko system. Communist Ganiom presence has increased in that area. We need you again."`
+	npc escort
+		government "Gainen Republic"
+		personality escort heroic
+		fleet
+			names "Gainen Military"
+			variant
+				"Clossusn"
+	npc kill
+		government "Communist Ganiom"
+		personality heroic
+		fleet
+			names "Commune Security"
+			variant
+				Dreadnought 3
+				Carrier 2
+				Aerie 5
+	on visit
+		dialog `You have arrived at Isa Palechunam but have not landed. Land to complete the escort.`
+	on complete
+		payment 10000000
+		"reputation: Gainen Republic" += 15
+		"gainen escort" ++
+		dialog `The Clossusn arrives safely at Isa Palechunam. "Excellent work," the officer says. "Communist Ganiom is getting more aggressive. We need one more critical escort. Are you ready?"`
+
+
+mission "Gainen Escort 3"
+	name "Escort to Gainisen"
+	landing
+	description "Escort the Gainen Republic Clossusn to Gainisen, the planet of Gainen Hom itself. This is the most important escort yet."
+	source
+		government "Gainen Republic"
+	destination "Gainisen"
+	to offer
+		has "Gainen Escort 2: done"
+	on offer
+		conversation
+			`The officer meets you in person this time. She looks serious.`
+			`"This next escort is critical. The Clossusn carries high ranking Gainen Republic officials to Gainen Hom. If Communist Ganiom intercepts this ship, it would be a major blow to our government."`
+			`"The threat level is higher than before. Communist Ganiom has deployed their largest forces yet. Are you prepared?"`
+			choice
+				`	"I'm ready."`
+					goto accept
+				`	"How large is the Communist Ganiom force?"`
+					goto size
+			label size
+			`	"Larger than anything you have escorted through before. Multiple carriers and dreadnoughts. But you have proven yourself. We trust you."`
+			choice
+				`	"Let's go."`
+					goto accept
+				`	"I need more time to prepare."`
+					decline
+			label accept
+			`	"The Clossusn will depart immediately. Protect it with your life."`
+				accept
+	npc escort
+		government "Gainen Republic"
+		personality escort heroic
+		fleet
+			names "Gainen Military"
+			variant
+				"Clossusn"
+				"Severosinsi" 2
+	npc kill
+		government "Communist Ganiom"
+		personality heroic
+		fleet
+			names "Commune Security"
+			variant
+				Dreadnought 4
+				Carrier 4
+				Aerie 8
+				Kestrel 2
+		fleet
+			names "Commune Security"
+			variant
+				Dreadnought 3
+				Carrier 5
+				Quicksilver 4
+	on visit
+		dialog `You have arrived at Gainisen but have not landed. Land to complete the escort.`
+	on complete
+		payment 15000000
+		"reputation: Gainen Republic" += 30
+		"gainen escort" ++
+		dialog `The Clossusn lands safely at Gainisen. The officials disembark safely. A senior Gainen Republic officer shakes your hand firmly. "You have protected the heart of the Gainen Republic today, human. Here is <payment>. We have one final mission for you. Something special."`
+
+
+mission "Gainen Escort 4: Reisbruth"
+	name "Interfactional Escort to Hsahi"
+	landing
+	description "Escort the Gainen Republic Clossusn to Hsahi in Reisbruth space. This is an interfactional mission of great importance."
+	source
+		government "Gainen Republic"
+	destination "Hsahi"
+	to offer
+		has "Gainen Escort 3: done"
+	on offer
+		conversation
+			`The senior officer meets you again, this time accompanied by what appears to be a Reisbruth diplomat.`
+			`"Human. You know of our ancient partnership with Reisbruth. This escort is different. We are sending a Clossusn to Hsahi in Reisbruth space carrying diplomatic personnel and technology for our joint development agreement."`
+			`The Reisbruth diplomat steps forward. "REGAZAMANI TCHULIAK. You have proven yourself to Gainen Republic. Reisbruth acknowledges your service. Escort this ship safely and Reisbruth will consider you a known ally."`
+			choice
+				`	"It would be an honor."`
+					goto accept
+				`	"Will Reisbruth space be safe?"`
+					goto safe
+			label safe
+			`	The Reisbruth diplomat almost looks offended. "Reisbruth space is always safe. Unless you are 100kg of nitrogen." He says this completely seriously.`
+			choice
+				`	"Understood. I'll escort them."`
+					goto accept
+				`	"I need more time."`
+					decline
+			label accept
+			`	"REISBRUTH SHAIRMAAAAAAAAAAAAA," the diplomat says quietly, nodding with great dignity.`
+				accept
+	npc escort
+		government "Gainen Republic"
+		personality escort heroic
+		fleet
+			names "Gainen Military"
+			variant
+				"Clossusn"
+				"Gainescaf" 2
+	npc kill
+		government "Hisair"
+		personality heroic
+		fleet
+			names "Hisair Private Forces"
+			variant
+				Dreadnought 3
+				Carrier 3
+				Falcon 8
+	on visit
+		dialog `You have arrived at Hsahi but have not landed. Land to complete the interfactional escort.`
+	on complete
+		payment 20000000
+		"reputation: Gainen Republic" += 30
+		"reputation: Reisbruth" += 20
+		"gainen escort" ++
+		dialog `The Clossusn lands safely at Hsahi. Reisbruth and Gainen personnel greet each other warmly. The Reisbruth diplomat turns to you. "You have served both Gainen and Reisbruth today. REGAZAMANI TCHULIAK." The Gainen officer hands you <payment>. "The partnership continues. Thank you, human."`

@@ -1,0 +1,221 @@
+# ============================================================
+# FOREN CAMPAIGN — EVENTS
+# "The Oldest Beings. The Longest Grudge. The Final Stand."
+# ============================================================
+
+# ============================================================
+# EVENT 1: HISAIR SHIPYARD DESTROYED
+# ============================================================
+
+event "hisair_shipyard_destroyed"
+	# Remove Hisair fleets from Nisar
+	remove fleet "Hisair High Fleet"
+	# Reduce Hisair presence in surrounding systems
+	system "Nisar"
+		add fleet "Hisair High Fleet" 0
+		government "Uninhabited"
+	# Foren gains influence
+	system "Nisar"
+		add fleet "Foren Defense Fleet" 80
+		government "The Forens"
+	# News
+	news "Hisair Shipyard Destroyed"
+		location
+			government "The Forens"
+			government "Gainen Republic"
+			government "Reisbruth"
+		name
+			word "Hisair Shipyard Destroyed"
+		message
+			word
+				"The Foren-Gainen coalition has destroyed the secret Hisair shipyard in Nisar."
+				"Hisair's war effort is crippled. The galaxy rejoices."
+				"Hisair's shipyard in Nisar is now a graveyard. Good riddance."
+
+
+# ============================================================
+# EVENT 2: FOREN-GAINEN PACT SIGNED
+# ============================================================
+
+event "foren_gainen_pact_signed"
+	# Alliance reputation boosts
+	"reputation: The Forens" ?= 50
+	"reputation: Gainen Republic" ?= 50
+	"reputation: Reisbruth" ?= 30
+	# Hisair reputation plummets galaxy-wide
+	"reputation: Hisair" ?= -80
+	# New diplomatic hails
+	"friendly hail" "foren_gainen_alliance"
+	# News
+	news "Foren-Gainen Pact Signed"
+		location
+			government "The Forens"
+			government "Gainen Republic"
+		name
+			word "Foren-Gainen Pact Signed"
+		message
+			word
+				"The Foren and Gainen Republic have signed a historic alliance."
+				"Together, they will defeat Hisair once and for all."
+				"Reisbruth has joined the coalition. Hisair is surrounded."
+
+
+# ============================================================
+# EVENT 3: PANJAA GENOCIDE EXPOSED
+# ============================================================
+
+event "panjaa_genocide_exposed"
+	# Reputation changes
+	"reputation: Hisair" ?= -200
+	"reputation: The Forens" ?= 70
+	"reputation: Gainen Republic" ?= 50
+	"reputation: Reisbruth" ?= 50
+	"reputation: Communist Ganiom" ?= -20  # they were allied with Hisair
+	# System changes — Daiou becomes memorial
+	system "Daiou"
+		government "The Forens"
+		add fleet "Foren Memorial Fleet" 20
+	planet "Daiou Memorial"
+		landscape land/land27
+		description `"Here lie the Panjaa — the ones the Bruchaven called Biyaniiar. Erased by Hisair. Remembered by the galaxy."`
+		spaceport `"A silent memorial stands on this world. The Panjaa are gone, but they are not forgotten. May their memory endure."`
+	# News
+	news "Panjaa Genocide Exposed"
+		location
+			government "The Forens"
+			government "Gainen Republic"
+			government "Reisbruth"
+		name
+			word "Panjaa Genocide Exposed"
+		message
+			word
+				"Hisair has been exposed: they used stolen Foren technology to commit genocide against the Panjaa."
+				"The galaxy is outraged. Hisair's allies are abandoning them."
+				"Daiou is now a memorial world. The Panjaa will be remembered."
+
+
+# ============================================================
+# EVENT 4: HISAIR DEFEATED — HISAR FALLS
+# ============================================================
+
+event "hisair_defeated"
+	# === HISAR — THE HEART OF HISAIR ===
+	system "Hisar"
+		remove fleet "Hisair High Fleet"
+		remove fleet "Hisair Private Forces"
+		government "The Forens"
+		add fleet "Foren Occupation Fleet" 200
+	planet "Hiswren"
+		description `"Hiswren — once the heart of the Hisair cartel. Now under Foren control. The doner kebab empire is dead."`
+		spaceport `"The Foren flag flies over Hiswren. Hisair is no more."`
+		"required reputation" 0
+		bribe 0
+		security 0.9
+
+	# === OTHER HISAIR SYSTEMS ===
+	system "Hisairfoklaor"
+		remove fleet "Hisair High Fleet"
+		remove fleet "Hisair Private Forces"
+		government "The Forens"
+		add fleet "Foren Defense Fleet" 120
+
+	system "Nisar"
+		remove fleet "Hisair High Fleet"
+		remove fleet "Hisair Private Forces"
+		government "The Forens"
+		add fleet "Foren Defense Fleet" 80
+
+	system "Nairobai"
+		remove fleet "Hisair High Fleet"
+		remove fleet "Hisair Private Forces"
+		government "Gainen Republic"
+		add fleet "Gainen Defense Fleet" 100
+
+	system "Naisno"
+		remove fleet "Hisair High Fleet"
+		remove fleet "Hisair Private Forces"
+		government "Gainen Republic"
+		add fleet "Gainen Defense Fleet" 60
+
+	# === HISAIR REMNANTS (PIRATES) ===
+	add fleet "Hisair Remnant" 15
+
+	# === REPUTATION ===
+	"reputation: Hisair" <?= -1000
+	"reputation: The Forens" += 150
+	"reputation: Gainen Republic" += 100
+	"reputation: Reisbruth" += 100
+	"reputation: Communist Ganiom" <?= -50
+
+	# === NEWS: HISAIR IS DEAD ===
+	news "Hisair Is Dead"
+		location
+			government "The Forens"
+			government "Gainen Republic"
+			government "Reisbruth"
+		name
+			word "Hisair Is Dead"
+		message
+			word
+				"Hisar has fallen. The Foren flag flies over the Hisair homeworld."
+				"Hisair is no more. The cartel is broken. The doner kebab empire is finished."
+				"The galaxy is free. The Panjaa are avenged."
+
+	news "Wing Confused by Hisair Death"
+		location
+			government "Wing"
+		name
+			word "Wing Confused"
+		message
+			word
+				"Hisair is dead? They were a bird?"
+				"We are confused. But we are happy."
+				"Doner kebab is still illegal. Good."
+				"Pigeon bird."
+
+
+# ============================================================
+# EVENT 5: HISAIR TRIBUNAL
+# ============================================================
+
+event "hisair_tribunal"
+	"reputation: Hisair" <?= -1000
+	"reputation: The Forens" ?= 100
+	"reputation: Gainen Republic" ?= 100
+	"reputation: Reisbruth" ?= 100
+	"reputation: Wing" ?= 10
+	"reputation: KI'k" ?= 5
+	news "Hisair Tribunal Concludes"
+		location
+			government "The Forens"
+			government "Gainen Republic"
+			government "Reisbruth"
+		name
+			word "Hisair Tribunal Concludes"
+		message
+			word
+				"The galaxy-wide tribunal has concluded. Hisair's leaders are held accountable."
+				"The Panjaa are remembered. They are avenged."
+				"The galaxy is at peace. For now."
+
+
+# ============================================================
+# EVENT 6: POST-CAMPAIGN — HISAIR REMNANTS
+# ============================================================
+
+event "hisair_remnants"
+	# Small pirate fleets spawn
+	add fleet "Hisair Remnant" 5
+	add fleet "Hisair Remnant" 3
+	# News
+	news "Hisair Remnants Remain"
+		location
+			government "The Forens"
+			government "Gainen Republic"
+		name
+			word "Hisair Remnants Remain"
+		message
+			word
+				"Hisair is defeated, but remnants remain."
+				"Small pirate fleets are still active in the outer systems."
+				"The galaxy must remain vigilant."
