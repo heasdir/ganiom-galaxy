@@ -26,12 +26,12 @@ ship "Alkorel"
 		"scan interference" 10
 		"radar jamming" 50
 		"cooling" 9999
-		"uncapturable"
+		"uncapturable" 1
 	outfits 
 		"Serbajkil NT" 64
 		"Hassal Engines" 8
 		"Blue Sun Reactor"
-		"Quantum Vaccum Battery"
+		"Quantum Vacuum Battery"
 		"Experimental Drive"
 	
 	turret 0 0

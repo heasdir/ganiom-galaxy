@@ -1,9 +1,9 @@
 ship "Qari Hexa"
 	sprite "ship/gainescaf"
 		scale 5
-	thumbnail "thumbnail/gainescaf_thumb
+	thumbnail "thumbnail/gainescaf_thumb"
 	attributes
-		category "Heavy Warship"
+		category "Star-Killer"
 		"cost" 4500000
 		"shields" 74000
 		"hull" 124000
@@ -30,7 +30,7 @@ ship "Qari Hexa"
 	outfits
 		"G-7" 120
 		"Blue Sun Reactor"
-		"Quantum Vaccum Battery"
+		"Quantum Vacuum Battery"
 		"Experimental Drive"
 		"Hyperdrive"
 		"Hassal Engines"
@@ -167,7 +167,7 @@ ship "G12 Attack"
 		scale 2
 	thumbnail "thumbnail/g12attack_thumb"
 	attributes
-		category "Heavy Warship"
+		category "Star-Killer"
 		"cost" 945500000
 		"shields" 7244000
 		"hull" 17445300
@@ -195,7 +195,7 @@ ship "G12 Attack"
 		"G-7" 4
 		"Experimental J-X Turret" 16
 		"Blue Sun Reactor" 6
-		"Quantum Vacuum Battery 2
+		"Quantum Vacuum Battery" 2
 		"Experimental Drive"
 		"Hyperdrive"
 		"Hassal Engines" 22

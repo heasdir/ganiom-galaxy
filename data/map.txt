@@ -734,6 +734,10 @@ system Dika'mki
 	asteroids "small metal" 15 5.3244
 	asteroids "medium metal" 28 4.1412
 	asteroids "large metal" 5 4.93
+	fleet "Serbajkil Patrol" 998
+	fleet "Serbajkil Defense Fleet" 670
+	fleet "Serbajkil Assault Fleet" 330
+	fleet "Serbajkil Superheavy Fleet" 400
 	object
 		sprite star/m4
 		period 10
@@ -1011,6 +1015,10 @@ system Et'setri
 	asteroids "small metal" 1 6.4584
 	asteroids "medium metal" 1 4.8204
 	asteroids "large metal" 1 6.084
+	fleet "Serbajkil Patrol" 150
+	fleet "Serbajkil Defense Fleet" 700
+	fleet "Serbajkil Assault Fleet" 240
+	fleet "Serbajkil Superheavy Fleet" 1100
 	object
 		sprite star/k5
 		period 10
@@ -1441,6 +1449,8 @@ system Gainescaf
 			period 11.8241
 
 system Hatysa
+	pos 0 0
+	habitable nan
 	object Wormgolin
 		sprite planet/wormhole-red
 		distance 1260.56
@@ -1921,6 +1931,10 @@ system Hsa'Dinkada
 	asteroids "small metal" 26 1.8326
 	asteroids "medium metal" 3 2.6928
 	asteroids "large metal" 2 1.9448
+	fleet "Serbajkil Patrol" 990
+	fleet "Serbajkil Defense Fleet" 600
+	fleet "Serbajkil Assault Fleet" 400
+	fleet "Serbajkil Superheavy Fleet" 500
 	object
 		sprite star/g0
 		period 10
@@ -2009,6 +2023,10 @@ system Ilka
 	link Nakma
 	link Ponega
 	asteroids "large metal" 1 1.836
+	fleet "Serbajkil Patrol" 119
+	fleet "Serbajkil Defense Fleet" 1190
+	fleet "Serbajkil Assault Fleet" 673
+	fleet "Serbajkil Superheavy Fleet" 600
 	object
 		sprite star/m4
 		period 10
@@ -2770,6 +2788,10 @@ system Le'esen
 	asteroids "large rock" 1 3.5728
 	asteroids "medium metal" 11 6.8904
 	asteroids "large metal" 4 3.6366
+	fleet "Serbajkil Patrol" 700
+	fleet "Serbajkil Defense Fleet" 670
+	fleet "Serbajkil Assault Fleet" 550
+	fleet "Serbajkil Superheavy Fleet" 1100
 	object
 		sprite star/g0
 		period 10
@@ -3480,6 +3502,10 @@ system Nakma
 	asteroids "small metal" 2 5.1884
 	asteroids "medium metal" 200 4.522
 	asteroids "large metal" 3 5.8072
+	fleet "Serbajkil Patrol" 400
+	fleet "Serbajkil Defense Fleet" 700
+	fleet "Serbajkil Assault Fleet" 500
+	fleet "Serbajkil Superheavy Fleet" 990
 	object
 		sprite star/k0
 		distance 59.5
@@ -3603,6 +3629,10 @@ system Nik'taj
 	asteroids "small metal" 8 3.4749
 	asteroids "medium metal" 120 1.7523
 	asteroids "large metal" 29 4.158
+	fleet "Serbajkil Patrol" 309
+	fleet "Serbajkil Defense Fleet" 700
+	fleet "Serbajkil Assault Fleet" 900
+	fleet "Serbajkil Superheavy Fleet" 1400
 	object
 		sprite star/m8
 		period 10
@@ -4138,6 +4168,10 @@ system "Onne Serbajkil"
 	asteroids "small metal" 12 4.199
 	asteroids "medium metal" 4 2.652
 	asteroids "large metal" 1 2.3868
+	fleet "Serbajkil Patrol" 600
+	fleet "Serbajkil Defense Fleet" 900
+	fleet "Serbajkil Assault Fleet" 600
+	fleet "Serbajkil Superheavy Fleet" 200
 	object
 		sprite star/m8
 		period 10
@@ -4481,6 +4515,7 @@ system Ponega
 	link Ilka
 	link Parafimka
 	asteroids "large metal" 1 3.036
+	fleet "Serbajkil Patrol" 990
 	object
 		sprite star/g5
 		period 10
@@ -4520,6 +4555,7 @@ system Pontiere
 	link Ilka
 	link Et'setri
 	asteroids "large metal" 1 3.78
+	fleet "Serbajkil Patrol" 660
 	object
 		sprite star/m4
 		period 10
@@ -5576,6 +5612,9 @@ system "Ulke Mavru"
 	asteroids "large rock" 10 3.192
 	asteroids "small metal" 3 4.788
 	asteroids "large metal" 4 5.0616
+	fleet "Serbajkil Patrol" 990
+	fleet "Serbajkil Assault Fleet" 990
+	fleet "Serbajkil Superheavy Fleet" 1900
 	object
 		sprite star/k0
 		period 10
@@ -5625,6 +5664,7 @@ system "Ullerv Outoj"
 	asteroids "small metal" 5 3.808
 	asteroids "medium metal" 43 2.72
 	asteroids "large metal" 6 3.944
+	fleet "Serbajkil Patrol" 20
 	object
 		sprite star/k5
 		period 10
@@ -5866,6 +5906,10 @@ system Vyltraj
 	asteroids "small metal" 48 1.027
 	asteroids "medium metal" 32 1.365
 	asteroids "large metal" 12 1.066
+	fleet "Serbajkil Patrol" 199
+	fleet "Serbajkil Defense Fleet" 600
+	fleet "Serbajkil Assault Fleet" 900
+	fleet "Serbajkil Superheavy Fleet" 1600
 	object
 		sprite star/k0
 		distance 50
@@ -5930,6 +5974,10 @@ system Xee'rafa
 	asteroids "small metal" 3 1.9133
 	asteroids "medium metal" 33 3.0685
 	asteroids "large metal" 2 2.166
+	fleet "Serbajkil Patrol" 90
+	fleet "Serbajkil Defense Fleet" 600
+	fleet "Serbajkil Assault Fleet" 700
+	fleet "Serbajkil Superheavy Fleet" 1700
 	object
 		sprite star/g0
 		distance 26.5861

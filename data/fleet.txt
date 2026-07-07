@@ -356,3 +356,49 @@ fleet "Hisair Private Forces"
 # ============================================================
 
 #ALREADY DEFINED
+
+# ============================================================
+# SERBAJKIL FLEETS
+# ============================================================
+
+fleet "Serbajkil Patrol"
+	government "Serbajkil"
+	names "serbajkil"
+	cargo 0
+	personality
+		confusion 1
+	variant 100
+		"Alkorel" 1
+
+fleet "Serbajkil Defense Fleet"
+	government "Serbajkil"
+	names "serbajkil"
+	cargo 0
+	personality
+		confusion 1
+	variant 100
+		"Alkorel" 2
+
+fleet "Serbajkil Assault Fleet"
+	government "Serbajkil"
+	names "serbajkil"
+	cargo 0
+	personality
+		confusion 1
+	variant 40
+		"Alkorel" 3
+	variant 30
+		"Alkorel" 5
+	variant 20
+		"Alkorel" 8
+	variant 10
+		"Alkorel" 12
+
+fleet "Serbajkil Superheavy Fleet"
+	government "Serbajkil"
+	names "serbajkil"
+	cargo 0
+	personality
+		confusion 1
+	variant 100
+		"Alkorel" 20

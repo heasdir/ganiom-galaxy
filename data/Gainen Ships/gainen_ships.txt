@@ -80,7 +80,7 @@ ship "Clossusn"
 
 ship "Macavtre"
 	sprite "ship/macavtre"
-	thumbnail "thumbnail/macavtre_thumb
+	thumbnail "thumbnail/macavtre_thumb"
 	attributes
 		category "Interceptor"
 		"cost" 95000
@@ -154,7 +154,7 @@ ship "Severosinsi"
 	outfits
 		"G-7" 4
 		"Blue Sun Reactor"
-		"Quantum Vaccum Battery"
+		"Quantum Vacuum Battery"
 		"Experimental Drive"
 		"Hyperdrive"
 		"Hassal Engines"
@@ -171,7 +171,7 @@ ship "Severosinsi"
 
 ship "Gainescaf"
 	sprite "ship/gainescaf"
-	thumbnail "thumbnail/gainescaf_thumb
+	thumbnail "thumbnail/gainescaf_thumb"
 	attributes
 		category "Medium Warship"
 		"cost" 4500000
@@ -201,7 +201,7 @@ ship "Gainescaf"
 		"G-7" 3
 		"Experimental J-X Turret" 5
 		"Blue Sun Reactor"
-		"Quantum Vaccum Battery"
+		"Quantum Vacuum Battery"
 		"Experimental Drive"
 		"Hyperdrive"
 		"Hassal Engines"
