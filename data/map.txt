@@ -1449,8 +1449,66 @@ system Gainescaf
 			period 11.8241
 
 system Hatysa
-	pos 0 0
-	habitable nan
+	pos -474 -542
+	government Pirate
+	attributes "north"
+	arrival 525
+	habitable 525
+	belt 1163
+	haze _menu/haze-33
+	link Almaaz
+	link Alnilam
+	link Arneb
+	asteroids "small rock" 19 0.858
+	asteroids "large rock" 3 1.0296
+	asteroids "small metal" 13 1.0153
+	asteroids "medium metal" 102 1.3585
+	asteroids "large metal" 14 1.9448
+	minables copper 27 2.2074
+	minables iron 4 2.54657
+	minables neodymium 9 2.45903
+	trade Clothing 298
+	trade Electronics 774
+	trade Equipment 552
+	trade Food 157
+	trade "Heavy Metals" 1211
+	trade Industrial 702
+	trade "Luxury Goods" 990
+	trade Medical 863
+	trade Metal 546
+	trade Plastic 330
+	fleet "Small Northern Pirates" 600
+	fleet "Large Northern Pirates" 1000
+	fleet "Large Republic" 15000
+	object
+		sprite star/k0
+		distance 5.29989
+		period 12.3742
+	object
+		sprite star/m-dwarf
+		distance 74.1985
+		period 12.3742
+		offset 180
+	object
+		sprite planet/rock2
+		distance 420.978
+		period 150.788
+		object
+			sprite planet/dust2
+			distance 174
+			period 21.949
+	object
+		sprite planet/ocean4
+		distance 897.418
+		period 469.323
+	object
+		sprite planet/gas11-b
+		distance 1294.67
+		period 813.240
+	object
+		sprite planet/io-b
+		distance 2814.92
+		period 2607.23
 	object Wormgolin
 		sprite planet/wormhole-red
 		distance 1260.56
