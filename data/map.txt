@@ -6119,129 +6119,130 @@ system Yu'mase
 
 planet "Abeni "
 	landscape land/greenmountains1
-	description `Abeni is a rocky planet, controlled by the bruchaven issaren. It is also the capital of bruchaven issaren`
-	spaceport oeiwowk
+	description `Abeni is a rocky planet, controlled by the Bruchaven Issarei. It is also the capital of Bruchaven Issarei. The cities are carved into the red cliffs, and the sky always glows orange at dusk.`
+	spaceport `The spaceport buzzes with activity—explorers, traders, and spies all mingle here. The Issarei keep a watchful eye on everyone.`
 
 planet Ad-Osini
 	landscape land/land18
-	description `Ad-Osini is a world with archipelagos everywhere.`
-	spaceport .
+	description `Ad-Osini is a world with archipelagos everywhere. The Lannen have built floating bridges between islands. The water is crystal clear and teems with exotic fish.`
+	spaceport `A small dock on the main island. Fishing boats and trade vessels share the harbor. The locals are friendly and offer fresh catch.`
 
 planet Aerie
 	landscape land/greenmountains2
-	description `This station wasnt made by the bruchaven. it stays as a relic of an unknown race.`
+	description `This station wasn't built by the Bruchaven. It remains as a relic of an unknown race. The architecture is alien, unsettling, and impossibly old. Some sections are still unexplored.`
 
 planet Ag-deria
 	landscape land/foresttropical0
-	description .
-	spaceport .
+	description `An ocean world with a single island chain—the only landmass. The Lannen built floating cities here. Underwater, something ancient sleeps. The sailors whisper about it.`
+	spaceport `A floating platform that serves as the main port. The waves are gentle, but the locals avoid the deeper waters after dark.`
 
 planet Ajma
 	landscape land/greenmountains2
-	description `The only station made by the bruchaven  and the only station with a spaceport. There are unlandable stations with hidden meanings near the station. this station is the only reason the surronding systems arent uninhabited.`
-	spaceport `The people here mainly are explorers and trade jump drives. They say they have explored the lannen space. what is the lannen space?`
+	description `The only station made by the Bruchaven and the only station with a spaceport. There are unlandable stations with hidden meanings near it. This station is the only reason the surrounding systems aren't uninhabited.`
+	spaceport `The people here are mainly explorers and trade jump drives. They say they have explored the Lannen space. What is the Lannen space?`
 
 planet Al'Nisan
 	landscape land/brownmountains1
+	description `A terraformed world still in progress. The atmosphere is breathable but thin. Colonists live in pressurized domes while the planet slowly transforms. The mountains are a rusty red.`
 
 planet Ayib'iiahii'onwnl
 	landscape land/greenmountains1
-	description s
-	spaceport tutt
+	description `A Foren research station studying the neighboring systems. The scientists are secretive and close their doors when you approach. Strange sounds echo through the corridors at night.`
+	spaceport `A small docking bay. The Foren personnel are polite but evasive. They speak in hushed tones.`
 
 planet "Between - Home"
 	landscape land/brownmountains1
-	description `Home of the between.`
-	spaceport `Home of the between.`
+	description `Home of The Between. A world of perpetual twilight and ancient forests. The Between are elusive and rarely seen. Their cities are hidden beneath the canopy.`
+	spaceport `A single landing pad in a forest clearing. The Between observe silently from the shadows. You feel watched.`
 
 planet Bra'jk'in
 	landscape land/foresttropical0
-	description .
-	spaceport .
+	description `A frozen archive-world. The Vic'Na store their historical records in underground vaults carved from ancient glaciers. The air is thin, cold, and smells of old paper.`
+	spaceport `A small ice-hewn landing bay. The Vic'Na archivists are silent and meticulous. They don't appreciate interruptions.`
 
 planet Cholintir
 	landscape land/land27
-	description `Foren Military Base.`
-	spaceport `The forens are nice`
+	description `Foren Military Base. The central command for the Foren fleet. The planet is heavily fortified and bristling with weaponry. No visitors allowed.`
+	spaceport `A military installation. Armed guards check every ship. The Forens are nice, but they take their security seriously.`
 
 planet CixAVic
-	landscape ""
+	landscape "" #CixAVic is a wormhole. Cix means Civilization A means action, Vic means Vic'na
 
 planet Da'in:ska;908
 	landscape "land/moutainsnow1@2x "
-	description .
-	spaceport .
+	description `A frozen research world. The Vic'Na study something here—something they won't name. The scientists live in underground complexes. They never leave.`
+	spaceport `A secured facility. Researchers hurry between buildings. They avoid eye contact. What are they hiding?`
 
 planet Daajka
 	landscape land/greenmountains1
-	description `The Serbajkil Capital.`
-	spaceport ..
+	description `The Serbajkil capital burns with orange light from its geothermal vents. The locals say the planet's heart beats in sync with their own. The architecture is brutal, beautiful, and ancient—carved from obsidian and lit by eternal flame.`
+	spaceport `A massive obsidian structure. The heat is intense, but the Serbajkil don't seem to notice. The market sells exotic goods from across the galaxy.`
 
 planet Dka'MJi
 	landscape land/brownmountains1
-	description .
-	spaceport .
+	description `A cold world where the Serbajkil harvest ice for their desert colonies. The ice-cutters sing ancient songs while they work. The songs have no translation.`
+	spaceport `A simple ice landing strip. The workers are hardy and taciturn. They offer hot drinks to visitors.`
 
 planet Drakmagani
 	landscape land/land26
-	description `This planet is the antartica of Vic'Na Space.`
-	spaceport `To this day, the drak still live today. They sell their archons here on Drakmagani.`
-	spaceport `	,`
+	description `This planet is the Antarctica of Vic'Na Space. The Drak still live here today. They sell their Archons on Drakmagani. The ice plains stretch forever.`
+	spaceport `A small trading post. The Drak are fierce but fair. They offer Archons—strange alien artifacts—to those who can afford them.`
 	shipyard Drak
 	outfitter "Drak All"
 
 planet FAIL-000000
 	landscape land/greenmountains2
-	description `????????????????????? fungus ???????????¿?¿¿¿¿¿¿?¿¿¿?¿¿¿??¿???????¿¿¿¿¿??????????!(!-+--&&--&&*££*&-__&&&&_&&_ Seems to be no information about this planet.`
+	description `????????????????????? fungus ???????????¿?¿¿¿¿¿¿?¿¿¿?¿¿¿??¿???????¿¿¿¿¿??????????!(!-+--&&--&&*££*&-__&&&&_&&_ Seems to be no information about this planet. The fungal growths spell out geometric patterns in the craters. The Bruchaven have quarantined three exploration teams who reported 'hearing the soil hum.'`
 
 planet FAIL-700100
 	landscape land/greenmountains2
-	description `Just a fungal planet? what are the bruchaven hiding.`
+	description `Just a fungal planet? What are the Bruchaven hiding? Scans show fungal growth covering 97% of the surface. The structures beneath are not natural. The Bruchaven have flagged this system for 'quarantine review.'`
 
 planet FAIL-99689000
 	landscape land/land27
-	description `Another fail, of some other race.`
+	description `Another fail, of some other race. The structures are pre-Foren, pre-Gainen, pre-everything. The soil contains no organic matter. The wind sounds like breathing.`
 
 planet Fo'kak'ni'si'slok
 	landscape land/greenmountains2
-	description `Welcome to the land of diversity. Humans,Gainens,???'s and The Forens live peacefully.`
-	spaceport `You see some funny looking people here.`
+	description `Welcome to the land of diversity. Humans, Gainen, ???'s, and The Forens live peacefully here. The streets are a riot of languages and cultures. The ???'s won't say what they're called.`
+	spaceport `You see some funny-looking people here. The market is chaotic but friendly. Everyone seems to be trading something strange.`
 
 planet "Foryurda Ekamo"
 	landscape ""
-	description `This planet has no reason to be colonized, but it is.`
-	spaceport `The landscape is too bad. its hell but still colonized.`
+	description `This planet has no reason to be colonized, but it is. Hell is colonized—barely. The inhabitants live in underground bunkers, emerging only for supplies. Why anyone lives here is a mystery. They say the scenery grows on you.`
+	spaceport `A crude landing area. The locals are grim but helpful. They say the volcanic ash is good for the skin.`
 
 planet Frt'Eliminatr
 	landscape land/greenmountains1
-	description `Welcone to the land of the ???. The ??? Mainly live here`
-	spaceport `??? ??? ??? you don't understand`
+	description `???. The Forens don't talk about this place. The few who land there return with fragmented memories and a strange, metallic taste in their mouths. The station above orbits in perfect silence.`
+	spaceport `??? ??? ??? you don't understand. The Foren personnel are unresponsive. The station hums at a frequency that makes your teeth ache.`
 
 planet Fruga'le
 	landscape land/land0
-	description .
-	spaceport .
+	description `Failed terraformation turned this world into a nightmare jungle. The Vic'Na use it as a survival training ground. The flora is aggressive; the fauna is worse. Only the strong survive.`
+	spaceport `A small military outpost. The Vic'Na soldiers here are hardened veterans. They train relentlessly in the jungle.`
 
 planet Ga'ratri
 	landscape land/foresttropical0
+	description `A Vic'Na mining world. The workers live in underground cities. The ore they extract is essential to the Vic'Na economy. The air is dusty and the work is hard.`
 
 planet "Gaie Point"
 	landscape land/land13
-	description `You realise that the majority of people here don't look like the gainen, perhaps another ailen race`
-	spaceport `"??? ??? ???? Serhbajkil " Perhaps they are talking about a system? "Serhbajkil" doesn't look like it would be anything else`
+	description `A strange world where most inhabitants aren't Gainen at all. They whisper about 'Serhbajkil'—perhaps a system? A faction? No one will explain. The architecture is odd, hybrid, and unsettling.`
+	spaceport `"??? ??? ???? Serhbajkil." Perhaps they are talking about a system? "Serhbajkil" doesn't look like it would be anything else. The locals stare at you.`
 	shipyard "Gainen Shipyard"
 
 planet Gainisen
 	landscape land/brownmountains1
-	spaceport `Home of the gainen.`
+	description `Home of the Gainen people. The capital's floating gardens drift above the clouds, visible from orbit. The Gainen believe their ancestors watch from the stars above the gardens. The architecture is elegant, functional, and ancient.`
+	spaceport `Home of the Gainen. The spaceport is a marvel of engineering—glass domes and floating platforms. The Gainen are welcoming but reserved.`
 	shipyard "Gainen Shipyard"
 	outfitter "Gainen Normals"
 
 planet "Ganiom Cheat"
 	landscape land/land27
-	description `You found it! Omnis in Ganiom!`
-	spaceport .
-	spaceport `	de`
+	description `You found it! Omnis in Ganiom! This hidden station sells ships and outfits from every faction in the galaxy. How it exists is a mystery. Who built it is an even bigger one.`
+	spaceport `The ultimate shipyard. Every ship, every outfit, every faction. The station is a legend among spacers.`
 	shipyard omnis
 	shipyard aberrant
 	shipyard avgi
@@ -6428,23 +6429,24 @@ planet "Ganiom Cheat"
 
 planet Gasinas
 	landscape land/land3
-	spaceport g
+	description `A Gainen gas mining station. The platforms float in the upper atmosphere, harvesting rare isotopes. The work is dangerous but well-paid.`
+	spaceport `A small docking platform. The miners are tough and weathered. They tell stories of the storms below.`
 	outfitter "Gainen Normals"
 
 planet Gerin
 	landscape "land/moutainsnow5@2x "
-	description onnnmnnmnnnooppoonoooooon
-	spaceport nnooo
+	description `onnnmnnmnnnooppoonoooooon—the database entry is corrupted. The Between have classified this world. What little remains is gibberish.`
+	spaceport `nnooo—the transmission cuts off. The Between are not welcoming.`
 
 planet Haj'li
 	landscape land/foresttropical0
-	description e
-	spaceport f
+	description `A listening post on the edge of Vic'Na space. The inhabitants are paranoid, insular, and convinced something is watching from the void beyond. They're probably right.`
+	spaceport `A small, heavily fortified landing bay. The Vic'Na personnel eye you suspiciously. They speak in whispers.`
 
 planet Halon
 	landscape land/greenmountains1
-	description `Halon is a Mekrut world, originating from the Ka. Today, Halon is a massive world. With the Mekrut population being over 140 Billion+ people. Diverse in culture.`
-	spaceport `Halon is a hilly world, with the spaceport being in a satelite city of the biggest city in Halon. It is particularly interesting."`
+	description `A world of endless rolling hills and shimmering cities. Over 140 billion Ka call this home, their spires rising from the valleys like frozen waves. The air smells of spice and ozone. Cultural diversity is unmatched.`
+	spaceport `Halon is a hilly world, with the spaceport being in a satellite city of the biggest city in Halon. It is particularly interesting—a maze of markets and cultures.`
 	shipyard "Halon Basic"
 	shipyard "Halon Advanced"
 	shipyard "Mekrutar Basic"
@@ -6454,93 +6456,96 @@ planet Halon
 
 planet Hassaberut
 	landscape land/brownmountains1
-	description e
-	spaceport f
+	description `A Lannen industrial world. The factories never sleep. The workers are unionized, proud, and politically active. The revolution started here.`
+	spaceport `A sprawling industrial port. Smoke and steam fill the air. The workers are organizing for better conditions.`
 
 planet Haty'sa
 	landscape land/brownmountains1
-	description .
-	spaceport .
+	description `A Vic'Na military outpost. Small, fortified, unremarkable. The soldiers here are disciplined and silent. The walls are thick.`
+	spaceport `A compact landing pad. The Vic'Na soldiers salute crisply. No one lingers here.`
 
 planet Hirotovaisni
 	landscape land/moutainsnow3
-	description `Hmm, it looks like it couldnt terraform`
+	description `Terraforming failed centuries ago. The Between use it as a test site for weaponry. The surface is pockmarked with craters. Do not land.`
 
 planet Hiswren
 	landscape land/moutaingrey1
-	spaceport yes
+	description `Hisair High Fleet headquarters. The planet is a military installation first, a world second. Civilians are not permitted. The fleet exercises are constant.`
+	spaceport `A restricted military port. The Hisair soldiers are disciplined and cold. They don't answer questions.`
 
 planet Hsahi
 	landscape land/foresttropical0
-	description f
-	spaceport d
+	description `A Reisbruth military world. The entire planet is one giant training ground. The soldiers here are the best—and the most insane. REISBRUTH RAAAAAA!`
+	spaceport `A chaotic military base. The Reisbruth are loud, aggressive, and somehow friendly. They challenge everyone to a fight.`
 	shipyard "Reisbruth Shipyard"
 	shipyard "Gainen Shipyard"
 	outfitter Rekkebruth
 
 planet Humansaaeink
 	landscape land/land10
-	description `The foren cant live here, so they gave it to humans`
-	spaceport `Adding more soon.`
+	description `Gifted to humans by the Foren as a gesture of goodwill. The human colonists thrive here. Relations between the two species are warm. The humans have even started adopting Foren customs.`
+	spaceport `A thriving human colony. The Foren are welcome guests. The humans have built a small but prosperous society.`
 
 planet I'ise
 	landscape land/brownmountains1
-	spaceport `I'ise is a gainen world, a very peaceful world.`
+	description `A peaceful Gainen agricultural world. Endless rolling farmlands. The food here is famous across the Republic. They export to Halon and Mekrut.`
+	spaceport `I'ise is a Gainen world, a very peaceful world. The fields stretch as far as the eye can see. The locals are friendly and generous.`
 	outfitter "Gainen Normals"
 
 planet Ifermerin
 	landscape land/land12
-	spaceport gfffff
+	description `A Between listening post. Small. Discreet. They track Hisair fleet movements from here. The operators never leave their posts.`
+	spaceport `A discreet facility. The Between personnel are professional and silent. They don't acknowledge visitors.`
 
 planet "Ik:samme 60-20-90-40"
 	landscape land/foresttropical0
-	description `This huge station is currently in progress. It is the capital of the Vic'Na `
-	spaceport .
+	description `The Vic'Na capital station. Massive. Political. The center of Vic'Na power. Visitors are processed thoroughly and watched constantly.`
+	spaceport `A bustling political hub. The Vic'Na elite move through the corridors. Every conversation is monitored.`
 
 planet Ikmastga
 	landscape land/lakemountains1
-	description .
-	spaceport .
+	description `A Serbajkil outpost on the edge of their territory. The locals are frontier types—tough, independent, and suspicious of outsiders.`
+	spaceport `A simple landing strip. The Serbajkil here are gruff but honest. They offer supplies at fair prices.`
 
 planet Inakma
 	landscape land/greenmountains1
-	description f
-	spaceport f
+	description `Serbajkil scientists study the extremophile life here—organisms that thrive in boiling sulfuric springs. The locals call them 'fire-walkers' and consider them sacred.`
+	spaceport `A small research outpost. The scientists are passionate about their work. The springs glow at night.`
 
 planet "Isa Palechunam"
 	landscape land/moutainsnow5
-	description `Isa Palechunam is a cold world, inhabited by the gainen. It is one of the biggest hubs in the gainen republic, and the heart of the gainen army.`
-	spaceport `The spaceport feels cold, because a mountain is below it. Isa Palechunam is filled with mountain ranges.`
+	description `A frozen fortress-world producing the Republic's finest officers—and its coldest warriors. The mountain winds carry the sound of training exercises. The war memorials here are carved from ice that never melts.`
+	spaceport `The spaceport feels cold, because a mountain is below it. Isa Palechunam is filled with mountain ranges. The wind howls constantly.`
 	shipyard "Gainen Shipyard"
 	outfitter "Gainen Normals"
 
 planet Isrhsiw
 	landscape land/greenmountains1
-	description `Cold and icy, the bruchaven live here, somehow while a human would freeze by the intese cold.`
-	spaceport fgeefgggggg
+	description `An icy world where humans would freeze instantly. The Bruchaven thrive here, their bodies adapted to the extreme cold. The cities are built into glaciers.`
+	spaceport `A landing platform carved from ice. The Bruchaven are bundled in thick furs. They offer hot drinks to visitors.`
 
 planet Kabkonik
 	landscape land/greenmountains1
-	description d
-	spaceport d
+	description `REISBRUTH TERRITORY. The inhabitants greet visitors with aggressive hospitality—challenges to combat, offers of strong drink, and incomprehensible boasts. The spaceport is a mess. It's glorious. REISBRUTH RAAAAAA!`
+	spaceport `A chaotic, loud, and glorious port. The Reisbruth are celebrating something. They invite you to join.`
 	shipyard "Reisbruth Shipyard"
 	shipyard "Gainen Shipyard"
 	outfitter Rekkebruth
 
 planet Kla'ik
 	landscape land/greenmountains1
-	description .
-	spaceport .
+	description `A Vic'Na farming world. The soil is rich, the crops abundant. The farmers are peaceful but fiercely protective of their land.`
+	spaceport `A small agricultural port. The Vic'Na farmers are polite but wary. They ask about your intentions.`
 
 planet Lympaii
 	landscape land/foresttropical0
-	description .
-	spaceport .
+	description `A world of shallow, bioluminescent seas. The native coral communicates through light patterns. The Serbajkil have established a research outpost but otherwise leave the planet untouched.`
+	spaceport `A floating research platform. The scientists study the coral's language. They say it has a sense of humor.`
 
 planet Mekrut
 	landscape land/greenmountains1
-	description `Mekrut is the capital of Bruchaven Mekrut, a republic that has the most happy people in the galaxy. It is a major world. Originating from the Ya, it shows a diverse world with over 1 trillion people.`
-	spaceport `Mekrut is a hilly world, like most mekrutar worlds. the spaceport is in a city.`
+	description `The beating heart of the Bruchaven Mekrut Republic. A trillion souls across a thousand cultures. The Great Bazaar spans an entire continent—if you can't find it here, it doesn't exist. The streets hum with the music of a hundred species.`
+	spaceport `Mekrut is a hilly world, like most Mekrutar worlds. The spaceport is in a city of a thousand colors. The market is overwhelming.`
 	shipyard "Mekrutar Basic"
 	shipyard "Mekrutar Advanced"
 	shipyard "Halon Advanced"
@@ -6551,242 +6556,246 @@ planet Mekrut
 
 planet Minin
 	landscape land/land27
+	description `A moon with a small Vic'Na observatory. They study the stars here. They've been watching something for a very long time. The observatory is ancient.`
 
 planet Motafor
 	landscape land/land14
-	description `Truly Unknown how this planet exists, a myth says it is a planet that changes systems every century because of the wormhole. Maybe it might even change now!`
-	spaceport `The conditions of this planet are truly extreme, Desert in the west, Mountains in the plain on the center but it always changes.`
+	description `A myth-wrapped world that allegedly moves systems via wormhole every century. The inhabitants have adapted to extreme conditions. They don't trust outsiders. The desert shifts, the mountains change, the people remain.`
+	spaceport `The conditions of this planet are truly extreme. Desert in the west, mountains in the plain on the center—but it always changes. The locals are fiercely independent.`
 	security 0.9
 
 planet Napa'ij
 	landscape land/greenmountains1
-	description sss
-	spaceport s
+	description `An orbital habitat. The Forens use it as a diplomatic hub. Many factions have ambassadors here. The food is terrible. The views are spectacular.`
+	spaceport `A bustling diplomatic station. Ambassadors from across the galaxy mingle here. The Foren hosts are gracious but guarded.`
 
 planet Nevonsaj
 	landscape land/land14
-	description `Originally Sini"om homeworld, intense massacares happend on this planet`
-	spaceport `"They will destroy, they will kill and they are not peaceful" - Sini'om journalist Katiknai Orijaons(Dead)`
+	description `A world stained by tragedy—the Sini'om homeworld before the massacres. The Communist Ganiom maintain a memorial here. Few visit. Everyone remembers. The soil is still red.`
+	spaceport `"They will destroy, they will kill and they are not peaceful." — Sini'om journalist Katiknai Orijaons (Dead). The memorial is a somber place.`
 	tribute 560
 		fleet "Communist Gainen Military Patrol" 2
 
 planet Nisem
 	landscape land/moutainsnow5
-	spaceport ee
+	description `A military outpost. Small, fortified, unremarkable—except for the listening array that points toward Foren space. The Gainen are watching.`
+	spaceport `A compact military base. The Gainen soldiers are vigilant. They don't talk about what they're listening for.`
 	outfitter "Gainen Normals"
 
 planet Nolok
 	landscape land/land28
-	spaceport wxwww
+	description `A Gainen research world. The scientists here study the Foren language and culture. They've made little progress. The Foren are... strange.`
+	spaceport `A quiet research facility. The scientists are frustrated. The Foren language seems to shift meaning.`
 
 planet "Northpoint Station"
 	landscape land/land13
-	description `Farthest Northern Frontier Of the Gainen, Yet no gainen is here. Going more west,north or east goes to ??? territory.`
-	spaceport `"??? ??? Serbajkil Wenj" Seems like they keep talking about Serbajkil?a`
+	description `Farthest northern frontier of the Gainen. No Gainen live here—only a skeleton crew maintaining the outpost. Beyond lies Serbajkil territory. The station's logs mention 'something' watching from the void.`
+	spaceport `"??? ??? Serbajkil Wenj." They keep talking about Serbajkil? The crew are nervous. They don't look out the windows.`
 	outfitter "Gainen Normals"
 
 planet Obines
 	landscape "land/moutainsnow5@2x "
-	description .
+	description `A desolate rock with a single facility—the Between's central communications hub. All signals in this sector pass through here. Heavily guarded. The perimeter is mined.`
 
 planet Oftiknqn
 	landscape land/foresttropical0
-	description `How is this real?? You ask its a gas planet with stunning beauty how??? stunning waterfalls, endless cities how??? it is like no other for a reason`
-	spaceport `It is like no other`
+	description `A gas giant with artificial platforms in its upper atmosphere. The Communist Ganiom use it as a naval base. The view of the swirling storms is breathtaking—and terrifying.`
+	spaceport `It is like no other. The platforms sway in the winds. The sailors are hardened by the constant storms.`
 	security 0.9
 
 planet Olokrefaro
 	landscape land/land3
-	spaceport gggggggfe
+	description `The Kem Relicnain mine rare minerals here. The workers are indentured. The conditions are brutal. The overseers are merciless. This is not a place for tourists.`
+	spaceport `A grim industrial port. The workers are silent. The overseers watch with cold eyes.`
 
 planet Om'Tiera
 	landscape land/brownmountains1
-	spaceport aaaaaa
+	description `A Communist Ganiom agricultural world. The fields are vast and mechanized. The workers are loyal to the cause. The revolution is all they know.`
+	spaceport `A functional agricultural port. The party officials are always watching. The workers sing revolutionary songs.`
 
 planet Ore
 	landscape land/land27
-	description `There is nothing here anymore, everyone either died or moved to other systems.`
-
-planet Oref
-	landscape land/land23
-	description `In 2390, The star of this system became`
+	description `There is nothing here anymore. Everyone either died or moved to other systems. The ruins are empty. The wind is the only sound.`
 
 planet Orei
 	landscape land/land23
-	description `Everything, feels weird somehow, they speak your language when they look at you? the gainen had human translators but these people can talk to you normally?`
-	spaceport `"Welcome. We are the serbajkil. We look foward to be friends with your race, human."`
-
-planet Oxuni
-	landscape land/land28
-	spaceport ssssss
+	description `A strange world where the locals speak your language immediately—with no translator. They welcome humans warmly. 'We are the Serbajkil,' they say. 'We look forward to being friends.' How they know your language is... unsettling.`
+	spaceport `"Welcome. We are the Serbajkil. We look forward to being friends with your race, human." The Serbajkil smile. It doesn't reach their eyes.`
 
 planet P6-4-9
 	landscape ""
-	description .
-	spaceport .
+	description `A Vic'Na refueling station. Small. Functional. The attendants are polite but give short answers. They don't encourage conversation.`
+	spaceport `A compact station. The Vic'Na attendants process you efficiently. They don't make eye contact.`
 
 planet Parafkorsa
 	landscape land/lakemountains1
-	description `Paraf homeworld, is now gone.`
+	description `The Paraf homeworld is no more. Craters. Ash. Silence. Whatever happened here was thorough, deliberate, and complete. The Serbajkil patrols avoid this system.`
 
 planet Petin
 	landscape land/land27
+	description `A Vic'Na diplomatic station. Small. Unremarkable. The Vic'Na ambassadors here are polite but evasive. They don't answer questions about their government.`
 
 planet Protomous
 	landscape land/brownmountains1
-	description `This is a secret station. Purpose is unknown`
-	spaceport .
+	description `A secret station. Purpose unknown. The Vic'Na maintain it with extreme security. Ships that approach too closely are fired upon without warning.`
+	spaceport `A secured docking bay. The Vic'Na security forces are armed and hostile. You are not welcome here.`
 
 planet Qnanei
 	landscape land/greenmountains1
-	description `not landable because it is owned by hpatile favtion.`
-	spaceport ffg
+	description `A hostile volcanic world owned by a hostile faction. The Mekrut maintain a blockade here. Do not approach. The surface is molten and deadly.`
+	spaceport `No spaceport available. The planet is under blockade. Approach at your own risk.`
 
 planet Ratow
 	landscape land/greenmountains1
-	description `Ratow is a Mekrut planet, filled with the Ka. It is a major planet. Originating from the Ka.`
-	spaceport `Ratow is a hilly world, like all mekrut worlds. it is less diverse. However, most ka in bruchaven live in ratow.`
+	description `A world of smoke and steel. The Ka foundry-workers here speak in rhythmic chants that echo through the factory-canyons. Their metal is said to be blessed by the deep-earth spirits. The work never stops.`
+	spaceport `Ratow is a hilly world, like all Mekrut worlds. It is less diverse. However, most Ka in Bruchaven live in Ratow. The forges glow day and night.`
 	shipyard "Mekrutar Advanced"
 	shipyard "Gainen Shipyard"
-	outfitter "Ratow Outifitters"
+	outfitter "Ratow Outfitters"
 	outfitter "Mekrut Telecommunications INC."
 	outfitter "Gainescaf Advanced"
 	outfitter "Ka Mexage Advanced"
 
 planet "Red Shambala"
 	landscape land/land28
-	description bcd
-	spaceport abcdefgh
+	description `A Foren terraforming failure. The planet is a red desert with strange rock formations. The Forens abandoned it centuries ago.`
+	spaceport `A dusty landing pad. The wind howls across the empty plains. Nothing lives here anymore.`
 
 planet Ref
 	landscape land/land27
-	description .
+	description `Survey teams reported 'geometric anomalies' on the surface—perfectly straight lines and right angles where none should exist. They left within 48 hours. No one has returned.`
 
 planet Sancleva
 	landscape land/brownmountains1
-	description e
-	spaceport f
+	description `A pilgrimage site for the Serbajkil. The crystal caves beneath the surface are said to amplify thoughts—some hear echoes of their ancestors here. The faithful come to meditate.`
+	spaceport `A modest landing zone. The pilgrims are silent and focused. They walk to the caves in single file.`
 
 planet Seginar'r'r
 	landscape land/land28
-	spaceport fgeggfeefghgg
+	description `A gas giant with floating Hisair refineries. They extract rare isotopes here. The workers live their entire lives in the cloud cities. The storms are deadly. The work is dangerous.`
+	spaceport `A floating refinery platform. The Hisair workers are tough and weathered. They don't talk about their work.`
 
 planet Sevorosinsi
 	landscape land/brownmountains1
+	description `A research world dedicated to studying the Foren. The Gainen maintain a permanent diplomatic mission here. The Foren are... strange neighbors.`
 
 planet "Sevreya Wel Bruchaben Sama'a"
 	landscape land/land23
-	description `Welcome to the hidden explorers colony. This is used for fueling and then you are supposed to go explore. Thats it. `
-	spaceport fuel
+	description `A hidden explorers' colony. Fuel depot. Stop here to resupply before venturing into the unknown. The colonists are friendly but evasive about what they've found.`
+	spaceport `A simple refueling station. The colonists are helpful but guarded. They give directions but not answers.`
 
 planet "Shatabbi Lolaksi"
 	landscape land/foresttropical0
-	description f
-	spaceport d
+	description `The Reisbruth built this world as a 'refueling station.' It's actually a massive arena-world where they settle disputes via hovercraft jousting. The fuel is for the spectators. The arena is sacred.`
+	spaceport `A chaotic arena port. The Reisbruth are screaming and betting. They invite you to join the next joust.`
 	shipyard "Reisbruth Shipyard"
 	shipyard "Gainen Shipyard"
 	outfitter Rekkebruth
 
 planet Si'faleha
 	landscape land/land27
-	description `Biggest faikure in foren history. you see a person. just walking, go BACK YOUR HALLUCINATING`
+	description `Biggest failure in Foren history. You see a person walking on the surface—then they're gone. The Survey Corps says it's 'atmospheric distortion.' No one believes them. Go back. You're hallucinating.`
 
 planet Sialieb
 	landscape land/mountainsnow0
-	description f
-	spaceport f
+	description `Lannen colonists transformed this world into a haven for artists and philosophers. The sky is perpetually painted in auroras. They say inspiration comes easier here.`
+	spaceport `A small, artistic port. The Lannen are painters and poets. They offer you a drink and a story.`
 
 planet "Sinava Nava"
 	landscape land/greenmountains1
-	spaceport ddddd
+	description `A Communist Ganiom military station. Heavily armed. Heavily guarded. The soldiers here are veterans of the Hisair conflict.`
+	spaceport `A stern military facility. The Communist Ganiom soldiers are disciplined and wary. They don't trust visitors.`
 
 planet Siniar
 	landscape land/land12
-	spaceport ffff
+	description `A Kem Relicnain fortress-world. The surface is covered in defensive emplacements and bunkers. They do not welcome visitors. The last scout ship never returned.`
+	spaceport `A heavily fortified port. The Kem Relicnain soldiers are hostile. They turn you away.`
 
 planet Siri'Om
 	landscape land/brownmountains1
-	description `Made by the Gainen for an extinct neighbour known as the Sini'om who got massacared by the communist ganiom`
-	spaceport `The Gainen have made this place extremely beautiful as a way to cope that their friendly neighbours got massacared by the communist ganiom`
+	description `A memorial world. The Gainen built this paradise to honor the extinct Sini'om, planting gardens that spell out their names when seen from orbit. Some say the flowers bloom only at night.`
+	spaceport `The Gainen have made this place extremely beautiful as a way to cope that their friendly neighbours got massacred by the Communist Ganiom. It is a place of mourning and remembrance.`
 	shipyard "Gainen Shipyard"
 
 planet Srunfeot
 	landscape land/brownmountains1
-	spaceport naish
-
-planet Synde
-	landscape ""
+	description `A mining world. The Gainen extract rare minerals here. The workers live in underground cities carved from the rock. The air is recycled and always tastes like metal.`
+	spaceport `A mining port. The Gainen miners are tough and pragmatic. They don't talk much.`
 
 planet Sz-Sialobi
 	landscape land/foresttropical0
-	description e
-	spaceport f
+	description `The Lannen terraformed this world into a tropical paradise. The cities are built into massive trees. The locals warn visitors not to wander into the deeper forests. The trees remember.`
+	spaceport `A beautiful tree-city port. The Lannen are friendly and relaxed. They warn you about the forest.`
 
 planet Tirifanailokibasltiranabi
 	landscape land/greenmountains1
-	spaceport d
+	description `A Shizivi trading post. Small. Unremarkable. The Shizivi are merchants and traders. They offer goods from across their territory.`
+	spaceport `A small market port. The Shizivi haggle loudly. They are cheerful and aggressive.`
 
 planet Tisarnann'r'n
 	landscape land/land30
-	description `Cold but populated.`
-	spaceport `its extremely cold`
+	description `Bitterly cold but heavily populated. The Communist Ganiom mine ice for water exports. The people are hardy, stoic, and loyal to the cause. The revolution is all they know.`
+	spaceport `It's extremely cold. The Communist Ganiom workers move quickly between heated buildings. They salute the party flags.`
 	security 0.9
 
 planet Tisurua
 	landscape land/greenmountains1
-	description .
-	spaceport cbbbbbbb
+	description `The Between have a monitoring station here. They watch. They wait. They do not interfere. The planet is otherwise uninhabited. What are they watching for?`
+	spaceport `A hidden facility. The Between observe silently. They don't answer questions.`
 
 planet Trimakhol
 	landscape land/brownmountains1
-	description `Farthest point of the Gainen Republic. Going more west leaves you in Foren Territory.`
-	spaceport `Someone says "A'am'ksii pok kailna jak nos Ssrijako?" You are confused`
+	description `Farthest western point of the Gainen Republic. Beyond lies Foren territory. The locals are frontier types—tough, independent, and distrustful of politicians.`
+	spaceport `Someone says "A'am'ksii pok kailna jak nos Ssrijako?" You are confused. The locals laugh.`
 	shipyard "Gainen Shipyard"
 	outfitter "Gainen Normals"
 
 planet Ula'miva
 	landscape land/foresttropical0
-	description .
-	spaceport .
+	description `A desert world where the sand glows faintly at night. The Serbajkil maintain a small water-mining outpost. Workers report hearing whispers in the dunes.`
+	spaceport `A small mining port. The Serbajkil workers are wary. They don't look at the dunes.`
 
 planet Vakrkin
 	landscape land/foresttropical0
-	description .
-	spaceport .
+	description `The Foren left this world largely untouched—a nature preserve. Massive creatures roam the forests. The Foren consider it sacred. Hunting is forbidden.`
+	spaceport `A small research station. The Foren scientists study the creatures. They don't allow visitors into the deep forest.`
 
 planet "Vic'na Border Security"
 	landscape land/mountainsnow0
-	description `This moon is simply used for vic'na communication before entering the wormhole.`
-	spaceport .
+	description `A communication outpost before entering the wormhole. Signals are relayed here. The personnel are professional, cold, and utterly loyal.`
+	spaceport `A small communications station. The Vic'Na personnel ignore you. They are focused on their screens.`
 
 planet Vidg'aa'na'ja
 	landscape land/greenmountains1
-	description `This a popular tourist destination because of sentient rhinos.`
-	spaceport `"Vi, Muur, Ant Eng Sem'Im" Your confused by what the rhino said`
+	description `A popular tourist destination famous for its sentient rhino population. The rhinos communicate in a complex tonal language—tourists often misunderstand and end up in hilarious situations. 'Vi, Muur, Ant Eng Sem'Im'—your guess is as good as theirs.`
+	spaceport `"Vi, Muur, Ant Eng Sem'Im." You're confused by what the rhino said. It seems to be laughing at you.`
 	"required reputation" 1
 	bribe 0.9
 	security 0.9
 
 planet Whsyin
 	landscape land/greenmountains1
-	description `This planet started the foren leftist revolution.`
-	spaceport `"Di'rni Rgagt'tit. Ware ti ysa!" You are confused.`
+	description `This world sparked the Foren leftist revolution. The old government buildings still stand, now serving as museums to the uprising. Graffiti covers the walls—political slogans in a dozen languages.`
+	spaceport `"Di'rni Rgagt'tit. Ware ti ysa!" You are confused. The Foren locals smile knowingly.`
 
-planet "Wn Wormholr"
+planet Xtrein'nian'frjaklok
+	landscape land/land27
+	description `I, I, I, I, You should leave now! The logs say the planet broadcasts a single word on all frequencies: 'Leave.' The Forens have quarantined the system.`
+
+planet Yuso
+	landscape land/moutaingrey1
+	description `Homeworld of the Hisair. The cities are built into massive cliffs overlooking a perpetual storm. They are proud, fierce, and suspicious of outsiders. Their warriors are legendary.`
+	spaceport `Homeworld of the Hisair. The storm rages constantly. The Hisair warriors watch you from the walls.`
+	security 0.9
+	tribute 560000
+		fleet "Hisair High" 34
+
+#----------------Wormholes---------------------------------------
+planet Synde
 	landscape ""
 
 planet Wormgolin
 	landscape ""
 
-planet Xtrein'nian'frjaklok
-	landscape land/land27
-	description `I, I, I, I, You should leave now!`
-
-planet Yuso
-	landscape land/moutaingrey1
-	description `Homeworld of the Hisair.`
-	spaceport `Homeworld of the hisair`
-	security 0.9
-	tribute 560000
-		fleet "Hisair High" 34
-
+planet "Wn Wormholr"
+	landscape ""
