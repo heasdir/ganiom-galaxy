@@ -2270,7 +2270,7 @@ system Ir'mawad
 		distance 370.72
 		period 129.422
 	object "Ik:samme 60-20-90-40"
-		sprite planet/earth
+		sprite planet/vicnacapital
 		distance 635.41
 		period 290.415
 	object

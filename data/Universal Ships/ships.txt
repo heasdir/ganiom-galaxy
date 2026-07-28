@@ -81,7 +81,7 @@ ship "Pinoalin"
 	description "This Heavy Warship is powerful, made by the Kem Relicnain. Every faction in the galaxy uses it."
 	
 ship "Neutron Star"
-	sprite "ship/neutron+"
+	sprite "ship/neutron"
 	thumbnail "thumbnail/unknown"
 	attributes
 		category "Heavy Warship"
@@ -127,33 +127,33 @@ ship "Neutron Star"
 		
 		"Hyperdrive"
 		"Jump Drive"
-    
-    gun -30.5 -256
-    gun -30.5 -256
-    gun -30.5 -256
-    gun -30.5 -256
-    gun -30.5 -256
-    gun -30.5 -256
-    gun -92 -110
-    gun -92 -110
-    gun -92 -110
-    gun -92 -110
-    gun -92 -110
-    turret -92 -110
-    turret -177 101
-    turret -177 101
-    turret -177 101
-    turret -177 101
-    gun -177 101
-    gun -177 101
-    gun -177 101
-    gun 10.5 109.5
-    gun 10.5 109.5
-    gun -1 188
-    gun -1 188
-    engine -111.5 301.5
-    engine -180.5 257.5
-    engine -139 249.5
+	
+	gun -30.5 -256
+	gun -30.5 -256
+	gun -30.5 -256
+	gun -30.5 -256
+	gun -30.5 -256
+	gun -30.5 -256
+	gun -92 -110
+	gun -92 -110
+	gun -92 -110
+	gun -92 -110
+	gun -92 -110
+	turret -92 -110
+	turret -177 101
+	turret -177 101
+	turret -177 101
+	turret -177 101
+	gun -177 101
+	gun -177 101
+	gun -177 101
+	gun 10.5 109.5
+	gun 10.5 109.5
+	gun -1 188
+	gun -1 188
+	engine -111.5 301.5
+	engine -180.5 257.5
+	engine -139 249.5
 	explode "tiny explosion" 120
 	explode "small explosion" 60
 	explode "medium explosion" 70

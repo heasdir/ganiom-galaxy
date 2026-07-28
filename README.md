@@ -44,10 +44,6 @@ J-1 - J-2 Union
 
 ## Changelogs
 
-v0.081 - Many Bugfixes, including some ships finally being playable, before they weren't due to bugs
-
-v0.080 - Hatysa Vanilla Fix
-
 V0.071 - New Serbajkil Ship "Alkorel", and new Serbajkil weapon.
 
 V0.070 - Added the Gainescaf, G12 Attack, Qari Hexa and Festafar, Mekrut fleets, Hisair and Mekrut hails.
