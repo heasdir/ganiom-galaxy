@@ -1,0 +1,414 @@
+# ============================================================
+# FOREN JOBS — Complete Pack (with not system / waypoint)
+# ============================================================
+
+mission "Foren: Translator Needed"
+	name "Foren translator to <planet>"
+	description "A Foren translator needs passage to <destination>. Their work is urgent. Payment: <payment>."
+	repeat
+	job
+	deadline 6
+	to offer
+		"passenger space" > 2
+		random < 40
+		not system "Aaasinisianja" "Cinnector" "Cholekrkik'fan"
+	source
+		government "The Forens"
+	destination
+		distance 2 6
+		government "The Forens"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 450000
+		"reputation: The Forens" += 2
+		dialog `The translator bows. "Olum'arbi. Thank you. Here is <payment>."`
+
+
+mission "Foren: Diplomatic Pouch"
+	name "Diplomatic pouch to <planet>"
+	description "Carry a sealed Foren diplomatic pouch to <destination>. Do not open it. Payment: <payment>."
+	repeat
+	job
+	deadline 5
+	to offer
+		"reputation: The Forens" > 10
+		random < 35
+		not system "Aaasinisianja" "Occuinstain"
+	source
+		government "The Forens"
+	destination
+		distance 3 8
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 700000
+		"reputation: The Forens" += 3
+		dialog `The pouch is delivered. A Foren diplomat nods. "The Foren thank you. Here is <payment>."`
+
+
+mission "Foren: Human Colonist Transport"
+	name "Human colonist to <planet>"
+	description "A human colonist from Humansaaeink needs transport to <destination>. Payment: <payment>."
+	repeat
+	job
+	deadline 5
+	to offer
+		"passenger space" > 3
+		"reputation: The Forens" > 5
+		random < 30
+		not system "Humansaaeink"
+	source
+		planet "Humansaaeink"
+	destination
+		distance 2 6
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 500000
+		"reputation: The Forens" += 2
+		dialog `The colonist thanks you. "The Foren have been good to us humans. Here is <payment>."`
+
+
+mission "Foren: Rhino Research"
+	name "Rhino research team to <planet>"
+	description "A Foren research team studying the sentient rhinos needs transport to <destination>. Payment: <payment>."
+	repeat
+	job
+	deadline 6
+	to offer
+		"passenger space" > 4
+		"reputation: The Forens" > 15
+		random < 25
+		not system "Vidg'aa'na'ja"
+	source
+		planet "Vidg'aa'na'ja"
+	destination
+		distance 2 8
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 850000
+		"reputation: The Forens" += 3
+		dialog `The researchers depart. "The rhinos have much to teach us. Here is <payment>."`
+
+
+mission "Foren: Terraforming Supplies"
+	name "Terraforming supplies to <planet>"
+	description "Deliver terraforming supplies to <destination> for the Foren terraforming project. Payment: <payment>."
+	repeat
+	job
+	deadline 7
+	cargo random 15 30
+	to offer
+		"cargo space" > 20
+		"reputation: The Forens" > 5
+		random < 35
+		not system "Frt'Eliminatr" "Humansaaeink"
+	source
+		government "The Forens"
+	destination
+		distance 2 8
+		government "The Forens"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 1100000
+		"reputation: The Forens" += 3
+		dialog `The supplies are unloaded. A Foren scientist nods. "The terraforming continues. Here is <payment>."`
+
+
+mission "Foren: Cultural Exchange"
+	name "Cultural exchange to <planet>"
+	description "A Foren cultural exchange envoy needs transport to <destination>. Payment: <payment>."
+	repeat
+	job
+	deadline 6
+	to offer
+		"passenger space" > 2
+		"reputation: The Forens" > 10
+		random < 30
+		not system "Fo'kak'ni'si'slok"
+	source
+		planet "Fo'kak'ni'si'slok"
+	destination
+		distance 2 8
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 650000
+		"reputation: The Forens" += 3
+		dialog `The envoy smiles. "Fo'kak'ni'si'slok welcomes all. Here is <payment>."`
+
+
+mission "Foren: Anti-Kem Patrol"
+	name "Kem Relicnain probe near <system>"
+	description "Kem Relicnain ships have been probing Foren space. Destroy them and return to <planet>. Payment: <payment>."
+	repeat
+	job
+	deadline 12
+	to offer
+		"combat rating" > 500
+		"reputation: Kem Relicnain" < 0
+		random < 30
+		not system "Naisno" "Tirani Kem"
+	source
+		government "The Forens"
+	npc kill
+		government "Kem Relicnain"
+		personality heroic
+		system
+			distance 1 3
+		fleet
+			names "Kenjak"
+			variant
+				"Korsmanath A'awoj" 3
+				"Telis'het" 2
+			variant
+				"Vareti'het" 2
+				"Sapira A'awoj" 4
+	on complete
+		payment 1500000
+		"reputation: The Forens" += 5
+		"reputation: Kem Relicnain" <?= -10
+		dialog `The Kem probe is destroyed. "The Foren thank you. Here is <payment>."`
+
+
+mission "Foren: Gainen Relief"
+	name "Relief supplies to <planet>"
+	description "Bring relief supplies to <destination> in Gainen space. The Foren are assisting their allies. Payment: <payment>."
+	repeat
+	job
+	deadline 7
+	cargo random 10 25
+	to offer
+		"cargo space" > 15
+		"reputation: The Forens" > 20
+		"reputation: Gainen Republic" > 10
+		random < 25
+		not system "Gainisen" "Gainensiti"
+	source
+		government "The Forens"
+	destination
+		distance 3 10
+		government "Gainen Republic"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 1300000
+		"reputation: The Forens" += 3
+		"reputation: Gainen Republic" += 3
+		dialog `The relief supplies are delivered. A Gainen official nods. "The Foren are true friends. Here is <payment>."`
+
+
+mission "Foren: Reisbruth Joint Exercise"
+	name "Joint exercise observer to <planet>"
+	description "A Foren observer is traveling to <destination> for a joint military exercise with Reisbruth. Payment: <payment>."
+	repeat
+	job
+	deadline 6
+	to offer
+		"passenger space" > 2
+		"reputation: The Forens" > 15
+		"reputation: Reisbruth" > 10
+		random < 20
+		not system "Kablonik" "Axayusu" "Ayonomac"
+	source
+		government "The Forens"
+	destination
+		distance 3 10
+		government "Reisbruth"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 950000
+		"reputation: The Forens" += 3
+		"reputation: Reisbruth" += 3
+		dialog `The observer arrives. "REISBRUTH WELCOMES THE FOREN. Here is <payment>."`
+
+
+mission "Foren: Mysterious Artifact"
+	name "Artifact delivery to <planet>"
+	description "Deliver a sealed Foren artifact to <destination>. Do not open it. Payment: <payment>."
+	repeat
+	job
+	deadline 5
+	to offer
+		"reputation: The Forens" > 25
+		random < 15
+		not system "Frt'Eliminatr" "Xtrein'nian'frjaklok"
+	source
+		government "The Forens"
+	destination
+		distance 4 12
+		government "The Forens"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 1800000
+		"reputation: The Forens" += 5
+		dialog `The artifact is delivered. A Foren scientist takes it carefully. "You have done the Foren a great service. Here is <payment>."`
+
+
+mission "Foren: Language Lesson"
+	name "Foren language tutor to <planet>"
+	description "A Foren language tutor needs passage to <destination>. They are teaching humans to speak Foren. Payment: <payment>."
+	repeat
+	job
+	deadline 6
+	to offer
+		"passenger space" > 2
+		"reputation: The Forens" > 10
+		random < 25
+		not system "Humansaaeink"
+	source
+		planet "Humansaaeink"
+	destination
+		distance 2 8
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 700000
+		"reputation: The Forens" += 3
+		dialog `The tutor bows. "Olum'arbi. You are learning our ways. Here is <payment>."`
+
+
+mission "Foren: Meditation Pilgrimage"
+	name "Pilgrimage to <planet>"
+	description "A Foren pilgrim needs transport to <destination> for a sacred meditation. Visit <waypoints> along the way. Payment: <payment>."
+	repeat
+	job
+	deadline 8
+	to offer
+		"passenger space" > 1
+		"reputation: The Forens" > 20
+		random < 20
+		not system "Aaasinisianja"
+	source
+		government "The Forens"
+	destination
+		planet "Vakrkin"
+	waypoint "Cinnector"
+	waypoint "Cholekrkik'fan"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 1000000
+		"reputation: The Forens" += 4
+		dialog `The pilgrim departs for the sacred forest. "The Foren remember those who help. Here is <payment>."`
+
+
+mission "Foren: Rhino Food Delivery"
+	name "Rhino food to <planet>"
+	description "The sentient rhinos of Vidg'aa'na'ja are expecting a shipment of specialized food. Deliver it to <destination> by <day>. Payment: <payment>."
+	repeat
+	job
+	deadline 5
+	cargo random 5 15
+	to offer
+		"cargo space" > 10
+		"reputation: The Forens" > 5
+		random < 35
+		not system "Vidg'aa'na'ja"
+	source
+		government "The Forens"
+	destination
+		planet "Vidg'aa'na'ja"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 800000
+		"reputation: The Forens" += 3
+		dialog `You unload the rhino food. A rhino approaches and sniffs the crates. "Vi, Muur, Ant Eng Sem'Im." You're not sure if that means "thank you" or "this is the wrong brand." Either way, the Foren pay you <payment>.`
+
+
+mission "Foren: Rhino Vet"
+	name "Rhino veterinarian to <planet>"
+	description "A specialist veterinarian is needed on Vidg'aa'na'ja to treat a sick rhino. Transport them to <destination> by <day>. Payment: <payment>."
+	repeat
+	job
+	deadline 4
+	to offer
+		"passenger space" > 2
+		"reputation: The Forens" > 10
+		random < 25
+		not system "Vidg'aa'na'ja"
+	source
+		government "The Forens"
+	destination
+		planet "Vidg'aa'na'ja"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 950000
+		"reputation: The Forens" += 4
+		dialog `The vet rushes to the rhino's side. The rhino makes a low rumbling sound. The vet nods. "It's just a cold. Ant Eng Sem'Im." The Foren hand you <payment>.`
+
+
+mission "Foren: Rhino Translator"
+	name "Rhino translator to <planet>"
+	description "A xenolinguist who understands the rhino tonal language is needed on Vidg'aa'na'ja. Transport them by <day>. Payment: <payment>."
+	repeat
+	job
+	deadline 5
+	to offer
+		"passenger space" > 1
+		"reputation: The Forens" > 15
+		random < 20
+		not system "Vidg'aa'na'ja"
+	source
+		government "The Forens"
+	destination
+		planet "Vidg'aa'na'ja"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 1100000
+		"reputation: The Forens" += 4
+		dialog `The translator listens to a rhino for a moment. "He says he's been trying to tell the tourists that 'Ant Eng Sem'Im' means 'your shoes are ugly.'" The Foren laugh and hand you <payment>.`
+
+
+mission "Foren: Rhino Escape"
+	name "Escaped rhino to <planet>"
+	description "A rhino escaped from a transport and is loose on <destination>. Return it to Vidg'aa'na'ja by <day>. Payment: <payment>."
+	repeat
+	job
+	deadline 3
+	to offer
+		"passenger space" > 4
+		"reputation: The Forens" > 10
+		random < 15
+		not system "Vidg'aa'na'ja"
+	source
+		government "The Forens"
+	destination
+		planet "Vidg'aa'na'ja"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 1500000
+		"reputation: The Forens" += 5
+		dialog `The rhino steps off your ship and immediately headbutts a Foren official. "Vi, Muur, Ant Eng Sem'Im!" The official sighs. "He says he missed us." They hand you <payment>.`
+
+
+mission "Foren: Rhino Diplomacy"
+	name "Rhino complaint to <planet>"
+	description "The rhinos of Vidg'aa'na'ja have a formal complaint. Deliver their message to <destination> by <day>. Payment: <payment>."
+	repeat
+	job
+	deadline 5
+	to offer
+		"reputation: The Forens" > 20
+		random < 20
+		not system "Vidg'aa'na'ja"
+	source
+		planet "Vidg'aa'na'ja"
+	destination
+		distance 2 8
+		government "The Forens"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 1200000
+		"reputation: The Forens" += 4
+		dialog `You deliver the rhino complaint. The Foren official reads it and sighs. "They're upset about the tourist souvenirs again. Ant Eng Sem'Im." They hand you <payment>.`

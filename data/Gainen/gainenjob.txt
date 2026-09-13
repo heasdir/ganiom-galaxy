@@ -1,59 +1,377 @@
-mission "Gainen: Cargo"
-	name "Cargo to <planet>"
-	job
-	repeat
-	description "Bring <cargo> to <destination>. The authority will pay you <payment>."
-	cargo random 20 35
-	to offer
-		"cargo space" > 20
-	source
-		government "Gainen Republic"
-	destination
-		#attributes "mining"
-		distance 2 20
-		government "Gainen Republic"
-	on visit
-		dialog "generic cargo on visit"
-	on complete
-		payment
-		payment 950000
+# ============================================================
+# GAINEN REPUBLIC JOBS
+# ============================================================
 
-mission "Gainen: Cargo 2"
-	name "Medium Cargo to <planet>"
-	job
+mission "Gainen: Bounty Hunting (Light)"
+	name "Wanted Hisair smuggler near <system>"
+	description "A Hisair smuggler craft named the <npc> has been running drugs through Gainen space near the <system> system. Destroy it and return to <planet> by <day> for payment (<payment>)."
 	repeat
-	description "Bring <cargo> to <destination>. The authority will pay you <payment>."
-	cargo random 40 75
+	job
+	deadline 14
 	to offer
-		"cargo space" > 20
+		"combat rating" > 100
+		"combat rating" < 500
+		"reputation: Hisair" < 0
+		random < 50
 	source
 		government "Gainen Republic"
-	destination
-		#attributes "mining"
-		distance 2 20
-		government "Gainen Republic"
+	npc kill
+		government "Hisair"
+		personality heroic staying nemesis target
+		system
+			distance 1 2
+		fleet
+			names "Hisair High Fleet"
+			variant
+				Falcon
+			variant
+				Sparrow 2
+			variant
+				Falcon
+				Sparrow
+		dialog phrase "generic hunted bounty eliminated dialog"
 	on visit
-		dialog "generic cargo on visit"
+		dialog phrase "generic bounty hunting on visit"
 	on complete
-		payment
-		payment 12350000
+		payment 220000
+		"reputation: Gainen Republic" += 2
+		dialog `The Hisair smuggler is dead. A Gainen officer nods. "One less cartel runner. Here is <payment>."`
 
-mission "Gainen: Cargo 3"
-	name "Large Cargo to <planet>"
-	job
+
+mission "Gainen: Bounty Hunting (Medium)"
+	name "Wanted Hisair enforcer near <system>"
+	description "A Hisair cartel warship named the <npc> has been shaking down Gainen merchants near the <system> system. Destroy it and return to <planet> by <day> for payment (<payment>)."
 	repeat
-	description "Bring <cargo> to <destination>. The authority will pay you <payment>."
-	cargo random 90 400
+	job
+	deadline 14
 	to offer
-		"cargo space" > 20
+		"combat rating" > 350
+		"combat rating" < 1200
+		"reputation: Hisair" < 0
+		random < 45
+	source
+		government "Gainen Republic"
+	npc kill
+		government "Hisair"
+		personality heroic staying nemesis target
+		system
+			distance 1 1
+		fleet
+			names "Hisair High Fleet"
+			variant
+				Dreadnought
+				Falcon
+			variant
+				Dreadnought
+				Falcon 2
+				Sparrow 2
+			variant
+				Carrier
+				Falcon 2
+		dialog phrase "generic hunted bounty eliminated dialog"
+	on visit
+		dialog phrase "generic bounty hunting on visit"
+	on complete
+		payment 520000
+		"reputation: Gainen Republic" += 3
+		dialog `The Hisair enforcer is destroyed. "The cartel will not forget this. Neither will we. Here is <payment>."`
+
+
+mission "Gainen: Bounty Hunting (Heavy)"
+	name "Wanted Hisair kingpin near <system>"
+	description "A Hisair cartel kingpin known as the <npc> has been running operations near the <system> system. Destroy their fleet and return to <planet> by <day> for payment (<payment>)."
+	repeat
+	job
+	deadline 21
+	to offer
+		"combat rating" > 1000
+		"reputation: Hisair" < 0
+		random < 35
+	source
+		government "Gainen Republic"
+	npc kill
+		government "Hisair"
+		personality heroic staying nemesis target
+		system
+			distance 1 2
+		fleet
+			names "Hisair High Fleet"
+			variant
+				Dreadnought 2
+				Falcon 3
+				Sparrow 4
+			variant
+				Carrier 2
+				Falcon 4
+				Sparrow 6
+		dialog phrase "generic hunted bounty eliminated dialog"
+	on visit
+		dialog phrase "generic bounty hunting on visit"
+	on complete
+		payment 1400000
+		"reputation: Gainen Republic" += 5
+		"reputation: Hisair" <?= -15
+		dialog `The Hisair kingpin's fleet is destroyed. A senior Gainen officer contacts you. "You have struck a real blow against the cartel today. Here is <payment>."`
+
+
+mission "Gainen: Bounty Hunting (Communist Ganiom)"
+	name "Communist Ganiom raider near <system>"
+	description "A Communist Ganiom warship named the <npc> has been attacking Gainen patrols near the <system> system. Destroy it and return to <planet> by <day> for payment (<payment>)."
+	repeat
+	job
+	deadline 14
+	to offer
+		"combat rating" > 500
+		"reputation: Communist Ganiom" < 0
+		random < 30
+	source
+		government "Gainen Republic"
+	npc kill
+		government "Communist Ganiom"
+		personality heroic staying nemesis target
+		system
+			distance 1 2
+		fleet
+			names "Commune Security"
+			variant
+				Aerie 3
+				Dreadnought
+			variant
+				Carrier 2
+				Aerie 4
+		dialog phrase "generic hunted bounty eliminated dialog"
+	on visit
+		dialog phrase "generic bounty hunting on visit"
+	on complete
+		payment 800000
+		"reputation: Gainen Republic" += 5
+		dialog `The Communist Ganiom raider is destroyed. "The Republic thanks you, human. Here is <payment>."`
+
+
+# ============================================================
+# GAINEN COURIER / RUSH JOBS
+# ============================================================
+
+mission "Gainen: Rush Delivery"
+	name "Rush delivery to <planet>"
+	description "Deliver this urgent package to <destination> by <day>. The Gainen Republic will pay you <payment>."
+	repeat
+	job
+	deadline 3
+	to offer
+		random < 40
 	source
 		government "Gainen Republic"
 	destination
-		#attributes "mining"
-		distance 2 20
+		distance 2 4
 		government "Gainen Republic"
 	on visit
-		dialog "generic cargo on visit"
+		dialog phrase "generic cargo on visit"
 	on complete
-		payment
-		payment 99999999999999999
+		payment 450000
+		dialog `You hand the package to a Gainen courier. "Fast work. The Republic remembers its friends."`
+
+
+mission "Gainen: Diplomatic Courier"
+	name "Diplomatic pouch to <planet>"
+	description "Carry this diplomatic pouch to <destination> by <day>. Do not open it. Payment: <payment>."
+	repeat
+	job
+	deadline 6
+	to offer
+		random < 25
+	source
+		government "Gainen Republic"
+	destination
+		distance 3 8
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 700000
+		"reputation: Gainen Republic" += 2
+
+
+# ============================================================
+# GAINEN PASSENGER JOBS
+# ============================================================
+
+mission "Gainen: Passenger Transport"
+	name "Passenger to <planet>"
+	description "Transport a Gainen citizen to <destination> by <day>. They will pay you <payment>."
+	repeat
+	job
+	deadline 5
+	to offer
+		"passenger space" > 3
+		random < 50
+	source
+		government "Gainen Republic"
+	destination
+		distance 2 6
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 350000
+		dialog phrase "generic safe transport payment dialog"
+
+
+mission "Gainen: Scientist Transport"
+	name "Gainen scientist to <planet>"
+	description "A Gainen researcher needs transport to <destination> by <day>. Payment: <payment>."
+	repeat
+	job
+	deadline 5
+	to offer
+		"passenger space" > 4
+		random < 30
+	source
+		government "Gainen Republic"
+	destination
+		distance 3 8
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 600000
+		"reputation: Gainen Republic" += 2
+		dialog `The scientist thanks you. "You have helped the Republic today. Here is <payment>."`
+
+
+# ============================================================
+# GAINEN MILITARY / PATROL JOBS
+# ============================================================
+
+mission "Gainen: Patrol Duty"
+	name "Patrol <system>"
+	description "The Gainen Republic needs a patrol near <system>. Clear out any Hisair smugglers and return to <planet>. Payment: <payment>."
+	repeat
+	job
+	deadline 10
+	to offer
+		"combat rating" > 200
+		"reputation: Hisair" < 0
+		random < 35
+	source
+		government "Gainen Republic"
+	npc kill
+		government "Hisair"
+		personality heroic
+		system
+			distance 1 2
+		fleet
+			names "Hisair High Fleet"
+			variant
+				Falcon
+			variant
+				Sparrow 2
+			variant
+				Falcon
+				Sparrow
+	on complete
+		payment 550000
+		"reputation: Gainen Republic" += 2
+		dialog `The patrol is complete. A Gainen officer salutes. "The Republic thanks you. Here is <payment>."`
+
+
+mission "Gainen: Anti-Cartel Sweep"
+	name "Anti-cartel sweep near <system>"
+	description "Hisair smugglers have been spotted near <system>. Destroy them and return to <planet>. Payment: <payment>."
+	repeat
+	job
+	deadline 14
+	to offer
+		"combat rating" > 600
+		"reputation: Hisair" < 0
+		random < 30
+	source
+		government "Gainen Republic"
+	npc kill
+		government "Hisair"
+		personality heroic
+		system
+			distance 1 3
+		fleet
+			names "Hisair High Fleet"
+			variant
+				Dreadnought
+				Falcon 2
+			variant
+				Carrier
+				Falcon
+				Sparrow 2
+	on complete
+		payment 1200000
+		"reputation: Gainen Republic" += 3
+		"reputation: Hisair" <?= -5
+		dialog `The Hisair smugglers are gone. "The cartel will feel this. Here is <payment>."`
+
+
+# ============================================================
+# GAINEN SPECIAL / FLAVOR JOBS
+# ============================================================
+
+mission "Gainen: Foren Translator"
+	name "Foren translator to <planet>"
+	description "A Foren translator needs passage to <destination> by <day>. Payment: <payment>."
+	repeat
+	job
+	deadline 7
+	to offer
+		"passenger space" > 2
+		"reputation: The Forens" > 10
+		random < 20
+	source
+		government "Gainen Republic"
+	destination
+		distance 4 10
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 900000
+		"reputation: The Forens" += 2
+		dialog `The translator smiles. "Foren-Gainen relations are important. Thank you."`
+
+
+mission "Gainen: Hisair Defector"
+	name "Hisair defector to <planet>"
+	description "A Hisair defector needs secret passage to <destination> by <day>. Payment: <payment>."
+	repeat
+	job
+	deadline 5
+	to offer
+		"passenger space" > 2
+		"reputation: Hisair" < 0
+		random < 15
+	source
+		government "Gainen Republic"
+	destination
+		distance 3 8
+		government "Gainen Republic"
+	on visit
+		dialog phrase "generic passenger on visit"
+	on complete
+		payment 1500000
+		"reputation: Gainen Republic" += 5
+		"reputation: Hisair" <?= -10
+		dialog `The defector disappears into the crowd. A Gainen agent hands you <payment>. "You did not see anything."`
+
+
+mission "Gainen: Gainen Relief Supplies"
+	name "Relief supplies to <planet>"
+	description "Bring emergency supplies to <destination> by <day>. The Republic will pay <payment>."
+	repeat
+	job
+	deadline 6
+	cargo random 10 20
+	to offer
+		"cargo space" > 15
+		random < 30
+	source
+		government "Gainen Republic"
+	destination
+		distance 2 6
+		government "Gainen Republic"
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		payment 850000
+		dialog `The supplies are unloaded. A relief worker nods. "Thank you. The Republic will remember this."`
