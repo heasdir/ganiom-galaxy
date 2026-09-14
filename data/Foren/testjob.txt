@@ -1,0 +1,9 @@
+mission "ZZ Foren Test"
+	name "Test job"
+	description "Test."
+	repeat
+	job
+	source
+		government "The Forens"
+	on complete
+		payment 100000

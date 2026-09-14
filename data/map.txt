@@ -6601,6 +6601,8 @@ planet Oftiknqn
 	landscape land/foresttropical0
 	description `A gas giant with artificial platforms in its upper atmosphere. The Communist Ganiom use it as a naval base. The view of the swirling storms is breathtaking—and terrifying.`
 	spaceport `It is like no other. The platforms sway in the winds. The sailors are hardened by the constant storms.`
+	outfitter "Communist Ganiom Outfits"
+	shipyard "Ganiom Shipyards"
 	security 0.9
 
 planet Olokrefaro
@@ -6612,6 +6614,8 @@ planet Om'Tiera
 	landscape land/brownmountains1
 	description `A Communist Ganiom agricultural world. The fields are vast and mechanized. The workers are loyal to the cause. The revolution is all they know.`
 	spaceport `A functional agricultural port. The party officials are always watching. The workers sing revolutionary songs.`
+	outfitter "Communist Ganiom Outfits"
+	shipyard "Ganiom Shipyards"
 
 planet Ore
 	landscape land/land27

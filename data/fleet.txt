@@ -7,11 +7,14 @@ fleet "Communist Ganiom Avg"
 		plunders
 	variant 40
 		Aerie 5
+		Havoc
 	variant 40
 		Dreadnought
+		Havoc 2
 	variant 20
 		Jackal 10
 		Carrier 2
+		Havoc
 	variant 35
 		Dreadnought 2
 		Carrier 5
@@ -34,6 +37,7 @@ fleet "Communist Ganiom Avg"
 		Quicksilver 10
 		Dreadnought 3
 		Kestrel 5
+		Havoc 4
 		
 fleet "Communist Gainen Military Patrol"
 	government "Communist Ganiom"
@@ -44,6 +48,7 @@ fleet "Communist Gainen Military Patrol"
 		plunders
 	variant 100
 		Aerie 5
+		Havoc
 		
 		
 fleet "Hisair High Fleet"

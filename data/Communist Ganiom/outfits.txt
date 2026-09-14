@@ -1,0 +1,141 @@
+# ============================================================
+# COMMUNIST GANIOM OUTFITS (NON-WEAPONS)
+# Power, engines, cooling, systems
+# Uses vanilla Quantum Vacuum Battery / Reactor
+# ============================================================
+
+# ============================================================
+# SX ENGINE LINE
+# ============================================================
+
+outfit "SX-1 Engine"
+	category "Engines"
+	cost 250000
+	thumbnail "outfit/unknown"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"thrust" 12
+	"thrusting energy" 2.4
+	"thrusting heat" 1.8
+	"turn" 180
+	"turning energy" 1.2
+	"turning heat" 0.9
+	"reverse thrust" 12
+	"reverse thrusting energy" 2.4
+	"reverse thrusting heat" 1.8
+	"flare sprite" "effect/ion flare/tiny"
+		"frame rate" 8
+	"flare sound" "ion tiny"
+	"steering flare sprite" "effect/ion flare/tiny"
+		"frame rate" 8
+	"steering flare sound" "ion tiny"
+	description `The SX-1 is the entry-level engine of the Communist Ganiom. Reliable, cheap, and mass-produced.`
+
+
+outfit "SX-2 Engine"
+	category "Engines"
+	cost 850000
+	thumbnail "outfit/unknown"
+	"mass" 34
+	"outfit space" -34
+	"engine capacity" -34
+	"thrust" 26
+	"thrusting energy" 4.2
+	"thrusting heat" 3.2
+	"turn" 320
+	"turning energy" 2.1
+	"turning heat" 1.6
+	"reverse thrust" 26
+	"reverse thrusting energy" 4.2
+	"reverse thrusting heat" 3.2
+	"flare sprite" "effect/ion flare/small"
+		"frame rate" 8
+	"flare sound" "ion small"
+	"steering flare sprite" "effect/ion flare/small"
+		"frame rate" 8
+	"steering flare sound" "ion small"
+	description `The SX-2 is the standard engine of the Communist Ganiom military. Balanced and dependable.`
+
+
+outfit "SX-3 Engine"
+	category "Engines"
+	cost 2100000
+	thumbnail "outfit/unknown"
+	"mass" 58
+	"outfit space" -58
+	"engine capacity" -58
+	"thrust" 44
+	"thrusting energy" 7.2
+	"thrusting heat" 5.4
+	"turn" 520
+	"turning energy" 3.6
+	"turning heat" 2.7
+	"reverse thrust" 44
+	"reverse thrusting energy" 7.2
+	"reverse thrusting heat" 5.4
+	"flare sprite" "effect/ion flare/medium"
+		"frame rate" 8
+	"flare sound" "ion medium"
+	"steering flare sprite" "effect/ion flare/medium"
+		"frame rate" 8
+	"steering flare sound" "ion medium"
+	description `The SX-3 is the workhorse of the Communist Ganiom fleet. Heavy thrust, heavy draw.`
+
+
+outfit "SX-4 Engine"
+	category "Engines"
+	cost 5800000
+	thumbnail "outfit/unknown"
+	"mass" 92
+	"outfit space" -92
+	"engine capacity" -92
+	"thrust" 72
+	"thrusting energy" 11.5
+	"thrusting heat" 8.6
+	"turn" 780
+	"turning energy" 5.8
+	"turning heat" 4.3
+	"reverse thrust" 72
+	"reverse thrusting energy" 11.5
+	"reverse thrusting heat" 8.6
+	"flare sprite" "effect/ion flare/large"
+		"frame rate" 8
+	"flare sound" "ion large"
+	"steering flare sprite" "effect/ion flare/large"
+		"frame rate" 8
+	"steering flare sound" "ion large"
+	description `The SX-4 is the largest engine the Communist Ganiom produces. Built for capital ships and heavy warships.`
+
+
+# ============================================================
+# COOLING
+# ============================================================
+
+outfit "Liquid Nitrogen Cooling"
+	category "Systems"
+	cost 1800000
+	thumbnail "outfit/unknown"
+	"mass" 42
+	"outfit space" -42
+	"cooling" 600
+	"cooling energy" 0.4
+	description `A brutal, inelegant cooling system used by Communist Ganiom ships. Liquid nitrogen is pumped through the hull to bleed off heat. It works. That is all that matters.`
+
+
+# ============================================================
+# OUTFITTER
+# ============================================================
+
+outfitter "Communist Ganiom Outfits"
+	"SX-1 Engine"
+	"SX-2 Engine"
+	"SX-3 Engine"
+	"SX-4 Engine"
+	"Liquid Nitrogen Cooling"
+	"Quantum Vacuum Battery"
+	"Blue Sun Reactor"
+	"Hyperdrive"
+	"Jump Drive"
+	"Local Map"
+	"Laser Attack System"

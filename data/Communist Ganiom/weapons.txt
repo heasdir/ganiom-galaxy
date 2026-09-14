@@ -1,0 +1,24 @@
+outfit "Laser Attack System"
+	category "Turrets"
+	cost 3500000
+	thumbnail "outfit/unknown"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	weapon
+		sprite "projectile/electron"
+		sound "plasma"
+		"hit effect" "ion impact"
+		"inaccuracy" .1
+		"turret turn" 180
+		"range" 1800
+		"velocity" 480
+		"lifetime" 4.92
+		"reload" 0.1
+		"firing energy" 1
+		"firing heat" 1
+		"shield damage" 1200
+		"hull damage" 1200
+		"safe"
+	description `An automated point-defense system built for the Havoc. Fires a concentrated light-speed laser at anything within 900 units.`

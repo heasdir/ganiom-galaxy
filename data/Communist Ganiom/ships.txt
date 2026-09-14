@@ -1,0 +1,57 @@
+ship "Havoc"
+	sprite "ship/havoc"
+	thumbnail "thumbnail/havoc_thumb"
+	attributes
+		category "Heavy Warship"
+		"cost" 18500000
+		"shields" 680000
+		"hull" 145000
+		"required crew" 220
+		"bunks" 1800
+		"mass" 3200
+		"drag" 3.4
+		"heat dissipation" 0.9
+		"fuel capacity" 900
+		"cargo space" 80
+		"outfit space" 5200
+		"weapon capacity" 2400
+		"engine capacity" 1400
+		"ramscoop" 20
+		"solar collection" 45
+		"shield generation" 14
+		"shield energy" 8.2
+		"hull repair rate" 24
+		"hull energy" 7
+		"hull heat" 0.2
+		"scan interference" 2
+		"radar jamming" 6
+		"cooling" 800
+		"integrated system" -8
+	outfits
+		"Laser Attack System" 8
+		"SX-4 Engine" 3
+		"Quantum Vacuum Battery" 2
+		"Blue Sun Reactor" 3
+		"Liquid Nitrogen Cooling"
+		"Hyperdrive"
+		"Jump Drive"
+	turret -9 -337
+	turret -57.5 -199
+	turret 37.5 -197
+	turret -34 -92
+	turret 22 -78.5
+	turret -35 -22
+	turret 14 -18.5
+	turret -230 79.5
+	turret 204 59.5
+	turret 4 183.5
+	engine 1.5 334.5
+	engine 1.5 334.5
+	engine 1.5 334.5
+	explode "tiny explosion" 100
+	explode "small explosion" 80
+	explode "medium explosion" 60
+	explode "large explosion" 40
+	explode "huge explosion" 12
+	"final explode" "final explosion large"
+	description `The Havoc is the pride of the Communist Ganiom fleet. Built around a massive ring structure, it carries eight Laser Attack Systems capable of engaging targets across an entire system. It is slow, heavily armored, and utterly relentless.`

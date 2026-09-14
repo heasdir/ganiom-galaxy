@@ -1,0 +1,7 @@
+shipyard "Ganiom Shipyards"
+	"Havoc"
+	"Aerie"
+	"Dreadnought"
+	"Carrier"
+	"Kestrel"
+	"Quicksilver"
