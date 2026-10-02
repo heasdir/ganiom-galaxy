@@ -21,4 +21,6 @@ outfit "Laser Attack System"
 		"shield damage" 1200
 		"hull damage" 1200
 		"safe"
-	description `An automated point-defense system built for the Havoc. Fires a concentrated light-speed laser at anything within 900 units.`
+	description `An automated point-defense system built for the ships of communist ganiom. Fires a concentrated light-speed laser at anything within 1800 units.`
+	description `After finding the Kem, they decided to use Kem technology to make a laser. This laser would become the Predecessor to the laser attack system, 200 years later, Communist Ganiom was trying to find old weapons to refine them, and they mixed this laser with another kem weapon.`
+	description `The kem called the laser 'Utorokvans'.`

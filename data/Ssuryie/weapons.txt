@@ -1,0 +1,76 @@
+outfit "Ssuryie Almenoksa"
+	category "Guns"
+	cost 2800000
+	thumbnail "outfit/unknown"
+	"mass" 25
+	"outfit space" -25
+	"weapon capacity" -25
+	"gun ports" -1
+	weapon
+		sprite "projectile/ssuryie almenoksa"
+		sound "laser"
+		"hit effect" "ion impact"
+		"inaccuracy" 1.5
+		"velocity" 22
+		"lifetime" 30
+		"reload" 8
+		"firing energy" 5
+		"firing heat" 3
+		"shield damage" 450
+		"hull damage" 320
+		"ion damage" 120
+		"hit force" 10
+		"range" 750
+	description `The Ssuryie Almenoksa is a crystalline shard weapon that fires jagged blue projectiles. It is effective at piercing shields and disrupting enemy systems.`
+
+outfit "Ssuryie Wrath"
+	category "Guns"
+	cost 3200000
+	thumbnail "outfit/unknown"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	weapon
+		sprite "projectile/wrath/ssuryie wrath"
+		sound "plasma"
+		"hit effect" "medium explosion"
+		"inaccuracy" 0.8
+		"velocity" 18
+		"lifetime" 35
+		"reload" 12
+		"firing energy" 8
+		"firing heat" 6
+		"shield damage" 280
+		"hull damage" 680
+		"hit force" 25
+		"range" 700
+	description `The Ssuryie Wrath fires a red, teardrop-shaped projectile that burns through hull armor. It is a devastating weapon against unshielded targets.`
+
+outfit "Ssuryie Akmeaaika"
+	category "Secondary Weapons"
+	cost 4500000
+	thumbnail "outfit/unknown"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	"akmeaaika capacity" 6
+	weapon
+		sprite "projectile/ssuryie akmeaaika"
+		sound "torpedo"
+		ammo "Ssuryie Akmeaaika Torpedo"
+		icon "icon/ssuryie akmeaaika"
+		"hit effect" "large explosion"
+		"inaccuracy" 2.0
+		"velocity" 8
+		"lifetime" 100
+		"reload" 60
+		"firing energy" 20
+		"firing heat" 15
+		"shield damage" 19000
+		"hull damage" 24000
+		"hit force" 80
+		"range" 900
+		"missile strength" 25
+	description `The Ssuryie Akmeaaika is a heavy torpedo launcher. It fires a slow, toxic green torpedo that devastates capital ships. Each launcher holds 6 torpedoes.`

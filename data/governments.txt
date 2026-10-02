@@ -143,8 +143,16 @@ government "Reisbruth"
 		"Gainen Republic" 1000
 		"Communist Ganiom" -70
 		"The Wings" -0.5
+		"Ssuryie" -1000
 
 government "Drak(Ganiom)"
 	color 0.3 0.2 0.7
 	"display name" "Drak"
 	"player reputation" 100
+
+government "Ssuryie"
+	color 0.6 0.7 0.9
+	swizzle 9
+	"player reputation" 0
+	"attitude toward"
+		"Reisbruth" -1000

@@ -55,3 +55,4 @@ ship "Havoc"
 	explode "huge explosion" 12
 	"final explode" "final explosion large"
 	description `The Havoc is the pride of the Communist Ganiom fleet. Built around a massive ring structure, it carries eight Laser Attack Systems capable of engaging targets across an entire system. It is slow, heavily armored, and utterly relentless.`
+	description `After making the laser attack system, Communist Ganiom noticed they didn't make any of their own ships, which caused them to lose the war. After they realised that, they decided to make the Havoc, along with more ships in the future."

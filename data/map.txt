@@ -13,6 +13,7 @@
 #	Whispering Void
 #	Gainen
 #	REISBRUTH RAAAAAA
+#----------------Wormholes---------------------------------------
 
 galaxy Ganiom
 	pos -10000 -5461
@@ -225,7 +226,9 @@ system Ayonomac
 	habitable 5000
 	link Nisitar
 	link Kablonik
+	link Vidimac
 	asteroids "large metal" 1 4.1344
+	fleet "Reisbruth Fleet" 200
 	object
 		sprite star/a0
 		period 10
@@ -1451,11 +1454,7 @@ system Gainescaf
 system Hatysa
 	pos -474 -542
 	government Pirate
-	attributes "north"
-	arrival 525
 	habitable 525
-	belt 1163
-	haze _menu/haze-33
 	link Almaaz
 	link Alnilam
 	link Arneb
@@ -1464,9 +1463,6 @@ system Hatysa
 	asteroids "small metal" 13 1.0153
 	asteroids "medium metal" 102 1.3585
 	asteroids "large metal" 14 1.9448
-	minables copper 27 2.2074
-	minables iron 4 2.54657
-	minables neodymium 9 2.45903
 	trade Clothing 298
 	trade Electronics 774
 	trade Equipment 552
@@ -1480,39 +1476,102 @@ system Hatysa
 	fleet "Small Northern Pirates" 600
 	fleet "Large Northern Pirates" 1000
 	fleet "Large Republic" 15000
+	attributes north
+	arrival 525
+	belt 1163
+	haze _menu/haze-33
+	minables copper 27 2.2074
+	minables iron 4 2.54657
+	minables neodymium 9 2.45903
 	object
 		sprite star/k0
 		distance 5.29989
 		period 12.3742
+		attributes north
+		arrival 525
+		belt 1163
+		haze _menu/haze-33
+		minables copper 27 2.2074
+		minables iron 4 2.54657
+		minables neodymium 9 2.45903
 	object
 		sprite star/m-dwarf
 		distance 74.1985
 		period 12.3742
 		offset 180
+		attributes north
+		arrival 525
+		belt 1163
+		haze _menu/haze-33
+		minables copper 27 2.2074
+		minables iron 4 2.54657
+		minables neodymium 9 2.45903
 	object
 		sprite planet/rock2
 		distance 420.978
 		period 150.788
+		attributes north
+		arrival 525
+		belt 1163
+		haze _menu/haze-33
+		minables copper 27 2.2074
+		minables iron 4 2.54657
+		minables neodymium 9 2.45903
 		object
 			sprite planet/dust2
 			distance 174
 			period 21.949
+			attributes north
+			arrival 525
+			belt 1163
+			haze _menu/haze-33
+			minables copper 27 2.2074
+			minables iron 4 2.54657
+			minables neodymium 9 2.45903
 	object
 		sprite planet/ocean4
 		distance 897.418
 		period 469.323
+		attributes north
+		arrival 525
+		belt 1163
+		haze _menu/haze-33
+		minables copper 27 2.2074
+		minables iron 4 2.54657
+		minables neodymium 9 2.45903
 	object
 		sprite planet/gas11-b
 		distance 1294.67
-		period 813.240
+		period 813.24
+		attributes north
+		arrival 525
+		belt 1163
+		haze _menu/haze-33
+		minables copper 27 2.2074
+		minables iron 4 2.54657
+		minables neodymium 9 2.45903
 	object
 		sprite planet/io-b
 		distance 2814.92
 		period 2607.23
+		attributes north
+		arrival 525
+		belt 1163
+		haze _menu/haze-33
+		minables copper 27 2.2074
+		minables iron 4 2.54657
+		minables neodymium 9 2.45903
 	object Wormgolin
 		sprite planet/wormhole-red
 		distance 1260.56
 		period 27.5957
+		attributes north
+		arrival 525
+		belt 1163
+		haze _menu/haze-33
+		minables copper 27 2.2074
+		minables iron 4 2.54657
+		minables neodymium 9 2.45903
 
 system Havasabanaua
 	pos -10323.5 -4084.11
@@ -2590,6 +2649,7 @@ system Kablonik
 	asteroids "small metal" 5 1.5004
 	asteroids "medium metal" 127 2.3958
 	asteroids "large metal" 5 2.1296
+	fleet "Reisbruth Fleet" 170
 	object
 		sprite star/f5
 		period 10
@@ -5041,6 +5101,69 @@ system Segonako
 			distance 412
 			period 26.2789
 
+system Seskitop
+	pos -11728.9 -5131.51
+	government Reisbruth
+	habitable 945
+	link Vidimac
+	asteroids "small rock" 23 0.95
+	asteroids "medium rock" 2 1.387
+	asteroids "large rock" 4 2.185
+	asteroids "small metal" 4 1.957
+	asteroids "medium metal" 107 2.432
+	asteroids "large metal" 32 2.318
+	fleet "Reisbruth Fleet" 560
+	fleet "Ssuryie Fleet" 100
+	object
+		sprite star/g5
+		distance 35.2169
+		period 13.8005
+	object
+		sprite star/m0
+		distance 68.7831
+		period 13.8005
+		offset 180
+	object
+		sprite planet/cloud0
+		distance 312.793
+		period 71.983
+	object
+		sprite planet/ice1
+		distance 543.083
+		period 164.681
+	object Vioro
+		sprite planet/ocean4
+		distance 1017.17
+		period 422.12
+	object
+		sprite planet/rock10
+		distance 1577.17
+		period 815.01
+		object
+			sprite planet/rock7
+			distance 189
+			period 21.8679
+	object
+		sprite planet/gas4
+		distance 4197.38
+		period 3538.44
+		object
+			sprite planet/lava0
+			distance 262
+			period 14.9572
+		object Kharonifa
+			sprite planet/miranda
+			distance 390
+			period 27.164
+		object
+			sprite planet/desert4
+			distance 474
+			period 36.3969
+		object
+			sprite planet/ice7
+			distance 613
+			period 53.5289
+
 system Sfrikao
 	pos -11610.3 -5441.04
 	government "Gainen Republic"
@@ -5906,6 +6029,63 @@ system Vicknot
 			distance 630
 			period 52.1541
 
+system Vidimac
+	pos -11784.9 -5124.51
+	government Reisbruth
+	habitable 1566.68
+	link Ayonomac
+	link Seskitop
+	asteroids "small rock" 2 1.5106
+	asteroids "medium rock" 7 2.7118
+	asteroids "large rock" 2 1.2376
+	asteroids "small metal" 7 2.2568
+	asteroids "medium metal" 16 0.91
+	asteroids "large metal" 2 2.639
+	fleet "Reisbruth Fleet" 400
+	object
+		sprite star/g0
+		distance 29.5112
+		period 9.3574
+		offset 180
+	object
+		sprite star/k0
+		distance 65.4888
+		period 9.3574
+	object
+		sprite planet/ice6
+		distance 285.739
+		period 48.8117
+	object
+		sprite planet/rock16
+		distance 514.229
+		period 117.843
+	object
+		sprite planet/cloud3
+		distance 796.439
+		period 227.143
+	object Rhines
+		sprite planet/gas15
+		distance 1332.81
+		period 491.726
+		offset 148.82
+	object
+		sprite planet/gas3
+		distance 3672.06
+		period 2248.72
+		offset 10.8829
+		object
+			sprite planet/dust7
+			distance 310
+			period 13.9414
+		object
+			sprite planet/lava0
+			distance 474
+			period 26.3592
+		object
+			sprite planet/rock0
+			distance 636
+			period 40.9685
+
 system Viraii
 	pos -10181.5 -5519.42
 	government "Communist Ganiom"
@@ -6166,7 +6346,7 @@ planet Cholintir
 	spaceport `A military installation. Armed guards check every ship. The Forens are nice, but they take their security seriously.`
 
 planet CixAVic
-	landscape "" #CixAVic is a wormhole. Cix means Civilization A means action, Vic means Vic'na
+	landscape ""
 
 planet Da'in:ska;908
 	landscape "land/moutainsnow1@2x "
@@ -6601,8 +6781,8 @@ planet Oftiknqn
 	landscape land/foresttropical0
 	description `A gas giant with artificial platforms in its upper atmosphere. The Communist Ganiom use it as a naval base. The view of the swirling storms is breathtaking—and terrifying.`
 	spaceport `It is like no other. The platforms sway in the winds. The sailors are hardened by the constant storms.`
-	outfitter "Communist Ganiom Outfits"
 	shipyard "Ganiom Shipyards"
+	outfitter "Communist Ganiom Outfits"
 	security 0.9
 
 planet Olokrefaro
@@ -6614,8 +6794,8 @@ planet Om'Tiera
 	landscape land/brownmountains1
 	description `A Communist Ganiom agricultural world. The fields are vast and mechanized. The workers are loyal to the cause. The revolution is all they know.`
 	spaceport `A functional agricultural port. The party officials are always watching. The workers sing revolutionary songs.`
-	outfitter "Communist Ganiom Outfits"
 	shipyard "Ganiom Shipyards"
+	outfitter "Communist Ganiom Outfits"
 
 planet Ore
 	landscape land/land27
@@ -6668,6 +6848,11 @@ planet "Red Shambala"
 planet Ref
 	landscape land/land27
 	description `Survey teams reported 'geometric anomalies' on the surface—perfectly straight lines and right angles where none should exist. They left within 48 hours. No one has returned.`
+
+planet Rhines
+	landscape land/foresttropical0
+	description `Rhines, one of the most populated reisbruth planets is extremely habitable, covered with green forests, cities, towns, villages and hamlets.`
+	spaceport `The spaceport has shawarma.`
 
 planet Sancleva
 	landscape land/brownmountains1
@@ -6726,6 +6911,9 @@ planet Srunfeot
 	description `A mining world. The Gainen extract rare minerals here. The workers live in underground cities carved from the rock. The air is recycled and always tastes like metal.`
 	spaceport `A mining port. The Gainen miners are tough and pragmatic. They don't talk much.`
 
+planet Synde
+	landscape ""
+
 planet Sz-Sialobi
 	landscape land/foresttropical0
 	description `The Lannen terraformed this world into a tropical paradise. The cities are built into massive trees. The locals warn visitors not to wander into the deeper forests. The trees remember.`
@@ -6777,10 +6965,21 @@ planet Vidg'aa'na'ja
 	bribe 0.9
 	security 0.9
 
+planet Vioro
+	landscape land/foresttropical0
+	description f
+	spaceport e
+
 planet Whsyin
 	landscape land/greenmountains1
 	description `This world sparked the Foren leftist revolution. The old government buildings still stand, now serving as museums to the uprising. Graffiti covers the walls—political slogans in a dozen languages.`
 	spaceport `"Di'rni Rgagt'tit. Ware ti ysa!" You are confused. The Foren locals smile knowingly.`
+
+planet "Wn Wormholr"
+	landscape ""
+
+planet Wormgolin
+	landscape ""
 
 planet Xtrein'nian'frjaklok
 	landscape land/land27
@@ -6794,12 +6993,10 @@ planet Yuso
 	tribute 560000
 		fleet "Hisair High" 34
 
-#----------------Wormholes---------------------------------------
-planet Synde
-	landscape ""
-
-planet Wormgolin
-	landscape ""
-
-planet "Wn Wormholr"
-	landscape ""
+planet "Kharonifa"
+	landscape "land/land30"
+	description "The Ssuryie Capital is far from vioro, it has a prominent population. Kharonifa is the capital of Ssuryie, not because of cultural significance, because of the start of the rebellion."
+	spaceport "The spaceport is cold, coming from the atmosphere of the planet. Everyone wears clothes because it can drop below -40°C in winter."
+	government "Ssuryie"
+	shipyard "Ssuryie Shipyard"
+	outfitter "Ssuryie Outfits"

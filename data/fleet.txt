@@ -407,3 +407,14 @@ fleet "Serbajkil Superheavy Fleet"
 		confusion 1
 	variant 100
 		"Alkorel" 20
+
+#SSURYIE
+
+fleet "Ssuryie Fleet"
+	government "Ssuryie"
+	names "Rekkebruthi"
+	cargo 0
+	personality
+		confusion 1
+	variant 100
+		"Ssuryie" 20

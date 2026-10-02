@@ -1,0 +1,22 @@
+# ============================================================
+# SSURYIE SALES
+# ============================================================
+
+shipyard "Ssuryie Shipyard"
+	"Ssuryie"
+
+outfitter "Ssuryie Outfits"
+	"Ssuryie Almenoksa"
+	"Ssuryie Wrath"
+	"Ssuryie Akmeaaika"
+	"Ssuryie Akmeaaika Torpedo"
+	"SX-1 Engine"
+	"SX-2 Engine"
+	"SX-3 Engine"
+	"SX-4 Engine"
+	"Liquid Nitrogen Cooling"
+	"Blue Sun Reactor"
+	"Quantum Vacuum Battery"
+	"Hyperdrive"
+	"Jump Drive"
+	"Local Map"
