@@ -1,0 +1,164 @@
+# ============================================================
+# VIC'NA OUTFITS AND WEAPONS (Complete File)
+# ============================================================
+
+# ============================================================
+# VIC'NA ENGINES
+# ============================================================
+
+outfit "Vic'Na Spatial Drive"
+	category "Engines"
+	cost 4500000
+	thumbnail "outfit/unknown"
+	"mass" 45
+	"outfit space" -45
+	"engine capacity" -45
+	"thrust" 35
+	"thrusting energy" 5.5
+	"thrusting heat" 4.0
+	"turn" 400
+	"turning energy" 3.0
+	"turning heat" 2.2
+	"reverse thrust" 35
+	"reverse thrusting energy" 5.5
+	"reverse thrusting heat" 4.0
+	"flare sprite" "effect/ion flare/medium"
+		"frame rate" 8
+	"flare sound" "ion medium"
+	"steering flare sprite" "effect/ion flare/medium"
+		"frame rate" 8
+	"steering flare sound" "ion medium"
+	description `Vic'Na spatial drives manipulate localized gravity to propel their ships. They are highly efficient but require significant energy to maintain the spatial distortion.`
+
+
+# ============================================================
+# VIC'NA COOLING AND SYSTEMS
+# ============================================================
+
+outfit "Vic'Na Void Sink"
+	category "Systems"
+	cost 2200000
+	thumbnail "outfit/cooling ducts" # Vanilla icon
+	"mass" 35
+	"outfit space" -35
+	"cooling" 450
+	"cooling energy" 0.8
+	description `A heat management system designed for the harsh environments the Vic'Na operate in. It dumps excess heat into a localized micro wormhole, keeping the ship's interior remarkably cold.`
+
+outfit "Vic'Na Shield Nexus"
+	category "Systems"
+	cost 6500000
+	thumbnail "outfit/shield generator" # Vanilla icon
+	"mass" 30
+	"outfit space" -30
+	"shield generation" 35
+	"shield energy" 5.0
+	description `The Shield Nexus uses spatial folding to project a dense energy barrier. It is extremely power hungry but provides continuous, rapid shield regeneration during combat.`
+
+outfit "Vic'Na Capacitor Bank"
+	category "Power"
+	cost 1800000
+	thumbnail "outfit/quantum vacuum battery" # Vanilla icon
+	"mass" 25
+	"outfit space" -25
+	"energy capacity" 1500
+	description `A highly efficient energy storage unit reverse engineered from ancient ruins. It allows Vic'Na ships to fire their heavy weapons without draining their reactors instantly.`
+
+
+# ============================================================
+# VIC'NA WEAPONS
+# ============================================================
+
+outfit "Vic'Na Spatial Ripper"
+	category "Guns"
+	cost 3200000
+	thumbnail "outfit/unknown"
+	"mass" 28
+	"outfit space" -28
+	"weapon capacity" -28
+	"gun ports" -1
+	weapon
+		sprite "projectile/astuit"
+		sound "astuit"
+		"hit effect" "small explosion"
+		"inaccuracy" 1.0
+		"velocity" 250
+		"lifetime" 3.0
+		"reload" 10
+		"firing energy" 12
+		"firing heat" 8
+		"shield damage" 600
+		"hull damage" 150
+		"ion damage" 80
+	description `The Spatial Ripper is a standard Vic'Na energy weapon. It fires a concentrated shard of plasma that deals massive damage to shields and disrupts electronic systems, but struggles to cut through thick hull armor.`
+
+outfit "Vic'Na Spatial Ripper Turret"
+	category "Turrets"
+	cost 4800000
+	thumbnail "outfit/unknown"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"turret mounts" -1
+	weapon
+		sprite "projectile/astuit"
+		sound "astuit"
+		"hit effect" "small explosion"
+		"inaccuracy" 1.0
+		"turret turn" 2.5
+		"velocity" 250
+		"lifetime" 3.0
+		"reload" 10
+		"firing energy" 12
+		"firing heat" 8
+		"shield damage" 600
+		"hull damage" 150
+		"ion damage" 80
+	description `A turret mounted version of the Spatial Ripper. It is the primary anti-shield weapon of the Vic'Na fleet, used to strip enemy defenses before heavier guns open fire.`
+
+outfit "Vic'Na Gravity Hammer"
+	category "Turrets"
+	cost 5200000
+	thumbnail "outfit/unknown"
+	"mass" 45
+	"outfit space" -45
+	"weapon capacity" -45
+	"turret mounts" -1
+	weapon
+		sprite "projectile/detainer"
+		sound "detainer"
+		"hit effect" "large explosion"
+		"inaccuracy" 1.0
+		"turret turn" 1.5
+		"velocity" 300
+		"lifetime" 3.0
+		"reload" 20
+		"firing energy" 25
+		"firing heat" 18
+		"shield damage" 200
+		"hull damage" 900
+		"hit force" 50
+		"slowing damage" 2.5
+	description `Despite the name, this turret fires a dense, high-velocity white bolt that crushes hulls and severely disrupts the target's maneuverability upon impact.`
+
+outfit "Vic'Na Wormhole Lance"
+	category "Secondary Weapons"
+	cost 12000000
+	thumbnail "outfit/unknown"
+	"mass" 60
+	"outfit space" -60
+	"weapon capacity" -60
+	"gun ports" -1
+	weapon
+		sprite "projectile/ember tear"
+		sound "ember tear"
+		"hit effect" "huge explosion"
+		"inaccuracy" 0
+		"velocity" 30
+		"lifetime" 700
+		"firing energy" 80
+		"firing heat" 50
+		"shield damage" 5000
+		"hull damage" 12000
+		"piercing" 1
+	description `A terrifying weapon banned by several treaties the Vic'Na never signed. The Lance fires an instant-hit laser of unstable spatial energy that punches straight through armor and detonates deep inside the target ship.`

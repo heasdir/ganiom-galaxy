@@ -1,0 +1,28 @@
+# ============================================================
+# VIC'NA SALES
+# ============================================================
+
+shipyard "Vic'Na Shipyard"
+	"Zroo'fak"
+	"Gwo'iling"
+	"Naa'maya'tri"
+	"Q'qenxorux"
+	"Ik Claseb"
+	"Ik Garo'seb"
+	"Thro'thik"
+	"Ik Vanderu"
+	"Reis'phat"
+	"Xa'ru Kao'tum"
+
+outfitter "Vic'Na Outfits"
+	"Vic'Na Spatial Drive"
+	"Vic'Na Void Sink"
+	"Vic'Na Shield Nexus"
+	"Vic'Na Capacitor Bank"
+	"Vic'Na Spatial Ripper"
+	"Vic'Na Spatial Ripper Turret"
+	"Vic'Na Gravity Hammer"
+	"Vic'Na Wormhole Lance"
+	"Hyperdrive"
+	"Jump Drive"
+	"Local Map"

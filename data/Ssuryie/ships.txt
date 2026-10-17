@@ -62,3 +62,67 @@ ship "Ssuryie"
 	description `The Ssuryie is the only ship class currently produced by the Ssuryie rebellion. It is a desperate, brutal design: a Heavy Warship built from the blueprints of the Old Ssuryie Republic, modified for a war of liberation.`
 	description `After the Reisbruth brutally taxed and enslaved the Ssuryie for thousands of years, the Ssuryie rose up. They lost their territory, their technology, and their freedom. But they never lost their memory. The Ssuryie is the successor to the Old Republic's warships, built in hidden shipyards, crewed by rebels, and armed with the weapons of their ancestors.`
 	description `The Ssuryie fight for justice. They fight to reclaim their lost territory, including the Eremas worlds, Seskitop, and Vidimac. They fight to free their people. They fight because they have nothing left to lose.`
+
+ship "Ssuryie" "Ssuryie UP"
+	sprite "ship/ssuryie"
+	thumbnail "thumbnail/ssuryie"
+	attributes
+		category "Heavy Warship"
+		"cost" 12000000
+		"shields" 450000
+		"hull" 120000
+		"required crew" 150
+		"bunks" 300
+		"mass" 2200
+		"drag" 4.5
+		"heat dissipation" 0.8
+		"fuel capacity" 900
+		"cargo space" 60
+		"outfit space" 3500
+		"weapon capacity" 1200
+		"engine capacity" 800
+		"ramscoop" 15
+		"solar collection" 25
+		"shield generation" 25
+		"shield energy" 6.5
+		"hull repair rate" 35
+		"hull energy" 5
+		"hull heat" 0.1
+		"scan interference" 5
+		"radar jamming" 15
+		"cooling" 1200
+		"integrated system" -5
+	outfits
+		"Ssuryie Almenoksa" 4
+		"Ssuryie Wrath" 4
+		"Ssuryie Akmeaaika" 2
+		"Ssuryie Akmeaaika Torpedo" 12
+		"SX-4 Engine" 3
+		"Blue Sun Reactor" 2
+		"Quantum Vacuum Battery" 2
+		"Liquid Nitrogen Cooling" 2
+		"Hyperdrive"
+		"Jump Drive"
+		"Ssuryie Akmeaaika Storage" 20
+	gun -20 -150
+	gun 20 -150
+	gun -40 -50
+	gun 40 -50
+	gun -10 80
+	gun 10 80
+	gun -30 -180
+	gun 30 -180
+	gun 0 0
+	gun 0 0
+	engine -15 200
+	engine 15 200
+	engine 0 220
+	explode "tiny explosion" 120
+	explode "small explosion" 60
+	explode "medium explosion" 50
+	explode "large explosion" 30
+	"final explode" "final explosion large"
+	description `The Ssuryie is the only ship class currently produced by the Ssuryie rebellion. It is a desperate, brutal design: a Heavy Warship built from the blueprints of the Old Ssuryie Republic, modified for a war of liberation.`
+	description `After the Reisbruth brutally taxed and enslaved the Ssuryie for thousands of years, the Ssuryie rose up. They lost their territory, their technology, and their freedom. But they never lost their memory. The Ssuryie is the successor to the Old Republic's warships, built in hidden shipyards, crewed by rebels, and armed with the weapons of their ancestors.`
+	description `The Ssuryie fight for justice. They fight to reclaim their lost territory, including the Eremas worlds, Seskitop, and Vidimac. They fight to free their people. They fight because they have nothing left to lose.`
+	description "This Ssuryie has been modified for extra Akmeaaika capacity."

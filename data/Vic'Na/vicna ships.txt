@@ -1,0 +1,485 @@
+# ============================================================
+# VIC'NA SHIPS
+# ============================================================
+
+ship "Zroo'fak"
+	sprite "ship/vicna/zroo-fak"
+	attributes
+		category "Heavy Warship"
+		"cost" 28000000
+		"shields" 450000
+		"hull" 110000
+		"required crew" 110
+		"bunks" 250
+		"mass" 1200
+		"drag" 2.5
+		"heat dissipation" 0.9
+		"fuel capacity" 900
+		"cargo space" 50
+		"outfit space" 3200
+		"weapon capacity" 1400
+		"engine capacity" 800
+		"ramscoop" 20
+		"solar collection" 40
+		"shield generation" 45
+		"shield energy" 7.5
+		"hull repair rate" 25
+		"hull energy" 6
+		"hull heat" 0.2
+		"scan interference" 5
+		"radar jamming" 12
+		"cooling" 800
+	outfits
+		"Vic'Na Spatial Ripper Turret" 4
+		"Vic'Na Gravity Hammer" 2
+		"Vic'Na Spatial Drive" 3
+		"Vic'Na Void Sink"
+		"Vic'Na Shield Nexus"
+		"Vic'Na Capacitor Bank" 2
+		"Hyperdrive"
+		"Jump Drive"
+	turret -30 -60
+	turret 30 -60
+	turret -50 -10
+	turret 50 -10
+	turret -20 50
+	turret 20 50
+	gun -15 -80
+	gun 15 -80
+	gun -25 20
+	gun 25 20
+	engine -30 70
+	engine 30 70
+	explode "tiny explosion" 100
+	explode "small explosion" 80
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	"final explode" "final explosion large"
+	description `The Zroo'fak is a Heavy Warship that punches far above its weight class. Despite its relatively small physical size, its modular, blocky armor allows it to withstand incredible punishment. It is heavily armed with fast firing point defense and electron weapons, designed specifically to strip shields and harass larger Onnari vessels.`
+
+
+ship "Gwo'iling"
+	sprite "ship/vicna/gwo-iling"
+	attributes
+		category "Heavy Warship"
+		"cost" 22000000
+		"shields" 380000
+		"hull" 140000
+		"required crew" 90
+		"bunks" 150
+		"mass" 1800
+		"drag" 3.5
+		"heat dissipation" 0.8
+		"fuel capacity" 800
+		"cargo space" 80
+		"outfit space" 2600
+		"weapon capacity" 1100
+		"engine capacity" 700
+		"ramscoop" 15
+		"solar collection" 30
+		"shield generation" 35
+		"shield energy" 6.5
+		"hull repair rate" 30
+		"hull energy" 5
+		"hull heat" 0.1
+		"scan interference" 3
+		"radar jamming" 8
+		"cooling" 700
+	outfits
+		"Vic'Na Spatial Ripper Turret" 3
+		"Vic'Na Spatial Ripper" 2
+		"Vic'Na Spatial Drive" 3
+		"Vic'Na Void Sink"
+		"Vic'Na Shield Nexus"
+		"Vic'Na Capacitor Bank"
+		"Hyperdrive"
+		"Jump Drive"
+	turret -40 -50
+	turret 40 -50
+	turret 0 30
+	gun -15 -60
+	gun 15 -60
+	engine -25 80
+	engine 0 90
+	engine 25 80
+	explode "tiny explosion" 80
+	explode "small explosion" 60
+	explode "medium explosion" 40
+	explode "large explosion" 20
+	"final explode" "final explosion large"
+	description `The Gwo'iling is the standard heavy combat vessel of the Vic'Na fleet. It features heavy armor and a balanced array of electron weapons, allowing it to serve as a reliable frontline ship in prolonged engagements.`
+
+
+ship "Naa'maya'tri"
+	sprite "ship/vicna/naa-maya-tri"
+	attributes
+		category "Heavy Warship"
+		"cost" 25000000
+		"shields" 300000
+		"hull" 160000
+		"required crew" 120
+		"bunks" 400
+		"mass" 2400
+		"drag" 4.0
+		"heat dissipation" 0.8
+		"fuel capacity" 1200
+		"cargo space" 120
+		"outfit space" 3000
+		"weapon capacity" 800
+		"engine capacity" 600
+		"ramscoop" 20
+		"solar collection" 35
+		"shield generation" 20
+		"shield energy" 6.0
+		"hull repair rate" 35
+		"hull energy" 5
+		"hull heat" 0.1
+		"scan interference" 4
+		"radar jamming" 10
+		"cooling" 750
+	outfits
+		"Vic'Na Spatial Ripper Turret" 2
+		"Vic'Na Spatial Drive" 2
+		"Vic'Na Void Sink"
+		"Vic'Na Shield Nexus"
+		"Vic'Na Capacitor Bank" 2
+		"Hyperdrive"
+		"Jump Drive"
+	turret -50 -20
+	turret 50 -20
+	engine -30 100
+	engine 30 100
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	bay "Light Warship" 0 0
+	explode "tiny explosion" 100
+	explode "small explosion" 80
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	"final explode" "final explosion large"
+	description `The Naa'maya'tri is a dedicated carrier platform. It trades direct firepower for the ability to launch and support a wing of light warships, acting as a mobile command center for Vic'Na strike groups.`
+
+
+ship "Q'qenxorux"
+	sprite "ship/vicna/q-qenxorux"
+	attributes
+		category "Medium Warship"
+		"cost" 15000000
+		"shields" 240000
+		"hull" 80000
+		"required crew" 45
+		"bunks" 80
+		"mass" 900
+		"drag" 2.8
+		"heat dissipation" 0.9
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 1600
+		"weapon capacity" 700
+		"engine capacity" 500
+		"ramscoop" 15
+		"solar collection" 25
+		"shield generation" 30
+		"shield energy" 7.0
+		"hull repair rate" 15
+		"hull energy" 5
+		"hull heat" 0.1
+		"scan interference" 2
+		"radar jamming" 6
+		"cooling" 500
+	outfits
+		"Vic'Na Spatial Ripper Turret" 2
+		"Vic'Na Gravity Hammer" 1
+		"Vic'Na Spatial Drive" 2
+		"Vic'Na Void Sink"
+		"Vic'Na Shield Nexus"
+		"Vic'Na Capacitor Bank"
+		"Hyperdrive"
+		"Jump Drive"
+	turret -25 -30
+	turret 25 -30
+	turret 0 30
+	engine -15 60
+	engine 15 60
+	explode "tiny explosion" 60
+	explode "small explosion" 40
+	explode "medium explosion" 20
+	"final explode" "final explosion medium"
+	description `The Q'qenxorux is a medium combat vessel designed for patrol and escort duties. It provides steady fire support and is frequently deployed to guard Vic'Na supply lines and border stations.`
+
+
+ship "Ik Claseb"
+	sprite "ship/vicna/ik claseb"
+	attributes
+		category "Medium Warship"
+		"cost" 12000000
+		"shields" 180000
+		"hull" 95000
+		"required crew" 35
+		"bunks" 60
+		"mass" 1100
+		"drag" 3.2
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"cargo space" 60
+		"outfit space" 1500
+		"weapon capacity" 600
+		"engine capacity" 450
+		"ramscoop" 15
+		"solar collection" 25
+		"shield generation" 25
+		"shield energy" 6.0
+		"hull repair rate" 20
+		"hull energy" 5
+		"hull heat" 0.1
+		"scan interference" 2
+		"radar jamming" 5
+		"cooling" 550
+	outfits
+		"Vic'Na Spatial Ripper" 4
+		"Vic'Na Spatial Drive" 2
+		"Vic'Na Void Sink"
+		"Vic'Na Shield Nexus"
+		"Vic'Na Capacitor Bank"
+		"Hyperdrive"
+		"Jump Drive"
+	gun -20 -40
+	gun 20 -40
+	gun -20 20
+	gun 20 20
+	engine -20 70
+	engine 20 70
+	explode "tiny explosion" 50
+	explode "small explosion" 30
+	explode "medium explosion" 15
+	"final explode" "final explosion medium"
+	description `The Ik Claseb is a dependable mid sized gunship. Its forward firing electron cannons make it effective at engaging smaller targets, while its armor allows it to survive skirmishes with larger vessels.`
+
+
+ship "Ik Garo'seb"
+	sprite "ship/vicna/ik garo-seb"
+	attributes
+		category "Light Warship"
+		"cost" 6000000
+		"shields" 90000
+		"hull" 45000
+		"required crew" 15
+		"bunks" 25
+		"mass" 450
+		"drag" 2.0
+		"heat dissipation" 0.9
+		"fuel capacity" 400
+		"cargo space" 20
+		"outfit space" 800
+		"weapon capacity" 300
+		"engine capacity" 250
+		"ramscoop" 10
+		"solar collection" 15
+		"shield generation" 15
+		"shield energy" 5.5
+		"hull repair rate" 10
+		"hull energy" 4
+		"hull heat" 0.1
+		"cooling" 300
+	outfits
+		"Vic'Na Spatial Ripper" 2
+		"Vic'Na Spatial Drive" 2
+		"Vic'Na Void Sink"
+		"Vic'Na Shield Nexus"
+		"Vic'Na Capacitor Bank"
+		"Hyperdrive"
+	gun -15 -25
+	gun 15 -25
+	engine -10 40
+	engine 10 40
+	explode "tiny explosion" 30
+	explode "small explosion" 15
+	"final explode" "final explosion small"
+	description `The Ik Garo'seb is a light patrol craft. It is fast and maneuverable, often used to scout ahead of larger fleets or to intercept enemy raiders before they can reach Vic'Na space.`
+
+
+ship "Thro'thik"
+	sprite "ship/vicna/thro-thik"
+	attributes
+		category "Light Warship"
+		"cost" 4500000
+		"shields" 70000
+		"hull" 35000
+		"required crew" 10
+		"bunks" 20
+		"mass" 350
+		"drag" 1.8
+		"heat dissipation" 0.9
+		"fuel capacity" 350
+		"cargo space" 15
+		"outfit space" 600
+		"weapon capacity" 250
+		"engine capacity" 200
+		"ramscoop" 10
+		"solar collection" 10
+		"shield generation" 12
+		"shield energy" 5.0
+		"hull repair rate" 8
+		"hull energy" 4
+		"hull heat" 0.1
+		"cooling" 250
+	outfits
+		"Vic'Na Spatial Ripper" 1
+		"Vic'Na Spatial Ripper Turret" 1
+		"Vic'Na Spatial Drive" 2
+		"Vic'Na Void Sink"
+		"Vic'Na Shield Nexus"
+		"Vic'Na Capacitor Bank"
+		"Hyperdrive"
+	gun 0 -30
+	turret 0 10
+	engine -10 35
+	engine 10 35
+	explode "tiny explosion" 25
+	explode "small explosion" 10
+	"final explode" "final explosion small"
+	description `The Thro'thik is a nimble skirmisher. It uses a combination of forward guns and a single turret to harass heavier opponents, relying on its speed to avoid taking direct hits.`
+
+
+ship "Ik Vanderu"
+	sprite "ship/vicna/ik vanderu"
+	attributes
+		category "Interceptor"
+		"cost" 2000000
+		"shields" 40000
+		"hull" 20000
+		"required crew" 4
+		"bunks" 8
+		"mass" 150
+		"drag" 1.2
+		"heat dissipation" 0.9
+		"fuel capacity" 200
+		"cargo space" 5
+		"outfit space" 300
+		"weapon capacity" 150
+		"engine capacity" 120
+		"ramscoop" 5
+		"solar collection" 5
+		"shield generation" 8
+		"shield energy" 4.5
+		"hull repair rate" 5
+		"hull energy" 3
+		"hull heat" 0.1
+		"cooling" 150
+	outfits
+		"Vic'Na Spatial Ripper" 2
+		"Vic'Na Spatial Drive" 1
+		"Vic'Na Void Sink"
+		"Vic'Na Shield Nexus"
+		"Vic'Na Capacitor Bank"
+		"Hyperdrive"
+	gun -10 -15
+	gun 10 -15
+	engine 0 25
+	explode "tiny explosion" 15
+	"final explode" "final explosion small"
+	description `The Ik Vanderu is an interceptor class vessel. It is incredibly fast, designed to close the distance quickly and unload its electron guns before enemy turrets can track it.`
+
+
+ship "Reis'phat"
+	sprite "ship/vicna/reis-phat"
+	attributes
+		category "Medium Warship"
+		"cost" 18000000
+		"shields" 210000
+		"hull" 85000
+		"required crew" 55
+		"bunks" 90
+		"mass" 850
+		"drag" 2.6
+		"heat dissipation" 0.9
+		"fuel capacity" 650
+		"cargo space" 35
+		"outfit space" 1800
+		"weapon capacity" 850
+		"engine capacity" 550
+		"ramscoop" 15
+		"solar collection" 30
+		"shield generation" 40
+		"shield energy" 7.2
+		"hull repair rate" 18
+		"hull energy" 5
+		"hull heat" 0.1
+		"scan interference" 3
+		"radar jamming" 9
+		"cooling" 600
+	outfits
+		"Vic'Na Gravity Hammer" 2
+		"Vic'Na Spatial Drive" 2
+		"Vic'Na Void Sink"
+		"Vic'Na Shield Nexus"
+		"Vic'Na Capacitor Bank"
+		"Hyperdrive"
+		"Jump Drive"
+	turret -20 -40
+	turret 20 -40
+	engine -20 60
+	engine 20 60
+	explode "tiny explosion" 60
+	explode "small explosion" 40
+	explode "medium explosion" 25
+	"final explode" "final explosion medium"
+	description `The Reis'phat is a specialized medium warship. Its name suggests a connection to Reisbruth engineering, and its design focuses on high shield regeneration and rapid turret tracking. It is often seen leading Vic'Na strike forces.`
+
+
+ship "Xa'ru Kao'tum"
+	sprite "ship/vicna/xa-ru kao-tum"
+	attributes
+		category "Heavy Warship"
+		"cost" 35000000
+		"shields" 600000
+		"hull" 180000
+		"required crew" 160
+		"bunks" 350
+		"mass" 2800
+		"drag" 4.5
+		"heat dissipation" 0.9
+		"fuel capacity" 1100
+		"cargo space" 100
+		"outfit space" 3800
+		"weapon capacity" 1800
+		"engine capacity" 900
+		"ramscoop" 25
+		"solar collection" 45
+		"shield generation" 50
+		"shield energy" 8.0
+		"hull repair rate" 30
+		"hull energy" 6
+		"hull heat" 0.1
+		"scan interference" 5
+		"radar jamming" 15
+		"cooling" 900
+	outfits
+		"Vic'Na Spatial Ripper Turret" 6
+		"Vic'Na Spatial Ripper" 4
+		"Vic'Na Wormhole Lance" 1
+		"Vic'Na Spatial Drive" 4
+		"Vic'Na Void Sink" 2
+		"Vic'Na Shield Nexus" 2
+		"Vic'Na Capacitor Bank" 3
+		"Hyperdrive"
+		"Jump Drive"
+	turret -35 -70
+	turret 35 -70
+	turret -55 -10
+	turret 55 -10
+	turret -30 50
+	turret 30 50
+	gun -15 -90
+	gun 15 -90
+	gun -25 30
+	gun 25 30
+	engine -35 90
+	engine 35 90
+	explode "tiny explosion" 120
+	explode "small explosion" 90
+	explode "medium explosion" 70
+	explode "large explosion" 40
+	"final explode" "final explosion large"
+	description `The Xa'ru Kao'tum is a massive heavy warship that serves as the anvil to the Zroo'fak's hammer. It carries extensive armor and a broadside of electron weaponry, designed to hold the line while smaller Vic'Na vessels maneuver around the enemy.`

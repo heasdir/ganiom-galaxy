@@ -4,12 +4,14 @@
 
 shipyard "Ssuryie Shipyard"
 	"Ssuryie"
+	"Ssuryie UP"
 
 outfitter "Ssuryie Outfits"
 	"Ssuryie Almenoksa"
 	"Ssuryie Wrath"
 	"Ssuryie Akmeaaika"
 	"Ssuryie Akmeaaika Torpedo"
+	"Ssuryie Akmeaaika Storage"
 	"SX-1 Engine"
 	"SX-2 Engine"
 	"SX-3 Engine"

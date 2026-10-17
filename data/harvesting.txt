@@ -1,0 +1,43 @@
+minable "ganite"
+	sprite "asteroid/large metal/spin"
+	hull 2400
+	"random hull" 560
+	payload "Ganite" 45
+	explode "smoke" 40
+	explode "bolide" 40
+	explode "asteroid crunch large"
+
+outfit "Ganite"
+	plural "Ganite"
+	category "Minerals"
+	cost 1500
+	thumbnail "outfit/harvested lead"
+	"flotsam sprite" "effect/flotsam lead"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Ganite is the most common mineral in the Ganiom galaxy. It is a dull grey metal, used primarily for hull plating on civilian and military ships alike. Every faction in Ganiom uses it."
+
+
+
+
+minable "vichlarite"
+	sprite "asteroid/bioroid/spin"
+	hull 4800
+	"random hull" 1200
+	payload "Vichlarite" 12
+	explode "smoke" 30
+	explode "bolide" 40
+	explode "blood" 10
+	explode "asteroid crunch medium"
+
+outfit "Vichlarite"
+	plural "Vichlarite"
+	category "Minerals"
+	cost 45000
+	thumbnail "outfit/harvested yottrite"
+	"flotsam sprite" "effect/flotsam yottrite"
+	"mass" 3
+	"installable" -1
+	"minable" 1
+	description "A rare, dense mineral found only in the Hetipuron, Onnsriawa, and Nanaskibja systems. Vichlarite is a key component in the production of advanced weapons, including the devastating Reisbruth Decayer. Its unique molecular structure allows it to channel disruptive energies with terrifying efficiency."

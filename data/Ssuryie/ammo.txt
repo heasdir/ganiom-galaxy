@@ -2,7 +2,16 @@ outfit "Ssuryie Akmeaaika Torpedo"
 	category "Ammunition"
 	cost 8000
 	thumbnail "outfit/unknown"
-	"outfit space" -4
+	"outfit space" -1
 	"mass" 1.5
 	"akmeaaika capacity" -1
 	description "A single Ssuryie Akmeaaika torpedo. It carries a toxic green payload that burns through hull armor. Each torpedo tube has its own capacity; you cannot load torpedoes without a launcher."
+
+outfit "Ssuryie Akmeaaika Storage"
+	category "Ammunition"
+	cost 250000
+	thumbnail "outfit/unknown"
+	"mass" 10
+	"outfit space" -20
+	"akmeaaika capacity" 20
+	description "A reinforced storage bay for additional Ssuryie Akmeaaika torpedoes. It allows a ship to carry more torpedoes into battle, extending its combat endurance."

@@ -24,3 +24,36 @@ outfit "Laser Attack System"
 	description `An automated point-defense system built for the ships of communist ganiom. Fires a concentrated light-speed laser at anything within 1800 units.`
 	description `After finding the Kem, they decided to use Kem technology to make a laser. This laser would become the Predecessor to the laser attack system, 200 years later, Communist Ganiom was trying to find old weapons to refine them, and they mixed this laser with another kem weapon.`
 	description `The kem called the laser 'Utorokvans'.`
+
+outfit "AFI Cannon"
+	category "Secondary Weapons"
+	cost 2400000
+	thumbnail "outfit/unknown"
+	"mass" 52
+	"outfit space" -52
+	"weapon capacity" -52
+	"energy capacity" -180
+	"required crew" 3
+	"gun ports" -1
+	weapon
+		sprite "projectile/afic bolt"
+		"hardpoint" 18
+		"hit force" 220
+		"piercing" 0.5
+		"range" 900
+		"lifetime" 60
+		"reload" 90
+		"firing energy" 340
+		"firing heat" 280
+		"firing force" 40
+		"shield damage" 180
+		"hull damage" 240
+		"ion damage" 90
+		"heat damage" 70
+		"inaccuracy" 2
+		"velocity" 18
+		"random velocity" 4
+		"burst count" 3
+		"burst reload" 10
+	description `A Communist Ganiom capital-ship ion weapon that fires charged argon-fluoride clusters. Corrodes hulls and disrupts electronics. Requires enormous power and generates extreme heat.`
+	description `Before the Laser Attack System, Communist Ganiom had this as their primary weapon, it was effective against hisair, but particularly useless against the gainen.`

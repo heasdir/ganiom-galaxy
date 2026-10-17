@@ -284,6 +284,8 @@ system Biridthaa
 	asteroids "small metal" 12 4.1808
 	asteroids "medium metal" 19 2.1216
 	asteroids "large metal" 31 2.5584
+	fleet "Vic'Na Patrol" 620
+	fleet "Vic'Na Wormhole Guard" 140
 	object
 		sprite star/k5
 		period 10
@@ -1282,6 +1284,7 @@ system Ga'tame
 	asteroids "small metal" 3 2.736
 	asteroids "medium metal" 2 4.2912
 	asteroids "large metal" 2 2.9376
+	fleet "Vic'Na Patrol" 230
 	object
 		sprite star/f5
 		distance 35.7906
@@ -1659,6 +1662,8 @@ system He'ile
 	asteroids "small metal" 6 2.508
 	asteroids "medium metal" 65 1.496
 	asteroids "large metal" 12 3.212
+	fleet "Vic'Na Patrol" 600
+	fleet "Vic'Na Strike Fleet" 240
 	object
 		sprite star/g5
 		period 10
@@ -1701,6 +1706,8 @@ system Helefolaz
 	asteroids "large rock" 6 5.04
 	asteroids "medium metal" 3 8.904
 	asteroids "large metal" 1 7.98
+	minables ganite 4 2.0
+	minables tungsten 5 8.289
 	fleet "Communist Ganiom Avg" 900
 	object
 		sprite star/m8
@@ -1809,6 +1816,7 @@ system Hetipuron
 	link Nanaskibja
 	asteroids "medium metal" 4 7.2268
 	asteroids "large metal" 1 10.3936
+	minables vichlarite 4 3.0
 	object
 		sprite star/g0
 		period 10
@@ -2097,6 +2105,8 @@ system Il'ka
 	asteroids "small metal" 2 3.68
 	asteroids "medium metal" 14 3.7168
 	asteroids "large metal" 1 1.84
+	fleet "Vic'Na Patrol" 200
+	fleet "Vic'Na Strike Fleet" 600
 	object
 		sprite star/k5
 		period 10
@@ -2187,6 +2197,7 @@ system Ilksa`Majsa
 	asteroids "small metal" 46 7.56
 	asteroids "medium metal" 34 4.3344
 	asteroids "large metal" 31 6.4512
+	fleet "Vic'Na Patrol" 200
 	object
 		sprite star/g0
 		period 10
@@ -2275,6 +2286,7 @@ system Ir'at'ga
 	asteroids "small metal" 8 4.452
 	asteroids "medium metal" 15 8.064
 	asteroids "large metal" 1 12.348
+	fleet "Vic'Na Patrol" 70
 	object
 		sprite star/f5
 		period 10
@@ -2317,6 +2329,9 @@ system Ir'mawad
 	asteroids "large rock" 2 4.4982
 	asteroids "small metal" 1 5.4621
 	asteroids "large metal" 3 4.9113
+	fleet "Vic'Na Patrol" 400
+	fleet "Vic'Na Strike Fleet" 600
+	fleet "Vic'Na Defense Fleet" 700
 	object
 		sprite star/k0
 		period 10
@@ -2754,6 +2769,7 @@ system Ki'lad
 	link Ga'tame
 	asteroids "medium metal" 10 7.575
 	asteroids "large metal" 2 8.85
+	fleet "Vic'Na Patrol" 400
 	object
 		sprite star/m0
 		period 10
@@ -2946,6 +2962,7 @@ system Le'het
 	asteroids "small metal" 9 1.785
 	asteroids "medium metal" 21 4.3197
 	asteroids "large metal" 14 5.2836
+	fleet "Vic'Na Patrol" 500
 	object
 		sprite star/k0
 		period 10
@@ -3705,6 +3722,7 @@ system Nanaskibja
 	habitable 233.28
 	link Hetipuron
 	asteroids "large metal" 1 1.53
+	minables vichlarite 5 3.5
 	object
 		sprite star/m4
 		period 10
@@ -4341,6 +4359,7 @@ system Onnsriawa
 	asteroids "small metal" 52 1.1872
 	asteroids "medium metal" 20 1.1872
 	asteroids "large metal" 12 2.6208
+	minables vichlarite 3 3.0
 	object
 		sprite star/g0
 		period 10
@@ -4541,6 +4560,7 @@ system Perenthe
 	link Ki'lad
 	link Ga'tame
 	asteroids "large metal" 1 8.1926
+	fleet "Vic'Na Patrol" 290
 	object
 		sprite star/g5
 		distance 44.5811
@@ -4712,6 +4732,7 @@ system "Protomous Thanthiya"
 	asteroids "small metal" 9 2.494
 	asteroids "medium metal" 60 3.828
 	asteroids "large metal" 45 2.233
+	fleet "Vic'Na Patrol" 100
 	object
 		sprite star/g0
 		distance 26.7429
@@ -5741,6 +5762,7 @@ system Treas'se
 	link Yu'mase
 	asteroids "medium metal" 1 4.374
 	asteroids "large metal" 2 3.8394
+	fleet "Vic'Na Patrol"
 	object
 		sprite star/m0
 		period 10
@@ -5893,6 +5915,7 @@ system Vi'binaa
 	asteroids "small metal" 20 2.0124
 	asteroids "medium metal" 11 0.8268
 	asteroids "large metal" 8 1.9344
+	fleet "Vic'Na Wormhole Guard"
 	object
 		sprite star/k5
 		distance 58
@@ -5952,6 +5975,7 @@ system Vic'Naia
 	asteroids "small metal" 11 4.602
 	asteroids "medium metal" 9 4.914
 	asteroids "large metal" 20 6.552
+	fleet "Vic'Na Patrol" 500
 	object
 		sprite star/m0
 		period 10
@@ -6257,6 +6281,7 @@ system Yu'mase
 	asteroids "large rock" 32 2.511
 	asteroids "medium metal" 25 2.781
 	asteroids "large metal" 3 2.997
+	fleet "Vic'Na Patrol" 600
 	object
 		sprite star/m4
 		period 10
@@ -6607,6 +6632,317 @@ planet "Ganiom Cheat"
 	outfitter "Gainen Normals"
 	outfitter developer
 
+planet "Abeni "
+	landscape land/greenmountains1
+	description `Abeni is a rocky planet, controlled by the Bruchaven Issarei. It is also the capital of Bruchaven Issarei. The cities are carved into the red cliffs, and the sky always glows orange at dusk.`
+	spaceport `The spaceport buzzes with activity—explorers, traders, and spies all mingle here. The Issarei keep a watchful eye on everyone.`
+
+planet Ad-Osini
+	landscape land/land18
+	description `Ad-Osini is a world with archipelagos everywhere. The Lannen have built floating bridges between islands. The water is crystal clear and teems with exotic fish.`
+	spaceport `A small dock on the main island. Fishing boats and trade vessels share the harbor. The locals are friendly and offer fresh catch.`
+
+planet Aerie
+	landscape land/greenmountains2
+	description `This station wasn't built by the Bruchaven. It remains as a relic of an unknown race. The architecture is alien, unsettling, and impossibly old. Some sections are still unexplored.`
+
+planet Ag-deria
+	landscape land/foresttropical0
+	description `An ocean world with a single island chain—the only landmass. The Lannen built floating cities here. Underwater, something ancient sleeps. The sailors whisper about it.`
+	spaceport `A floating platform that serves as the main port. The waves are gentle, but the locals avoid the deeper waters after dark.`
+
+planet Ajma
+	landscape land/greenmountains2
+	description `The only station made by the Bruchaven and the only station with a spaceport. There are unlandable stations with hidden meanings near it. This station is the only reason the surrounding systems aren't uninhabited.`
+	spaceport `The people here are mainly explorers and trade jump drives. They say they have explored the Lannen space. What is the Lannen space?`
+
+planet Al'Nisan
+	landscape land/brownmountains1
+	description `A terraformed world still in progress. The atmosphere is breathable but thin. Colonists live in pressurized domes while the planet slowly transforms. The mountains are a rusty red.`
+
+planet Ayib'iiahii'onwnl
+	landscape land/greenmountains1
+	description `A Foren research station studying the neighboring systems. The scientists are secretive and close their doors when you approach. Strange sounds echo through the corridors at night.`
+	spaceport `A small docking bay. The Foren personnel are polite but evasive. They speak in hushed tones.`
+
+planet "Between - Home"
+	landscape land/brownmountains1
+	description `Home of The Between. A world of perpetual twilight and ancient forests. The Between are elusive and rarely seen. Their cities are hidden beneath the canopy.`
+	spaceport `A single landing pad in a forest clearing. The Between observe silently from the shadows. You feel watched.`
+
+planet Bra'jk'in
+	landscape land/foresttropical0
+	description `A frozen archive-world. The Vic'Na store their historical records in underground vaults carved from ancient glaciers. The air is thin, cold, and smells of old paper.`
+	spaceport `A small ice-hewn landing bay. The Vic'Na archivists are silent and meticulous. They don't appreciate interruptions.`
+
+planet Cholintir
+	landscape land/land27
+	description `Foren Military Base. The central command for the Foren fleet. The planet is heavily fortified and bristling with weaponry. No visitors allowed.`
+	spaceport `A military installation. Armed guards check every ship. The Forens are nice, but they take their security seriously.`
+
+planet CixAVic
+	landscape ""
+	outfitter "Vic'Na Outfits"
+
+planet Da'in:ska;908
+	landscape "land/moutainsnow1@2x "
+	description `A frozen research world. The Vic'Na study something here—something they won't name. The scientists live in underground complexes. They never leave.`
+	spaceport `A secured facility. Researchers hurry between buildings. They avoid eye contact. What are they hiding?`
+
+planet Daajka
+	landscape land/greenmountains1
+	description `The Serbajkil capital burns with orange light from its geothermal vents. The locals say the planet's heart beats in sync with their own. The architecture is brutal, beautiful, and ancient—carved from obsidian and lit by eternal flame.`
+	spaceport `A massive obsidian structure. The heat is intense, but the Serbajkil don't seem to notice. The market sells exotic goods from across the galaxy.`
+
+planet Dka'MJi
+	landscape land/brownmountains1
+	description `A cold world where the Serbajkil harvest ice for their desert colonies. The ice-cutters sing ancient songs while they work. The songs have no translation.`
+	spaceport `A simple ice landing strip. The workers are hardy and taciturn. They offer hot drinks to visitors.`
+
+planet Drakmagani
+	landscape land/land26
+	description `This planet is the Antarctica of Vic'Na Space. The Drak still live here today. They sell their Archons on Drakmagani. The ice plains stretch forever.`
+	spaceport `A small trading post. The Drak are fierce but fair. They offer Archons—strange alien artifacts—to those who can afford them.`
+	shipyard Drak
+	outfitter "Drak All"
+
+planet FAIL-000000
+	landscape land/greenmountains2
+	description `????????????????????? fungus ???????????¿?¿¿¿¿¿¿?¿¿¿?¿¿¿??¿???????¿¿¿¿¿??????????!(!-+--&&--&&*££*&-__&&&&_&&_ Seems to be no information about this planet. The fungal growths spell out geometric patterns in the craters. The Bruchaven have quarantined three exploration teams who reported 'hearing the soil hum.'`
+
+planet FAIL-700100
+	landscape land/greenmountains2
+	description `Just a fungal planet? What are the Bruchaven hiding? Scans show fungal growth covering 97% of the surface. The structures beneath are not natural. The Bruchaven have flagged this system for 'quarantine review.'`
+
+planet FAIL-99689000
+	landscape land/land27
+	description `Another fail, of some other race. The structures are pre-Foren, pre-Gainen, pre-everything. The soil contains no organic matter. The wind sounds like breathing.`
+
+planet Fo'kak'ni'si'slok
+	landscape land/greenmountains2
+	description `Welcome to the land of diversity. Humans, Gainen, ???'s, and The Forens live peacefully here. The streets are a riot of languages and cultures. The ???'s won't say what they're called.`
+	spaceport `You see some funny-looking people here. The market is chaotic but friendly. Everyone seems to be trading something strange.`
+
+planet "Foryurda Ekamo"
+	landscape ""
+	description `This planet has no reason to be colonized, but it is. Hell is colonized—barely. The inhabitants live in underground bunkers, emerging only for supplies. Why anyone lives here is a mystery. They say the scenery grows on you.`
+	spaceport `A crude landing area. The locals are grim but helpful. They say the volcanic ash is good for the skin.`
+
+planet Frt'Eliminatr
+	landscape land/greenmountains1
+	description `???. The Forens don't talk about this place. The few who land there return with fragmented memories and a strange, metallic taste in their mouths. The station above orbits in perfect silence.`
+	spaceport `??? ??? ??? you don't understand. The Foren personnel are unresponsive. The station hums at a frequency that makes your teeth ache.`
+
+planet Fruga'le
+	landscape land/land0
+	description `Failed terraformation turned this world into a nightmare jungle. The Vic'Na use it as a survival training ground. The flora is aggressive; the fauna is worse. Only the strong survive.`
+	spaceport `A small military outpost. The Vic'Na soldiers here are hardened veterans. They train relentlessly in the jungle.`
+
+planet Ga'ratri
+	landscape land/foresttropical0
+	description `A Vic'Na mining world. The workers live in underground cities. The ore they extract is essential to the Vic'Na economy. The air is dusty and the work is hard.`
+
+planet "Gaie Point"
+	landscape land/land13
+	description `A strange world where most inhabitants aren't Gainen at all. They whisper about 'Serhbajkil'—perhaps a system? A faction? No one will explain. The architecture is odd, hybrid, and unsettling.`
+	spaceport `"??? ??? ???? Serhbajkil." Perhaps they are talking about a system? "Serhbajkil" doesn't look like it would be anything else. The locals stare at you.`
+	shipyard "Gainen Shipyard"
+
+planet Gainisen
+	landscape land/brownmountains1
+	description `Home of the Gainen people. The capital's floating gardens drift above the clouds, visible from orbit. The Gainen believe their ancestors watch from the stars above the gardens. The architecture is elegant, functional, and ancient.`
+	spaceport `Home of the Gainen. The spaceport is a marvel of engineering—glass domes and floating platforms. The Gainen are welcoming but reserved.`
+	shipyard "Gainen Shipyard"
+	outfitter "Gainen Normals"
+
+planet "Ganiom Cheat"
+	landscape land/land27
+	description `You found it! Omnis in Ganiom! This hidden station sells ships and outfits from every faction in the galaxy. How it exists is a mystery. Who built it is an even bigger one.`
+	spaceport `The ultimate shipyard. Every ship, every outfit, every faction. The station is a legend among spacers.`
+	shipyard omnis
+	shipyard aberrant
+	shipyard avgi
+	shipyard developer
+	shipyard bunrodea
+	shipyard coalition
+	shipyard drak
+	shipyard gegno
+	shipyard hai
+	shipyard human
+	shipyard iije
+	shipyard incipias
+	shipyard kahet
+	shipyard korath
+	shipyard pug
+	shipyard quarg
+	shipyard remnant
+	shipyard rulei
+	shipyard sheragi
+	shipyard successors
+	shipyard vyrmeid
+	shipyard wanderer
+	shipyard "whispering void"
+	shipyard "Bunrodea Advanced"
+	shipyard "Bunrodea Basic"
+	shipyard "Bunrodea Capital"
+	shipyard Arach
+	shipyard "Coalition Basics"
+	shipyard Kimek
+	shipyard Saryd
+	shipyard "Gegno Advanced"
+	shipyard "Gegno Basic"
+	shipyard "Gegno Intermediate"
+	shipyard "Scin Cargo"
+	shipyard "Scin Utility"
+	shipyard "Scin Warships"
+	shipyard "Vi Cargo"
+	shipyard "Vi Utility"
+	shipyard "Vi Warships I"
+	shipyard "Vi Warships II"
+	shipyard "Imo Loo Mer Advanced"
+	shipyard "Imo Loo Mer Basics"
+	shipyard "Mon Ki i'Hiya Advanced"
+	shipyard "Mon Ki i'Hiya Basics"
+	shipyard "Mon Ki o'Uden Advanced"
+	shipyard "Yeer e Ki Advanced"
+	shipyard "Yeer e Ki Basics"
+	shipyard "Advanced Core Pirates"
+	shipyard "Advanced Northern Pirates"
+	shipyard "Advanced Southern Pirates"
+	shipyard "Basic Ships"
+	shipyard "Betelgeuse Advanced"
+	shipyard "Betelgeuse Basics"
+	shipyard "Core Pirates"
+	shipyard "Lionheart Advanced"
+	shipyard "Lionheart Basics"
+	shipyard "Luxury Ships"
+	shipyard "Megaparsec Advanced"
+	shipyard "Megaparsec Basics"
+	shipyard "Navy Advanced"
+	shipyard "Navy Basics"
+	shipyard "Northern Pirates"
+	shipyard "Southbound Advanced"
+	shipyard "Southbound Basics"
+	shipyard "Southern Pirates"
+	shipyard "Syndicate Advanced"
+	shipyard "Syndicate Basics"
+	shipyard "Tarazed Advanced"
+	shipyard "Tarazed Basics"
+	shipyard Hicemus
+	shipyard "Remnant Puffin"
+	shipyard "Remnant Salvage Ships"
+	shipyard Remnant
+	shipyard "High Houses Light"
+	shipyard "High Houses Heavy"
+	shipyard "New Houses Light"
+	shipyard "People's Houses"
+	shipyard "Successor Basics"
+	shipyard "Successor Civilian"
+	shipyard "Successor Heavy"
+	shipyard Waterlining
+	shipyard "Wanderer Advanced"
+	shipyard "Wanderer Basics"
+	shipyard "Elenctic Commune Basic"
+	shipyard "Gainen Shipyard"
+	shipyard developer
+	outfitter aberrant
+	outfitter avgi
+	outfitter developer
+	outfitter bunrodea
+	outfitter coalition
+	outfitter drak
+	outfitter gegno
+	outfitter hai
+	outfitter human
+	outfitter incipias
+	outfitter kahet
+	outfitter korath
+	outfitter pug
+	outfitter quarg
+	outfitter remnant
+	outfitter rulei
+	outfitter sheragi
+	outfitter successors
+	outfitter vyrmeid
+	outfitter wanderer
+	outfitter "whispering void"
+	outfitter "Avgi Atomics"
+	outfitter "Avgi Dissonance Smuggling"
+	outfitter "Avgi Electronics"
+	outfitter "Avgi Engineering"
+	outfitter "Avgi General"
+	outfitter "Avgi Militia Surplus"
+	outfitter "Avgi Nanomaterials"
+	outfitter "Avgi Propulsion"
+	outfitter "Avgi Specialized"
+	outfitter "Avgi Superconductors"
+	outfitter "Avgi Torches"
+	outfitter "Avgi Twilight Guard"
+	outfitter "Bunrodea Advanced"
+	outfitter "Bunrodea Basic"
+	outfitter "Bunrodea Capital"
+	outfitter "Coalition Advanced"
+	outfitter "Coalition Basics"
+	outfitter "Heliarch Basics"
+	outfitter Heliarch
+	outfitter "Gegno Basic"
+	outfitter "Gegno Intermediate"
+	outfitter "Scin Advanced"
+	outfitter "Scin Basic"
+	outfitter "Scin Intermediate"
+	outfitter "Vi Basic"
+	outfitter "Vi Intermediate"
+	outfitter "Hai Advanced"
+	outfitter "Hai Basics"
+	outfitter "Hai Intermediate"
+	outfitter "Hai Security"
+	outfitter "Unfettered Basics"
+	outfitter "Ammo North"
+	outfitter "Ammo South"
+	outfitter "Basic Outfits"
+	outfitter "Common Outfits"
+	outfitter "Deep Sky Advanced"
+	outfitter "Deep Sky Basics"
+	outfitter "Delta V Advanced"
+	outfitter "Delta V Basics"
+	outfitter "FW Security"
+	outfitter "Kraz Advanced"
+	outfitter "Kraz Basics"
+	outfitter "Lovelace Advanced"
+	outfitter "Lovelace Basics"
+	outfitter "Lovelace Security"
+	outfitter "Northern Explorers"
+	outfitter Nuke
+	outfitter "Pirate Outfits"
+	outfitter "Stack Core"
+	outfitter "Syndicate Advanced"
+	outfitter "Syndicate Assistance"
+	outfitter "Syndicate Basics"
+	outfitter "Syndicated Security"
+	outfitter Hicemus
+	outfitter Ka'het
+	outfitter "Korath Basics"
+	outfitter "Korath Exiles"
+	outfitter "Korath Exiles Remnant Donations"
+	outfitter "Remnant Core"
+	outfitter "Remnant Salvage"
+	outfitter Remnant
+	outfitter "Void Sprite Parts"
+	outfitter "High Houses Light"
+	outfitter "High Houses Heavy"
+	outfitter "People's Houses"
+	outfitter "Successor Basics"
+	outfitter "Successor Civilian"
+	outfitter "Successor Heavy"
+	outfitter "Successor High Tech"
+	outfitter "Successor Weapons Basics"
+	outfitter "Successor Weapons Heavy"
+	outfitter "Wanderer Advanced"
+	outfitter "Wanderer Basics"
+	outfitter "Elenctic Commune Basic"
+	outfitter "Gainen Normals"
+	outfitter developer
+
 planet Gasinas
 	landscape land/land3
 	description `A Gainen gas mining station. The platforms float in the upper atmosphere, harvesting rare isotopes. The work is dangerous but well-paid.`
@@ -6643,6 +6979,7 @@ planet Haty'sa
 	landscape land/brownmountains1
 	description `A Vic'Na military outpost. Small, fortified, unremarkable. The soldiers here are disciplined and silent. The walls are thick.`
 	spaceport `A compact landing pad. The Vic'Na soldiers salute crisply. No one lingers here.`
+	outfitter "Vic'Na Outfits"
 
 planet Hirotovaisni
 	landscape land/moutainsnow3
@@ -6681,6 +7018,8 @@ planet "Ik:samme 60-20-90-40"
 	landscape land/foresttropical0
 	description `The Vic'Na capital station. Massive. Political. The center of Vic'Na power. Visitors are processed thoroughly and watched constantly.`
 	spaceport `A bustling political hub. The Vic'Na elite move through the corridors. Every conversation is monitored.`
+	shipyard "Vic'Na Shipyard"
+	outfitter "Vic'Na Outfits"
 
 planet Ikmastga
 	landscape land/lakemountains1
@@ -6956,6 +7295,7 @@ planet "Vic'na Border Security"
 	landscape land/mountainsnow0
 	description `A communication outpost before entering the wormhole. Signals are relayed here. The personnel are professional, cold, and utterly loyal.`
 	spaceport `A small communications station. The Vic'Na personnel ignore you. They are focused on their screens.`
+	outfitter "Vic'Na Outfits"
 
 planet Vidg'aa'na'ja
 	landscape land/greenmountains1

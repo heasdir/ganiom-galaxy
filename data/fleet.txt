@@ -416,5 +416,113 @@ fleet "Ssuryie Fleet"
 	cargo 0
 	personality
 		confusion 1
-	variant 100
+	variant 90
 		"Ssuryie" 20
+	variant 10
+		"Ssuryie UP" 10
+
+
+# ============================================================
+# VIC'NA FLEETS
+# ============================================================
+
+fleet "Vic'Na Patrol"
+	government "Vic'Na"
+	names "Vic'Na"
+	cargo 0
+	personality
+		confusion 1
+	variant 30
+		"Ik Vanderu" 3
+		"Ik Garo'seb" 2
+	variant 25
+		"Ik Claseb" 2
+		"Thro'thik" 2
+	variant 20
+		"Q'qenxorux"
+		"Ik Vanderu" 4
+		"Ik Garo'seb" 2
+	variant 15
+		"Reis'phat"
+		"Ik Claseb"
+		"Thro'thik" 3
+	variant 10
+		"Gwo'iling"
+		"Ik Garo'seb" 4
+
+fleet "Vic'Na Defense Fleet"
+	government "Vic'Na"
+	names "Vic'Na"
+	cargo 0
+	personality
+		confusion 1
+		heroic
+	variant 30
+		"Gwo'iling"
+		"Ik Claseb" 2
+		"Ik Vanderu" 3
+	variant 25
+		"Zroo'fak"
+		"Q'qenxorux" 2
+		"Ik Garo'seb" 4
+	variant 20
+		"Naa'maya'tri"
+		"Thro'thik" 4
+		"Ik Vanderu" 2
+	variant 15
+		"Gwo'iling" 2
+		"Reis'phat"
+		"Ik Claseb" 3
+	variant 10
+		"Xa'ru Kao'tum"
+		"Ik Vanderu" 6
+
+fleet "Vic'Na Strike Fleet"
+	government "Vic'Na"
+	names "Vic'Na"
+	cargo 0
+	personality
+		confusion 2
+		plunders
+	variant 30
+		"Zroo'fak" 2
+		"Ik Claseb" 3
+		"Ik Vanderu" 2
+	variant 25
+		"Xa'ru Kao'tum"
+		"Ik Garo'seb" 4
+		"Thro'thik" 2
+	variant 20
+		"Gwo'iling" 2
+		"Q'qenxorux" 2
+		"Ik Claseb"
+	variant 15
+		"Naa'maya'tri"
+		"Zroo'fak"
+		"Ik Vanderu" 4
+	variant 10
+		"Xa'ru Kao'tum" 2
+		"Reis'phat" 2
+		"Ik Claseb" 2
+
+fleet "Vic'Na Wormhole Guard"
+	government "Vic'Na"
+	names "Vic'Na"
+	cargo 0
+	personality
+		confusion 1
+		heroic
+		vindictive
+	variant 40
+		"Xa'ru Kao'tum"
+		"Gwo'iling"
+	variant 30
+		"Zroo'fak" 3
+		"Naa'maya'tri"
+	variant 20
+		"Gwo'iling" 2
+		"Reis'phat" 2
+	variant 10
+		"Xa'ru Kao'tum" 2
+		"Zroo'fak" 2
+		"Gwo'iling" 2
