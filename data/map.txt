@@ -410,6 +410,54 @@ system Bruica
 			distance 379
 			period 19.3796
 
+system Chircho
+	pos -10459.9 -6325.18
+	government Onnes
+	habitable 1505.92
+	link Omew
+	link Notun
+	asteroids "small rock" 38 3.1654
+	asteroids "medium rock" 7 4.3605
+	asteroids "large rock" 8 4.1344
+	asteroids "small metal" 26 4.1667
+	asteroids "medium metal" 46 4.1667
+	asteroids "large metal" 20 3.8114
+	fleet "Onnes Militia Patrol" 600
+	fleet "Onnes Swarm Assault" 7000
+	object
+		sprite star/g0
+		distance 27.1517
+		period 9.6954
+	object
+		sprite star/k5
+		distance 68.8483
+		period 9.6954
+		offset 180
+	object
+		sprite planet/rock5
+		distance 203.738
+		period 29.9756
+	object
+		sprite planet/gas14
+		distance 891.028
+		period 274.155
+		object
+			sprite planet/rock17
+			distance 245
+			period 15.6174
+		object
+			sprite planet/rock0
+			distance 379
+			period 30.0481
+	object
+		sprite planet/forest5
+		distance 1864.39
+		period 829.781
+	object
+		sprite planet/gas15
+		distance 2141.63
+		period 1021.59
+
 system "Chola Ka"
 	pos -9817.44 -5486.77
 	government Shizivi
@@ -726,6 +774,57 @@ system Deria
 			sprite planet/rock3
 			distance 308
 			period 28.7742
+
+system Dewobar
+	pos -10926.9 -6698.18
+	government Vic'Na
+	habitable 320
+	link Tra'kij
+	link Tha'zro
+	asteroids "small rock" 10 2.88
+	asteroids "medium rock" 1 5.6448
+	asteroids "large rock" 1 2.9568
+	asteroids "medium metal" 8 5.4528
+	asteroids "large metal" 5 5.7216
+	object
+		sprite star/m0
+		period 10
+	object
+		sprite planet/lava6
+		distance 131.29
+		period 33.6382
+		offset 8.41098
+	object Hrit
+		sprite planet/ice4
+		distance 345.93
+		period 143.869
+		offset 227.08
+	object
+		sprite planet/gas1
+		distance 1092.57
+		period 807.53
+		offset 308.245
+		object
+			sprite planet/rock14
+			distance 238
+			period 14.6751
+		object
+			sprite planet/dust1
+			distance 378
+			period 29.3733
+	object
+		sprite planet/jupiter
+		distance 1969.46
+		period 1954.37
+		offset 280.615
+		object
+			sprite planet/dust3
+			distance 262
+			period 13.3264
+		object
+			sprite planet/rock7
+			distance 372
+			period 22.5463
 
 system Dika'mki
 	pos -11717.9 -5716.35
@@ -1454,6 +1553,53 @@ system Gainescaf
 			distance 224
 			period 11.8241
 
+system Gi'gwo'mase
+	pos -10997.9 -6638.18
+	government Vic'Na
+	habitable 233.28
+	link Treas'se
+	link Kha'am
+	asteroids "medium rock" 2 1.4756
+	asteroids "large rock" 1 1.9754
+	asteroids "small metal" 2 3.3796
+	asteroids "medium metal" 15 2.023
+	asteroids "large metal" 1 2.9512
+	object
+		sprite star/m4
+		period 10
+	object Ka'kij
+		sprite planet/desert7
+		distance 134.25
+		period 40.7373
+	object
+		sprite planet/gas16
+		distance 805.09
+		period 598.257
+		object
+			sprite planet/rhea
+			distance 212
+			period 16.248
+		object
+			sprite planet/dust5
+			distance 361
+			period 36.1042
+	object
+		sprite planet/rock15
+		distance 1798.7
+		period 1997.83
+	object
+		sprite planet/gas0
+		distance 2910.74
+		period 4112.69
+		object
+			sprite planet/europa
+			distance 264
+			period 12.5708
+		object
+			sprite planet/luna
+			distance 353
+			period 19.4365
+
 system Hatysa
 	pos -474 -542
 	government Pirate
@@ -1706,52 +1852,72 @@ system Helefolaz
 	asteroids "large rock" 6 5.04
 	asteroids "medium metal" 3 8.904
 	asteroids "large metal" 1 7.98
+	fleet "Communist Ganiom Avg" 900
 	minables ganite 4 2.0
 	minables tungsten 5 8.289
-	fleet "Communist Ganiom Avg" 900
 	object
 		sprite star/m8
 		period 10
+		minables ganite 4 2.0
+		minables tungsten 5 8.289
 	object Oftiknqn
 		sprite planet/cloud7
 		distance 145.89
 		period 60.664
 		offset 316.012
+		minables ganite 4 2.0
+		minables tungsten 5 8.289
 	object
 		sprite planet/lava2
 		distance 445.85
 		period 324.098
 		offset 5.0659
+		minables ganite 4 2.0
+		minables tungsten 5 8.289
 	object
 		sprite planet/gas4
 		distance 1108.46
 		period 1270.5
 		offset 251.497
+		minables ganite 4 2.0
+		minables tungsten 5 8.289
 		object
 			sprite planet/dust7
 			distance 240
 			period 13.1134
+			minables ganite 4 2.0
+			minables tungsten 5 8.289
 	object
 		sprite planet/neptune
 		distance 2615.62
 		period 4605.27
 		offset 188.39
+		minables ganite 4 2.0
+		minables tungsten 5 8.289
 		object
 			sprite planet/io
 			distance 186
 			period 12.6387
+			minables ganite 4 2.0
+			minables tungsten 5 8.289
 		object
 			sprite planet/rock17
 			distance 265
 			period 21.4932
+			minables ganite 4 2.0
+			minables tungsten 5 8.289
 		object
 			sprite planet/europa
 			distance 380
 			period 36.9069
+			minables ganite 4 2.0
+			minables tungsten 5 8.289
 		object
 			sprite planet/miranda
 			distance 502
 			period 56.0387
+			minables ganite 4 2.0
+			minables tungsten 5 8.289
 
 system Helfp
 	pos -10530.8 -4402.66
@@ -1820,38 +1986,47 @@ system Hetipuron
 	object
 		sprite star/g0
 		period 10
+		minables vichlarite 4 3.0
 	object
 		sprite planet/dust6
 		distance 137.09
 		period 19.537
+		minables vichlarite 4 3.0
 	object
 		sprite planet/dust4
 		distance 378.25
 		period 89.5399
+		minables vichlarite 4 3.0
 	object
 		sprite planet/rock13
 		distance 1029.25
 		period 401.911
+		minables vichlarite 4 3.0
 	object
 		sprite planet/gas7
 		distance 2443.69
 		period 1470.34
+		minables vichlarite 4 3.0
 		object
 			sprite planet/ice0
 			distance 247
 			period 13.8094
+			minables vichlarite 4 3.0
 		object
 			sprite planet/dust1
 			distance 402
 			period 28.6728
+			minables vichlarite 4 3.0
 		object
 			sprite planet/ice8
 			distance 515
 			period 41.5759
+			minables vichlarite 4 3.0
 		object
 			sprite planet/rock0
 			distance 686
 			period 63.917
+			minables vichlarite 4 3.0
 
 system "Hidden Reflections"
 	pos -10174.7 -4591.44
@@ -2092,6 +2267,59 @@ system Hsa'Dinkada
 			sprite planet/station2
 			distance 476
 			period 30.4346
+
+system Husai
+	pos -10691.9 -6169.18
+	government Onnes
+	habitable 486.68
+	link Vrixhangar
+	link "Tra Belaig"
+	link Xhosaan
+	link Notun
+	asteroids "small rock" 66 2.8864
+	asteroids "medium rock" 38 4.1888
+	asteroids "large rock" 15 4.576
+	asteroids "small metal" 29 1.8656
+	asteroids "medium metal" 2 5.104
+	asteroids "large metal" 19 3.168
+	fleet "Onnes Deep Space Patrol" 700
+	fleet "Onnes Militia Patrol" 400
+	fleet "Onnes Merchant Escort" 500
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/lava3
+		distance 147.89
+		period 32.6097
+	object
+		sprite planet/forest4
+		distance 372.7
+		period 130.46
+	object
+		sprite planet/lava7
+		distance 680.74
+		period 322.04
+	object
+		sprite planet/gas13
+		distance 1563.35
+		period 1120.79
+		object
+			sprite planet/rock0
+			distance 288
+			period 13.7975
+		object
+			sprite planet/lava0
+			distance 435
+			period 25.612
+		object
+			sprite planet/tethys
+			distance 522
+			period 33.6679
+		object
+			sprite planet/desert4
+			distance 692
+			period 51.3889
 
 system Il'ka
 	pos -11124.9 -6691.81
@@ -2758,6 +2986,47 @@ system Kema
 			sprite planet/station6
 			distance 789
 			period 56.6083
+
+system Kha'am
+	pos -10953.9 -6423.18
+	government Vic'Na
+	habitable 806.68
+	link Gi'gwo'mase
+	link Vrixhangar
+	asteroids "medium rock" 4 2.7404
+	asteroids "large rock" 3 2.0111
+	asteroids "small metal" 1 2.2321
+	asteroids "medium metal" 7 2.3426
+	asteroids "large metal" 2 1.1934
+	object
+		sprite star/k0
+		distance 36.892
+		period 12.6309
+		offset 180
+	object
+		sprite star/m0
+		distance 56.108
+		period 12.6309
+	object
+		sprite planet/cloud2
+		distance 277.518
+		period 65.1098
+	object Bor'dir
+		sprite planet/lava7
+		distance 530.768
+		period 172.213
+	object
+		sprite planet/desert7
+		distance 758.058
+		period 293.943
+	object
+		sprite planet/desert3
+		distance 959.618
+		period 418.656
+	object
+		sprite planet/gas12
+		distance 2560.78
+		period 1825.02
 
 system Ki'lad
 	pos -11155.9 -6677.81
@@ -3726,34 +3995,42 @@ system Nanaskibja
 	object
 		sprite star/m4
 		period 10
+		minables vichlarite 5 3.5
 	object
 		sprite planet/desert5
 		distance 299.96
 		period 136.056
+		minables vichlarite 5 3.5
 		object
 			sprite planet/dust5
 			distance 183
 			period 27.2214
+			minables vichlarite 5 3.5
 	object
 		sprite planet/rock17
 		distance 608.45
 		period 393.06
+		minables vichlarite 5 3.5
 	object
 		sprite planet/gas9
 		distance 975.89
 		period 798.404
+		minables vichlarite 5 3.5
 		object
 			sprite planet/oberon
 			distance 247
 			period 14.5558
+			minables vichlarite 5 3.5
 	object
 		sprite planet/gas1
 		distance 2293.45
 		period 2876.44
+		minables vichlarite 5 3.5
 		object
 			sprite planet/rhea
 			distance 242
 			period 15.0466
+			minables vichlarite 5 3.5
 
 system Nik'taj
 	pos -11382.9 -5715.35
@@ -3999,6 +4276,55 @@ system Northpoint
 			sprite planet/rock3
 			distance 560
 			period 34.807
+
+system Notun
+	pos -10576.9 -6258.18
+	government Onnes
+	habitable 486.68
+	link Husai
+	link Chircho
+	asteroids "small rock" 2 1.1628
+	asteroids "medium rock" 7 1.5048
+	asteroids "large rock" 2 2.3028
+	asteroids "small metal" 34 2.8272
+	asteroids "medium metal" 35 3.192
+	asteroids "large metal" 17 2.6448
+	fleet "Onnes Deep Space Patrol" 700
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/ice5
+		distance 226.61
+		period 61.8524
+	object "Vaa Naxi"
+		sprite planet/rock5
+		distance 469.5
+		period 184.456
+	object
+		sprite planet/gas2
+		distance 1159.46
+		period 715.85
+	object
+		sprite planet/rock9
+		distance 1406.27
+		period 956.184
+	object
+		sprite planet/rhea
+		distance 1915.52
+		period 1520.09
+	object
+		sprite planet/gas16
+		distance 3225.33
+		period 3321.23
+		object
+			sprite planet/rock14
+			distance 210
+			period 16.0187
+		object
+			sprite planet/oberon
+			distance 342
+			period 33.2917
 
 system Occuinstain
 	pos -11795.6 -5341.29
@@ -4249,6 +4575,47 @@ system Olacheme
 		distance 2087.92
 		period 1307.53
 
+system Omew
+	pos -10364.9 -6258.18
+	government Onnes
+	habitable 1111.68
+	link Chircho
+	asteroids "medium rock" 4 2.2814
+	asteroids "large rock" 1 1.5147
+	asteroids "small metal" 16 2.5619
+	asteroids "medium metal" 4 1.8887
+	asteroids "large metal" 11 2.5058
+	fleet "Onnes Deep Space Patrol"
+	object
+		sprite star/g5
+		distance 39.4009
+		period 10.2432
+	object
+		sprite star/k0
+		distance 50.5991
+		period 10.2432
+		offset 180
+	object
+		sprite planet/dust6
+		distance 222.849
+		period 39.9104
+	object
+		sprite planet/cloud0
+		distance 509.889
+		period 138.129
+	object
+		sprite planet/cloud1
+		distance 824.249
+		period 283.895
+	object Haav
+		sprite planet/gas8
+		distance 1120.94
+		period 450.239
+	object
+		sprite planet/gas10
+		distance 3160.19
+		period 2131.28
+
 system Onarin
 	pos -10115 -5477.03
 	government "Communist Ganiom"
@@ -4363,30 +4730,37 @@ system Onnsriawa
 	object
 		sprite star/g0
 		period 10
+		minables vichlarite 3 3.0
 	object FAIL-99689000
 		sprite planet/rock5
 		distance 226.49
 		period 41.4879
+		minables vichlarite 3 3.0
 	object
 		sprite planet/gas16
 		distance 721.25
 		period 235.764
+		minables vichlarite 3 3.0
 		object
 			sprite planet/europa
 			distance 195
 			period 14.3334
+			minables vichlarite 3 3.0
 	object
 		sprite planet/gas10
 		distance 1455.25
 		period 675.701
+		minables vichlarite 3 3.0
 	object
 		sprite planet/gas6
 		distance 2669.25
 		period 1678.54
+		minables vichlarite 3 3.0
 		object
 			sprite planet/oberon
 			distance 273
 			period 11.5215
+			minables vichlarite 3 3.0
 
 system "Osi Lannen"
 	pos -10206.8 -4081.66
@@ -5583,6 +5957,57 @@ system Test
 	link Onarin
 	pos 1001
 
+system Tha'zro
+	pos -10814.9 -6699.18
+	government Vic'Na
+	habitable 640
+	link Dewobar
+	asteroids "small rock" 8 2.6325
+	asteroids "medium rock" 6 4.7125
+	asteroids "large rock" 6 1.625
+	asteroids "large metal" 1 3.77
+	object
+		sprite star/m0
+		distance 43
+		period 12.6101
+		offset 180
+	object
+		sprite star/m0
+		distance 43
+		period 12.6101
+	object
+		sprite planet/desert6
+		distance 231.64
+		period 55.743
+	object Ga:loi
+		sprite planet/dust0
+		distance 405.53
+		period 129.123
+	object
+		sprite planet/ocean8
+		distance 697.34
+		period 291.163
+	object
+		sprite planet/gas9
+		distance 1862.18
+		period 1270.58
+		object
+			sprite planet/luna
+			distance 261
+			period 15.8107
+		object
+			sprite planet/io
+			distance 370
+			period 26.6866
+		object
+			sprite planet/dust3
+			distance 458
+			period 36.7527
+		object
+			sprite planet/rock14
+			distance 657
+			period 63.1449
+
 system "Tiraini Between"
 	pos -9293.95 -5438.62
 	government "The Between"
@@ -5755,53 +6180,184 @@ system Tje
 			distance 296
 			period 14.3763
 
+system "Tra Belaig"
+	pos -10787.9 -6110.18
+	government Onnes
+	habitable 233.28
+	link Vrixhangar
+	link Husai
+	link "Tra Klosai"
+	link Xhosaan
+	asteroids "large rock" 1 0.649
+	asteroids "medium metal" 7 1.595
+	asteroids "large metal" 1 1.111
+	fleet "Onnes Swarm Assault" 600
+	object
+		sprite star/m4
+		period 10
+	object "Rao Sik"
+		sprite planet/desert5
+		distance 306.76
+		period 140.708
+		object
+			sprite planet/ice0
+			distance 147
+			period 19.5979
+	object
+		sprite planet/rock9
+		distance 625.65
+		period 409.844
+	object
+		sprite planet/gas7
+		distance 1226.41
+		period 1124.8
+	object
+		sprite planet/gas4
+		distance 1895.85
+		period 2161.86
+		object
+			sprite planet/rock7
+			distance 249
+			period 13.8579
+		object
+			sprite planet/ice8
+			distance 370
+			period 25.1015
+
+system "Tra Klosai"
+	pos -10787.9 -6062.18
+	government Onnes
+	habitable 233.28
+	link "Tra Belaig"
+	link Xhosaan
+	asteroids "large rock" 1 2.147
+	asteroids "small metal" 1 1.9
+	asteroids "large metal" 1 2.698
+	fleet "Onnes Artillery Line" 200
+	object
+		sprite star/m4
+		period 10
+	object Plaantai
+		sprite planet/titan
+		distance 172.41
+		period 59.2877
+	object
+		sprite planet/ice7
+		distance 323.5
+		period 152.382
+	object
+		sprite planet/rock2
+		distance 868.31
+		period 670.09
+	object
+		sprite planet/uranus
+		distance 2005.72
+		period 2352.48
+		object
+			sprite planet/dust7
+			distance 233
+			period 15.1952
+
+system Tra'kij
+	pos -10926.9 -6733.18
+	government Vic'Na
+	habitable 1080
+	link Yu'mase
+	link Dewobar
+	asteroids "medium rock" 28 2.369
+	asteroids "large rock" 1 1.357
+	asteroids "medium metal" 18 3.151
+	asteroids "large metal" 6 3.45
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/rock8
+		distance 188.56
+		period 31.5154
+	object
+		sprite planet/gas4
+		distance 772.45
+		period 261.309
+		object
+			sprite planet/miranda
+			distance 243
+			period 13.36
+		object
+			sprite planet/dust0
+			distance 372
+			period 25.3053
+	object
+		sprite planet/lava6
+		distance 1706.94
+		period 858.372
+	object
+		sprite planet/gas1
+		distance 2711.56
+		period 1718.61
+		offset 15.3068
+		object Doi:La
+			sprite planet/station3
+			distance 231
+			period 14.0325
+
 system Treas'se
 	pos -10995.5 -6666.11
 	government Vic'Na
 	habitable 320
 	link Yu'mase
+	link Gi'gwo'mase
 	asteroids "medium metal" 1 4.374
 	asteroids "large metal" 2 3.8394
 	fleet "Vic'Na Patrol"
 	object
 		sprite star/m0
 		period 10
+		fleet "Vic'Na Patrol"
 	object
 		sprite planet/lava1
 		distance 123
 		period 30.503
 		offset 200.224
+		fleet "Vic'Na Patrol"
 	object Haj'li
 		sprite planet/ocean9
 		distance 373.388
 		period 161.334
 		offset 95.7395
+		fleet "Vic'Na Patrol"
 	object
 		sprite planet/desert6
 		distance 897.748
 		period 601.474
 		offset 13.5662
+		fleet "Vic'Na Patrol"
 		object
 			sprite planet/dust4
 			distance 139
 			period 17.0745
+			fleet "Vic'Na Patrol"
 	object
 		sprite planet/gas15
 		distance 1694.84
 		period 1560.19
 		offset 2.69561
+		fleet "Vic'Na Patrol"
 		object
 			sprite planet/dust7
 			distance 205
 			period 15.45
+			fleet "Vic'Na Patrol"
 		object
 			sprite planet/ice0
 			distance 332
 			period 31.8423
+			fleet "Vic'Na Patrol"
 		object
 			sprite planet/dust5
 			distance 491
 			period 57.269
+			fleet "Vic'Na Patrol"
 
 system "Ulke Mavru"
 	pos -11760.9 -5671.35
@@ -5921,48 +6477,59 @@ system Vi'binaa
 		distance 58
 		period 17.1225
 		offset 180
+		fleet "Vic'Na Wormhole Guard"
 	object
 		sprite star/k5
 		distance 58
 		period 17.1225
+		fleet "Vic'Na Wormhole Guard"
 	object
 		sprite planet/rock14
 		distance 229.29
 		period 47.5837
+		fleet "Vic'Na Wormhole Guard"
 	object
 		sprite planet/cloud8
 		distance 405.9
 		period 112.075
+		fleet "Vic'Na Wormhole Guard"
 	object CixAVic
 		sprite planet/wormhole
 		distance 1698.08
 		period 958.997
 		offset 300.428
+		fleet "Vic'Na Wormhole Guard"
 		object "Vic'na Border Security"
 			sprite planet/dust5
 			distance 191
 			period 13.8946
+			fleet "Vic'Na Wormhole Guard"
 		object
 			sprite planet/tethys
 			distance 306
 			period 28.176
+			fleet "Vic'Na Wormhole Guard"
 		object
 			sprite planet/ice8
 			distance 423
 			period 45.7939
+			fleet "Vic'Na Wormhole Guard"
 	object
 		sprite planet/gas6
 		distance 3415.92
 		period 2736.16
 		offset 39.297
+		fleet "Vic'Na Wormhole Guard"
 		object
 			sprite planet/dust3
 			distance 279
 			period 11.9034
+			fleet "Vic'Na Wormhole Guard"
 		object
 			sprite planet/dust1
 			distance 426
 			period 22.4584
+			fleet "Vic'Na Wormhole Guard"
 
 system Vic'Naia
 	pos -11164.2 -6750.56
@@ -6159,6 +6726,60 @@ system Viraii
 			distance 194
 			period 14.2233
 
+system Vrixhangar
+	pos -10796.9 -6186.18
+	government Onnes
+	habitable 625
+	link Kha'am
+	link "Tra Belaig"
+	link Husai
+	asteroids "small rock" 8 4.2891
+	asteroids "medium rock" 25 5.6202
+	asteroids "large rock" 4 4.4863
+	asteroids "small metal" 15 5.3244
+	asteroids "medium metal" 28 4.1412
+	asteroids "large metal" 5 4.93
+	fleet "Onnes Swarm Assault" 300
+	object
+		sprite star/g5
+		period 10
+	object "Tok Ra"
+		sprite planet/gas15
+		distance 415
+		period 135.267
+		offset 356.305
+		object
+			sprite planet/rock17
+			distance 214
+			period 16.4785
+		object
+			sprite planet/dust7
+			distance 303
+			period 27.7627
+	object
+		sprite planet/ocean0
+		distance 910.09
+		period 439.285
+		offset 358.071
+	object
+		sprite planet/ice6
+		distance 1246.5
+		period 704.139
+		offset 359.121
+		object
+			sprite planet/oberon
+			distance 119
+			period 16.3186
+	object
+		sprite planet/uranus
+		distance 2392.86
+		period 1872.82
+		offset 359.828
+		object
+			sprite planet/dust4
+			distance 252
+			period 17.0913
+
 system Vyltraj
 	pos -11821.2 -5866.91
 	government Serbajkil
@@ -6270,12 +6891,58 @@ system Xee'rafa
 		distance 3764.8
 		period 2381.07
 
+system Xhosaan
+	pos -10714.9 -6092.18
+	government Onnes
+	habitable 320
+	link "Tra Belaig"
+	link "Tra Klosai"
+	link Husai
+	asteroids "small rock" 14 7.728
+	asteroids "medium rock" 7 4.209
+	asteroids "large rock" 3 8.418
+	asteroids "medium metal" 2 6.762
+	asteroids "large metal" 17 9.867
+	fleet "Onnes Home Guard" 400
+	object
+		sprite star/m0
+		period 10
+	object Gaawaan
+		sprite planet/ice6
+		distance 305.29
+		period 119.276
+		object
+			sprite planet/ice0
+			distance 139
+			period 20.6008
+	object
+		sprite planet/lava2
+		distance 785.78
+		period 492.534
+	object
+		sprite planet/mercury
+		distance 1292.22
+		period 1038.7
+	object
+		sprite planet/rock3
+		distance 1675.58
+		period 1533.67
+	object
+		sprite planet/gas10
+		distance 4000.83
+		period 5658.62
+		object
+			sprite planet/io
+			distance 222
+			period 17.4111
+
 system Yu'mase
 	pos -10992.5 -6704.11
 	government Vic'Na
 	habitable 233.28
 	link He'ile
 	link Treas'se
+	link Tra'kij
 	asteroids "small rock" 37 2.808
 	asteroids "medium rock" 34 1.566
 	asteroids "large rock" 32 2.511
@@ -6325,50 +6992,77 @@ system Yu'mase
 planet "Abeni "
 	landscape land/greenmountains1
 	description `Abeni is a rocky planet, controlled by the Bruchaven Issarei. It is also the capital of Bruchaven Issarei. The cities are carved into the red cliffs, and the sky always glows orange at dusk.`
+	description `	Abeni is a rocky planet, controlled by the Bruchaven Issarei. It is also the capital of Bruchaven Issarei. The cities are carved into the red cliffs, and the sky always glows orange at dusk.`
 	spaceport `The spaceport buzzes with activity—explorers, traders, and spies all mingle here. The Issarei keep a watchful eye on everyone.`
+	spaceport `	The spaceport buzzes with activity—explorers, traders, and spies all mingle here. The Issarei keep a watchful eye on everyone.`
 
 planet Ad-Osini
 	landscape land/land18
 	description `Ad-Osini is a world with archipelagos everywhere. The Lannen have built floating bridges between islands. The water is crystal clear and teems with exotic fish.`
+	description `	Ad-Osini is a world with archipelagos everywhere. The Lannen have built floating bridges between islands. The water is crystal clear and teems with exotic fish.`
 	spaceport `A small dock on the main island. Fishing boats and trade vessels share the harbor. The locals are friendly and offer fresh catch.`
+	spaceport `	A small dock on the main island. Fishing boats and trade vessels share the harbor. The locals are friendly and offer fresh catch.`
 
 planet Aerie
 	landscape land/greenmountains2
 	description `This station wasn't built by the Bruchaven. It remains as a relic of an unknown race. The architecture is alien, unsettling, and impossibly old. Some sections are still unexplored.`
+	description `	This station wasn't built by the Bruchaven. It remains as a relic of an unknown race. The architecture is alien, unsettling, and impossibly old. Some sections are still unexplored.`
 
 planet Ag-deria
 	landscape land/foresttropical0
 	description `An ocean world with a single island chain—the only landmass. The Lannen built floating cities here. Underwater, something ancient sleeps. The sailors whisper about it.`
+	description `	An ocean world with a single island chain—the only landmass. The Lannen built floating cities here. Underwater, something ancient sleeps. The sailors whisper about it.`
 	spaceport `A floating platform that serves as the main port. The waves are gentle, but the locals avoid the deeper waters after dark.`
+	spaceport `	A floating platform that serves as the main port. The waves are gentle, but the locals avoid the deeper waters after dark.`
 
 planet Ajma
 	landscape land/greenmountains2
 	description `The only station made by the Bruchaven and the only station with a spaceport. There are unlandable stations with hidden meanings near it. This station is the only reason the surrounding systems aren't uninhabited.`
+	description `	The only station made by the Bruchaven and the only station with a spaceport. There are unlandable stations with hidden meanings near it. This station is the only reason the surrounding systems aren't uninhabited.`
 	spaceport `The people here are mainly explorers and trade jump drives. They say they have explored the Lannen space. What is the Lannen space?`
+	spaceport `	The people here are mainly explorers and trade jump drives. They say they have explored the Lannen space. What is the Lannen space?`
 
 planet Al'Nisan
 	landscape land/brownmountains1
 	description `A terraformed world still in progress. The atmosphere is breathable but thin. Colonists live in pressurized domes while the planet slowly transforms. The mountains are a rusty red.`
+	description `	A terraformed world still in progress. The atmosphere is breathable but thin. Colonists live in pressurized domes while the planet slowly transforms. The mountains are a rusty red.`
 
 planet Ayib'iiahii'onwnl
 	landscape land/greenmountains1
 	description `A Foren research station studying the neighboring systems. The scientists are secretive and close their doors when you approach. Strange sounds echo through the corridors at night.`
+	description `	A Foren research station studying the neighboring systems. The scientists are secretive and close their doors when you approach. Strange sounds echo through the corridors at night.`
 	spaceport `A small docking bay. The Foren personnel are polite but evasive. They speak in hushed tones.`
+	spaceport `	A small docking bay. The Foren personnel are polite but evasive. They speak in hushed tones.`
 
 planet "Between - Home"
 	landscape land/brownmountains1
 	description `Home of The Between. A world of perpetual twilight and ancient forests. The Between are elusive and rarely seen. Their cities are hidden beneath the canopy.`
+	description `	Home of The Between. A world of perpetual twilight and ancient forests. The Between are elusive and rarely seen. Their cities are hidden beneath the canopy.`
 	spaceport `A single landing pad in a forest clearing. The Between observe silently from the shadows. You feel watched.`
+	spaceport `	A single landing pad in a forest clearing. The Between observe silently from the shadows. You feel watched.`
+
+planet Bor'dir
+	landscape land/brownmountains1
+	description f
+	spaceport aa
 
 planet Bra'jk'in
 	landscape land/foresttropical0
 	description `A frozen archive-world. The Vic'Na store their historical records in underground vaults carved from ancient glaciers. The air is thin, cold, and smells of old paper.`
+	description `	A frozen archive-world. The Vic'Na store their historical records in underground vaults carved from ancient glaciers. The air is thin, cold, and smells of old paper.`
 	spaceport `A small ice-hewn landing bay. The Vic'Na archivists are silent and meticulous. They don't appreciate interruptions.`
+	spaceport `	A small ice-hewn landing bay. The Vic'Na archivists are silent and meticulous. They don't appreciate interruptions.`
+	shipyard "Vic'Na Shipyard"
+	shipyard "Vic'Na Shipyard"
+	outfitter "Vic'Na Outfits"
+	outfitter "Vic'Na Outfits"
 
 planet Cholintir
 	landscape land/land27
 	description `Foren Military Base. The central command for the Foren fleet. The planet is heavily fortified and bristling with weaponry. No visitors allowed.`
+	description `	Foren Military Base. The central command for the Foren fleet. The planet is heavily fortified and bristling with weaponry. No visitors allowed.`
 	spaceport `A military installation. Armed guards check every ship. The Forens are nice, but they take their security seriously.`
+	spaceport `	A military installation. Armed guards check every ship. The Forens are nice, but they take their security seriously.`
 
 planet CixAVic
 	landscape ""
@@ -6376,78 +7070,225 @@ planet CixAVic
 planet Da'in:ska;908
 	landscape "land/moutainsnow1@2x "
 	description `A frozen research world. The Vic'Na study something here—something they won't name. The scientists live in underground complexes. They never leave.`
+	description `	A frozen research world. The Vic'Na study something here—something they won't name. The scientists live in underground complexes. They never leave.`
 	spaceport `A secured facility. Researchers hurry between buildings. They avoid eye contact. What are they hiding?`
+	spaceport `	A secured facility. Researchers hurry between buildings. They avoid eye contact. What are they hiding?`
+	shipyard "Vic'Na Shipyard"
+	shipyard "Vic'Na Shipyard"
+	outfitter "Vic'Na Outfits"
+	outfitter "Vic'Na Outfits"
 
 planet Daajka
 	landscape land/greenmountains1
 	description `The Serbajkil capital burns with orange light from its geothermal vents. The locals say the planet's heart beats in sync with their own. The architecture is brutal, beautiful, and ancient—carved from obsidian and lit by eternal flame.`
+	description `	The Serbajkil capital burns with orange light from its geothermal vents. The locals say the planet's heart beats in sync with their own. The architecture is brutal, beautiful, and ancient—carved from obsidian and lit by eternal flame.`
 	spaceport `A massive obsidian structure. The heat is intense, but the Serbajkil don't seem to notice. The market sells exotic goods from across the galaxy.`
+	spaceport `	A massive obsidian structure. The heat is intense, but the Serbajkil don't seem to notice. The market sells exotic goods from across the galaxy.`
 
 planet Dka'MJi
 	landscape land/brownmountains1
 	description `A cold world where the Serbajkil harvest ice for their desert colonies. The ice-cutters sing ancient songs while they work. The songs have no translation.`
+	description `	A cold world where the Serbajkil harvest ice for their desert colonies. The ice-cutters sing ancient songs while they work. The songs have no translation.`
 	spaceport `A simple ice landing strip. The workers are hardy and taciturn. They offer hot drinks to visitors.`
+	spaceport `	A simple ice landing strip. The workers are hardy and taciturn. They offer hot drinks to visitors.`
+
+planet Doi:La
+	landscape land/greenmountains1
+	description `This station ia extraordinary, having an incredible amount of population.`
+	spaceport `The spaceport always asks if you are a tourist or not, because you are.`
+	shipyard "Vic'Na Shipyard"
+	outfitter "Vic'Na Outfits"
 
 planet Drakmagani
 	landscape land/land26
 	description `This planet is the Antarctica of Vic'Na Space. The Drak still live here today. They sell their Archons on Drakmagani. The ice plains stretch forever.`
+	description `	This planet is the Antarctica of Vic'Na Space. The Drak still live here today. They sell their Archons on Drakmagani. The ice plains stretch forever.`
 	spaceport `A small trading post. The Drak are fierce but fair. They offer Archons—strange alien artifacts—to those who can afford them.`
+	spaceport `	A small trading post. The Drak are fierce but fair. They offer Archons—strange alien artifacts—to those who can afford them.`
 	shipyard Drak
+	shipyard Drak
+	outfitter "Drak All"
 	outfitter "Drak All"
 
 planet FAIL-000000
 	landscape land/greenmountains2
 	description `????????????????????? fungus ???????????¿?¿¿¿¿¿¿?¿¿¿?¿¿¿??¿???????¿¿¿¿¿??????????!(!-+--&&--&&*££*&-__&&&&_&&_ Seems to be no information about this planet. The fungal growths spell out geometric patterns in the craters. The Bruchaven have quarantined three exploration teams who reported 'hearing the soil hum.'`
+	description `	????????????????????? fungus ???????????¿?¿¿¿¿¿¿?¿¿¿?¿¿¿??¿???????¿¿¿¿¿??????????!(!-+--&&--&&*££*&-__&&&&_&&_ Seems to be no information about this planet. The fungal growths spell out geometric patterns in the craters. The Bruchaven have quarantined three exploration teams who reported 'hearing the soil hum.'`
 
 planet FAIL-700100
 	landscape land/greenmountains2
 	description `Just a fungal planet? What are the Bruchaven hiding? Scans show fungal growth covering 97% of the surface. The structures beneath are not natural. The Bruchaven have flagged this system for 'quarantine review.'`
+	description `	Just a fungal planet? What are the Bruchaven hiding? Scans show fungal growth covering 97% of the surface. The structures beneath are not natural. The Bruchaven have flagged this system for 'quarantine review.'`
 
 planet FAIL-99689000
 	landscape land/land27
 	description `Another fail, of some other race. The structures are pre-Foren, pre-Gainen, pre-everything. The soil contains no organic matter. The wind sounds like breathing.`
+	description `	Another fail, of some other race. The structures are pre-Foren, pre-Gainen, pre-everything. The soil contains no organic matter. The wind sounds like breathing.`
 
 planet Fo'kak'ni'si'slok
 	landscape land/greenmountains2
 	description `Welcome to the land of diversity. Humans, Gainen, ???'s, and The Forens live peacefully here. The streets are a riot of languages and cultures. The ???'s won't say what they're called.`
+	description `	Welcome to the land of diversity. Humans, Gainen, ???'s, and The Forens live peacefully here. The streets are a riot of languages and cultures. The ???'s won't say what they're called.`
 	spaceport `You see some funny-looking people here. The market is chaotic but friendly. Everyone seems to be trading something strange.`
+	spaceport `	You see some funny-looking people here. The market is chaotic but friendly. Everyone seems to be trading something strange.`
 
 planet "Foryurda Ekamo"
 	landscape ""
 	description `This planet has no reason to be colonized, but it is. Hell is colonized—barely. The inhabitants live in underground bunkers, emerging only for supplies. Why anyone lives here is a mystery. They say the scenery grows on you.`
+	description `	This planet has no reason to be colonized, but it is. Hell is colonized—barely. The inhabitants live in underground bunkers, emerging only for supplies. Why anyone lives here is a mystery. They say the scenery grows on you.`
 	spaceport `A crude landing area. The locals are grim but helpful. They say the volcanic ash is good for the skin.`
+	spaceport `	A crude landing area. The locals are grim but helpful. They say the volcanic ash is good for the skin.`
 
 planet Frt'Eliminatr
 	landscape land/greenmountains1
 	description `???. The Forens don't talk about this place. The few who land there return with fragmented memories and a strange, metallic taste in their mouths. The station above orbits in perfect silence.`
+	description `	???. The Forens don't talk about this place. The few who land there return with fragmented memories and a strange, metallic taste in their mouths. The station above orbits in perfect silence.`
 	spaceport `??? ??? ??? you don't understand. The Foren personnel are unresponsive. The station hums at a frequency that makes your teeth ache.`
+	spaceport `	??? ??? ??? you don't understand. The Foren personnel are unresponsive. The station hums at a frequency that makes your teeth ache.`
 
 planet Fruga'le
 	landscape land/land0
 	description `Failed terraformation turned this world into a nightmare jungle. The Vic'Na use it as a survival training ground. The flora is aggressive; the fauna is worse. Only the strong survive.`
+	description `	Failed terraformation turned this world into a nightmare jungle. The Vic'Na use it as a survival training ground. The flora is aggressive; the fauna is worse. Only the strong survive.`
 	spaceport `A small military outpost. The Vic'Na soldiers here are hardened veterans. They train relentlessly in the jungle.`
+	spaceport `	A small military outpost. The Vic'Na soldiers here are hardened veterans. They train relentlessly in the jungle.`
+	shipyard "Vic'Na Shipyard"
+	shipyard "Vic'Na Shipyard"
+	outfitter "Vic'Na Outfits"
+	outfitter "Vic'Na Outfits"
 
 planet Ga'ratri
 	landscape land/foresttropical0
 	description `A Vic'Na mining world. The workers live in underground cities. The ore they extract is essential to the Vic'Na economy. The air is dusty and the work is hard.`
+	description `	A Vic'Na mining world. The workers live in underground cities. The ore they extract is essential to the Vic'Na economy. The air is dusty and the work is hard.`
+	spaceport `The spaceport is rusty, but it works. Every single person in the spaceport is a worker, working to extract essential materials.`
+	shipyard "Vic'Na Shipyard"
+	shipyard "Vic'Na Shipyard"
+	outfitter "Vic'Na Outfits"
+	outfitter "Vic'Na Outfits"
+
+planet Ga:loi
+	landscape land/greenmountains1
+	description fe
+	spaceport d
+
+planet Gaawaan
+	landscape land/land0
+	description f
+	spaceport f
 
 planet "Gaie Point"
 	landscape land/land13
 	description `A strange world where most inhabitants aren't Gainen at all. They whisper about 'Serhbajkil'—perhaps a system? A faction? No one will explain. The architecture is odd, hybrid, and unsettling.`
+	description `	A strange world where most inhabitants aren't Gainen at all. They whisper about 'Serhbajkil'—perhaps a system? A faction? No one will explain. The architecture is odd, hybrid, and unsettling.`
 	spaceport `"??? ??? ???? Serhbajkil." Perhaps they are talking about a system? "Serhbajkil" doesn't look like it would be anything else. The locals stare at you.`
+	spaceport `	"??? ??? ???? Serhbajkil." Perhaps they are talking about a system? "Serhbajkil" doesn't look like it would be anything else. The locals stare at you.`
+	shipyard "Gainen Shipyard"
 	shipyard "Gainen Shipyard"
 
 planet Gainisen
 	landscape land/brownmountains1
 	description `Home of the Gainen people. The capital's floating gardens drift above the clouds, visible from orbit. The Gainen believe their ancestors watch from the stars above the gardens. The architecture is elegant, functional, and ancient.`
+	description `	Home of the Gainen people. The capital's floating gardens drift above the clouds, visible from orbit. The Gainen believe their ancestors watch from the stars above the gardens. The architecture is elegant, functional, and ancient.`
 	spaceport `Home of the Gainen. The spaceport is a marvel of engineering—glass domes and floating platforms. The Gainen are welcoming but reserved.`
+	spaceport `	Home of the Gainen. The spaceport is a marvel of engineering—glass domes and floating platforms. The Gainen are welcoming but reserved.`
 	shipyard "Gainen Shipyard"
+	shipyard "Gainen Shipyard"
+	outfitter "Gainen Normals"
 	outfitter "Gainen Normals"
 
 planet "Ganiom Cheat"
 	landscape land/land27
 	description `You found it! Omnis in Ganiom! This hidden station sells ships and outfits from every faction in the galaxy. How it exists is a mystery. Who built it is an even bigger one.`
+	description `	You found it! Omnis in Ganiom! This hidden station sells ships and outfits from every faction in the galaxy. How it exists is a mystery. Who built it is an even bigger one.`
 	spaceport `The ultimate shipyard. Every ship, every outfit, every faction. The station is a legend among spacers.`
+	spaceport `	The ultimate shipyard. Every ship, every outfit, every faction. The station is a legend among spacers.`
+	shipyard omnis
+	shipyard aberrant
+	shipyard avgi
+	shipyard developer
+	shipyard bunrodea
+	shipyard coalition
+	shipyard drak
+	shipyard gegno
+	shipyard hai
+	shipyard human
+	shipyard iije
+	shipyard incipias
+	shipyard kahet
+	shipyard korath
+	shipyard pug
+	shipyard quarg
+	shipyard remnant
+	shipyard rulei
+	shipyard sheragi
+	shipyard successors
+	shipyard vyrmeid
+	shipyard wanderer
+	shipyard "whispering void"
+	shipyard "Bunrodea Advanced"
+	shipyard "Bunrodea Basic"
+	shipyard "Bunrodea Capital"
+	shipyard Arach
+	shipyard "Coalition Basics"
+	shipyard Kimek
+	shipyard Saryd
+	shipyard "Gegno Advanced"
+	shipyard "Gegno Basic"
+	shipyard "Gegno Intermediate"
+	shipyard "Scin Cargo"
+	shipyard "Scin Utility"
+	shipyard "Scin Warships"
+	shipyard "Vi Cargo"
+	shipyard "Vi Utility"
+	shipyard "Vi Warships I"
+	shipyard "Vi Warships II"
+	shipyard "Imo Loo Mer Advanced"
+	shipyard "Imo Loo Mer Basics"
+	shipyard "Mon Ki i'Hiya Advanced"
+	shipyard "Mon Ki i'Hiya Basics"
+	shipyard "Mon Ki o'Uden Advanced"
+	shipyard "Yeer e Ki Advanced"
+	shipyard "Yeer e Ki Basics"
+	shipyard "Advanced Core Pirates"
+	shipyard "Advanced Northern Pirates"
+	shipyard "Advanced Southern Pirates"
+	shipyard "Basic Ships"
+	shipyard "Betelgeuse Advanced"
+	shipyard "Betelgeuse Basics"
+	shipyard "Core Pirates"
+	shipyard "Lionheart Advanced"
+	shipyard "Lionheart Basics"
+	shipyard "Luxury Ships"
+	shipyard "Megaparsec Advanced"
+	shipyard "Megaparsec Basics"
+	shipyard "Navy Advanced"
+	shipyard "Navy Basics"
+	shipyard "Northern Pirates"
+	shipyard "Southbound Advanced"
+	shipyard "Southbound Basics"
+	shipyard "Southern Pirates"
+	shipyard "Syndicate Advanced"
+	shipyard "Syndicate Basics"
+	shipyard "Tarazed Advanced"
+	shipyard "Tarazed Basics"
+	shipyard Hicemus
+	shipyard "Remnant Puffin"
+	shipyard "Remnant Salvage Ships"
+	shipyard Remnant
+	shipyard "High Houses Light"
+	shipyard "High Houses Heavy"
+	shipyard "New Houses Light"
+	shipyard "People's Houses"
+	shipyard "Successor Basics"
+	shipyard "Successor Civilian"
+	shipyard "Successor Heavy"
+	shipyard Waterlining
+	shipyard "Wanderer Advanced"
+	shipyard "Wanderer Basics"
+	shipyard "Elenctic Commune Basic"
+	shipyard "Gainen Shipyard"
+	shipyard developer
 	shipyard omnis
 	shipyard aberrant
 	shipyard avgi
@@ -6631,220 +7472,6 @@ planet "Ganiom Cheat"
 	outfitter "Elenctic Commune Basic"
 	outfitter "Gainen Normals"
 	outfitter developer
-
-planet "Abeni "
-	landscape land/greenmountains1
-	description `Abeni is a rocky planet, controlled by the Bruchaven Issarei. It is also the capital of Bruchaven Issarei. The cities are carved into the red cliffs, and the sky always glows orange at dusk.`
-	spaceport `The spaceport buzzes with activity—explorers, traders, and spies all mingle here. The Issarei keep a watchful eye on everyone.`
-
-planet Ad-Osini
-	landscape land/land18
-	description `Ad-Osini is a world with archipelagos everywhere. The Lannen have built floating bridges between islands. The water is crystal clear and teems with exotic fish.`
-	spaceport `A small dock on the main island. Fishing boats and trade vessels share the harbor. The locals are friendly and offer fresh catch.`
-
-planet Aerie
-	landscape land/greenmountains2
-	description `This station wasn't built by the Bruchaven. It remains as a relic of an unknown race. The architecture is alien, unsettling, and impossibly old. Some sections are still unexplored.`
-
-planet Ag-deria
-	landscape land/foresttropical0
-	description `An ocean world with a single island chain—the only landmass. The Lannen built floating cities here. Underwater, something ancient sleeps. The sailors whisper about it.`
-	spaceport `A floating platform that serves as the main port. The waves are gentle, but the locals avoid the deeper waters after dark.`
-
-planet Ajma
-	landscape land/greenmountains2
-	description `The only station made by the Bruchaven and the only station with a spaceport. There are unlandable stations with hidden meanings near it. This station is the only reason the surrounding systems aren't uninhabited.`
-	spaceport `The people here are mainly explorers and trade jump drives. They say they have explored the Lannen space. What is the Lannen space?`
-
-planet Al'Nisan
-	landscape land/brownmountains1
-	description `A terraformed world still in progress. The atmosphere is breathable but thin. Colonists live in pressurized domes while the planet slowly transforms. The mountains are a rusty red.`
-
-planet Ayib'iiahii'onwnl
-	landscape land/greenmountains1
-	description `A Foren research station studying the neighboring systems. The scientists are secretive and close their doors when you approach. Strange sounds echo through the corridors at night.`
-	spaceport `A small docking bay. The Foren personnel are polite but evasive. They speak in hushed tones.`
-
-planet "Between - Home"
-	landscape land/brownmountains1
-	description `Home of The Between. A world of perpetual twilight and ancient forests. The Between are elusive and rarely seen. Their cities are hidden beneath the canopy.`
-	spaceport `A single landing pad in a forest clearing. The Between observe silently from the shadows. You feel watched.`
-
-planet Bra'jk'in
-	landscape land/foresttropical0
-	description `A frozen archive-world. The Vic'Na store their historical records in underground vaults carved from ancient glaciers. The air is thin, cold, and smells of old paper.`
-	spaceport `A small ice-hewn landing bay. The Vic'Na archivists are silent and meticulous. They don't appreciate interruptions.`
-
-planet Cholintir
-	landscape land/land27
-	description `Foren Military Base. The central command for the Foren fleet. The planet is heavily fortified and bristling with weaponry. No visitors allowed.`
-	spaceport `A military installation. Armed guards check every ship. The Forens are nice, but they take their security seriously.`
-
-planet CixAVic
-	landscape ""
-	outfitter "Vic'Na Outfits"
-
-planet Da'in:ska;908
-	landscape "land/moutainsnow1@2x "
-	description `A frozen research world. The Vic'Na study something here—something they won't name. The scientists live in underground complexes. They never leave.`
-	spaceport `A secured facility. Researchers hurry between buildings. They avoid eye contact. What are they hiding?`
-
-planet Daajka
-	landscape land/greenmountains1
-	description `The Serbajkil capital burns with orange light from its geothermal vents. The locals say the planet's heart beats in sync with their own. The architecture is brutal, beautiful, and ancient—carved from obsidian and lit by eternal flame.`
-	spaceport `A massive obsidian structure. The heat is intense, but the Serbajkil don't seem to notice. The market sells exotic goods from across the galaxy.`
-
-planet Dka'MJi
-	landscape land/brownmountains1
-	description `A cold world where the Serbajkil harvest ice for their desert colonies. The ice-cutters sing ancient songs while they work. The songs have no translation.`
-	spaceport `A simple ice landing strip. The workers are hardy and taciturn. They offer hot drinks to visitors.`
-
-planet Drakmagani
-	landscape land/land26
-	description `This planet is the Antarctica of Vic'Na Space. The Drak still live here today. They sell their Archons on Drakmagani. The ice plains stretch forever.`
-	spaceport `A small trading post. The Drak are fierce but fair. They offer Archons—strange alien artifacts—to those who can afford them.`
-	shipyard Drak
-	outfitter "Drak All"
-
-planet FAIL-000000
-	landscape land/greenmountains2
-	description `????????????????????? fungus ???????????¿?¿¿¿¿¿¿?¿¿¿?¿¿¿??¿???????¿¿¿¿¿??????????!(!-+--&&--&&*££*&-__&&&&_&&_ Seems to be no information about this planet. The fungal growths spell out geometric patterns in the craters. The Bruchaven have quarantined three exploration teams who reported 'hearing the soil hum.'`
-
-planet FAIL-700100
-	landscape land/greenmountains2
-	description `Just a fungal planet? What are the Bruchaven hiding? Scans show fungal growth covering 97% of the surface. The structures beneath are not natural. The Bruchaven have flagged this system for 'quarantine review.'`
-
-planet FAIL-99689000
-	landscape land/land27
-	description `Another fail, of some other race. The structures are pre-Foren, pre-Gainen, pre-everything. The soil contains no organic matter. The wind sounds like breathing.`
-
-planet Fo'kak'ni'si'slok
-	landscape land/greenmountains2
-	description `Welcome to the land of diversity. Humans, Gainen, ???'s, and The Forens live peacefully here. The streets are a riot of languages and cultures. The ???'s won't say what they're called.`
-	spaceport `You see some funny-looking people here. The market is chaotic but friendly. Everyone seems to be trading something strange.`
-
-planet "Foryurda Ekamo"
-	landscape ""
-	description `This planet has no reason to be colonized, but it is. Hell is colonized—barely. The inhabitants live in underground bunkers, emerging only for supplies. Why anyone lives here is a mystery. They say the scenery grows on you.`
-	spaceport `A crude landing area. The locals are grim but helpful. They say the volcanic ash is good for the skin.`
-
-planet Frt'Eliminatr
-	landscape land/greenmountains1
-	description `???. The Forens don't talk about this place. The few who land there return with fragmented memories and a strange, metallic taste in their mouths. The station above orbits in perfect silence.`
-	spaceport `??? ??? ??? you don't understand. The Foren personnel are unresponsive. The station hums at a frequency that makes your teeth ache.`
-
-planet Fruga'le
-	landscape land/land0
-	description `Failed terraformation turned this world into a nightmare jungle. The Vic'Na use it as a survival training ground. The flora is aggressive; the fauna is worse. Only the strong survive.`
-	spaceport `A small military outpost. The Vic'Na soldiers here are hardened veterans. They train relentlessly in the jungle.`
-
-planet Ga'ratri
-	landscape land/foresttropical0
-	description `A Vic'Na mining world. The workers live in underground cities. The ore they extract is essential to the Vic'Na economy. The air is dusty and the work is hard.`
-
-planet "Gaie Point"
-	landscape land/land13
-	description `A strange world where most inhabitants aren't Gainen at all. They whisper about 'Serhbajkil'—perhaps a system? A faction? No one will explain. The architecture is odd, hybrid, and unsettling.`
-	spaceport `"??? ??? ???? Serhbajkil." Perhaps they are talking about a system? "Serhbajkil" doesn't look like it would be anything else. The locals stare at you.`
-	shipyard "Gainen Shipyard"
-
-planet Gainisen
-	landscape land/brownmountains1
-	description `Home of the Gainen people. The capital's floating gardens drift above the clouds, visible from orbit. The Gainen believe their ancestors watch from the stars above the gardens. The architecture is elegant, functional, and ancient.`
-	spaceport `Home of the Gainen. The spaceport is a marvel of engineering—glass domes and floating platforms. The Gainen are welcoming but reserved.`
-	shipyard "Gainen Shipyard"
-	outfitter "Gainen Normals"
-
-planet "Ganiom Cheat"
-	landscape land/land27
-	description `You found it! Omnis in Ganiom! This hidden station sells ships and outfits from every faction in the galaxy. How it exists is a mystery. Who built it is an even bigger one.`
-	spaceport `The ultimate shipyard. Every ship, every outfit, every faction. The station is a legend among spacers.`
-	shipyard omnis
-	shipyard aberrant
-	shipyard avgi
-	shipyard developer
-	shipyard bunrodea
-	shipyard coalition
-	shipyard drak
-	shipyard gegno
-	shipyard hai
-	shipyard human
-	shipyard iije
-	shipyard incipias
-	shipyard kahet
-	shipyard korath
-	shipyard pug
-	shipyard quarg
-	shipyard remnant
-	shipyard rulei
-	shipyard sheragi
-	shipyard successors
-	shipyard vyrmeid
-	shipyard wanderer
-	shipyard "whispering void"
-	shipyard "Bunrodea Advanced"
-	shipyard "Bunrodea Basic"
-	shipyard "Bunrodea Capital"
-	shipyard Arach
-	shipyard "Coalition Basics"
-	shipyard Kimek
-	shipyard Saryd
-	shipyard "Gegno Advanced"
-	shipyard "Gegno Basic"
-	shipyard "Gegno Intermediate"
-	shipyard "Scin Cargo"
-	shipyard "Scin Utility"
-	shipyard "Scin Warships"
-	shipyard "Vi Cargo"
-	shipyard "Vi Utility"
-	shipyard "Vi Warships I"
-	shipyard "Vi Warships II"
-	shipyard "Imo Loo Mer Advanced"
-	shipyard "Imo Loo Mer Basics"
-	shipyard "Mon Ki i'Hiya Advanced"
-	shipyard "Mon Ki i'Hiya Basics"
-	shipyard "Mon Ki o'Uden Advanced"
-	shipyard "Yeer e Ki Advanced"
-	shipyard "Yeer e Ki Basics"
-	shipyard "Advanced Core Pirates"
-	shipyard "Advanced Northern Pirates"
-	shipyard "Advanced Southern Pirates"
-	shipyard "Basic Ships"
-	shipyard "Betelgeuse Advanced"
-	shipyard "Betelgeuse Basics"
-	shipyard "Core Pirates"
-	shipyard "Lionheart Advanced"
-	shipyard "Lionheart Basics"
-	shipyard "Luxury Ships"
-	shipyard "Megaparsec Advanced"
-	shipyard "Megaparsec Basics"
-	shipyard "Navy Advanced"
-	shipyard "Navy Basics"
-	shipyard "Northern Pirates"
-	shipyard "Southbound Advanced"
-	shipyard "Southbound Basics"
-	shipyard "Southern Pirates"
-	shipyard "Syndicate Advanced"
-	shipyard "Syndicate Basics"
-	shipyard "Tarazed Advanced"
-	shipyard "Tarazed Basics"
-	shipyard Hicemus
-	shipyard "Remnant Puffin"
-	shipyard "Remnant Salvage Ships"
-	shipyard Remnant
-	shipyard "High Houses Light"
-	shipyard "High Houses Heavy"
-	shipyard "New Houses Light"
-	shipyard "People's Houses"
-	shipyard "Successor Basics"
-	shipyard "Successor Civilian"
-	shipyard "Successor Heavy"
-	shipyard Waterlining
-	shipyard "Wanderer Advanced"
-	shipyard "Wanderer Basics"
-	shipyard "Elenctic Commune Basic"
-	shipyard "Gainen Shipyard"
-	shipyard developer
 	outfitter aberrant
 	outfitter avgi
 	outfitter developer
@@ -6954,6 +7581,12 @@ planet Gerin
 	description `onnnmnnmnnnooppoonoooooon—the database entry is corrupted. The Between have classified this world. What little remains is gibberish.`
 	spaceport `nnooo—the transmission cuts off. The Between are not welcoming.`
 
+planet Haav
+	landscape "land/moutainsnow4@2x "
+	description e
+	spaceport e
+	outfitter "Onnes Outfits"
+
 planet Haj'li
 	landscape land/foresttropical0
 	description `A listening post on the edge of Vic'Na space. The inhabitants are paranoid, insular, and convinced something is watching from the void beyond. They're probably right.`
@@ -6963,12 +7596,8 @@ planet Halon
 	landscape land/greenmountains1
 	description `A world of endless rolling hills and shimmering cities. Over 140 billion Ka call this home, their spires rising from the valleys like frozen waves. The air smells of spice and ozone. Cultural diversity is unmatched.`
 	spaceport `Halon is a hilly world, with the spaceport being in a satellite city of the biggest city in Halon. It is particularly interesting—a maze of markets and cultures.`
-	shipyard "Halon Basic"
-	shipyard "Halon Advanced"
-	shipyard "Mekrutar Basic"
 	shipyard "Mekrutar Advanced"
 	outfitter "Mekrut Outfitters"
-	outfitter "Ratow Outfitters"
 
 planet Hassaberut
 	landscape land/brownmountains1
@@ -6989,6 +7618,12 @@ planet Hiswren
 	landscape land/moutaingrey1
 	description `Hisair High Fleet headquarters. The planet is a military installation first, a world second. Civilians are not permitted. The fleet exercises are constant.`
 	spaceport `A restricted military port. The Hisair soldiers are disciplined and cold. They don't answer questions.`
+
+planet Hrit
+	landscape land/greenmountains1
+	description f
+	spaceport e
+	outfitter "Vic'Na Outfits"
 
 planet Hsahi
 	landscape land/foresttropical0
@@ -7043,6 +7678,13 @@ planet Isrhsiw
 	description `An icy world where humans would freeze instantly. The Bruchaven thrive here, their bodies adapted to the extreme cold. The cities are built into glaciers.`
 	spaceport `A landing platform carved from ice. The Bruchaven are bundled in thick furs. They offer hot drinks to visitors.`
 
+planet Ka'kij
+	landscape land/greenmountains1
+	description `biryani placeholder`
+	spaceport place
+	shipyard "Vic'Na Shipyard"
+	outfitter "Vic'Na Outfits"
+
 planet Kabkonik
 	landscape land/greenmountains1
 	description `REISBRUTH TERRITORY. The inhabitants greet visitors with aggressive hospitality—challenges to combat, offers of strong drink, and incomprehensible boasts. The spaceport is a mess. It's glorious. REISBRUTH RAAAAAA!`
@@ -7050,6 +7692,14 @@ planet Kabkonik
 	shipyard "Reisbruth Shipyard"
 	shipyard "Gainen Shipyard"
 	outfitter Rekkebruth
+
+planet Kharonifa
+	landscape land/land30
+	description `The Ssuryie Capital is far from vioro, it has a prominent population. Kharonifa is the capital of Ssuryie, not because of cultural significance, because of the start of the rebellion.`
+	spaceport `The spaceport is cold, coming from the atmosphere of the planet. Everyone wears clothes because it can drop below -40°C in winter.`
+	shipyard "Ssuryie Shipyard"
+	outfitter "Ssuryie Outfits"
+	government Ssuryie
 
 planet Kla'ik
 	landscape land/greenmountains1
@@ -7065,13 +7715,10 @@ planet Mekrut
 	landscape land/greenmountains1
 	description `The beating heart of the Bruchaven Mekrut Republic. A trillion souls across a thousand cultures. The Great Bazaar spans an entire continent—if you can't find it here, it doesn't exist. The streets hum with the music of a hundred species.`
 	spaceport `Mekrut is a hilly world, like most Mekrutar worlds. The spaceport is in a city of a thousand colors. The market is overwhelming.`
-	shipyard "Mekrutar Basic"
 	shipyard "Mekrutar Advanced"
-	shipyard "Halon Advanced"
 	shipyard "Lannen-Mekrutar Shipyard"
-	outfitter "Ratow Outfitters"
 	outfitter "Mekrut Outfitters"
-	outfitter "Gainescaf Basic"
+	outfitter "Gainen Shipyard"
 
 planet Minin
 	landscape land/land27
@@ -7158,6 +7805,11 @@ planet Petin
 	landscape land/land27
 	description `A Vic'Na diplomatic station. Small. Unremarkable. The Vic'Na ambassadors here are polite but evasive. They don't answer questions about their government.`
 
+planet Plaantai
+	landscape land/land0
+	description a
+	spaceport bcd
+
 planet Protomous
 	landscape land/brownmountains1
 	description `A secret station. Purpose unknown. The Vic'Na maintain it with extreme security. Ships that approach too closely are fired upon without warning.`
@@ -7165,8 +7817,17 @@ planet Protomous
 
 planet Qnanei
 	landscape land/greenmountains1
-	description `A hostile volcanic world owned by a hostile faction. The Mekrut maintain a blockade here. Do not approach. The surface is molten and deadly.`
-	spaceport `No spaceport available. The planet is under blockade. Approach at your own risk.`
+	description `Qnanei is a volcanic planet.`
+	spaceport `The spaceport is small.`
+	shipyard "Mekrutar Basic"
+	outfitter "Mekrut Outfitters"
+
+planet "Rao Sik"
+	landscape land/greenmountains1
+	description `Majority Onnes love speaking to tourists, however they have never seen a human before`
+	spaceport `The spaceport is nice and cozy.`
+	shipyard "Onnes Shipyard"
+	outfitter "Onnes Outfits"
 
 planet Ratow
 	landscape land/greenmountains1
@@ -7174,10 +7835,7 @@ planet Ratow
 	spaceport `Ratow is a hilly world, like all Mekrut worlds. It is less diverse. However, most Ka in Bruchaven live in Ratow. The forges glow day and night.`
 	shipyard "Mekrutar Advanced"
 	shipyard "Gainen Shipyard"
-	outfitter "Ratow Outfitters"
-	outfitter "Mekrut Telecommunications INC."
-	outfitter "Gainescaf Advanced"
-	outfitter "Ka Mexage Advanced"
+	outfitter "Ka Mexage Advanced"(soon)
 
 planet "Red Shambala"
 	landscape land/land28
@@ -7274,6 +7932,12 @@ planet Tisurua
 	description `The Between have a monitoring station here. They watch. They wait. They do not interfere. The planet is otherwise uninhabited. What are they watching for?`
 	spaceport `A hidden facility. The Between observe silently. They don't answer questions.`
 
+planet "Tok Ra"
+	landscape land/land6
+	description `Onnes Outpost. Populated, Militarized, And near the border.`
+	spaceport b
+	outfitter "Onnes Outfits"
+
 planet Trimakhol
 	landscape land/brownmountains1
 	description `Farthest western point of the Gainen Republic. Beyond lies Foren territory. The locals are frontier types—tough, independent, and distrustful of politicians.`
@@ -7285,6 +7949,13 @@ planet Ula'miva
 	landscape land/foresttropical0
 	description `A desert world where the sand glows faintly at night. The Serbajkil maintain a small water-mining outpost. Workers report hearing whispers in the dunes.`
 	spaceport `A small mining port. The Serbajkil workers are wary. They don't look at the dunes.`
+
+planet "Vaa Naxi"
+	landscape land/foresttropical0
+	description fee
+	spaceport f
+	shipyard "Onnes Shipyard"
+	outfitter "Onnes Outfits"
 
 planet Vakrkin
 	landscape land/foresttropical0
@@ -7333,10 +8004,3 @@ planet Yuso
 	tribute 560000
 		fleet "Hisair High" 34
 
-planet "Kharonifa"
-	landscape "land/land30"
-	description "The Ssuryie Capital is far from vioro, it has a prominent population. Kharonifa is the capital of Ssuryie, not because of cultural significance, because of the start of the rebellion."
-	spaceport "The spaceport is cold, coming from the atmosphere of the planet. Everyone wears clothes because it can drop below -40°C in winter."
-	government "Ssuryie"
-	shipyard "Ssuryie Shipyard"
-	outfitter "Ssuryie Outfits"

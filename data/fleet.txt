@@ -180,34 +180,42 @@ fleet "Mekrut Fleet"
 	names "Hulusafi"
 	cargo 0
 	personality
-		confusion 6
-		plunders 
-	variant 40
-		Dreadnought 
-	variant 40
-		Carrier 6
-	variant 20
-		Carrier 2
-	variant 35
-		Carrier 2
-		Aerie 5
+		confusion 4
+		plunders
 	variant 30
-		Carrier 3
+		"Ionata" 3
+		"Avaruk" 2
 	variant 20
-		Pinoalin 2
-	variant 20
-		Korsmanath A'awoj 7
-		Sapira A'awoj 9
+		"Nutoq" 2
+		"Klaoh"
 	variant 15
-		K-IG "Dancer" 12
+		"Ragadan" 2
+		"Ionata" 2
 	variant 15
-		Vareti'het 10
-		Telis'het 7
-	variant 15
-		Vareti'het 5
+		"Ratoq"
+		"Parsriseys"
+		"Nutoq" 2
+	variant 10
+		"Aben"
+		"Klaoh" 2
+		"Ionata" 4
+	variant 5
+		"Parsriseys"
+		"Klaoh" 2
+		"Ionata" 3
+	variant 3
+		"Manoh Shikuan"
+		"Avaruk" 2
+		"Nutoq" 2
 	variant 1
-		Pinoalin 5
-		Neutron Star 9
+		"Manoh Shikuan" 2
+		"Aben" 2
+		"Klaoh" 4
+	variant 1
+		"Parsriseys" 2
+		"Aben"
+		"Nutoq" 4
+
 		
 fleet "Reisbruth Fleet"
 	government "Reisbruth"
@@ -526,3 +534,147 @@ fleet "Vic'Na Wormhole Guard"
 		"Xa'ru Kao'tum" 2
 		"Zroo'fak" 2
 		"Gwo'iling" 2
+
+
+# ============================================================
+# ONNES FLEETS
+# ============================================================
+
+fleet "Onnes Militia Patrol"
+	government "Onnes"
+	names "Onnes"
+	cargo 0
+	personality
+		confusion 2
+	variant 25
+		"Daawaag" 4
+		"Yaarhaatri" 2
+	variant 25
+		"Yhaarail" 3
+	variant 20
+		"Yaarhaatri" 3
+		"Daawaag" 2
+	variant 15
+		"Zfi Kal Tho"
+		"Daawaag" 4
+	variant 10
+		"Palgon"
+		"Yaarhaatri" 2
+	variant 5
+		"Daawaag" 6
+
+fleet "Onnes Swarm Assault"
+	government "Onnes"
+	names "Onnes"
+	cargo 0
+	personality
+		confusion 3
+	variant 25
+		"Ucuweeree"
+		"Yaarhaatri" 4
+		"Daawaag" 6
+	variant 25
+		"Zfi Kal Tho" 2
+		"Yhaarail" 3
+		"Daawaag" 4
+	variant 20
+		"Tri Belai Tho"
+		"Yhaarail" 2
+		"Yaarhaatri" 3
+	variant 15
+		"Palgon" 2
+		"Daawaag" 8
+	variant 10
+		"Ucuweeree"
+		"Zfi Kal Tho"
+		"Yaarhaatri" 4
+	variant 5
+		"Daawaag" 12
+		"Yaarhaatri" 4
+
+fleet "Onnes Artillery Line"
+	government "Onnes"
+	names "Onnes"
+	cargo 0
+	personality
+		confusion 1
+		heroic
+	variant 35
+		"Kaolinha"
+		"Yhaarail" 4
+	variant 30
+		"Tri Belai Tho" 2
+		"Yhaarail" 2
+	variant 20
+		"Kaolinha" 2
+		"Daawaag" 6
+	variant 10
+		"Ucuweeree"
+		"Kaolinha"
+	variant 5
+		"Tri Belai Tho"
+		"Kaolinha"
+
+fleet "Onnes Home Guard"
+	government "Onnes"
+	names "Onnes"
+	cargo 0
+	personality
+		confusion 1
+		heroic
+		vindictive
+	variant 35
+		"Tri Belai Tho"
+		"Zfi Kal Tho"
+		"Yaarhaatri" 4
+	variant 30
+		"Ucuweeree" 2
+		"Daawaag" 10
+	variant 20
+		"Kaolinha" 2
+		"Palgon"
+	variant 10
+		"Tri Belai Tho" 2
+		"Ucuweeree"
+		"Zfi Kal Tho" 2
+	variant 5
+		"Ucuweeree" 3
+		"Tri Belai Tho" 2
+		"Kaolinha"
+
+fleet "Onnes Merchant Escort"
+	government "Onnes"
+	names "Onnes"
+	cargo 0
+	personality
+		confusion 2
+	variant 40
+		"Yaarhaatri" 2
+		"Daawaag" 2
+	variant 30
+		"Yhaarail"
+		"Yaarhaatri"
+	variant 20
+		"Palgon"
+		"Daawaag" 3
+	variant 10
+		"Zfi Kal Tho"
+		"Yaarhaatri" 2
+
+fleet "Onnes Deep Space Patrol"
+	government "Onnes"
+	names "Onnes"
+	cargo 0
+	personality
+		confusion 2
+	variant 40
+		"Yhaarail" 2
+		"Daawaag" 3
+	variant 30
+		"Zfi Kal Tho"
+		"Yhaarail" 2
+	variant 20
+		"Yaarhaatri" 4
+	variant 10
+		"Palgon"
+		"Yhaarail"

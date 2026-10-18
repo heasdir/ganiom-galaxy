@@ -1,0 +1,179 @@
+# ============================================================
+# ONNES OUTFITS (TIER 2)
+# ============================================================
+
+# ============================================================
+# ENGINES
+# ============================================================
+
+outfit "Onnes Vector Thruster"
+	category "Engines"
+	cost 250000
+	thumbnail "outfit/unknown"
+	"mass" 12
+	"outfit space" -12
+	"engine capacity" -12
+	"thrust" 22
+	"thrusting energy" 2.0
+	"thrusting heat" 1.5
+	"turn" 450
+	"turning energy" 1.5
+	"turning heat" 1.0
+	"reverse thrust" 22
+	"reverse thrusting energy" 2.0
+	"reverse thrusting heat" 1.5
+	"flare sprite" "effect/ion flare/small"
+		"frame rate" 8
+	"flare sound" "ion small"
+	"steering flare sprite" "effect/ion flare/small"
+		"frame rate" 8
+	"steering flare sound" "ion small"
+	description `Onnes Vector Thrusters are light, cheap, and highly maneuverable. They are designed to be swapped out quickly in the field, allowing Onnes militia pilots to stay in the fight against the heavier Onnari occupation fleets.`
+
+# ============================================================
+# COOLING AND SYSTEMS
+# ============================================================
+
+outfit "Onnes Scrap Cooling"
+	category "Systems"
+	cost 150000
+	thumbnail "outfit/unknown"
+	"mass" 8
+	"outfit space" -8
+	"cooling" 45
+	"cooling energy" 0.2
+	description `A cheap, modular cooling system built from salvaged parts. It is not pretty, but it keeps the guns firing long enough to get the job done.`
+
+outfit "Onnes Militia Shield"
+	category "Systems"
+	cost 450000
+	thumbnail "outfit/unknown"
+	"mass" 10
+	"outfit space" -10
+	"shield generation" 8
+	"shield energy" 4.0
+	description `A lightweight shield generator designed for mass production. It lacks the raw output of Onnari planetary shields, but it can be replaced in minutes.`
+
+outfit "Onnes Capacitor Bank"
+	category "Power"
+	cost 200000
+	thumbnail "outfit/quantum vacuum battery"
+	"mass" 12
+	"outfit space" -12
+	"energy capacity" 600
+	description `A simple, high-density battery. The Onnes rely on these to keep their rapid-fire weapons blazing even when their reactors are pushed to the limit.`
+
+outfit "Onnes Fission Core"
+	category "Power"
+	cost 300000
+	thumbnail "outfit/unknown"
+	"mass" 18
+	"outfit space" -18
+	"energy generation" 40
+	"heat generation" 1.5
+	description `A compact, mass-produced fission core. It is cheap and reliable, providing enough power to keep the Onnes' rapid-fire weapons blazing.`
+
+# ============================================================
+# WEAPONS
+# ============================================================
+
+outfit "Onnes Kapra"
+	category "Guns"
+	cost 180000
+	thumbnail "outfit/unknown"
+	"mass" 10
+	"outfit space" -10
+	"weapon capacity" -10
+	"gun ports" -1
+	weapon
+		sprite "projectile/acuit"
+		sound "inhibitor"
+		"hit effect" "particle impact"
+		"inaccuracy" 1.5
+		"velocity" 600
+		"lifetime" 1.0
+		"reload" 3
+		"firing energy" 3
+		"firing heat" 2
+		"shield damage" 15
+		"hull damage" 30
+		"hit force" 5
+	description `The Kapra is a cheap, fast-firing kinetic gun. It is the standard weapon of the Onnes militia. Individually weak, but in a swarm they can strip an Onnari cruiser's armor in seconds.`
+
+outfit "Onnes Jarrawaan"
+	category "Turrets"
+	cost 350000
+	thumbnail "outfit/unknown"
+	"mass" 16
+	"outfit space" -16
+	"weapon capacity" -16
+	"turret mounts" -1
+	weapon
+		sprite "projectile/2x heavy laser"
+		sound "heavy laser"
+		"hit effect" "small explosion"
+		"inaccuracy" 0.8
+		"turret turn" 2.5
+		"velocity" 500
+		"lifetime" 1.2
+		"reload" 8
+		"firing energy" 8
+		"firing heat" 5
+		"shield damage" 60
+		"hull damage" 45
+		"hit force" 10
+	description `The Jarrawaan is a light, rapid-fire pulse turret. It lacks the raw damage of larger weapons, but its speed and tracking make it excellent at fending off Onnari strike craft.`
+
+outfit "Onnes Yhaaaratra"
+	category "Guns"
+	cost 850000
+	thumbnail "outfit/unknown"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"gun ports" -1
+	weapon
+		sprite "projectile/laser"
+		sound "laser"
+		"hit effect" "medium explosion"
+		"inaccuracy" 0.2
+		"velocity" 700
+		"lifetime" 1.0
+		"reload" 12
+		"firing energy" 12
+		"firing heat" 8
+		"shield damage" 220
+		"hull damage" 80
+		"hit force" 15
+	description `The Yhaaaratra is a precision sniper rifle. The AnCom militias in the north use these to strike at Onnari shield generators from a safe distance, relying on stealth and speed rather than armor.`
+
+outfit "Onnes Tbaraa"
+	category "Secondary Weapons"
+	cost 1200000
+	thumbnail "outfit/unknown"
+	"mass" 18
+	"outfit space" -18
+	"weapon capacity" -18
+	"gun ports" -1
+	weapon
+		sprite "projectile/choleric"
+		sound "choleric"
+		"fire effect" "missile fire"
+		"die effect" "medium explosion"
+		"hit effect" "small explosion"
+		"inaccuracy" 6
+		"velocity" 12
+		"lifetime" 150
+		"reload" 20
+		"firing energy" 15
+		"firing heat" 10
+		"acceleration" 1.5
+		"drag" 0.08
+		"turn" 5
+		"homing" 1.5
+		"missile strength" 8
+		"shield damage" 400
+		"hull damage" 900
+		"blast radius" 25
+		"stream"
+	description `The Tbaraa is a cheap, mass-produced rocket. It is dumb, slow, and easy to shoot down. But if an Onnes militia can launch enough of them, they will overwhelm even the most advanced Onnari point-defense systems.`

@@ -1,0 +1,517 @@
+# ============================================================
+# BRUCHAVEN MEKRUT SHIPS
+# ============================================================
+
+# --- DRONES & FIGHTERS (No Fuel, No Drives) ---
+
+ship "Hsabi"
+	sprite "ship/mekrut/hsabi"
+	attributes
+		category "Drone"
+		"cost" 350000
+		"shields" 8000
+		"hull" 12000
+		"required crew" 0
+		"automaton" 1
+		"bunks" 1
+		"mass" 40
+		"drag" 1.0
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 150
+		"weapon capacity" 40
+		"engine capacity" 30
+		"cooling" 50
+	outfits
+		"Mekrut Mining Laser"
+		"Mekrut Heavy Thruster"
+		"Mekrut Heat Sink"
+		"Mekrut Industrial Reactor"
+	
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 10
+	"final explode" "final explosion small"
+	description `A small, automated drone designed to swarm enemy ships. It is barely a threat on its own, but in large numbers, its mining laser can chew through hulls.`
+
+ship "Nawnoh"
+	sprite "ship/mekrut/nawnoh"
+	attributes
+		category "Drone"
+		"cost" 420000
+		"shields" 10000
+		"hull" 8000
+		"required crew" 0
+		"automaton" 1
+		"bunks" 1
+		"mass" 45
+		"drag" 1.2
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 150
+		"weapon capacity" 50
+		"engine capacity" 40
+		"cooling" 60
+	outfits
+		"Mekrut Scrap Rockets"
+		"Mekrut Heavy Thruster"
+		"Mekrut Heat Sink"
+		"Mekrut Industrial Reactor"
+		
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 12
+	"final explode" "final explosion small"
+	description `A heavily armed drone. The Mekrut use these to soften up targets before their larger warships move in.`
+
+ship "Klian"
+	sprite "ship/mekrut/klian"
+	attributes
+		category "Fighter"
+		"cost" 950000
+		"shields" 25000
+		"hull" 20000
+		"required crew" 1
+		"bunks" 1
+		"mass" 80
+		"drag" 1.5
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 5
+		"outfit space" 300
+		"weapon capacity" 100
+		"engine capacity" 60
+		"cooling" 100
+	outfits
+		"Mekrut Breacher Cannon"
+		"Mekrut Heavy Thruster"
+		"Mekrut Heat Sink"
+		"Mekrut Shield Emitter"
+		"Mekrut Industrial Reactor"
+	
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 20
+	"final explode" "final explosion small"
+	description `A heavy fighter designed for boarding actions. Its Breacher Cannon is powerful enough to shatter bulkheads, allowing Mekrut marines to board enemy vessels.`
+
+
+# --- INTERCEPTORS & LIGHT WARSHIPS (Jump Capable) ---
+
+ship "Ionata"
+	sprite "ship/mekrut/ionata"
+	attributes
+		category "Interceptor"
+		"cost" 1500000
+		"shields" 45000
+		"hull" 35000
+		"required crew" 3
+		"bunks" 5
+		"mass" 150
+		"drag" 2.0
+		"heat dissipation" 0.9
+		"fuel capacity" 300
+		"cargo space" 10
+		"outfit space" 500
+		"weapon capacity" 200
+		"engine capacity" 120
+		"cooling" 200
+	outfits
+		"Mekrut Mining Laser" 2
+		"Mekrut Heavy Thruster" 2
+		"Mekrut Heat Sink"
+		"Mekrut Shield Emitter"
+		"Mekrut Industrial Reactor"
+		"Hyperdrive"
+		"Jump Drive"
+	
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	"final explode" "final explosion small"
+	description `The Ionata is the standard interceptor of the Mekrut raider fleets. It is fast enough to catch fleeing merchants, and armed enough to make them regret running.`
+
+ship "Avaruk"
+	sprite "ship/mekrut/avaruk"
+	attributes
+		category "Light Warship"
+		"cost" 2800000
+		"shields" 80000
+		"hull" 70000
+		"required crew" 8
+		"bunks" 12
+		"mass" 300
+		"drag" 2.5
+		"heat dissipation" 0.9
+		"fuel capacity" 400
+		"cargo space" 25
+		"outfit space" 900
+		"weapon capacity" 350
+		"engine capacity" 200
+		"cooling" 350
+	outfits
+		"Mekrut Mining Laser" 3
+		"Mekrut Scrap Rockets" 2
+		"Mekrut Heavy Thruster" 2
+		"Mekrut Heat Sink"
+		"Mekrut Shield Emitter"
+		"Mekrut Industrial Reactor"
+		"Mekrut Armor Plating"
+		"Hyperdrive"
+		"Jump Drive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 30
+	explode "small explosion" 20
+	"final explode" "final explosion medium"
+	description `A rugged light warship built for patrol and escort duties. The Avaruk is heavily armed for its size, making it a dangerous opponent for anyone who underestimates the Mekrut.`
+
+ship "Nutoq"
+	sprite "ship/mekrut/nutoq"
+	attributes
+		category "Light Warship"
+		"cost" 3200000
+		"shields" 70000
+		"hull" 90000
+		"required crew" 10
+		"bunks" 15
+		"mass" 350
+		"drag" 2.8
+		"heat dissipation" 0.9
+		"fuel capacity" 450
+		"cargo space" 20
+		"outfit space" 1000
+		"weapon capacity" 400
+		"engine capacity" 220
+		"cooling" 400
+	outfits
+		"Mekrut Salvage Turret" 2
+		"Mekrut Scrap Rockets" 2
+		"Mekrut Heavy Thruster" 2
+		"Mekrut Heat Sink"
+		"Mekrut Shield Emitter"
+		"Mekrut Industrial Reactor"
+		"Mekrut Armor Plating"
+		"Hyperdrive"
+		"Jump Drive"
+	
+	turret 0 0
+	turret 0 0
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 30
+	explode "small explosion" 20
+	"final explode" "final explosion medium"
+	description `A specialized anti-fighter platform. The Nutoq trades forward firepower for a pair of heavy salvage turrets, allowing it to shred swarms of smaller ships.`
+
+
+# --- MEDIUM & HEAVY WARSHIPS (Jump Capable) ---
+
+ship "Klaoh"
+	sprite "ship/mekrut/klaoh"
+	attributes
+		category "Medium Warship"
+		"cost" 6500000
+		"shields" 180000
+		"hull" 160000
+		"required crew" 25
+		"bunks" 40
+		"mass" 700
+		"drag" 3.5
+		"heat dissipation" 0.8
+		"fuel capacity" 600
+		"cargo space" 50
+		"outfit space" 1600
+		"weapon capacity" 650
+		"engine capacity" 400
+		"cooling" 600
+	outfits
+		"Mekrut Breacher Cannon" 2
+		"Mekrut Salvage Turret" 2
+		"Mekrut Heavy Thruster" 3
+		"Mekrut Heat Sink" 2
+		"Mekrut Shield Emitter" 2
+		"Mekrut Industrial Reactor" 2
+		"Mekrut Armor Plating" 2
+		"Mekrut Capacitor Array"
+		"Hyperdrive"
+		"Jump Drive"
+	
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 40
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion medium"
+	description `The Klaoh is a heavy gunship built around a pair of massive Breacher Cannons. It is designed to punch through the shields of Issarei patrol ships and survive the return fire.`
+
+ship "Parsriseys"
+	sprite "ship/mekrut/parsriseys"
+	attributes
+		category "Medium Warship"
+		"cost" 15000000
+		"shields" 400000
+		"hull" 250000
+		"required crew" 50
+		"bunks" 90
+		"mass" 1400
+		"drag" 4.2
+		"heat dissipation" 0.8
+		"fuel capacity" 850
+		"cargo space" 100
+		"outfit space" 2800
+		"weapon capacity" 1000
+		"engine capacity" 700
+		"cooling" 850
+	outfits
+		"Mekrut Salvage Turret" 6
+		"Mekrut Scrap Rockets" 6
+		"Mekrut Heavy Thruster" 4
+		"Mekrut Heat Sink" 3
+		"Mekrut Shield Emitter" 3
+		"Mekrut Industrial Reactor" 3
+		"Mekrut Armor Plating" 2
+		"Mekrut Capacitor Array" 2
+		"Hyperdrive"
+		"Jump Drive"
+	
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	explode "tiny explosion" 50
+	explode "small explosion" 40
+	explode "medium explosion" 30
+	explode "large explosion" 20
+	"final explode" "final explosion large"
+	description `The Parsriseys is a dedicated escort carrier. It is packed with turrets and rocket pods, designed to protect Mekrut convoys from pirate ambushes. It also carries a wing of drones and fighters to overwhelm enemy fleets.`
+
+ship "Aben"
+	sprite "ship/mekrut/aben"
+	attributes
+		category "Heavy Warship"
+		"cost" 12000000
+		"shields" 350000
+		"hull" 300000
+		"required crew" 60
+		"bunks" 100
+		"mass" 1500
+		"drag" 4.5
+		"heat dissipation" 0.8
+		"fuel capacity" 900
+		"cargo space" 80
+		"outfit space" 3000
+		"weapon capacity" 1200
+		"engine capacity" 650
+		"cooling" 900
+	outfits
+		"Mekrut Breacher Cannon" 3
+		"Mekrut Salvage Turret" 4
+		"Mekrut Scrap Rockets" 4
+		"Mekrut Heavy Thruster" 4
+		"Mekrut Heat Sink" 3
+		"Mekrut Shield Emitter" 3
+		"Mekrut Industrial Reactor" 3
+		"Mekrut Armor Plating" 3
+		"Mekrut Capacitor Array" 2
+		"Hyperdrive"
+		"Jump Drive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 60
+	explode "small explosion" 40
+	explode "medium explosion" 30
+	explode "large explosion" 20
+	"final explode" "final explosion large"
+	description `The Aben is the backbone of the Mekrut fleet. It is a slow, heavily armored warship that relies on its thick hull and heavy weaponry to outlast its enemies.`
+
+ship "Manoh Shikuan"
+	sprite "ship/mekrut/manoh shikuan"
+	attributes
+		category "Heavy Warship"
+		"cost" 18000000
+		"shields" 450000
+		"hull" 350000
+		"required crew" 80
+		"bunks" 150
+		"mass" 1800
+		"drag" 5.0
+		"heat dissipation" 0.8
+		"fuel capacity" 1100
+		"cargo space" 150
+		"outfit space" 3500
+		"weapon capacity" 1400
+		"engine capacity" 800
+		"cooling" 1000
+	outfits
+		"Mekrut Breacher Cannon" 4
+		"Mekrut Salvage Turret" 4
+		"Mekrut Scrap Rockets" 6
+		"Mekrut Heavy Thruster" 5
+		"Mekrut Heat Sink" 4
+		"Mekrut Shield Emitter" 4
+		"Mekrut Industrial Reactor" 4
+		"Mekrut Armor Plating" 4
+		"Mekrut Capacitor Array" 3
+		"Hyperdrive"
+		"Jump Drive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 80
+	explode "small explosion" 60
+	explode "medium explosion" 40
+	explode "large explosion" 20
+	"final explode" "final explosion large"
+	description `The Manoh Shikuan is the pride of the Mekrut fleet. It is a massive, heavily armed warship that serves as the flagship for their raiding parties.`
+
+
+# --- TRANSPORTS (Jump Capable) ---
+
+ship "Ragadan"
+	sprite "ship/mekrut/ragadan"
+	attributes
+		category "Light Freighter"
+		"cost" 1200000
+		"shields" 30000
+		"hull" 40000
+		"required crew" 5
+		"bunks" 10
+		"mass" 400
+		"drag" 3.0
+		"heat dissipation" 0.8
+		"fuel capacity" 500
+		"cargo space" 150
+		"outfit space" 600
+		"weapon capacity" 150
+		"engine capacity" 180
+		"cooling" 250
+	outfits
+		"Mekrut Mining Laser"
+		"Mekrut Heavy Thruster" 2
+		"Mekrut Heat Sink"
+		"Mekrut Shield Emitter"
+		"Mekrut Industrial Reactor"
+		"Hyperdrive"
+		"Jump Drive"
+	
+	gun 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	"final explode" "final explosion medium"
+	description `A small, armored cargo ship. The Ragadan is often used to haul salvaged materials from asteroid fields back to Mekrut space.`
+
+ship "Ratoq"
+	sprite "ship/mekrut/ratoq"
+	attributes
+		category "Transport"
+		"cost" 2800000
+		"shields" 60000
+		"hull" 80000
+		"required crew" 15
+		"bunks" 25
+		"mass" 800
+		"drag" 4.0
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"cargo space" 400
+		"outfit space" 1200
+		"weapon capacity" 250
+		"engine capacity" 350
+		"cooling" 400
+	outfits
+		"Mekrut Salvage Turret"
+		"Mekrut Heavy Thruster" 3
+		"Mekrut Heat Sink"
+		"Mekrut Shield Emitter"
+		"Mekrut Industrial Reactor" 2
+		"Mekrut Armor Plating"
+		"Hyperdrive"
+		"Jump Drive"
+	
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 30
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	"final explode" "final explosion medium"
+	description `A standard Mekrut bulk hauler. It is slow and ungainly, but it can carry a massive amount of cargo and survive a pirate attack long enough to escape.`

@@ -1,0 +1,27 @@
+# ============================================================
+# ONNES SALES
+# ============================================================
+
+shipyard "Onnes Shipyard"
+	"Daawaag"
+	"Yaarhaatri"
+	"Yhaarail"
+	"Palgon"
+	"Zfi Kal Tho"
+	"Ucuweeree"
+	"Tri Belai Tho"
+	"Kaolinha"
+
+outfitter "Onnes Outfits"
+	"Onnes Vector Thruster"
+	"Onnes Fission Core"
+	"Onnes Scrap Cooling"
+	"Onnes Militia Shield"
+	"Onnes Capacitor Bank"
+	"Onnes Kapra"
+	"Onnes Jarrawaan"
+	"Onnes Yhaaaratra"
+	"Onnes Tbaraa"
+	"Hyperdrive"
+	"Jump Drive"
+	"Local Map"

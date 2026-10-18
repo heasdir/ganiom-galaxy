@@ -121,6 +121,7 @@ government "Vic'Na"
 		"Ji'ik'kik'nai" 90
 		"Ki'k" 4
 		"Paraf" 5
+		"Onnes" 60
 
 
 government "Lannen"
@@ -156,3 +157,14 @@ government "Ssuryie"
 	"player reputation" 0
 	"attitude toward"
 		"Reisbruth" -1000
+
+government "Onnes"
+	color 0.2 0.6 0.9
+	swizzle 9
+	"player reputation" 10
+	"attitude toward"
+		"Onnari" -1000
+		"Ki'k" 70
+		"Ianes" 19
+		"Serbajkil" 9
+		"Ki'k" 4

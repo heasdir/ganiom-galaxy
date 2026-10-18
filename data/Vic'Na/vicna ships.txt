@@ -447,7 +447,7 @@ ship "Xa'ru Kao'tum"
 		"engine capacity" 900
 		"ramscoop" 25
 		"solar collection" 45
-		"shield generation" 50
+		"shield generation" 580
 		"shield energy" 8.0
 		"hull repair rate" 30
 		"hull energy" 6
@@ -475,6 +475,7 @@ ship "Xa'ru Kao'tum"
 	gun 15 -90
 	gun -25 30
 	gun 25 30
+	gun 15 15
 	engine -35 90
 	engine 35 90
 	explode "tiny explosion" 120

@@ -150,13 +150,13 @@ outfit "Vic'Na Wormhole Lance"
 	"weapon capacity" -60
 	"gun ports" -1
 	weapon
-		sprite "projectile/ember tear"
+		sprite "projectile/ember tear/ember tear"
 		sound "ember tear"
 		"hit effect" "huge explosion"
 		"inaccuracy" 0
-		"velocity" 30
+		"velocity" 729
 		"lifetime" 700
-		"firing energy" 80
+		"firing energy" 17
 		"firing heat" 50
 		"shield damage" 5000
 		"hull damage" 12000

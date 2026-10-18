@@ -1,0 +1,359 @@
+# ============================================================
+# ONNES SHIPS
+# ============================================================
+
+ship "Daawaag"
+	sprite "ship/onnes/daawaag"
+	attributes
+		category "Fighter"
+		"cost" 800000
+		"shields" 35000
+		"hull" 15000
+		"required crew" 3
+		"bunks" 5
+		"mass" 120
+		"drag" 1.5
+		"heat dissipation" 0.9
+		"fuel capacity" 300
+		"cargo space" 10
+		"outfit space" 250
+		"weapon capacity" 100
+		"engine capacity" 80
+		"cooling" 150
+	outfits
+		"Onnes Kapra" 2
+		"Onnes Vector Thruster" 2
+		"Onnes Scrap Cooling"
+		"Onnes Militia Shield"
+		"Onnes Capacitor Bank"
+		"Onnes Fission Core"
+		"Hyperdrive"
+	gun -10 -15
+	gun 10 -15
+	engine -10 25
+	engine 10 25
+	explode "tiny explosion" 15
+	"final explode" "final explosion small"
+	description `The Daawaag is the smallest ship in the Onnes arsenal. It is barely more than a cockpit strapped to an engine and a pair of Kapra cannons. It is cheap to build, cheap to fly, and incredibly fast.`
+
+ship "Yaarhaatri"
+	sprite "ship/onnes/yaarhaatri"
+	attributes
+		category "Light Warship"
+		"cost" 1500000
+		"shields" 70000
+		"hull" 30000
+		"required crew" 8
+		"bunks" 12
+		"mass" 250
+		"drag" 2.0
+		"heat dissipation" 0.9
+		"fuel capacity" 400
+		"cargo space" 20
+		"outfit space" 600
+		"weapon capacity" 200
+		"engine capacity" 150
+		"cooling" 250
+	outfits
+		"Onnes Kapra" 3
+		"Onnes Vector Thruster" 2
+		"Onnes Scrap Cooling"
+		"Onnes Militia Shield"
+		"Onnes Capacitor Bank"
+		"Onnes Fission Core"
+		"Hyperdrive"
+	gun -15 -30
+	gun 15 -30
+	gun 0 10
+	engine -12 40
+	engine 12 40
+	explode "tiny explosion" 25
+	explode "small explosion" 10
+	"final explode" "final explosion small"
+	description `The Yaarhaatri is the standard light warship of the Onnes militias. It is a simple, modular hull that can be easily repaired with spare parts found on any Onnes world.`
+
+ship "Yhaarail"
+	sprite "ship/onnes/yhaarail"
+	attributes
+		category "Light Warship"
+		"cost" 1800000
+		"shields" 60000
+		"hull" 40000
+		"required crew" 10
+		"bunks" 15
+		"mass" 300
+		"drag" 2.2
+		"heat dissipation" 0.9
+		"fuel capacity" 450
+		"cargo space" 15
+		"outfit space" 700
+		"weapon capacity" 250
+		"engine capacity" 180
+		"cooling" 300
+	outfits
+		"Onnes Yhaaaratra" 2
+		"Onnes Tbaraa" 2
+		"Onnes Vector Thruster" 3
+		"Onnes Scrap Cooling" 2
+		"Onnes Militia Shield"
+		"Onnes Capacitor Bank" 2
+		"Onnes Fission Core"
+		"Hyperdrive"
+	gun -15 -35
+	gun 15 -35
+	gun -15 15
+	gun 15 15
+	engine -18 45
+	engine 0 50
+	engine 18 45
+	explode "tiny explosion" 20
+	explode "small explosion" 15
+	"final explode" "final explosion small"
+	description `The Yhaarail is a specialized variant of the Yaarhaatri, outfitted with long-range Yhaaaratra sniper guns and Tbaraa rocket pods. It is designed to strike from a distance while avoiding return fire.`
+
+ship "Palgon"
+	sprite "ship/onnes/palgon"
+	attributes
+		category "Medium Warship"
+		"cost" 3500000
+		"shields" 120000
+		"hull" 60000
+		"required crew" 25
+		"bunks" 40
+		"mass" 600
+		"drag" 3.0
+		"heat dissipation" 0.8
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 1200
+		"weapon capacity" 400
+		"engine capacity" 300
+		"cooling" 500
+	outfits
+		"Onnes Jarrawaan" 2
+		"Onnes Kapra" 2
+		"Onnes Vector Thruster" 4
+		"Onnes Scrap Cooling" 2
+		"Onnes Militia Shield" 2
+		"Onnes Fission Core"
+		"Onnes Capacitor Bank" 2
+		"Hyperdrive"
+	turret -25 -20
+	turret 25 -20
+	gun -20 -40
+	gun 20 -40
+	engine -25 50
+	engine 25 50
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	explode "tiny explosion" 40
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion medium"
+	description `The Palgon is a dedicated support vessel. It trades heavy armor for the ability to carry a pair of light fighters into battle, acting as a force multiplier for Onnes swarm fleets.`
+
+ship "Zfi Kal Tho"
+	sprite "ship/onnes/zfi kal tho"
+	attributes
+		category "Medium Warship"
+		"cost" 4000000
+		"shields" 140000
+		"hull" 80000
+		"required crew" 30
+		"bunks" 45
+		"mass" 750
+		"drag" 3.2
+		"heat dissipation" 0.8
+		"fuel capacity" 650
+		"cargo space" 30
+		"outfit space" 1400
+		"weapon capacity" 500
+		"engine capacity" 350
+		"cooling" 600
+	outfits
+		"Onnes Jarrawaan" 7
+		"Onnes Kapra" 2
+		"Onnes Tbaraa" 2
+		"Onnes Vector Thruster" 4
+		"Onnes Scrap Cooling" 3
+		"Onnes Militia Shield" 2
+		"Onnes Fission Core"
+		"Onnes Capacitor Bank" 3
+		"Hyperdrive"
+	turret -30 -30
+	turret 30 -30
+	turret -30 20
+	turret 30 20
+	turret -15 -55
+	turret 15 -55
+	turret 0 40
+	gun -15 -50
+	gun 15 -50
+	gun -15 -50
+	gun 15 -50
+	engine -30 60
+	engine 30 60
+	explode "tiny explosion" 50
+	explode "small explosion" 40
+	explode "medium explosion" 20
+	"final explode" "final explosion medium"
+	description `The Zfi Kal Tho is a brawler. It is heavily armed with turrets and rockets, designed to close the distance and overwhelm heavier ships with sheer volume of fire.`
+
+ship "Ucuweeree"
+	sprite "ship/onnes/ucuweeree"
+	attributes
+		category "Heavy Warship"
+		"cost" 8000000
+		"shields" 250000
+		"hull" 140000
+		"required crew" 60
+		"bunks" 100
+		"mass" 1400
+		"drag" 4.0
+		"heat dissipation" 0.8
+		"fuel capacity" 900
+		"cargo space" 60
+		"outfit space" 2400
+		"weapon capacity" 900
+		"engine capacity" 600
+		"cooling" 900
+	outfits
+		"Onnes Jarrawaan" 6
+		"Onnes Kapra" 4
+		"Onnes Yhaaaratra" 2
+		"Onnes Tbaraa" 4
+		"Onnes Vector Thruster" 6
+		"Onnes Scrap Cooling" 4
+		"Onnes Militia Shield" 3
+		"Onnes Fission Core"
+		"Onnes Capacitor Bank" 4
+		"Hyperdrive"
+	turret -40 -50
+	turret 40 -50
+	turret -50 0
+	turret 50 0
+	turret -40 50
+	turret 40 50
+	gun -20 -80
+	gun 20 -80
+	gun -30 20
+	gun 30 20
+	gun 0 0
+	gun 0 0
+	gun 5 5
+	gun 5 5
+	gun 6 6
+	gun 7 7
+	engine -40 80
+	engine 40 80
+	explode "tiny explosion" 80
+	explode "small explosion" 60
+	explode "medium explosion" 40
+	explode "large explosion" 20
+	"final explode" "final explosion large"
+	description `The Ucuweeree is a heavily modified bulk hauler, stripped of its cargo bays and rebuilt into a warship. It is not elegant, but it is terrifying.`
+
+ship "Tri Belai Tho"
+	sprite "ship/onnes/tri belai tho"
+	attributes
+		category "Heavy Warship"
+		"cost" 9500000
+		"shields" 300000
+		"hull" 120000
+		"required crew" 70
+		"bunks" 120
+		"mass" 1600
+		"drag" 4.2
+		"heat dissipation" 0.8
+		"fuel capacity" 1000
+		"cargo space" 50
+		"outfit space" 2600
+		"weapon capacity" 1000
+		"engine capacity" 650
+		"cooling" 1000
+	outfits
+		"Onnes Yhaaaratra" 4
+		"Onnes Jarrawaan" 4
+		"Onnes Tbaraa" 4
+		"Onnes Vector Thruster" 6
+		"Onnes Scrap Cooling" 4
+		"Onnes Fission Core"
+		"Onnes Militia Shield" 4
+		"Onnes Capacitor Bank" 5
+		"Hyperdrive"
+	turret -45 -60
+	turret 45 -60
+	turret -55 10
+	turret 55 10
+	gun -25 -100
+	gun 25 -100
+	gun -35 40
+	gun 35 40
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 7 7
+	engine -45 90
+	engine 45 90
+	explode "tiny explosion" 100
+	explode "small explosion" 80
+	explode "medium explosion" 50
+	explode "large explosion" 30
+	"final explode" "final explosion large"
+	description `The Tri Belai Tho is a sleek, standardized warship built for long-range engagements. It is the most advanced ship the Onnes have ever produced.`
+
+ship "Kaolinha"
+	sprite "ship/onnes/kaolinha"
+	attributes
+		category "Heavy Warship"
+		"cost" 10000000
+		"shields" 200000
+		"hull" 160000
+		"required crew" 80
+		"bunks" 150
+		"mass" 1800
+		"drag" 4.5
+		"heat dissipation" 0.8
+		"fuel capacity" 1100
+		"cargo space" 100
+		"outfit space" 2800
+		"weapon capacity" 1200
+		"engine capacity" 700
+		"cooling" 1100
+	outfits
+		"Onnes Yhaaaratra" 6
+		"Onnes Jarrawaan" 2
+		"Onnes Kapra" 4
+		"Onnes Tbaraa" 6
+		"Onnes Vector Thruster" 6
+		"Onnes Scrap Cooling" 5
+		"Onnes Militia Shield" 3
+		"Onnes Capacitor Bank" 6
+		"Onnes Fission Core"
+		"Hyperdrive"
+	turret -50 -40
+	turret 50 -40
+	gun -30 -90
+	gun 30 -90
+	gun -40 10
+	gun 40 10
+	gun -40 60
+	gun 40 60
+	gun 0 0
+	gun 0 0
+	gun -15 -15
+	gun -15 -15
+	gun 7 7
+	gun 7 7
+	gun 8 8
+	gun 8 8
+	gun 9 9
+	gun 9 9
+	engine -50 100
+	engine 50 100
+	explode "tiny explosion" 100
+	explode "small explosion" 80
+	explode "medium explosion" 60
+	explode "large explosion" 30
+	"final explode" "final explosion large"
+	description `The Kaolinha is a dedicated artillery platform. It mounts six Yhaaaratra sniper guns, allowing it to engage enemy fleets from beyond their effective range. It is slow, fragile, and completely devastating if left unchecked.`
