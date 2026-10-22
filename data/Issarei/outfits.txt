@@ -1,0 +1,187 @@
+# ============================================================
+# BRUCHAVEN ISSAREI OUTFITS
+# ============================================================
+
+# ============================================================
+# ENGINES
+# ============================================================
+
+outfit "Issarei Swarm Thruster"
+	category "Engines"
+	cost 150000
+	thumbnail "outfit/unknown"
+	"mass" 10
+	"outfit space" -10
+	"engine capacity" -10
+	"thrust" 15
+	"thrusting energy" 1.5
+	"thrusting heat" 1.0
+	"turn" 300
+	"turning energy" 1.0
+	"turning heat" 0.8
+	"reverse thrust" 15
+	"reverse thrusting energy" 1.5
+	"reverse thrusting heat" 1.0
+	"flare sprite" "effect/ion flare/tiny"
+		"frame rate" 8
+	"flare sound" "ion tiny"
+	"steering flare sprite" "effect/ion flare/tiny"
+		"frame rate" 8
+	"steering flare sound" "ion tiny"
+	description `A cheap, mass-produced thruster. The Issarei military doctrine relies on overwhelming numbers, so their engines are designed to be easily replaced rather than heavily armored.`
+
+# ============================================================
+# POWER
+# ============================================================
+
+outfit "Issarei Basic Reactor"
+	category "Power"
+	cost 200000
+	thumbnail "outfit/unknown"
+	"mass" 15
+	"outfit space" -15
+	"energy generation" 9.4
+	"heat generation" 8.0
+	description `A standard fission reactor. It provides just enough energy to power the ship's weapons and shields, but it is prone to overheating under sustained fire.`
+
+outfit "Issarei Small Battery"
+	category "Power"
+	cost 60000
+	thumbnail "outfit/quantum vacuum battery"
+	"mass" 8
+	"outfit space" -8
+	"energy capacity" 300
+	description `A small, cheap battery pack. It provides a brief buffer of energy for emergency weapon fire.`
+
+# ============================================================
+# SYSTEMS
+# ============================================================
+
+outfit "Issarei Scrap Cooling"
+	category "Systems"
+	cost 80000
+	thumbnail "outfit/unknown"
+	"mass" 6
+	"outfit space" -6
+	"cooling" 30
+	"cooling energy" 0.1
+	description `A basic cooling system made from cheap components. It is enough to keep the ship from melting, but not enough to sustain prolonged engagements.`
+
+outfit "Issarei Thin Plating"
+	category "Systems"
+	cost 120000
+	thumbnail "outfit/unknown"
+	"mass" 12
+	"outfit space" -12
+	"hull" 1500
+	description `Thin, mass-produced hull plating. It offers minimal protection, but it is cheap enough to bolt onto every ship in the swarm.`
+
+outfit "Issarei Light Shield"
+	category "Systems"
+	cost 180000
+	thumbnail "outfit/unknown"
+	"mass" 10
+	"outfit space" -10
+	"shield generation" 4
+	"shield energy" 3.0
+	description `A lightweight shield generator. It can absorb a few hits, but it regenerates slowly and fails quickly under heavy fire.`
+
+# ============================================================
+# WEAPONS
+# ============================================================
+
+outfit "Issarei Autocannon"
+	category "Guns"
+	cost 100000
+	thumbnail "outfit/unknown"
+	"mass" 8
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	weapon
+		sprite "projectile/mod blaster"
+		sound "mod blaster"
+		"hit effect" "particle impact"
+		"inaccuracy" 2.0
+		"velocity" 550
+		"lifetime" 1.0
+		"reload" 4
+		"firing energy" 2
+		"firing heat" 1.5
+		"shield damage" 10
+		"hull damage" 20
+		"hit force" 3
+	description `A cheap, fast-firing kinetic autocannon. It is inaccurate and weak on its own, but when dozens of Issarei ships fire at once, the sheer volume of lead is terrifying.`
+
+outfit "Issarei Autocannon Turret"
+	category "Turrets"
+	cost 200000
+	thumbnail "outfit/unknown"
+	"mass" 14
+	"outfit space" -14
+	"weapon capacity" -14
+	"turret mounts" -1
+	weapon
+		sprite "projectile/mod blaster"
+		sound "modblaster"
+		"hit effect" "particle impact"
+		"inaccuracy" 2.0
+		"turret turn" 2.5
+		"velocity" 550
+		"lifetime" 1.0
+		"reload" 4
+		"firing energy" 2
+		"firing heat" 1.5
+		"shield damage" 10
+		"hull damage" 20
+		"hit force" 3
+	description `A turreted version of the autocannon. It allows Issarei swarm ships to lay down suppressive fire while moving.`
+
+outfit "Issarei Swarm Rocket"
+	category "Secondary Weapons"
+	cost 300000
+	thumbnail "outfit/unknown"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	weapon
+		sprite "projectile/missile"
+		sound "missile"
+		"fire effect" "missile fire"
+		"die effect" "small explosion"
+		"hit effect" "particle impact"
+		"inaccuracy" 10
+		"velocity" 10
+		"lifetime" 100
+		"reload" 20
+		"firing energy" 10
+		"firing heat" 5
+		"acceleration" 1.2
+		"drag" 0.1
+		"turn" 3
+		"homing" 1
+		"missile strength" 5
+		"shield damage" 150
+		"hull damage" 300
+		"blast radius" 20
+		"stream"
+	description `A cheap, unguided rocket. Issarei swarm doctrine suggests firing these in massive volleys to overwhelm enemy point-defense systems.`
+
+# ============================================================
+# OUTFITTER
+# ============================================================
+
+outfitter "Issarei Outfits"
+	"Issarei Swarm Thruster"
+	"Issarei Basic Reactor"
+	"Issarei Small Battery"
+	"Issarei Scrap Cooling"
+	"Issarei Thin Plating"
+	"Issarei Light Shield"
+	"Issarei Autocannon"
+	"Issarei Autocannon Turret"
+	"Issarei Swarm Rocket"
+	"Hyperdrive"
+	"Jump Drive"
+	"Local Map"

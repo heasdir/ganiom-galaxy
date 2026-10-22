@@ -58,10 +58,44 @@ fleet "Hisair High Fleet"
 	personality
 		confusion 40
 		plunders
-	variant 100
-		Aerie 2
-		Dreadnought
-		
+		disables
+	variant 20
+		"Eattar"
+		"Radsar" 2
+		"War" 4
+		"Nisark" 4
+	variant 20
+		"Radsar"
+		"Rovaenini"
+		"Foklaor" 2
+		"Hisark" 6
+	variant 15
+		"War" 2
+		"Soul" 2
+		"Toms" 6
+	variant 15
+		"Rovaenini"
+		"Foklaor"
+		"Hisairiyya" 4
+		"Kras" 4
+	variant 10
+		"Soul"
+		"Radsar"
+		"Fuse" 4
+		"Bonecrusher" 4
+	variant 10
+		"Eattar"
+		"War" 6
+	variant 5
+		"Foklaor" 2
+		"Soul" 2
+		"Rovaenini" 2
+		"Kras" 8
+	variant 5
+		"Eattar" 2
+		"Radsar" 4
+		"War" 8
+
 fleet "Gainen Fleet"
 	government "Gainen Republic"
 	names "Aksene"
@@ -133,34 +167,54 @@ fleet "Between Attacker"
 	cargo 0
 	personality
 		confusion 2
+		heroic
 		plunders
-	variant 40
-		Dreadnought 
-	variant 40
-		Carrier 6
+		disables
 	variant 20
-		Carrier 2
-	variant 35
-		Carrier 2
-		Aerie 5
-	variant 30
-		Carrier 3
+		"Kllam"
+		"Dhie-Dhie"
+		"Fkaloo" 2
+		"Suuk" 2
+		"Sikka Qormu" 4
 	variant 20
-		Pinoalin 2
-	variant 20
-		Korsmanath A'awoj 7
-		Sapira A'awoj 9
+		"Aila Qorma"
+		"Tiranie" 2
+		"Ossura" 4
+		"Aagli" 8
+		"Dhera" 8
 	variant 15
-		K-IG "Dancer" 12
+		"Nairoba"
+		"Fkaloo" 2
+		"Wekli" 4
+		"Nioria" 6
+		"Tjebo" 6
 	variant 15
-		Vareti'het 10
-		Telis'het 7
-	variant 15
-		Vareti'het 5
-	variant 1
-		Pinoalin 5
-		Neutron Star 9
-		
+		"Tiranie"
+		"Suuk" 2
+		"Dhie-Dhie" 2
+		"Sikka Qormu" 6
+	variant 10
+		"Kllam" 2
+		"Fkaloo" 4
+		"Ossura" 6
+	variant 10
+		"Aila Qorma"
+		"Nairoba"
+		"Kllam"
+		"Dhie-Dhie"
+		"Aagli" 12
+		"Nioria" 12
+	variant 5
+		"Fkaloo" 6
+		"Suuk" 6
+		"Wekli" 6
+		"Qormo" 12
+	variant 5
+		"Wekli" 4
+		"Sikka Qormu" 6
+		"Aagli" 6
+		"Agwayo" 4
+
 
 fleet "Issarei Fleet"
 	government "Bruchaven Issarei"
@@ -169,11 +223,31 @@ fleet "Issarei Fleet"
 	personality
 		confusion 2
 		plunders
-	variant 100
-		Bruchaven Beheija 2
-		Bruchaven Lakan 4
-		Bruchaven Parsessys 9
-		
+	variant 30
+		"Faxtar" 3
+		"Tirone" 2
+	variant 20
+		"Chroni" 2
+		"Abenie"
+	variant 15
+		"Indiu" 2
+		"Faxtar" 2
+	variant 15
+		"Normedi"
+		"Tirone" 3
+	variant 10
+		"Ka Aru Ya"
+		"Abenie" 2
+	variant 5
+		"Beheija"
+		"Faxtar" 4
+	variant 3
+		"Lakan"
+		"Abenie" 2
+		"Tirone" 2
+	variant 2
+		"Beheija" 2
+		"Normedi" 2
 
 fleet "Mekrut Fleet"
 	government "Bruchaven Mekrut"
@@ -534,6 +608,30 @@ fleet "Vic'Na Wormhole Guard"
 		"Xa'ru Kao'tum" 2
 		"Zroo'fak" 2
 		"Gwo'iling" 2
+
+fleet "Vic'Na Pirates"
+	government "Pirate"
+	names "Vic'Na"
+	cargo 1
+	personality
+		confusion 10
+		plunders
+	variant 30
+		"Ik Vanderu" 3
+		"Ik Garo'seb" 2
+	variant 20
+		"Ik Claseb" 2
+		"Thro'thik" 3
+	variant 20
+		"Reis'phat"
+		"Ik Vanderu" 4
+	variant 15
+		"Q'qenxorux"
+		"Ik Claseb"
+		"Thro'thik" 3
+	variant 15
+		"Reis'phat" 2
+		"Ik Vanderu" 2
 
 
 # ============================================================

@@ -1,0 +1,401 @@
+# ============================================================
+# LANNEN OUTFITS & WEAPONS
+# ============================================================
+
+# --- ENGINES ---
+
+outfit "Absuryaak"
+	category "Engines"
+	cost 1500000
+	thumbnail "outfit/small plasma thruster"
+	"mass" 15
+	"outfit space" -15
+	"engine capacity" -15
+	"thrust" 18.0
+	"thrusting energy" 1.5
+	"thrusting heat" 1.0
+	"turn" 300
+	"turning energy" 1.0
+	"turning heat" 0.5
+	"flare sprite" "effect/ion flare/small"
+		"frame rate" 8
+	"flare sound" "ion small"
+	description `A small, highly efficient engine used on Lannen fighters and interceptors.`
+
+outfit "Agdebai"
+	category "Engines"
+	cost 4500000
+	thumbnail "outfit/medium plasma thruster"
+	"mass" 35
+	"outfit space" -35
+	"engine capacity" -35
+	"thrust" 40.0
+	"thrusting energy" 3.0
+	"thrusting heat" 2.0
+	"turn" 650
+	"turning energy" 2.0
+	"turning heat" 1.0
+	"flare sprite" "effect/ion flare/medium"
+		"frame rate" 8
+	"flare sound" "ion medium"
+	description `The standard engine for Lannen light and medium warships.`
+
+outfit "Haransak"
+	category "Engines"
+	cost 12000000
+	thumbnail "outfit/large plasma thruster"
+	"licenses" "Lannen Commander"
+	"mass" 70
+	"outfit space" -70
+	"engine capacity" -70
+	"thrust" 85.0
+	"thrusting energy" 6.0
+	"thrusting heat" 4.0
+	"turn" 1200
+	"turning energy" 3.5
+	"turning heat" 2.0
+	"flare sprite" "effect/ion flare/large"
+		"frame rate" 8
+	"flare sound" "ion large"
+	description `A heavy engine designed for Lannen capital ships.`
+
+outfit "Djoraba"
+	category "Engines"
+	cost 25000000
+	thumbnail "outfit/huge plasma thruster"
+	"licenses" "Lannen Commander"
+	"mass" 120
+	"outfit space" -120
+	"engine capacity" -120
+	"thrust" 150.0
+	"thrusting energy" 10.0
+	"thrusting heat" 8.0
+	"turn" 2000
+	"turning energy" 6.0
+	"turning heat" 4.0
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" 8
+	"flare sound" "ion huge"
+	description `The largest and most powerful engine the Lannen can produce.`
+
+# --- POWER & SYSTEMS ---
+
+outfit "Farhil"
+	category "Power"
+	cost 800000
+	thumbnail "outfit/small battery"
+	"mass" 12
+	"outfit space" -12
+	"energy generation" 2.5
+	"heat generation" 1.0
+	description `A small, quiet reactor.`
+
+outfit "Txembo"
+	category "Power"
+	cost 3500000
+	thumbnail "outfit/medium battery"
+	"mass" 35
+	"outfit space" -35
+	"energy generation" 8.0
+	"heat generation" 3.0
+	description `A standard reactor for Lannen warships.`
+
+outfit "Alnir"
+	category "Power"
+	cost 12000000
+	thumbnail "outfit/large battery"
+	"licenses" "Lannen Commander"
+	"mass" 80
+	"outfit space" -80
+	"energy generation" 22.0
+	"heat generation" 8.0
+	description `A massive reactor used to power the heaviest Lannen weapons.`
+
+outfit "Possdyur"
+	category "Systems"
+	cost 600000
+	thumbnail "outfit/small shield"
+	"mass" 10
+	"outfit space" -10
+	"shield generation" 0.25
+	"shield energy" 0.2
+	description `A basic shield generator for Lannen patrol craft.`
+
+outfit "Narmidur"
+	category "Systems"
+	cost 2800000
+	thumbnail "outfit/medium shield"
+	"mass" 25
+	"outfit space" -25
+	"shield generation" 0.6
+	"shield energy" 0.5
+	description `A standard shield matrix for Lannen warships.`
+
+outfit "Fossijordur"
+	category "Systems"
+	cost 9500000
+	thumbnail "outfit/large shield"
+	"licenses" "Lannen Commander"
+	"mass" 55
+	"outfit space" -55
+	"shield generation" 1.4
+	"shield energy" 1.1
+	description `The pinnacle of Lannen defensive technology.`
+
+# --- WEAPONS ---
+
+outfit "Temburak"
+	category "Guns"
+	cost 800000
+	thumbnail "outfit/laser"
+	"mass" 8
+	"outfit space" -8
+	"weapon capacity" -8
+	"gun ports" -1
+	weapon
+		sprite "projectile/laser"
+			"frame rate" 1
+		sound "laser"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 0.1
+		"velocity" 400
+		"lifetime" 1
+		"firing energy" 0.8
+		"firing heat" 1.0
+		"shield damage" 1.2
+		"hull damage" 1.0
+	description `The standard Lannen laser. Highly accurate and energy-efficient.`
+
+outfit "Agnitur"
+	category "Guns"
+	cost 3500000
+	thumbnail "outfit/heavy laser"
+	"licenses" "Lannen Commander"
+	"mass" 18
+	"outfit space" -18
+	"weapon capacity" -18
+	"gun ports" -1
+	weapon
+		sprite "projectile/heavy laser"
+			"frame rate" 1
+		sound "heavy laser"
+		"hit effect" "heavy laser impact"
+		"inaccuracy" 0.1
+		"velocity" 450
+		"lifetime" 1
+		"firing energy" 2.0
+		"firing heat" 2.5
+		"shield damage" 3.0
+		"hull damage" 2.5
+	description `A heavier Lannen laser, designed to punch through armor.`
+
+outfit "Havan"
+	category "Turrets"
+	cost 4500000
+	thumbnail "outfit/laser turret"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/2x laser"
+			"frame rate" 1
+		sound "laser"
+		"hit effect" "beam laser impact"
+		"inaccuracy" 0.1
+		"turret turn" 4.0
+		"velocity" 400
+		"lifetime" 1
+		"firing energy" 1.6
+		"firing heat" 2.0
+		"shield damage" 2.4
+		"hull damage" 2.0
+	description `A rapid-tracking laser turret used to defend against missiles and fighters.`
+
+outfit "Djordi"
+	category "Turrets"
+	cost 8500000
+	thumbnail "outfit/heavy laser turret"
+	"licenses" "Lannen Commander"
+	"mass" 45
+	"outfit space" -45
+	"weapon capacity" -45
+	"turret mounts" -1
+	"required crew" 1
+	weapon
+		sprite "projectile/2x heavy laser"
+			"frame rate" 1
+		sound "heavy laser"
+		"hit effect" "heavy laser impact"
+		"inaccuracy" 0.1
+		"turret turn" 2.5
+		"velocity" 450
+		"lifetime" 1
+		"firing energy" 4.0
+		"firing heat" 5.0
+		"shield damage" 6.0
+		"hull damage" 5.0
+	description `A heavy dual-laser turret. The ultimate expression of Lannen firepower.`
+
+# --- ANTI-MISSILE ---
+
+outfit "A-1"
+	category "Turrets"
+	cost 100000
+	thumbnail "outfit/anti-missile"
+	"mass" 5
+	"outfit space" -5
+	"weapon capacity" -5
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "small anti-missile"
+		"anti-missile" 4
+		"velocity" 250
+		"lifetime" 1
+		"reload" 6
+		"firing energy" 3
+		"firing heat" 1
+	description `Basic anti-missile turret.`
+
+outfit "A-2"
+	category "Turrets"
+	cost 250000
+	thumbnail "outfit/anti-missile"
+	"mass" 9
+	"outfit space" -9
+	"weapon capacity" -9
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/anti-missile"
+		"hardpoint offset" 4.
+		"hit effect" "small anti-missile"
+		"anti-missile" 8
+		"velocity" 300
+		"lifetime" 1
+		"reload" 4
+		"firing energy" 4
+		"firing heat" 2
+	description `Improved anti-missile turret.`
+
+outfit "A-3"
+	category "Turrets"
+	cost 500000
+	thumbnail "outfit/heavy anti-missile"
+	"licenses" "Lannen Commander"
+	"mass" 14
+	"outfit space" -14
+	"weapon capacity" -14
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint offset" 5.
+		"hit effect" "large anti-missile"
+		"anti-missile" 15
+		"velocity" 350
+		"lifetime" 1
+		"reload" 3
+		"firing energy" 6
+		"firing heat" 3
+	description `Advanced anti-missile turret.`
+
+outfit "A-4"
+	category "Turrets"
+	cost 900000
+	thumbnail "outfit/heavy anti-missile"
+	"licenses" "Lannen Commander"
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint offset" 5.
+		"hit effect" "large anti-missile"
+		"anti-missile" 25
+		"velocity" 400
+		"lifetime" 1
+		"reload" 2
+		"firing energy" 8
+		"firing heat" 4
+	description `High-tier anti-missile turret.`
+
+outfit "A-5"
+	category "Turrets"
+	cost 1500000
+	thumbnail "outfit/heavy anti-missile"
+	"licenses" "Lannen Commander"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hardpoint offset" 5.
+		"hit effect" "large anti-missile"
+		"anti-missile" 40
+		"velocity" 450
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 12
+		"firing heat" 6
+	description `The ultimate Lannen anti-missile system.`
+
+# --- SPECIAL / LICENSES ---
+
+outfit "Lannen Specialized Map"
+	category "Special"
+	cost 5000
+	thumbnail "outfit/map"
+	"map" 30
+	description `A highly detailed star map of Lannen and Mekrut space.`
+
+outfit "Lannen Civilian License"
+	category "Licenses"
+	thumbnail "outfit/license"
+	description `Allows the purchase of civilian Lannen ships and outfits.`
+
+outfit "Lannen Commander License"
+	category "Licenses"
+	thumbnail "outfit/license"
+	description `Allows the purchase of Lannen military warships and advanced tech.`
+
+outfit "Fakurdatha"
+	category "Hand to Hand"
+	cost 15000
+	thumbnail "outfit/laser rifle"
+	"capture attack" 1.2
+	"capture defense" 1.5
+	"unplunderable" 1
+	description `A beautifully crafted Lannen energy rifle, designed for boarding actions.`
+
+# --- OUTFITTER ---
+
+outfitter "Lannen Outfits"
+	"Absuryaak"
+	"Agdebai"
+	"Haransak"
+	"Djoraba"
+	"Farhil"
+	"Txembo"
+	"Alnir"
+	"Possdyur"
+	"Narmidur"
+	"Fossijordur"
+	"Temburak"
+	"Agnitur"
+	"Havan"
+	"Djordi"
+	"A-1"
+	"A-2"
+	"A-3"
+	"A-4"
+	"A-5"
+	"Fakurdatha"
+	"Lannen Specialized Map"
+	"Lannen Civilian License"
+	"Lannen Commander License"
+	"Experimental Drive"
+	"Local Map"

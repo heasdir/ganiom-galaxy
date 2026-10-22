@@ -1,0 +1,1105 @@
+# ============================================================
+# THE BETWEEN SHIPS
+# ============================================================
+
+# --- DRONES ---
+
+ship "Dhera"
+	sprite "ship/between/Dhera"
+	thumbnail "thumbnail/between/Dhera"
+	attributes
+		category "Drone"
+		"cost" 350000
+		"shields" 15000
+		"hull" 5000
+		"required crew" 0
+		"automaton" 1
+		"bunks" 1
+		"mass" 40
+		"drag" 1.1
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 150
+		"weapon capacity" 50
+		"engine capacity" 40
+		"cooling" 80
+		"scan interference" 2
+		"radar jamming" 5
+	outfits
+		"Between Souranak"
+		"Between Micro Reactor"
+		"X1200 Ion Steering"
+		"X1700 Ion Thruster"
+		"Cooling Ducts"
+	
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 15
+	"final explode" "final explosion small"
+	description `An automated drone used by The Between for surveillance and covert strikes.`
+
+ship "Tjebo"
+	sprite "ship/between/Tjebo"
+	thumbnail "thumbnail/between/Tjebo"
+	attributes
+		category "Drone"
+		"cost" 360000
+		"shields" 14000
+		"hull" 6000
+		"required crew" 0
+		"automaton" 1
+		"bunks" 1
+		"mass" 42
+		"drag" 1.1
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 150
+		"weapon capacity" 60
+		"engine capacity" 45
+		"cooling" 85
+		"scan interference" 2
+		"radar jamming" 5
+	outfits
+		"Between Souranak" 2
+		"Between Micro Reactor"
+		"X1200 Ion Steering"
+		"X1700 Ion Thruster"
+		"Cooling Ducts"
+	
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 15
+	"final explode" "final explosion small"
+	description `A heavier surveillance drone.`
+
+
+# --- FIGHTERS ---
+
+ship "Aagli"
+	sprite "ship/between/Aagli"
+	thumbnail "thumbnail/between/Aagli"
+	attributes
+		category "Fighter"
+		"cost" 800000
+		"shields" 30000
+		"hull" 10000
+		"required crew" 1
+		"bunks" 1
+		"mass" 60
+		"drag" 1.3
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 250
+		"weapon capacity" 80
+		"engine capacity" 60
+		"cooling" 120
+		"scan interference" 4
+		"radar jamming" 8
+	outfits
+		"Between Souranak" 2
+		"Between Micro Reactor"
+		"X2200 Ion Steering"
+		"X2700 Ion Thruster"
+		"Cooling Ducts"
+		"Between Shield Matrix"
+	
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 20
+	"final explode" "final explosion small"
+	description `A stealth fighter used by The Between to eliminate high-value targets.`
+
+ship "Agwayo"
+	sprite "ship/between/Agwayo"
+	thumbnail "thumbnail/between/Agwayo"
+	attributes
+		category "Fighter"
+		"cost" 850000
+		"shields" 32000
+		"hull" 12000
+		"required crew" 1
+		"bunks" 1
+		"mass" 65
+		"drag" 1.4
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 260
+		"weapon capacity" 90
+		"engine capacity" 65
+		"cooling" 130
+		"scan interference" 4
+		"radar jamming" 8
+	outfits
+		"Between Souranak" 2
+		"Between Micro Reactor"
+		"X2200 Ion Steering"
+		"X2700 Ion Thruster"
+		"Cooling Ducts"
+		"Between Shield Matrix"
+	
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 22
+	"final explode" "final explosion small"
+	description `A heavier variant of the Aagli, designed for longer engagements.`
+
+ship "Nioria"
+	sprite "ship/between/Nioria"
+	thumbnail "thumbnail/between/Nioria"
+	attributes
+		category "Fighter"
+		"cost" 900000
+		"shields" 28000
+		"hull" 15000
+		"required crew" 1
+		"bunks" 1
+		"mass" 70
+		"drag" 1.5
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 280
+		"weapon capacity" 100
+		"engine capacity" 70
+		"cooling" 140
+		"scan interference" 4
+		"radar jamming" 9
+	outfits
+		"Between Souranak" 3
+		"Between Micro Reactor"
+		"X2200 Ion Steering"
+		"X2700 Ion Thruster"
+		"Cooling Ducts"
+		"Between Shield Matrix"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 25
+	"final explode" "final explosion small"
+	description `A heavy interceptor variant.`
+
+ship "Qormo"
+	sprite "ship/between/Qormo"
+	thumbnail "thumbnail/between/Qormo"
+	attributes
+		category "Fighter"
+		"cost" 750000
+		"shields" 25000
+		"hull" 8000
+		"required crew" 1
+		"bunks" 1
+		"mass" 55
+		"drag" 1.2
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 220
+		"weapon capacity" 70
+		"engine capacity" 50
+		"cooling" 110
+		"scan interference" 3
+		"radar jamming" 7
+	outfits
+		"Between Souranak" 2
+		"Between Micro Reactor"
+		"X2200 Ion Steering"
+		"X2700 Ion Thruster"
+		"Cooling Ducts"
+		"Between Shield Matrix"
+	
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 18
+	"final explode" "final explosion small"
+	description `A fast, lightly armored strike fighter.`
+
+
+# --- MEDIUM WARSHIPS ---
+
+ship "Sikka Qormu"
+	sprite "ship/between/Sikka Qormu"
+	thumbnail "thumbnail/between/Sikka Qormu"
+	attributes
+		category "Medium Warship"
+		"cost" 15000000
+		"shields" 200000
+		"hull" 80000
+		"required crew" 20
+		"bunks" 40
+		"mass" 600
+		"drag" 3.0
+		"heat dissipation" 0.9
+		"fuel capacity" 800
+		"cargo space" 40
+		"outfit space" 1600
+		"weapon capacity" 600
+		"engine capacity" 400
+		"cooling" 600
+		"scan interference" 10
+		"radar jamming" 15
+	outfits
+		"Between Souranak" 4
+		"Between Hapssa" 2
+		"Between Reactor"
+		"Between Shield Matrix"
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Cooling Ducts"
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 30
+	explode "small explosion" 20
+	"final explode" "final explosion medium"
+	description `The Sikka Qormu is a medium warship used by The Between to enforce their will in the shadows.`
+
+ship "Ossura"
+	sprite "ship/between/Ossura"
+	thumbnail "thumbnail/between/Ossura"
+	attributes
+		category "Medium Warship"
+		"cost" 16000000
+		"shields" 220000
+		"hull" 90000
+		"required crew" 22
+		"bunks" 45
+		"mass" 650
+		"drag" 3.2
+		"heat dissipation" 0.9
+		"fuel capacity" 850
+		"cargo space" 45
+		"outfit space" 1700
+		"weapon capacity" 650
+		"engine capacity" 450
+		"cooling" 650
+		"scan interference" 12
+		"radar jamming" 16
+	outfits
+		"Between Souranak" 4
+		"Between Hapssa" 2
+		"Between Reactor"
+		"Between Shield Matrix"
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Cooling Ducts"
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 32
+	explode "small explosion" 22
+	"final explode" "final explosion medium"
+	description `A heavier variant of The Between's medium warships.`
+
+ship "Wekli"
+	sprite "ship/between/Wekli"
+	thumbnail "thumbnail/between/Wekli"
+	attributes
+		category "Medium Warship"
+		"cost" 14000000
+		"shields" 180000
+		"hull" 100000
+		"required crew" 18
+		"bunks" 35
+		"mass" 550
+		"drag" 2.8
+		"heat dissipation" 0.9
+		"fuel capacity" 750
+		"cargo space" 35
+		"outfit space" 1500
+		"weapon capacity" 550
+		"engine capacity" 380
+		"cooling" 550
+		"scan interference" 8
+		"radar jamming" 14
+	outfits
+		"Between Souranak" 3
+		"Between Hapssa" 3
+		"Between Reactor"
+		"Between Shield Matrix"
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Cooling Ducts"
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 28
+	explode "small explosion" 18
+	"final explode" "final explosion medium"
+	description `A specialized escort ship utilized by The Between.`
+
+
+# --- HEAVY WARSHIPS ---
+
+ship "Fkaloo"
+	sprite "ship/between/Fkaloo"
+	thumbnail "thumbnail/between/Fkaloo"
+	attributes
+		category "Heavy Warship"
+		"cost" 35000000
+		"shields" 800000
+		"hull" 250000
+		"required crew" 80
+		"bunks" 150
+		"mass" 2000
+		"drag" 4.5
+		"heat dissipation" 0.8
+		"fuel capacity" 1200
+		"cargo space" 100
+		"outfit space" 3500
+		"weapon capacity" 1500
+		"engine capacity" 800
+		"cooling" 1200
+		"scan interference" 15
+		"radar jamming" 20
+	outfits
+		"Between Souranak" 6
+		"Between Nordda" 4
+		"Between Hapssa" 6
+		"Between Afwatosho" 2
+		"Between Afwatosho Torpedo" 40
+		"Between Reactor" 3
+		"Between Shield Matrix" 2
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Cooling Ducts" 4
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 60
+	explode "small explosion" 40
+	explode "medium explosion" 30
+	explode "large explosion" 20
+	"final explode" "final explosion large"
+	description `The Fkaloo is a terrifying heavy warship. It is equipped with experimental jamming tech and is designed to vanish just as quickly as it appears.`
+
+ship "Suuk"
+	sprite "ship/between/Suuk"
+	thumbnail "thumbnail/between/Suuk"
+	attributes
+		category "Heavy Warship"
+		"cost" 38000000
+		"shields" 850000
+		"hull" 280000
+		"required crew" 85
+		"bunks" 160
+		"mass" 2100
+		"drag" 4.7
+		"heat dissipation" 0.8
+		"fuel capacity" 1250
+		"cargo space" 110
+		"outfit space" 3700
+		"weapon capacity" 1600
+		"engine capacity" 850
+		"cooling" 1250
+		"scan interference" 16
+		"radar jamming" 22
+	outfits
+		"Between Souranak" 8
+		"Between Nordda" 4
+		"Between Hapssa" 6
+		"Between Afwatosho" 2
+		"Between Afwatosho Torpedo" 40
+		"Between Reactor" 3
+		"Between Shield Matrix" 2
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Cooling Ducts" 4
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 62
+	explode "small explosion" 42
+	explode "medium explosion" 32
+	explode "large explosion" 22
+	"final explode" "final explosion large"
+	description `A heavily modified Fkaloo variant.`
+
+ship "Tiranie"
+	sprite "ship/between/Tiranie"
+	thumbnail "thumbnail/between/Tiranie"
+	attributes
+		category "Heavy Warship"
+		"cost" 40000000
+		"shields" 900000
+		"hull" 300000
+		"required crew" 90
+		"bunks" 170
+		"mass" 2200
+		"drag" 5.0
+		"heat dissipation" 0.8
+		"fuel capacity" 1300
+		"cargo space" 120
+		"outfit space" 3800
+		"weapon capacity" 1700
+		"engine capacity" 900
+		"cooling" 1300
+		"scan interference" 18
+		"radar jamming" 24
+	outfits
+		"Between Souranak" 10
+		"Between Nordda" 4
+		"Between Hapssa" 6
+		"Between Afwatosho" 2
+		"Between Afwatosho Torpedo" 40
+		"Between Reactor" 4
+		"Between Shield Matrix" 2
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Cooling Ducts" 5
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 65
+	explode "small explosion" 45
+	explode "medium explosion" 35
+	explode "large explosion" 25
+	"final explode" "final explosion large"
+	description `The Tiranie is one of the most powerful ships fielded by The Between.`
+
+ship "Dhie-Dhie"
+	sprite "ship/between/Dhie-Dhie"
+	thumbnail "thumbnail/between/Dhie-Dhie"
+	attributes
+		category "Heavy Warship"
+		"cost" 45000000
+		"shields" 1000000
+		"hull" 350000
+		"required crew" 100
+		"bunks" 180
+		"mass" 2300
+		"drag" 5.2
+		"heat dissipation" 0.8
+		"fuel capacity" 1400
+		"cargo space" 130
+		"outfit space" 4000
+		"weapon capacity" 1800
+		"engine capacity" 950
+		"cooling" 1400
+		"scan interference" 20
+		"radar jamming" 25
+	outfits
+		"Between Souranak" 12
+		"Between Nordda" 4
+		"Between Hapssa" 6
+		"Between Afwatosho" 2
+		"Between Afwatosho Torpedo" 40
+		"Between Reactor" 4
+		"Between Shield Matrix" 3
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Cooling Ducts" 5
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 80
+	explode "small explosion" 60
+	explode "medium explosion" 40
+	explode "large explosion" 30
+	"final explode" "final explosion large"
+	description `A massive, terrifying dreadnought.`
+
+ship "Kllam"
+	sprite "ship/between/Kllam"
+	thumbnail "thumbnail/between/Kllam"
+	attributes
+		category "Heavy Warship"
+		"cost" 50000000
+		"shields" 1200000
+		"hull" 400000
+		"required crew" 110
+		"bunks" 200
+		"mass" 2500
+		"drag" 5.5
+		"heat dissipation" 0.8
+		"fuel capacity" 1500
+		"cargo space" 150
+		"outfit space" 4200
+		"weapon capacity" 2000
+		"engine capacity" 1000
+		"cooling" 1500
+		"scan interference" 22
+		"radar jamming" 28
+	outfits
+		"Between Souranak" 14
+		"Between Nordda" 6
+		"Between Hapssa" 8
+		"Between Afwatosho" 3
+		"Between Afwatosho Torpedo" 60
+		"Between Reactor" 5
+		"Between Shield Matrix" 3
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Cooling Ducts" 6
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 90
+	explode "small explosion" 70
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large"
+	description `The Kllam is a terrifying engine of destruction.`
+
+
+# --- HEAVY CARRIERS ---
+
+ship "Aila Qorma"
+	sprite "ship/between/Aila Qorma"
+	thumbnail "thumbnail/between/Aila Qorma"
+	attributes
+		category "Heavy Warship"
+		"cost" 60000000
+		"shields" 800000
+		"hull" 300000
+		"required crew" 90
+		"bunks" 250
+		"mass" 2400
+		"drag" 5.0
+		"heat dissipation" 0.8
+		"fuel capacity" 1400
+		"cargo space" 120
+		"outfit space" 4000
+		"weapon capacity" 1200
+		"engine capacity" 900
+		"cooling" 1300
+		"scan interference" 20
+		"radar jamming" 25
+	outfits
+		"Between Hapssa" 6
+		"Between Reactor" 4
+		"Between Shield Matrix" 3
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Cooling Ducts" 5
+		"Hyperdrive"
+	
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	explode "tiny explosion" 70
+	explode "small explosion" 50
+	explode "medium explosion" 35
+	explode "large explosion" 25
+	"final explode" "final explosion large"
+	description `The Aila Qorma is the eye of The Between. It commands fleets of stealth fighters and drones from the safety of its impenetrable shield matrix.`
+
+ship "Nairoba"
+	sprite "ship/between/Nairoba"
+	thumbnail "thumbnail/between/Nairoba"
+	attributes
+		category "Heavy Warship"
+		"cost" 65000000
+		"shields" 900000
+		"hull" 350000
+		"required crew" 100
+		"bunks" 300
+		"mass" 2600
+		"drag" 5.2
+		"heat dissipation" 0.8
+		"fuel capacity" 1500
+		"cargo space" 140
+		"outfit space" 4200
+		"weapon capacity" 1300
+		"engine capacity" 950
+		"cooling" 1400
+		"scan interference" 22
+		"radar jamming" 28
+	outfits
+		"Between Hapssa" 8
+		"Between Reactor" 4
+		"Between Shield Matrix" 4
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Cooling Ducts" 6
+		"Hyperdrive"
+	
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	explode "tiny explosion" 80
+	explode "small explosion" 60
+	explode "medium explosion" 40
+	explode "large explosion" 30
+	"final explode" "final explosion large"
+	description `A massive super-carrier utilized by The Between.`
+
+
+# --- HEAVY FREIGHTERS ---
+
+ship "Samsokkla"
+	sprite "ship/between/Samsokkla"
+	thumbnail "thumbnail/between/Samsokkla"
+	attributes
+		category "Heavy Freighter"
+		"cost" 20000000
+		"shields" 200000
+		"hull" 150000
+		"required crew" 30
+		"bunks" 50
+		"mass" 1500
+		"drag" 4.5
+		"heat dissipation" 0.8
+		"fuel capacity" 1000
+		"cargo space" 800
+		"outfit space" 2000
+		"weapon capacity" 400
+		"engine capacity" 500
+		"cooling" 700
+		"scan interference" 10
+		"radar jamming" 12
+	outfits
+		"Between Hapssa" 2
+		"Between Reactor" 2
+		"Between Shield Matrix"
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Cooling Ducts" 2
+		"Hyperdrive"
+	
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 40
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion large"
+	description `The Samsokkla is a massive heavy freighter, used to move supplies and resources for The Between.`
+
+ship "Deii"
+	sprite "ship/between/Deii"
+	thumbnail "thumbnail/between/Deii"
+	attributes
+		category "Heavy Freighter"
+		"cost" 22000000
+		"shields" 220000
+		"hull" 160000
+		"required crew" 32
+		"bunks" 55
+		"mass" 1600
+		"drag" 4.7
+		"heat dissipation" 0.8
+		"fuel capacity" 1100
+		"cargo space" 850
+		"outfit space" 2100
+		"weapon capacity" 450
+		"engine capacity" 550
+		"cooling" 750
+		"scan interference" 11
+		"radar jamming" 13
+	outfits
+		"Between Hapssa" 2
+		"Between Reactor" 2
+		"Between Shield Matrix"
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Cooling Ducts" 2
+		"Hyperdrive"
+	
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 42
+	explode "small explosion" 32
+	explode "medium explosion" 22
+	"final explode" "final explosion large"
+	description `An armoured variant of the Samsokkla.`
+
+ship "Qhodu"
+	sprite "ship/between/Qhodu"
+	thumbnail "thumbnail/between/Qhodu"
+	attributes
+		category "Heavy Freighter"
+		"cost" 24000000
+		"shields" 240000
+		"hull" 170000
+		"required crew" 35
+		"bunks" 60
+		"mass" 1700
+		"drag" 4.9
+		"heat dissipation" 0.8
+		"fuel capacity" 1200
+		"cargo space" 900
+		"outfit space" 2200
+		"weapon capacity" 500
+		"engine capacity" 600
+		"cooling" 800
+		"scan interference" 12
+		"radar jamming" 14
+	outfits
+		"Between Hapssa" 3
+		"Between Reactor" 2
+		"Between Shield Matrix"
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Cooling Ducts" 3
+		"Hyperdrive"
+	
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 45
+	explode "small explosion" 35
+	explode "medium explosion" 25
+	"final explode" "final explosion large"
+	description `A heavier, more heavily armed freighter.`
+
+ship "Phoondu"
+	sprite "ship/between/Phoondu"
+	thumbnail "thumbnail/between/Phoondu"
+	attributes
+		category "Heavy Freighter"
+		"cost" 26000000
+		"shields" 260000
+		"hull" 180000
+		"required crew" 38
+		"bunks" 65
+		"mass" 1800
+		"drag" 5.1
+		"heat dissipation" 0.8
+		"fuel capacity" 1300
+		"cargo space" 950
+		"outfit space" 2300
+		"weapon capacity" 550
+		"engine capacity" 650
+		"cooling" 850
+		"scan interference" 13
+		"radar jamming" 15
+	outfits
+		"Between Hapssa" 3
+		"Between Reactor" 2
+		"Between Shield Matrix" 2
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Cooling Ducts" 3
+		"Hyperdrive"
+	
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 48
+	explode "small explosion" 38
+	explode "medium explosion" 28
+	"final explode" "final explosion large"
+	description `The Phoondu is a massive logistical vessel used by The Between.`
+
+ship "Djibdjih"
+	sprite "ship/between/Djibdjih"
+	thumbnail "thumbnail/between/Djibdjih"
+	attributes
+		category "Heavy Freighter"
+		"cost" 28000000
+		"shields" 280000
+		"hull" 190000
+		"required crew" 40
+		"bunks" 70
+		"mass" 1900
+		"drag" 5.3
+		"heat dissipation" 0.8
+		"fuel capacity" 1400
+		"cargo space" 1000
+		"outfit space" 2400
+		"weapon capacity" 600
+		"engine capacity" 700
+		"cooling" 900
+		"scan interference" 14
+		"radar jamming" 16
+	outfits
+		"Between Hapssa" 4
+		"Between Reactor" 2
+		"Between Shield Matrix" 2
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Cooling Ducts" 4
+		"Hyperdrive"
+	
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 50
+	explode "small explosion" 40
+	"final explode" "final explosion large"
+	description `A very heavily armed freighter.`
+
+ship "Tjlo"
+	sprite "ship/between/Tjlo"
+	thumbnail "thumbnail/between/Tjlo"
+	attributes
+		category "Heavy Freighter"
+		"cost" 30000000
+		"shields" 300000
+		"hull" 200000
+		"required crew" 42
+		"bunks" 75
+		"mass" 2000
+		"drag" 5.5
+		"heat dissipation" 0.8
+		"fuel capacity" 1500
+		"cargo space" 1050
+		"outfit space" 2500
+		"weapon capacity" 650
+		"engine capacity" 750
+		"cooling" 950
+		"scan interference" 15
+		"radar jamming" 17
+	outfits
+		"Between Hapssa" 4
+		"Between Reactor" 3
+		"Between Shield Matrix" 2
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Cooling Ducts" 4
+		"Hyperdrive"
+	
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 52
+	explode "small explosion" 42
+	"final explode" "final explosion large"
+	description `The largest freighter used by The Between.`
+
+ship "Tje-Tje"
+	sprite "ship/between/Tje-Tje"
+	thumbnail "thumbnail/between/Tje-Tje"
+	attributes
+		category "Heavy Freighter"
+		"cost" 32000000
+		"shields" 320000
+		"hull" 210000
+		"required crew" 45
+		"bunks" 80
+		"mass" 2100
+		"drag" 5.7
+		"heat dissipation" 0.8
+		"fuel capacity" 1600
+		"cargo space" 1100
+		"outfit space" 2600
+		"weapon capacity" 700
+		"engine capacity" 800
+		"cooling" 1000
+		"scan interference" 16
+		"radar jamming" 18
+	outfits
+		"Between Hapssa" 4
+		"Between Reactor" 3
+		"Between Shield Matrix" 2
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Cooling Ducts" 4
+		"Hyperdrive"
+	
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 55
+	explode "small explosion" 45
+	"final explode" "final explosion large"
+	description `An elite freighter of The Between.`

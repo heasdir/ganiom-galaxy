@@ -56,7 +56,7 @@ government "Kem Relicnain"
 	swizzle 25
 	"player reputation" -1000
 	"attitude toward"
-		"The Forens" -20
+		"The Forens" -2000
 	language "Kem Reli"
 		
 
@@ -122,6 +122,8 @@ government "Vic'Na"
 		"Ki'k" 4
 		"Paraf" 5
 		"Onnes" 60
+		"Pirate" -1000
+		"Jovari" 70
 
 
 government "Lannen"
@@ -168,3 +170,13 @@ government "Onnes"
 		"Ianes" 19
 		"Serbajkil" 9
 		"Ki'k" 4
+
+government "Jovari"
+	color 0.3 0.9 0.8
+	swizzle 4
+	"player reputation" 70
+	"attitude toward"
+		"Vic'Na" 70
+		"Si'ik'kik'nai" 60
+		"Ji'ik'kik'nai" 7
+		"Une" -10

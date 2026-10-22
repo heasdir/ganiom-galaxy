@@ -424,6 +424,8 @@ ship "Manoh Shikuan"
 	gun 0 0
 	gun 0 0
 	gun 0 0
+	gun 0 0
+	gun 0 0
 	turret 0 0
 	turret 0 0
 	turret 0 0

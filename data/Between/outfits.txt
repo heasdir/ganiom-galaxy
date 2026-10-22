@@ -1,0 +1,167 @@
+# ============================================================
+# THE BETWEEN OUTFITS & WEAPONS
+# ============================================================
+
+# --- POWER & SYSTEMS ---
+
+outfit "Between Micro Reactor"
+	category "Power"
+	cost 150000
+	thumbnail "outfit/tiny battery"
+	"mass" 8
+	"outfit space" -8
+	"energy generation" 1.8
+	"heat generation" 1.0
+	description `A micro-reactor used to power the automated drones of The Between.`
+
+outfit "Between Reactor"
+	category "Power"
+	cost 2500000
+	thumbnail "outfit/large battery"
+	"mass" 35
+	"outfit space" -35
+	"energy generation" 16
+	"heat generation" 3.0
+	description `A highly advanced, compact reactor. It is completely silent, emitting no detectable radiation.`
+
+outfit "Between Shield Matrix"
+	category "Systems"
+	cost 3500000
+	thumbnail "outfit/large shield"
+	"mass" 25
+	"outfit space" -25
+	"shield generation" 0.65
+	"shield energy" 0.45
+	description `A localized energy barrier. Its folded geometry allows it to recharge incredibly fast without drawing too much power.`
+
+# --- WEAPONS ---
+
+outfit "Between Souranak"
+	category "Guns"
+	cost 450000
+	thumbnail "outfit/electron laser"
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
+	"gun ports" -1
+	weapon
+		sprite "projectile/electron"
+			"frame rate" 60
+		sound "electron beam"
+		"hit effect" "electron impact"
+		"inaccuracy" .1
+		"velocity" 400
+		"lifetime" 1.25
+		"reload" 1
+		"firing energy" 1.2
+		"firing heat" 1.5
+		"shield damage" 1.8
+		"hull damage" 2.2
+	description `The Souranak is a rapid-fire energy weapon used by The Between. It is incredibly accurate and disrupts enemy electronics on impact.`
+
+outfit "Between Hapssa"
+	category "Turrets"
+	cost 1200000
+	thumbnail "outfit/electron turret"
+	"mass" 28
+	"outfit space" -28
+	"weapon capacity" -28
+	"turret mounts" -1
+	weapon
+		sprite "projectile/2x electron"
+			"frame rate" 60
+		"hardpoint sprite" "hardpoint/electron turret"
+		"hardpoint offset" 8.
+		sound "electron beam"
+		"hit effect" "electron impact"
+		"inaccuracy" .1
+		"turret turn" 2.0
+		"velocity" 400
+		"lifetime" 1.25
+		"reload" 1
+		"firing energy" 2.4
+		"firing heat" 3.0
+		"shield damage" 3.6
+		"hull damage" 4.4
+	description `A twin-barreled turret version of the Souranak. It fills the space around The Between's ships with a web of tracking energy fire.`
+
+outfit "Between Nordda"
+	category "Guns"
+	cost 850000
+	thumbnail "outfit/particle cannon"
+	"mass" 22
+	"outfit space" -22
+	"weapon capacity" -22
+	"gun ports" -1
+	weapon
+		sprite "projectile/particle beam"
+		sound "particle"
+		"hit effect" "particle impact"
+		"inaccuracy" .2
+		"velocity" 25
+		"lifetime" 30
+		"reload" 15
+		"firing energy" 20
+		"firing heat" 45
+		"hit force" 60
+		"shield damage" 45
+		"hull damage" 40
+		"ion damage" 15
+	description `The Nordda is a heavy kinetic weapon. It fires a dense slug of exotic matter that tears through shields and sends massive shockwaves through the target's hull.`
+
+outfit "Between Afwatosho"
+	category "Secondary Weapons"
+	cost 1800000
+	thumbnail "outfit/torpedo launcher"
+	"mass" 30
+	"outfit space" -30
+	"weapon capacity" -30
+	"gun ports" -1
+	"afwatosho capacity" 20
+	weapon
+		sprite "projectile/torpedo"
+			"frame rate" 2
+			"random start frame"
+		sound "torpedo"
+		ammo "Between Afwatosho Torpedo"
+		icon "icon/torpedo"
+		"fire effect" "torpedo fire"
+		"hit effect" "torpedo hit"
+		"die effect" "tiny explosion"
+		"inaccuracy" 2
+		"velocity" 0
+		"velocity override" 15
+		"lifetime" 400
+		"range override" 6000
+		"reload" 120
+		"firing energy" 15
+		"firing heat" 40
+		"acceleration" .5
+		"drag" .05
+		"turn" 3
+		"homing" 4
+		"radar tracking" .8
+		"optical tracking" .8
+		"shield damage" 600
+		"hull damage" 800
+		"hit force" 150
+		"missile strength" 25
+	description `The Afwatosho is a highly advanced homing torpedo. It utilizes a dual-tracking system, making it almost impossible to shake off once launched.`
+
+outfit "Between Afwatosho Torpedo"
+	category "Ammunition"
+	cost 2500
+	thumbnail "outfit/torpedo"
+	"mass" .4
+	"afwatosho capacity" -1
+	description "A single Afwatosho torpedo for The Between's launchers."
+
+outfit "Between Afwatosho Storage"
+	category "Ammunition"
+	cost 30000
+	thumbnail "outfit/torpedo storage"
+	"mass" 3
+	"outfit space" -10
+	"afwatosho capacity" 15
+	ammo "Between Afwatosho Torpedo"
+	description "Extra storage for Afwatosho torpedoes."

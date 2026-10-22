@@ -1,0 +1,1176 @@
+# ============================================================
+# HISAIR SHIPS (Deadly Cartel Weapons)
+# ============================================================
+
+# --- DRONES ---
+
+ship "HAA Drone"
+	sprite "ship/hisair/HAA Drone"
+	attributes
+		category "Drone"
+		"cost" 250000
+		"shields" 6000
+		"hull" 4000
+		"required crew" 0
+		"automaton" 1
+		"bunks" 1
+		"mass" 30
+		"drag" 1.0
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 100
+		"weapon capacity" 30
+		"engine capacity" 20
+		"cooling" 40
+	outfits
+		"Energy Blaster"
+		"Blue Sun Reactor"
+		"X1200 Ion Steering"
+		"X1700 Ion Thruster"
+		"Cooling Ducts"
+	
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 10
+	"final explode" "final explosion small"
+	description `A cheap, automated drone used by Hisair enforcers to swarm targets.`
+
+ship "AAV Drone"
+	sprite "ship/hisair/AAV Drone"
+	attributes
+		category "Drone"
+		"cost" 280000
+		"shields" 7000
+		"hull" 5000
+		"required crew" 0
+		"automaton" 1
+		"bunks" 1
+		"mass" 35
+		"drag" 1.1
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 110
+		"weapon capacity" 35
+		"engine capacity" 25
+		"cooling" 50
+	outfits
+		"Javelin Mini Pod"
+		"Javelin" 40
+		"Blue Sun Reactor"
+		"X1200 Ion Steering"
+		"X1700 Ion Thruster"
+		"Cooling Ducts"
+	
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 10
+	"final explode" "final explosion small"
+	description `A missile drone designed to overwhelm point-defense systems with a swarm of unguided rockets.`
+
+ship "AGV Drone"
+	sprite "ship/hisair/AGV Drone"
+	attributes
+		category "Drone"
+		"cost" 300000
+		"shields" 8000
+		"hull" 6000
+		"required crew" 0
+		"automaton" 1
+		"bunks" 1
+		"mass" 40
+		"drag" 1.2
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 120
+		"weapon capacity" 40
+		"engine capacity" 30
+		"cooling" 60
+	outfits
+		"Energy Blaster" 2
+		"Blue Sun Reactor"
+		"X1200 Ion Steering"
+		"X1700 Ion Thruster"
+		"Cooling Ducts"
+	
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 12
+	"final explode" "final explosion small"
+	description `A heavily armed drone that serves as a cheap, expendable gun platform.`
+
+
+# --- FIGHTERS ---
+
+ship "XAA Fighter"
+	sprite "ship/hisair/XAA Fighter"
+	attributes
+		category "Fighter"
+		"cost" 400000
+		"shields" 12000
+		"hull" 8000
+		"required crew" 1
+		"bunks" 1
+		"mass" 50
+		"drag" 1.2
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 180
+		"weapon capacity" 60
+		"engine capacity" 40
+		"cooling" 80
+	outfits
+		"Energy Blaster" 2
+		"Blue Sun Reactor"
+		"X2200 Ion Steering"
+		"X2700 Ion Thruster"
+		"Cooling Ducts"
+		"D14-RN Shield Generator"
+	
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 15
+	"final explode" "final explosion small"
+	description `A mass-produced fighter used by the Hisair cartels for escort and raid duties.`
+
+ship "Shellseeker"
+	sprite "ship/hisair/Shellseeker"
+	attributes
+		category "Fighter"
+		"cost" 450000
+		"shields" 15000
+		"hull" 10000
+		"required crew" 1
+		"bunks" 1
+		"mass" 55
+		"drag" 1.3
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 200
+		"weapon capacity" 70
+		"engine capacity" 45
+		"cooling" 90
+	outfits
+		"Energy Blaster" 2
+		"Blue Sun Reactor"
+		"X2200 Ion Steering"
+		"X2700 Ion Thruster"
+		"Cooling Ducts"
+		"D14-RN Shield Generator"
+	
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 15
+	"final explode" "final explosion small"
+	description `A heavier variant of the XAA, designed to survive longer in a dogfight.`
+
+ship "XVA Fighter"
+	sprite "ship/hisair/XVA Fighter"
+	attributes
+		category "Fighter"
+		"cost" 500000
+		"shields" 18000
+		"hull" 12000
+		"required crew" 1
+		"bunks" 1
+		"mass" 60
+		"drag" 1.4
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 220
+		"weapon capacity" 80
+		"engine capacity" 50
+		"cooling" 100
+	outfits
+		"Javelin Pod"
+		"Javelin" 100
+		"Blue Sun Reactor"
+		"X2200 Ion Steering"
+		"X2700 Ion Thruster"
+		"Cooling Ducts"
+		"D14-RN Shield Generator"
+	
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 18
+	"final explode" "final explosion small"
+	description `A dedicated missile fighter that trades forward guns for a heavy Javelin payload.`
+
+ship "Shellshocker"
+	sprite "ship/hisair/Shellshocker"
+	attributes
+		category "Fighter"
+		"cost" 550000
+		"shields" 16000
+		"hull" 14000
+		"required crew" 1
+		"bunks" 1
+		"mass" 65
+		"drag" 1.5
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 240
+		"weapon capacity" 90
+		"engine capacity" 55
+		"cooling" 110
+	outfits
+		"Energy Blaster" 2
+		"Javelin Mini Pod"
+		"Javelin" 40
+		"Blue Sun Reactor"
+		"X2200 Ion Steering"
+		"X2700 Ion Thruster"
+		"Cooling Ducts"
+		"D14-RN Shield Generator"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 20
+	"final explode" "final explosion small"
+	description `A mixed-role fighter that combines blasters with a rocket pod.`
+
+ship "Av Hisair"
+	sprite "ship/hisair/Av Hisair"
+	attributes
+		category "Fighter"
+		"cost" 600000
+		"shields" 20000
+		"hull" 15000
+		"required crew" 1
+		"bunks" 1
+		"mass" 70
+		"drag" 1.6
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 260
+		"weapon capacity" 100
+		"engine capacity" 60
+		"cooling" 120
+	outfits
+		"Energy Blaster" 3
+		"Blue Sun Reactor"
+		"X2200 Ion Steering"
+		"X2700 Ion Thruster"
+		"Cooling Ducts"
+		"D23-QP Shield Generator"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 20
+	"final explode" "final explosion small"
+	description `A heavy, heavily armed fighter used by elite cartel pilots.`
+
+ship "Nogavi"
+	sprite "ship/hisair/Nogavi"
+	attributes
+		category "Fighter"
+		"cost" 650000
+		"shields" 22000
+		"hull" 16000
+		"required crew" 1
+		"bunks" 1
+		"mass" 75
+		"drag" 1.7
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 280
+		"weapon capacity" 110
+		"engine capacity" 65
+		"cooling" 130
+	outfits
+		"Meteor Missile Launcher"
+		"Meteor Missile" 30
+		"Blue Sun Reactor"
+		"X2200 Ion Steering"
+		"X2700 Ion Thruster"
+		"Cooling Ducts"
+		"D23-QP Shield Generator"
+	
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 20
+	"final explode" "final explosion small"
+	description `A heavy missile fighter designed to engage larger targets.`
+
+
+# --- LIGHT WARSHIPS & INTERCEPTORS ---
+
+ship "Shooting Nebulae"
+	sprite "ship/hisair/Shooting Nebulae"
+	attributes
+		category "Interceptor"
+		"cost" 1200000
+		"shields" 45000
+		"hull" 30000
+		"required crew" 3
+		"bunks" 5
+		"mass" 150
+		"drag" 2.0
+		"heat dissipation" 0.9
+		"fuel capacity" 300
+		"cargo space" 10
+		"outfit space" 450
+		"weapon capacity" 150
+		"engine capacity" 100
+		"cooling" 200
+	outfits
+		"Energy Blaster" 3
+		"Blue Sun Reactor"
+		"X3200 Ion Steering"
+		"X3700 Ion Thruster"
+		"Cooling Ducts"
+		"D23-QP Shield Generator"
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	"final explode" "final explosion small"
+	description `A fast interceptor used for scouting and hit-and-run raids.`
+
+ship "Pirateers"
+	sprite "ship/hisair/Pirateers"
+	attributes
+		category "Light Warship"
+		"cost" 1800000
+		"shields" 70000
+		"hull" 40000
+		"required crew" 5
+		"bunks" 10
+		"mass" 200
+		"drag" 2.2
+		"heat dissipation" 0.9
+		"fuel capacity" 400
+		"cargo space" 15
+		"outfit space" 600
+		"weapon capacity" 200
+		"engine capacity" 130
+		"cooling" 250
+	outfits
+		"Energy Blaster" 2
+		"Blaster Turret"
+		"Blue Sun Reactor"
+		"X3200 Ion Steering"
+		"X3700 Ion Thruster"
+		"Cooling Ducts"
+		"D41-HY Shield Generator"
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 25
+	explode "small explosion" 15
+	"final explode" "final explosion medium"
+	description `A light patrol ship used by Hisair pirates to shake down merchants.`
+
+ship "Nairobi"
+	sprite "ship/hisair/Nairobi"
+	attributes
+		category "Light Warship"
+		"cost" 2200000
+		"shields" 80000
+		"hull" 50000
+		"required crew" 7
+		"bunks" 12
+		"mass" 220
+		"drag" 2.4
+		"heat dissipation" 0.9
+		"fuel capacity" 450
+		"cargo space" 20
+		"outfit space" 700
+		"weapon capacity" 240
+		"engine capacity" 150
+		"cooling" 300
+	outfits
+		"Energy Blaster" 3
+		"Anti-Missile Turret"
+		"Blue Sun Reactor"
+		"X3200 Ion Steering"
+		"X3700 Ion Thruster"
+		"Cooling Ducts"
+		"D41-HY Shield Generator"
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 25
+	explode "small explosion" 15
+	"final explode" "final explosion medium"
+	description `A heavier escort variant, equipped with anti-missile defenses to protect convoys.`
+
+
+# --- MEDIUM WARSHIPS ---
+
+ship "Bonecrusher"
+	sprite "ship/hisair/Bonecrusher"
+	attributes
+		category "Medium Warship"
+		"cost" 3000000
+		"shields" 120000
+		"hull" 80000
+		"required crew" 15
+		"bunks" 25
+		"mass" 500
+		"drag" 3.0
+		"heat dissipation" 0.8
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 1200
+		"weapon capacity" 800
+		"engine capacity" 400
+		"cooling" 450
+	outfits
+		"Energy Blaster" 2
+		"Plasma Cannon" 2
+		"Blaster Turret" 2
+		"Blue Sun Reactor" 2
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Cooling Ducts" 2
+		"D41-HY Shield Generator"
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 30
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	"final explode" "final explosion medium"
+	description `A brutal, close-range brawler used to break blockades.`
+
+ship "Bloody Mary"
+	sprite "ship/hisair/Bloody Mary"
+	attributes
+		category "Medium Warship"
+		"cost" 3500000
+		"shields" 130000
+		"hull" 90000
+		"required crew" 18
+		"bunks" 30
+		"mass" 550
+		"drag" 3.2
+		"heat dissipation" 0.8
+		"fuel capacity" 650
+		"cargo space" 50
+		"outfit space" 1300
+		"weapon capacity" 900
+		"engine capacity" 450
+		"cooling" 500
+	outfits
+		"Plasma Cannon" 2
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		"Blaster Turret" 2
+		"Blue Sun Reactor" 2
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Cooling Ducts" 2
+		"D41-HY Shield Generator"
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 30
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	"final explode" "final explosion medium"
+	description `A heavily armed gunship known for its brutal missile barrages.`
+
+ship "Kras"
+	sprite "ship/hisair/Kras"
+	attributes
+		category "Medium Warship"
+		"cost" 3800000
+		"shields" 140000
+		"hull" 100000
+		"required crew" 20
+		"bunks" 35
+		"mass" 600
+		"drag" 3.5
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"cargo space" 60
+		"outfit space" 1400
+		"weapon capacity" 1000
+		"engine capacity" 500
+		"cooling" 550
+	outfits
+		"Plasma Turret" 2
+		"Blaster Turret" 2
+		"Blue Sun Reactor" 2
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Cooling Ducts" 2
+		"D41-HY Shield Generator"
+		"Hyperdrive"
+	
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 30
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	"final explode" "final explosion medium"
+	description `A dedicated anti-fighter escort with a full battery of turrets.`
+
+ship "Toms"
+	sprite "ship/hisair/Toms"
+	attributes
+		category "Medium Warship"
+		"cost" 4000000
+		"shields" 150000
+		"hull" 110000
+		"required crew" 22
+		"bunks" 40
+		"mass" 650
+		"drag" 3.6
+		"heat dissipation" 0.8
+		"fuel capacity" 750
+		"cargo space" 70
+		"outfit space" 1500
+		"weapon capacity" 1100
+		"engine capacity" 550
+		"cooling" 600
+	outfits
+		"Plasma Cannon" 3
+		"Blaster Turret" 2
+		"Blue Sun Reactor" 2
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Cooling Ducts" 2
+		"D41-HY Shield Generator"
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 35
+	explode "small explosion" 25
+	explode "medium explosion" 15
+	"final explode" "final explosion medium"
+	description `A standard medium warship used by the cartels for heavy escort.`
+
+ship "Nisark"
+	sprite "ship/hisair/Nisark"
+	attributes
+		category "Medium Warship"
+		"cost" 4200000
+		"shields" 160000
+		"hull" 120000
+		"required crew" 25
+		"bunks" 45
+		"mass" 700
+		"drag" 3.8
+		"heat dissipation" 0.8
+		"fuel capacity" 800
+		"cargo space" 80
+		"outfit space" 1600
+		"weapon capacity" 1200
+		"engine capacity" 600
+		"cooling" 650
+	outfits
+		"Plasma Cannon" 2
+		"Plasma Turret" 2
+		"Blaster Turret" 2
+		"Blue Sun Reactor" 2
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Cooling Ducts" 2
+		"D41-HY Shield Generator"
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 35
+	explode "small explosion" 25
+	explode "medium explosion" 15
+	"final explode" "final explosion medium"
+	description `An up-gunned medium warship designed to lead raiding parties.`
+
+ship "Hisark"
+	sprite "ship/hisair/Hisark"
+	attributes
+		category "Medium Warship"
+		"cost" 4500000
+		"shields" 180000
+		"hull" 140000
+		"required crew" 30
+		"bunks" 50
+		"mass" 800
+		"drag" 4.0
+		"heat dissipation" 0.8
+		"fuel capacity" 900
+		"cargo space" 100
+		"outfit space" 1800
+		"weapon capacity" 1400
+		"engine capacity" 700
+		"cooling" 750
+	outfits
+		"Plasma Cannon" 3
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		"Blaster Turret" 2
+		"Blue Sun Reactor" 2
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Cooling Ducts" 2
+		"D41-HY Shield Generator"
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 40
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion large"
+	description `A heavily armed medium warship, acting as the captain's flagship for smaller cartel operations.`
+
+ship "Hisairiyya"
+	sprite "ship/hisair/Hisairiyya"
+	attributes
+		category "Medium Warship"
+		"cost" 4800000
+		"shields" 200000
+		"hull" 160000
+		"required crew" 35
+		"bunks" 60
+		"mass" 900
+		"drag" 4.2
+		"heat dissipation" 0.8
+		"fuel capacity" 1000
+		"cargo space" 120
+		"outfit space" 2000
+		"weapon capacity" 1600
+		"engine capacity" 800
+		"cooling" 800
+	outfits
+		"Plasma Cannon" 4
+		"Plasma Turret" 2
+		"Blaster Turret" 2
+		"Blue Sun Reactor" 3
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Cooling Ducts" 3
+		"D41-HY Shield Generator"
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 40
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion large"
+	description `The pride of the Al Hisairiyya faction. This ship is heavily armored and bristling with weapons.`
+
+ship "Fuse"
+	sprite "ship/hisair/Fuse"
+	attributes
+		category "Medium Warship"
+		"cost" 5200000
+		"shields" 220000
+		"hull" 180000
+		"required crew" 40
+		"bunks" 70
+		"mass" 1000
+		"drag" 4.5
+		"heat dissipation" 0.8
+		"fuel capacity" 1100
+		"cargo space" 140
+		"outfit space" 2200
+		"weapon capacity" 1800
+		"engine capacity" 900
+		"cooling" 900
+	outfits
+		"Plasma Cannon" 6
+		"Blaster Turret" 2
+		"Blue Sun Reactor" 3
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Cooling Ducts" 3
+		"D41-HY Shield Generator"
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 45
+	explode "small explosion" 35
+	explode "medium explosion" 25
+	"final explode" "final explosion large"
+	description `A heavily modified gunboat with a terrifying array of forward-facing weapons.`
+
+
+# --- HEAVY WARSHIPS & CARRIERS ---
+
+ship "War"
+	sprite "ship/hisair/War"
+	attributes
+		category "Heavy Warship"
+		"cost" 7500000
+		"shields" 350000
+		"hull" 250000
+		"required crew" 60
+		"bunks" 100
+		"mass" 1500
+		"drag" 4.5
+		"heat dissipation" 0.8
+		"fuel capacity" 900
+		"cargo space" 60
+		"outfit space" 2800
+		"weapon capacity" 2200
+		"engine capacity" 1100
+		"cooling" 900
+	outfits
+		"Plasma Cannon" 4
+		"Plasma Turret" 4
+		"Meteor Missile Launcher" 4
+		"Meteor Missile" 120
+		"Blue Sun Reactor" 5
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Cooling Ducts" 4
+		"D41-HY Shield Generator" 3
+		"Hyperdrive"
+	
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 50
+	explode "small explosion" 40
+	explode "medium explosion" 30
+	explode "large explosion" 20
+	"final explode" "final explosion large"
+	description `A true heavy warship. It is slow, but it carries enough weapons to level a city.`
+
+ship "Soul"
+	sprite "ship/hisair/Soul"
+	attributes
+		category "Heavy Warship"
+		"cost" 8000000
+		"shields" 380000
+		"hull" 280000
+		"required crew" 65
+		"bunks" 120
+		"mass" 1600
+		"drag" 4.8
+		"heat dissipation" 0.8
+		"fuel capacity" 1000
+		"cargo space" 80
+		"outfit space" 3000
+		"weapon capacity" 2400
+		"engine capacity" 1200
+		"cooling" 1000
+	outfits
+		"Plasma Cannon" 6
+		"Plasma Turret" 6
+		"Blue Sun Reactor" 6
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Cooling Ducts" 5
+		"D41-HY Shield Generator" 3
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 60
+	explode "small explosion" 40
+	explode "medium explosion" 30
+	explode "large explosion" 20
+	"final explode" "final explosion large"
+	description `A terrifying warship used by the highest-ranking cartel bosses.`
+
+ship "Foklaor"
+	sprite "ship/hisair/Foklaor"
+	attributes
+		category "Heavy Warship"
+		"cost" 8500000
+		"shields" 400000
+		"hull" 300000
+		"required crew" 70
+		"bunks" 130
+		"mass" 1700
+		"drag" 5.0
+		"heat dissipation" 0.8
+		"fuel capacity" 1100
+		"cargo space" 100
+		"outfit space" 3200
+		"weapon capacity" 2600
+		"engine capacity" 1300
+		"cooling" 1100
+	outfits
+		"Plasma Cannon" 8
+		"Plasma Turret" 6
+		"Blue Sun Reactor" 6
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Cooling Ducts" 5
+		"D41-HY Shield Generator" 4
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 60
+	explode "small explosion" 40
+	explode "medium explosion" 30
+	explode "large explosion" 20
+	"final explode" "final explosion large"
+	description `A heavily armed battlecruiser.`
+
+ship "Rovaenini"
+	sprite "ship/hisair/Rovaenini"
+	attributes
+		category "Heavy Warship"
+		"cost" 9000000
+		"shields" 450000
+		"hull" 350000
+		"required crew" 80
+		"bunks" 150
+		"mass" 1800
+		"drag" 5.2
+		"heat dissipation" 0.8
+		"fuel capacity" 1200
+		"cargo space" 120
+		"outfit space" 3400
+		"weapon capacity" 2800
+		"engine capacity" 1400
+		"cooling" 1200
+	outfits
+		"Plasma Turret" 8
+		"Meteor Missile Launcher" 6
+		"Meteor Missile" 180
+		"Blue Sun Reactor" 6
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Cooling Ducts" 5
+		"D41-HY Shield Generator" 4
+		"Hyperdrive"
+	
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 70
+	explode "small explosion" 50
+	explode "medium explosion" 35
+	explode "large explosion" 25
+	"final explode" "final explosion large"
+	description `A massive carrier used by the largest Hisair fleets.`
+
+ship "Radsar"
+	sprite "ship/hisair/Radsar"
+	attributes
+		category "Heavy Warship"
+		"cost" 9500000
+		"shields" 500000
+		"hull" 400000
+		"required crew" 90
+		"bunks" 160
+		"mass" 2000
+		"drag" 5.5
+		"heat dissipation" 0.8
+		"fuel capacity" 1300
+		"cargo space" 140
+		"outfit space" 3600
+		"weapon capacity" 3000
+		"engine capacity" 1500
+		"cooling" 1300
+	outfits
+		"Plasma Cannon" 6
+		"Plasma Turret" 8
+		"Blue Sun Reactor" 7
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Cooling Ducts" 6
+		"D41-HY Shield Generator" 5
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 80
+	explode "small explosion" 60
+	explode "medium explosion" 40
+	explode "large explosion" 30
+	"final explode" "final explosion large"
+	description `A terrifying battlecruiser that serves as the flagship of the Hisair cartels.`
+
+ship "Eattar"
+	sprite "ship/hisair/Eattar"
+	attributes
+		category "Heavy Warship"
+		"cost" 11000000
+		"shields" 600000
+		"hull" 500000
+		"required crew" 100
+		"bunks" 200
+		"mass" 2500
+		"drag" 6.0
+		"heat dissipation" 0.8
+		"fuel capacity" 1500
+		"cargo space" 200
+		"outfit space" 4000
+		"weapon capacity" 3600
+		"engine capacity" 1800
+		"cooling" 1500
+	outfits
+		"Plasma Cannon" 8
+		"Plasma Turret" 10
+		"Meteor Missile Launcher" 4
+		"Meteor Missile" 120
+		"Blue Sun Reactor" 8
+		"X5200 Ion Steering"
+		"X5700 Ion Thruster"
+		"Cooling Ducts" 8
+		"D41-HY Shield Generator" 8
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 100
+	explode "small explosion" 80
+	explode "medium explosion" 60
+	explode "large explosion" 40
+	"final explode" "final explosion large"
+	description `The absolute peak of Hisair engineering. A massive, heavily armored dreadnought that serves as the mobile headquarters of the cartel's ruling council.`
+
+
+# --- HEAVY FREIGHTERS ---
+
+ship "Bulk Transporter"
+	sprite "ship/hisair/Bulk Transporter"
+	attributes
+		category "Heavy Freighter"
+		"cost" 3000000
+		"shields" 60000
+		"hull" 80000
+		"required crew" 15
+		"bunks" 25
+		"mass" 800
+		"drag" 4.0
+		"heat dissipation" 0.8
+		"fuel capacity" 700
+		"cargo space" 400
+		"outfit space" 1000
+		"weapon capacity" 400
+		"engine capacity" 300
+		"cooling" 400
+	outfits
+		"Blaster Turret"
+		"Blue Sun Reactor"
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Cooling Ducts"
+		"D41-HY Shield Generator"
+		"Hyperdrive"
+	
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 30
+	explode "small explosion" 20
+	explode "medium explosion" 10
+	"final explode" "final explosion medium"
+	description `A standard bulk hauler used by the Hisair to move massive quantities of illegal cargo.`
+
+ship "Bulk Carrier"
+	sprite "ship/hisair/Bulk Carrier"
+	attributes
+		category "Heavy Freighter"
+		"cost" 4000000
+		"shields" 80000
+		"hull" 100000
+		"required crew" 20
+		"bunks" 35
+		"mass" 1000
+		"drag" 4.5
+		"heat dissipation" 0.8
+		"fuel capacity" 800
+		"cargo space" 600
+		"outfit space" 1200
+		"weapon capacity" 500
+		"engine capacity" 400
+		"cooling" 500
+	outfits
+		"Blaster Turret" 2
+		"Blue Sun Reactor"
+		"X4200 Ion Steering"
+		"X4700 Ion Thruster"
+		"Cooling Ducts"
+		"D41-HY Shield Generator"
+		"Hyperdrive"
+	
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 35
+	explode "small explosion" 25
+	explode "medium explosion" 15
+	"final explode" "final explosion medium"
+	description `The largest freighter in the Hisair fleet. It is a mobile warehouse, carrying enough drugs and weapons to supply an entire planet.`

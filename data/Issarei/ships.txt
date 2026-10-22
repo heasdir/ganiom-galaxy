@@ -1,0 +1,409 @@
+# ============================================================
+# BRUCHAVEN ISSAREI SHIPS
+# ============================================================
+
+# --- DRONE / FIGHTER ---
+
+ship "Andalus"
+	sprite "ship/issarei/andalus"
+	attributes
+		category "Drone"
+		"cost" 350000
+		"shields" 6000
+		"hull" 4000
+		"required crew" 0
+		"automaton" 1
+		"bunks" 1
+		"mass" 30
+		"drag" 1.0
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 80
+		"weapon capacity" 30
+		"engine capacity" 20
+		"cooling" 40
+	outfits
+		"Issarei Autocannon"
+		"Issarei Swarm Thruster"
+		"Issarei Scrap Cooling"
+		"Issarei Basic Reactor"
+	
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 10
+	"final explode" "final explosion small"
+	description `A cheap, automated drone. The Issarei use these to swarm enemy ships, overwhelming them with sheer numbers.`
+
+# --- INTERCEPTORS ---
+
+ship "Faxtar"
+	sprite "ship/issarei/faxtar"
+	attributes
+		category "Interceptor"
+		"cost" 850000
+		"shields" 18000
+		"hull" 12000
+		"required crew" 2
+		"bunks" 3
+		"mass" 70
+		"drag" 1.5
+		"heat dissipation" 0.9
+		"fuel capacity" 250
+		"cargo space" 5
+		"outfit space" 200
+		"weapon capacity" 80
+		"engine capacity" 50
+		"cooling" 100
+	outfits
+		"Issarei Autocannon"
+		"Issarei Swarm Thruster" 2
+		"Issarei Scrap Cooling"
+		"Issarei Thin Plating"
+		"Issarei Light Shield"
+		"Issarei Basic Reactor"
+		"Issarei Small Battery"
+		"Hyperdrive"
+	
+	gun 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 15
+	"final explode" "final explosion small"
+	description `A standard interceptor. Fast and cheap, but fragile. Issarei pilots are expected to overwhelm their targets quickly or die trying.`
+
+ship "Tirone"
+	sprite "ship/issarei/tirone"
+	attributes
+		category "Interceptor"
+		"cost" 900000
+		"shields" 16000
+		"hull" 14000
+		"required crew" 2
+		"bunks" 4
+		"mass" 75
+		"drag" 1.6
+		"heat dissipation" 0.9
+		"fuel capacity" 260
+		"cargo space" 8
+		"outfit space" 220
+		"weapon capacity" 90
+		"engine capacity" 60
+		"cooling" 110
+	outfits
+		"Issarei Autocannon" 2
+		"Issarei Swarm Thruster" 2
+		"Issarei Scrap Cooling"
+		"Issarei Thin Plating"
+		"Issarei Light Shield"
+		"Issarei Basic Reactor"
+		"Issarei Small Battery"
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 15
+	"final explode" "final explosion small"
+	description `A heavily armed interceptor. It trades armor for an extra gun, relying on speed and firepower to survive.`
+
+ship "Chroni"
+	sprite "ship/issarei/chroni"
+	attributes
+		category "Fighter"
+		"cost" 950000
+		"shields" 15000
+		"hull" 10000
+		"required crew" 1
+		"bunks" 2
+		"mass" 65
+		"drag" 1.4
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 180
+		"weapon capacity" 70
+		"engine capacity" 40
+		"cooling" 90
+	outfits
+		"Issarei Swarm Rocket" 2
+		"Issarei Swarm Thruster"
+		"Issarei Scrap Cooling"
+		"Issarei Light Shield"
+		"Issarei Basic Reactor" 2
+	
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 15
+	"final explode" "final explosion small"
+	description `A dedicated missile fighter. It lacks forward guns, instead relying on a pair of unguided rockets to punch through enemy shields.`
+
+# --- LIGHT / MEDIUM WARSHIPS ---
+
+ship "Abeniie"
+	sprite "ship/issarei/abenie"
+	attributes
+		category "Light Warship"
+		"cost" 1800000
+		"shields" 35000
+		"hull" 25000
+		"required crew" 6
+		"bunks" 10
+		"mass" 150
+		"drag" 2.0
+		"heat dissipation" 0.9
+		"fuel capacity" 350
+		"cargo space" 15
+		"outfit space" 400
+		"weapon capacity" 150
+		"engine capacity" 100
+		"cooling" 200
+	outfits
+		"Issarei Autocannon" 2
+		"Issarei Autocannon Turret"
+		"Issarei Swarm Thruster" 2
+		"Issarei Scrap Cooling" 2
+		"Issarei Thin Plating"
+		"Issarei Light Shield"
+		"Issarei Basic Reactor"
+		"Issarei Small Battery"
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 20
+	explode "small explosion" 10
+	"final explode" "final explosion medium"
+	description `A light patrol ship. It is the most common vessel seen in Issarei space, used for everything from pirate hunting to border patrol.`
+
+ship "Indiu"
+	sprite "ship/issarei/indiu"
+	attributes
+		category "Light Warship"
+		"cost" 1900000
+		"shields" 30000
+		"hull" 30000
+		"required crew" 8
+		"bunks" 12
+		"mass" 160
+		"drag" 2.2
+		"heat dissipation" 0.9
+		"fuel capacity" 380
+		"cargo space" 20
+		"outfit space" 420
+		"weapon capacity" 160
+		"engine capacity" 110
+		"cooling" 220
+	outfits
+		"Issarei Swarm Rocket" 2
+		"Issarei Autocannon Turret"
+		"Issarei Swarm Thruster" 2
+		"Issarei Scrap Cooling" 2
+		"Issarei Thin Plating"
+		"Issarei Light Shield"
+		"Issarei Basic Reactor"
+		"Issarei Small Battery"
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 20
+	explode "small explosion" 12
+	"final explode" "final explosion medium"
+	description `An anti-armor variant. It swaps autocannons for rockets, allowing it to punch through heavier Mekrut armor.`
+
+ship "Normedi"
+	sprite "ship/issarei/normedi"
+	attributes
+		category "Medium Warship"
+		"cost" 2500000
+		"shields" 50000
+		"hull" 40000
+		"required crew" 12
+		"bunks" 20
+		"mass" 250
+		"drag" 2.5
+		"heat dissipation" 0.9
+		"fuel capacity" 450
+		"cargo space" 25
+		"outfit space" 600
+		"weapon capacity" 220
+		"engine capacity" 150
+		"cooling" 300
+	outfits
+		"Issarei Autocannon" 3
+		"Issarei Autocannon Turret" 2
+		"Issarei Swarm Thruster" 3
+		"Issarei Scrap Cooling" 2
+		"Issarei Thin Plating" 2
+		"Issarei Light Shield"
+		"Issarei Basic Reactor"
+		"Issarei Small Battery" 2
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 25
+	explode "small explosion" 15
+	"final explode" "final explosion medium"
+	description `A medium warship. It is heavily armed for its size, designed to act as a command ship for smaller swarm units.`
+
+ship "Ka Aru Ya"
+	sprite "ship/issarei/ka aru ya"
+	attributes
+		category "Medium Warship"
+		"cost" 2800000
+		"shields" 55000
+		"hull" 35000
+		"required crew" 14
+		"bunks" 22
+		"mass" 270
+		"drag" 2.6
+		"heat dissipation" 0.9
+		"fuel capacity" 480
+		"cargo space" 30
+		"outfit space" 650
+		"weapon capacity" 250
+		"engine capacity" 160
+		"cooling" 320
+	outfits
+		"Issarei Swarm Rocket" 3
+		"Issarei Autocannon Turret" 2
+		"Issarei Swarm Thruster" 3
+		"Issarei Scrap Cooling" 2
+		"Issarei Thin Plating" 2
+		"Issarei Light Shield"
+		"Issarei Basic Reactor"
+		"Issarei Small Battery" 2
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 25
+	explode "small explosion" 15
+	"final explode" "final explosion medium"
+	description `A heavy missile boat. It is designed to sit at the back of a formation and rain rockets down on enemy fleets.`
+
+# --- HEAVY WARSHIPS ---
+
+ship "Beheija"
+	sprite "ship/issarei/beheija"
+	attributes
+		category "Heavy Warship"
+		"cost" 4500000
+		"shields" 80000
+		"hull" 60000
+		"required crew" 25
+		"bunks" 40
+		"mass" 500
+		"drag" 3.5
+		"heat dissipation" 0.9
+		"fuel capacity" 600
+		"cargo space" 40
+		"outfit space" 1000
+		"weapon capacity" 400
+		"engine capacity" 250
+		"cooling" 500
+	outfits
+		"Issarei Autocannon" 4
+		"Issarei Autocannon Turret" 3
+		"Issarei Swarm Thruster" 4
+		"Issarei Scrap Cooling" 3
+		"Issarei Thin Plating" 3
+		"Issarei Light Shield" 2
+		"Issarei Basic Reactor" 2
+		"Issarei Small Battery" 3
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 40
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion large"
+	description `A heavy warship. While not as heavily armored as the Mekrut equivalents, it makes up for it with overwhelming firepower and a large swarm of escort ships.`
+
+ship "Lakan" #Bruchaven Biryani
+	sprite "ship/issarei/lakan"
+	attributes
+		category "Heavy Warship"
+		"cost" 5500000
+		"shields" 90000
+		"hull" 70000
+		"required crew" 30
+		"bunks" 50
+		"mass" 550
+		"drag" 3.8
+		"heat dissipation" 0.9
+		"fuel capacity" 650
+		"cargo space" 50
+		"outfit space" 1100
+		"weapon capacity" 450
+		"engine capacity" 300
+		"cooling" 550
+	outfits
+		"Issarei Autocannon Turret" 4
+		"Issarei Autocannon" 2
+		"Issarei Swarm Thruster" 5
+		"Issarei Scrap Cooling" 4
+		"Issarei Thin Plating" 3
+		"Issarei Light Shield" 2
+		"Issarei Basic Reactor" 2
+		"Issarei Small Battery" 3
+		"Hyperdrive"
+	
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	explode "tiny explosion" 45
+	explode "small explosion" 30
+	explode "medium explosion" 25
+	"final explode" "final explosion large"
+	description `The pride of the Issarei fleet. It serves as a mobile command center, carrying a swarm of drones and fighters to overwhelm enemy fleets, while its autocannons provide close-in defense.`

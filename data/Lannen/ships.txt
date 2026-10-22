@@ -1,0 +1,866 @@
+# ============================================================
+# LANNEN SHIPS
+# ============================================================
+
+# --- DRONES & FIGHTERS ---
+
+ship "Ag-fek"
+	sprite "ship/lannen/Ag-fek"
+	attributes
+		category "Drone"
+		"licenses" "Lannen Civilian"
+		"cost" 400000
+		"shields" 15000
+		"hull" 5000
+		"required crew" 0
+		"automaton" 1
+		"bunks" 1
+		"mass" 40
+		"drag" 1.1
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 150
+		"weapon capacity" 50
+		"engine capacity" 40
+		"cooling" 80
+	outfits
+		"Temburak"
+		"Farhil"
+		"Absuryaak"
+		"Possdyur"
+	
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 15
+	"final explode" "final explosion small"
+	description `A small automated drone used by Lannen artists to paint spectacular light shows in the void.`
+
+ship "Orguiina"
+	sprite "ship/lannen/Orguiina"
+	attributes
+		category "Fighter"
+		"licenses" "Lannen Civilian"
+		"cost" 1200000
+		"shields" 35000
+		"hull" 12000
+		"required crew" 1
+		"bunks" 1
+		"mass" 60
+		"drag" 1.3
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 250
+		"weapon capacity" 80
+		"engine capacity" 60
+		"cooling" 120
+	outfits
+		"Temburak" 2
+		"Farhil"
+		"Absuryaak"
+		"Possdyur"
+	
+	gun 0 0
+	gun 0 0
+	engine 0 0
+	explode "tiny explosion" 20
+	"final explode" "final explosion small"
+	description `The Orguiina is a nimble interceptor. It is so beautiful that pilots often feel guilty taking it into combat.`
+
+# --- LIGHT WARSHIPS ---
+
+ship "Chimponyak"
+	sprite "ship/lannen/Chimponyak"
+	attributes
+		category "Light Warship"
+		"licenses" "Lannen Commander"
+		"cost" 4500000
+		"shields" 80000
+		"hull" 30000
+		"required crew" 5
+		"bunks" 10
+		"mass" 200
+		"drag" 2.2
+		"heat dissipation" 0.9
+		"fuel capacity" 400
+		"cargo space" 15
+		"outfit space" 600
+		"weapon capacity" 200
+		"engine capacity" 130
+		"cooling" 250
+	outfits
+		"Temburak" 3
+		"Havan"
+		"Txembo"
+		"Narmidur"
+		"Agdebai"
+		"Experimental Drive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	engine 0 0
+	explode "tiny explosion" 25
+	explode "small explosion" 15
+	"final explode" "final explosion medium"
+	description `The Chimponyak serves as the primary patrol ship for the Lannen.`
+
+ship "Dhovbo"
+	sprite "ship/lannen/Dhovbo"
+	attributes
+		category "Light Warship"
+		"licenses" "Lannen Commander"
+		"cost" 4800000
+		"shields" 85000
+		"hull" 35000
+		"required crew" 6
+		"bunks" 12
+		"mass" 220
+		"drag" 2.4
+		"heat dissipation" 0.9
+		"fuel capacity" 450
+		"cargo space" 20
+		"outfit space" 650
+		"weapon capacity" 220
+		"engine capacity" 150
+		"cooling" 280
+	outfits
+		"Temburak" 2
+		"Havan" 2
+		"Txembo"
+		"Narmidur"
+		"Agdebai"
+		"Experimental Drive"
+	
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	explode "tiny explosion" 25
+	explode "small explosion" 15
+	"final explode" "final explosion medium"
+	description `A heavier variant of the Chimponyak, designed for extended patrols.`
+
+ship "Dhrusho"
+	sprite "ship/lannen/Dhrusho"
+	attributes
+		category "Light Warship"
+		"licenses" "Lannen Commander"
+		"cost" 5000000
+		"shields" 90000
+		"hull" 40000
+		"required crew" 7
+		"bunks" 14
+		"mass" 240
+		"drag" 2.5
+		"heat dissipation" 0.9
+		"fuel capacity" 500
+		"cargo space" 25
+		"outfit space" 700
+		"weapon capacity" 250
+		"engine capacity" 160
+		"cooling" 300
+	outfits
+		"Temburak" 4
+		"Havan"
+		"Txembo"
+		"Narmidur"
+		"Agdebai"
+		"Experimental Drive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	engine 0 0
+	explode "tiny explosion" 25
+	explode "small explosion" 15
+	"final explode" "final explosion medium"
+	description `A fast, elegant strike craft, perfect for flanking slower opponents.`
+
+ship "Yaxasjord"
+	sprite "ship/lannen/Yaxasjord"
+	attributes
+		category "Light Warship"
+		"licenses" "Lannen Commander"
+		"cost" 5200000
+		"shields" 95000
+		"hull" 45000
+		"required crew" 8
+		"bunks" 16
+		"mass" 260
+		"drag" 2.6
+		"heat dissipation" 0.9
+		"fuel capacity" 550
+		"cargo space" 30
+		"outfit space" 750
+		"weapon capacity" 280
+		"engine capacity" 180
+		"cooling" 320
+	outfits
+		"Temburak" 3
+		"Havan" 2
+		"Txembo"
+		"Narmidur"
+		"Agdebai"
+		"Experimental Drive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	explode "tiny explosion" 25
+	explode "small explosion" 15
+	"final explode" "final explosion medium"
+	description `The Yaxasjord is named after a famous Lannen composer. It is said that its engine hums in perfect pitch.`
+
+ship "Wagar"
+	sprite "ship/lannen/Wagar"
+	attributes
+		category "Light Warship"
+		"licenses" "Lannen Commander"
+		"cost" 5500000
+		"shields" 100000
+		"hull" 50000
+		"required crew" 9
+		"bunks" 18
+		"mass" 280
+		"drag" 2.7
+		"heat dissipation" 0.9
+		"fuel capacity" 600
+		"cargo space" 35
+		"outfit space" 800
+		"weapon capacity" 300
+		"engine capacity" 200
+		"cooling" 350
+	outfits
+		"Temburak" 5
+		"Havan"
+		"Txembo"
+		"Narmidur"
+		"Agdebai"
+		"Experimental Drive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	engine 0 0
+	explode "tiny explosion" 25
+	explode "small explosion" 15
+	"final explode" "final explosion medium"
+	description `A ship designed for Lannen diplomats who prefer to travel with a bit more firepower.`
+
+# --- MEDIUM WARSHIPS ---
+
+ship "Fjoraksjo"
+	sprite "ship/lannen/Fjoraksjo"
+	attributes
+		category "Medium Warship"
+		"licenses" "Lannen Commander"
+		"cost" 18000000
+		"shields" 250000
+		"hull" 100000
+		"required crew" 25
+		"bunks" 50
+		"mass" 700
+		"drag" 3.5
+		"heat dissipation" 0.8
+		"fuel capacity" 800
+		"cargo space" 50
+		"outfit space" 1500
+		"weapon capacity" 500
+		"engine capacity" 400
+		"cooling" 500
+	outfits
+		"Temburak" 4
+		"Havan" 3
+		"Txembo" 2
+		"Narmidur" 2
+		"Agdebai" 2
+		"Experimental Drive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 35
+	explode "small explosion" 25
+	explode "medium explosion" 15
+	"final explode" "final explosion medium"
+	description `The Fjoraksjo is the workhorse of the Lannen navy, balancing offensive capability with defensive grace.`
+
+ship "Itkkuti Hettiu"
+	sprite "ship/lannen/Itkkuti Hettiu"
+	attributes
+		category "Medium Warship"
+		"licenses" "Lannen Commander"
+		"cost" 19000000
+		"shields" 260000
+		"hull" 110000
+		"required crew" 27
+		"bunks" 55
+		"mass" 750
+		"drag" 3.6
+		"heat dissipation" 0.8
+		"fuel capacity" 850
+		"cargo space" 55
+		"outfit space" 1600
+		"weapon capacity" 550
+		"engine capacity" 420
+		"cooling" 550
+	outfits
+		"Temburak" 5
+		"Havan" 2
+		"Txembo" 2
+		"Narmidur" 2
+		"Agdebai" 2
+		"Experimental Drive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 35
+	explode "small explosion" 25
+	explode "medium explosion" 15
+	"final explode" "final explosion medium"
+	description `A variant of the Fjoraksjo with an emphasis on forward firepower.`
+
+# --- HEAVY WARSHIPS ---
+
+ship "Lobtomi"
+	sprite "ship/lannen/Lobtomi"
+	attributes
+		category "Heavy Warship"
+		"licenses" "Lannen Commander"
+		"cost" 55000000
+		"shields" 750000
+		"hull" 250000
+		"required crew" 70
+		"bunks" 140
+		"mass" 1500
+		"drag" 4.5
+		"heat dissipation" 0.8
+		"fuel capacity" 1000
+		"cargo space" 100
+		"outfit space" 2800
+		"weapon capacity" 1100
+		"engine capacity" 600
+		"cooling" 900
+	outfits
+		"Temburak" 8
+		"Havan" 4
+		"Txembo" 3
+		"Narmidur" 2
+		"Agdebai" 3
+		"Experimental Drive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 60
+	explode "small explosion" 40
+	explode "medium explosion" 30
+	explode "large explosion" 20
+	"final explode" "final explosion large"
+	description `The Lobtomi is a heavy warship. It is one of the few Lannen ships built purely for war, yet it still retains the artistic curves of its people.`
+
+ship "Naksho"
+	sprite "ship/lannen/Naksho"
+	attributes
+		category "Heavy Warship"
+		"licenses" "Lannen Commander"
+		"cost" 58000000
+		"shields" 800000
+		"hull" 280000
+		"required crew" 75
+		"bunks" 150
+		"mass" 1600
+		"drag" 4.7
+		"heat dissipation" 0.8
+		"fuel capacity" 1100
+		"cargo space" 110
+		"outfit space" 3000
+		"weapon capacity" 1200
+		"engine capacity" 650
+		"cooling" 950
+	outfits
+		"Temburak" 10
+		"Havan" 4
+		"Txembo" 3
+		"Narmidur" 3
+		"Agdebai" 3
+		"Experimental Drive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 60
+	explode "small explosion" 40
+	explode "medium explosion" 30
+	explode "large explosion" 20
+	"final explode" "final explosion large"
+	description `The Naksho is a powerful command ship, used by Lannen Admirals to coordinate their fleets.`
+
+ship "Gallassieo"
+	sprite "ship/lannen/Gallassieo"
+	attributes
+		category "Heavy Warship"
+		"licenses" "Lannen Commander"
+		"cost" 60000000
+		"shields" 850000
+		"hull" 300000
+		"required crew" 80
+		"bunks" 160
+		"mass" 1700
+		"drag" 4.8
+		"heat dissipation" 0.8
+		"fuel capacity" 1200
+		"cargo space" 120
+		"outfit space" 3200
+		"weapon capacity" 1300
+		"engine capacity" 700
+		"cooling" 1000
+	outfits
+		"Temburak" 9
+		"Havan" 6
+		"Txembo" 3
+		"Narmidur" 3
+		"Agdebai" 3
+		"Experimental Drive"
+	
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	gun 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 60
+	explode "small explosion" 40
+	explode "medium explosion" 30
+	explode "large explosion" 20
+	"final explode" "final explosion large"
+	description `The Gallassieo is a terrifying sight, beautiful to look at but capable of destroying fleets.`
+
+# --- HEAVY CARRIERS ---
+
+ship "An-Dek"
+	sprite "ship/lannen/An-Dek"
+	attributes
+		category "Heavy Warship"
+		"licenses" "Lannen Commander"
+		"cost" 70000000
+		"shields" 900000
+		"hull" 350000
+		"required crew" 90
+		"bunks" 250
+		"mass" 2000
+		"drag" 5.0
+		"heat dissipation" 0.8
+		"fuel capacity" 1300
+		"cargo space" 150
+		"outfit space" 3500
+		"weapon capacity" 1200
+		"engine capacity" 750
+		"cooling" 1100
+	outfits
+		"Havan" 6
+		"Txembo" 4
+		"Narmidur" 3
+		"Agdebai" 3
+		"Experimental Drive"
+	
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	explode "tiny explosion" 70
+	explode "small explosion" 50
+	explode "medium explosion" 35
+	explode "large explosion" 25
+	"final explode" "final explosion large"
+	description `The An-Dek is a massive carrier that serves as a mobile concert hall and military base for the Lannen fleet.`
+
+ship "Hopki-Hetu"
+	sprite "ship/lannen/Hopki-Hetu"
+	attributes
+		category "Heavy Warship"
+		"licenses" "Lannen Commander"
+		"cost" 75000000
+		"shields" 950000
+		"hull" 380000
+		"required crew" 95
+		"bunks" 280
+		"mass" 2200
+		"drag" 5.2
+		"heat dissipation" 0.8
+		"fuel capacity" 1400
+		"cargo space" 160
+		"outfit space" 3800
+		"weapon capacity" 1300
+		"engine capacity" 800
+		"cooling" 1200
+	outfits
+		"Havan" 8
+		"Txembo" 4
+		"Narmidur" 4
+		"Agdebai" 3
+		"Experimental Drive"
+	
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	explode "tiny explosion" 80
+	explode "small explosion" 60
+	explode "medium explosion" 40
+	explode "large explosion" 30
+	"final explode" "final explosion large"
+	description `A heavier carrier variant, the Hopki-Hetu is a symbol of Lannen naval power.`
+
+ship "Nardsa"
+	sprite "ship/lannen/Nardsa"
+	attributes
+		category "Heavy Warship"
+		"licenses" "Lannen Commander"
+		"cost" 80000000
+		"shields" 1000000
+		"hull" 400000
+		"required crew" 100
+		"bunks" 300
+		"mass" 2400
+		"drag" 5.4
+		"heat dissipation" 0.8
+		"fuel capacity" 1500
+		"cargo space" 170
+		"outfit space" 4000
+		"weapon capacity" 1400
+		"engine capacity" 850
+		"cooling" 1300
+	outfits
+		"Havan" 10
+		"Txembo" 5
+		"Narmidur" 4
+		"Agdebai" 4
+		"Experimental Drive"
+	
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Fighter" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	bay "Drone" 0 0
+	explode "tiny explosion" 90
+	explode "small explosion" 70
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	"final explode" "final explosion large"
+	description `The Nardsa is the largest carrier in the Lannen fleet, designed to project power across entire systems.`
+
+# --- HEAVY FREIGHTERS ---
+
+ship "Fefwat"
+	sprite "ship/lannen/Fefwat"
+	attributes
+		category "Heavy Freighter"
+		"licenses" "Lannen Civilian"
+		"cost" 25000000
+		"shields" 200000
+		"hull" 120000
+		"required crew" 25
+		"bunks" 50
+		"mass" 1400
+		"drag" 4.5
+		"heat dissipation" 0.8
+		"fuel capacity" 900
+		"cargo space" 700
+		"outfit space" 2000
+		"weapon capacity" 300
+		"engine capacity" 500
+		"cooling" 600
+	outfits
+		"Havan" 2
+		"Txembo" 2
+		"Narmidur" 2
+		"Agdebai" 2
+		"Experimental Drive"
+	
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 40
+	explode "small explosion" 30
+	explode "medium explosion" 20
+	"final explode" "final explosion large"
+	description `The Fefwat is a massive freighter used to transport luxury goods, art, and raw materials across Lannen space.`
+
+ship "Osilannen"
+	sprite "ship/lannen/Osilannen"
+	attributes
+		category "Heavy Freighter"
+		"licenses" "Lannen Civilian"
+		"cost" 28000000
+		"shields" 220000
+		"hull" 130000
+		"required crew" 28
+		"bunks" 55
+		"mass" 1500
+		"drag" 4.7
+		"heat dissipation" 0.8
+		"fuel capacity" 1000
+		"cargo space" 750
+		"outfit space" 2100
+		"weapon capacity" 350
+		"engine capacity" 550
+		"cooling" 650
+	outfits
+		"Havan" 3
+		"Txembo" 2
+		"Narmidur" 2
+		"Agdebai" 2
+		"Experimental Drive"
+	
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 42
+	explode "small explosion" 32
+	explode "medium explosion" 22
+	"final explode" "final explosion large"
+	description `The Osilannen is a heavily armored freighter, designed for dangerous trade routes.`
+
+ship "Samme fjors iilag"
+	sprite "ship/lannen/Samme fjors iilag"
+	attributes
+		category "Heavy Freighter"
+		"licenses" "Lannen Civilian"
+		"cost" 30000000
+		"shields" 250000
+		"hull" 150000
+		"required crew" 30
+		"bunks" 60
+		"mass" 1600
+		"drag" 5.0
+		"heat dissipation" 0.8
+		"fuel capacity" 1100
+		"cargo space" 800
+		"outfit space" 2200
+		"weapon capacity" 400
+		"engine capacity" 600
+		"cooling" 700
+	outfits
+		"Havan" 2
+		"Txembo" 3
+		"Narmidur" 2
+		"Agdebai" 3
+		"Experimental Drive"
+	
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 45
+	explode "small explosion" 35
+	explode "medium explosion" 25
+	"final explode" "final explosion large"
+	description `A luxury freighter, the Samme fjors iilag is often used to transport high-ranking Lannen officials and their belongings.`
+
+ship "Thropur"
+	sprite "ship/lannen/Thropur"
+	attributes
+		category "Heavy Freighter"
+		"licenses" "Lannen Civilian"
+		"cost" 32000000
+		"shields" 280000
+		"hull" 170000
+		"required crew" 32
+		"bunks" 65
+		"mass" 1700
+		"drag" 5.2
+		"heat dissipation" 0.8
+		"fuel capacity" 1200
+		"cargo space" 850
+		"outfit space" 2300
+		"weapon capacity" 450
+		"engine capacity" 650
+		"cooling" 750
+	outfits
+		"Havan" 3
+		"Txembo" 3
+		"Narmidur" 2
+		"Agdebai" 3
+		"Experimental Drive"
+	
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 48
+	explode "small explosion" 38
+	explode "medium explosion" 28
+	"final explode" "final explosion large"
+	description `The Thropur is a heavy freighter built to withstand pirate attacks, with enough weaponry to fight back.`
+
+ship "Bhosdjjafajilia"
+	sprite "ship/lannen/Bhosdjjafajilia"
+	attributes
+		category "Heavy Freighter"
+		"licenses" "Lannen Civilian"
+		"cost" 35000000
+		"shields" 300000
+		"hull" 200000
+		"required crew" 35
+		"bunks" 70
+		"mass" 1800
+		"drag" 5.4
+		"heat dissipation" 0.8
+		"fuel capacity" 1300
+		"cargo space" 900
+		"outfit space" 2400
+		"weapon capacity" 500
+		"engine capacity" 700
+		"cooling" 800
+	outfits
+		"Havan" 4
+		"Txembo" 3
+		"Narmidur" 3
+		"Agdebai" 3
+		"Experimental Drive"
+	
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	turret 0 0
+	engine 0 0
+	engine 0 0
+	engine 0 0
+	explode "tiny explosion" 50
+	explode "small explosion" 40
+	"final explode" "final explosion large"
+	description `The Bhosdjjafajilia is the largest freighter the Lannen have to offer, a true leviathan of commerce.`
