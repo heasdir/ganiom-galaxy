@@ -1,12 +1,7 @@
-# ============================================================
-# THE BETWEEN SHIPS
-# ============================================================
-
-# --- DRONES ---
+# --- THE BETWEEN ---
 
 ship "Dhera"
 	sprite "ship/between/Dhera"
-	thumbnail "thumbnail/between/Dhera"
 	attributes
 		category "Drone"
 		"cost" 350000
@@ -32,16 +27,14 @@ ship "Dhera"
 		"X1200 Ion Steering"
 		"X1700 Ion Thruster"
 		"Cooling Ducts"
-	
-	gun 0 0
-	engine 0 0
+	gun 0 -20
+	engine 0 25
 	explode "tiny explosion" 15
 	"final explode" "final explosion small"
 	description `An automated drone used by The Between for surveillance and covert strikes.`
 
 ship "Tjebo"
 	sprite "ship/between/Tjebo"
-	thumbnail "thumbnail/between/Tjebo"
 	attributes
 		category "Drone"
 		"cost" 360000
@@ -67,20 +60,15 @@ ship "Tjebo"
 		"X1200 Ion Steering"
 		"X1700 Ion Thruster"
 		"Cooling Ducts"
-	
-	gun 0 0
-	gun 0 0
-	engine 0 0
+	gun -10 -20
+	gun 10 -20
+	engine 0 25
 	explode "tiny explosion" 15
 	"final explode" "final explosion small"
 	description `A heavier surveillance drone.`
 
-
-# --- FIGHTERS ---
-
 ship "Aagli"
 	sprite "ship/between/Aagli"
-	thumbnail "thumbnail/between/Aagli"
 	attributes
 		category "Fighter"
 		"cost" 800000
@@ -106,17 +94,15 @@ ship "Aagli"
 		"X2700 Ion Thruster"
 		"Cooling Ducts"
 		"Between Shield Matrix"
-	
-	gun 0 0
-	gun 0 0
-	engine 0 0
+	gun -8 -24
+	gun 8 -24
+	engine 0 30
 	explode "tiny explosion" 20
 	"final explode" "final explosion small"
 	description `A stealth fighter used by The Between to eliminate high-value targets.`
 
 ship "Agwayo"
 	sprite "ship/between/Agwayo"
-	thumbnail "thumbnail/between/Agwayo"
 	attributes
 		category "Fighter"
 		"cost" 850000
@@ -142,17 +128,15 @@ ship "Agwayo"
 		"X2700 Ion Thruster"
 		"Cooling Ducts"
 		"Between Shield Matrix"
-	
-	gun 0 0
-	gun 0 0
-	engine 0 0
+	gun -10 -25
+	gun 10 -25
+	engine 0 30
 	explode "tiny explosion" 22
 	"final explode" "final explosion small"
 	description `A heavier variant of the Aagli, designed for longer engagements.`
 
 ship "Nioria"
 	sprite "ship/between/Nioria"
-	thumbnail "thumbnail/between/Nioria"
 	attributes
 		category "Fighter"
 		"cost" 900000
@@ -178,18 +162,16 @@ ship "Nioria"
 		"X2700 Ion Thruster"
 		"Cooling Ducts"
 		"Between Shield Matrix"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	engine 0 0
+	gun -12 -25
+	gun 0 -28
+	gun 12 -25
+	engine 0 30
 	explode "tiny explosion" 25
 	"final explode" "final explosion small"
 	description `A heavy interceptor variant.`
 
 ship "Qormo"
 	sprite "ship/between/Qormo"
-	thumbnail "thumbnail/between/Qormo"
 	attributes
 		category "Fighter"
 		"cost" 750000
@@ -215,20 +197,15 @@ ship "Qormo"
 		"X2700 Ion Thruster"
 		"Cooling Ducts"
 		"Between Shield Matrix"
-	
-	gun 0 0
-	gun 0 0
-	engine 0 0
+	gun -8 -22
+	gun 8 -22
+	engine 0 28
 	explode "tiny explosion" 18
 	"final explode" "final explosion small"
 	description `A fast, lightly armored strike fighter.`
 
-
-# --- MEDIUM WARSHIPS ---
-
 ship "Sikka Qormu"
 	sprite "ship/between/Sikka Qormu"
-	thumbnail "thumbnail/between/Sikka Qormu"
 	attributes
 		category "Medium Warship"
 		"cost" 15000000
@@ -256,15 +233,14 @@ ship "Sikka Qormu"
 		"X4700 Ion Thruster"
 		"Cooling Ducts"
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
+	gun -20 -40
+	gun 20 -40
+	gun -10 -50
+	gun 10 -50
+	turret -30 10
+	turret 30 10
+	engine -15 45
+	engine 15 45
 	explode "tiny explosion" 30
 	explode "small explosion" 20
 	"final explode" "final explosion medium"
@@ -272,7 +248,6 @@ ship "Sikka Qormu"
 
 ship "Ossura"
 	sprite "ship/between/Ossura"
-	thumbnail "thumbnail/between/Ossura"
 	attributes
 		category "Medium Warship"
 		"cost" 16000000
@@ -300,15 +275,14 @@ ship "Ossura"
 		"X4700 Ion Thruster"
 		"Cooling Ducts"
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
+	gun -25 -45
+	gun 25 -45
+	gun -15 -55
+	gun 15 -55
+	turret -35 15
+	turret 35 15
+	engine -15 50
+	engine 15 50
 	explode "tiny explosion" 32
 	explode "small explosion" 22
 	"final explode" "final explosion medium"
@@ -316,7 +290,6 @@ ship "Ossura"
 
 ship "Wekli"
 	sprite "ship/between/Wekli"
-	thumbnail "thumbnail/between/Wekli"
 	attributes
 		category "Medium Warship"
 		"cost" 14000000
@@ -344,26 +317,21 @@ ship "Wekli"
 		"X4700 Ion Thruster"
 		"Cooling Ducts"
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
+	gun -15 -40
+	gun 15 -40
+	gun 0 -50
+	turret -25 5
+	turret 25 5
+	turret 0 15
+	engine -15 45
+	engine 15 45
 	explode "tiny explosion" 28
 	explode "small explosion" 18
 	"final explode" "final explosion medium"
 	description `A specialized escort ship utilized by The Between.`
 
-
-# --- HEAVY WARSHIPS ---
-
 ship "Fkaloo"
 	sprite "ship/between/Fkaloo"
-	thumbnail "thumbnail/between/Fkaloo"
 	attributes
 		category "Heavy Warship"
 		"cost" 35000000
@@ -394,28 +362,27 @@ ship "Fkaloo"
 		"X5700 Ion Thruster"
 		"Cooling Ducts" 4
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	gun -30 -60
+	gun 30 -60
+	gun -20 -70
+	gun 20 -70
+	gun -10 -80
+	gun 10 -80
+	gun -40 -40
+	gun 40 -40
+	gun -15 -30
+	gun 15 -30
+	gun -5 -100
+	gun 5 -100
+	turret -40 -10
+	turret 40 -10
+	turret -50 30
+	turret 50 30
+	turret -20 40
+	turret 20 40
+	engine -25 60
+	engine 0 70
+	engine 25 60
 	explode "tiny explosion" 60
 	explode "small explosion" 40
 	explode "medium explosion" 30
@@ -425,7 +392,6 @@ ship "Fkaloo"
 
 ship "Suuk"
 	sprite "ship/between/Suuk"
-	thumbnail "thumbnail/between/Suuk"
 	attributes
 		category "Heavy Warship"
 		"cost" 38000000
@@ -456,29 +422,28 @@ ship "Suuk"
 		"X5700 Ion Thruster"
 		"Cooling Ducts" 4
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	gun -35 -60
+	gun 35 -60
+	gun -25 -70
+	gun 25 -70
+	gun -15 -80
+	gun 15 -80
+	gun -45 -40
+	gun 45 -40
+	gun -20 -30
+	gun 20 -30
+	gun -10 -100
+	gun 10 -100
+	gun 0 -110
+	turret -45 -10
+	turret 45 -10
+	turret -55 30
+	turret 55 30
+	turret -25 40
+	turret 25 40
+	engine -30 60
+	engine 0 75
+	engine 30 60
 	explode "tiny explosion" 62
 	explode "small explosion" 42
 	explode "medium explosion" 32
@@ -488,7 +453,6 @@ ship "Suuk"
 
 ship "Tiranie"
 	sprite "ship/between/Tiranie"
-	thumbnail "thumbnail/between/Tiranie"
 	attributes
 		category "Heavy Warship"
 		"cost" 40000000
@@ -519,31 +483,30 @@ ship "Tiranie"
 		"X5700 Ion Thruster"
 		"Cooling Ducts" 5
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	gun -40 -65
+	gun 40 -65
+	gun -30 -75
+	gun 30 -75
+	gun -20 -85
+	gun 20 -85
+	gun -50 -45
+	gun 50 -45
+	gun -25 -35
+	gun 25 -35
+	gun -15 -105
+	gun 15 -105
+	gun -5 -115
+	gun 5 -115
+	gun 0 -125
+	turret -50 -15
+	turret 50 -15
+	turret -60 25
+	turret 60 25
+	turret -30 35
+	turret 30 35
+	engine -35 65
+	engine 0 80
+	engine 35 65
 	explode "tiny explosion" 65
 	explode "small explosion" 45
 	explode "medium explosion" 35
@@ -553,7 +516,6 @@ ship "Tiranie"
 
 ship "Dhie-Dhie"
 	sprite "ship/between/Dhie-Dhie"
-	thumbnail "thumbnail/between/Dhie-Dhie"
 	attributes
 		category "Heavy Warship"
 		"cost" 45000000
@@ -584,34 +546,33 @@ ship "Dhie-Dhie"
 		"X5700 Ion Thruster"
 		"Cooling Ducts" 5
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	gun -45 -70
+	gun 45 -70
+	gun -35 -80
+	gun 35 -80
+	gun -25 -90
+	gun 25 -90
+	gun -55 -50
+	gun 55 -50
+	gun -30 -40
+	gun 30 -40
+	gun -20 -110
+	gun 20 -110
+	gun -10 -120
+	gun 10 -120
+	gun 0 -130
+	gun -15 -60
+	gun 15 -60
+	gun 0 -80
+	turret -55 -20
+	turret 55 -20
+	turret -65 20
+	turret 65 20
+	turret -35 30
+	turret 35 30
+	engine -40 70
+	engine 0 85
+	engine 40 70
 	explode "tiny explosion" 80
 	explode "small explosion" 60
 	explode "medium explosion" 40
@@ -621,7 +582,6 @@ ship "Dhie-Dhie"
 
 ship "Kllam"
 	sprite "ship/between/Kllam"
-	thumbnail "thumbnail/between/Kllam"
 	attributes
 		category "Heavy Warship"
 		"cost" 50000000
@@ -652,39 +612,38 @@ ship "Kllam"
 		"X5700 Ion Thruster"
 		"Cooling Ducts" 6
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	gun -50 -80
+	gun 50 -80
+	gun -40 -90
+	gun 40 -90
+	gun -30 -100
+	gun 30 -100
+	gun -60 -60
+	gun 60 -60
+	gun -35 -50
+	gun 35 -50
+	gun -25 -120
+	gun 25 -120
+	gun -15 -130
+	gun 15 -130
+	gun -5 -140
+	gun 5 -140
+	gun -20 -70
+	gun 20 -70
+	gun -10 -90
+	gun 10 -90
+	gun 0 -110
+	turret -60 -30
+	turret 60 -30
+	turret -70 10
+	turret 70 10
+	turret -80 50
+	turret 80 50
+	turret -40 60
+	turret 40 60
+	engine -45 80
+	engine 0 95
+	engine 45 80
 	explode "tiny explosion" 90
 	explode "small explosion" 70
 	explode "medium explosion" 50
@@ -692,12 +651,8 @@ ship "Kllam"
 	"final explode" "final explosion large"
 	description `The Kllam is a terrifying engine of destruction.`
 
-
-# --- HEAVY CARRIERS ---
-
 ship "Aila Qorma"
 	sprite "ship/between/Aila Qorma"
-	thumbnail "thumbnail/between/Aila Qorma"
 	attributes
 		category "Heavy Warship"
 		"cost" 60000000
@@ -724,24 +679,23 @@ ship "Aila Qorma"
 		"X5700 Ion Thruster"
 		"Cooling Ducts" 5
 		"Hyperdrive"
-	
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
+	turret -40 -40
+	turret 40 -40
+	turret -60 20
+	turret 60 20
+	turret -20 50
+	turret 20 50
+	engine -30 70
+	engine 0 80
+	engine 30 70
+	bay "Fighter" -40 -10
+	bay "Fighter" 40 -10
+	bay "Fighter" -20 -60
+	bay "Fighter" 20 -60
+	bay "Drone" -30 20
+	bay "Drone" 30 20
+	bay "Drone" -10 30
+	bay "Drone" 10 30
 	explode "tiny explosion" 70
 	explode "small explosion" 50
 	explode "medium explosion" 35
@@ -751,7 +705,6 @@ ship "Aila Qorma"
 
 ship "Nairoba"
 	sprite "ship/between/Nairoba"
-	thumbnail "thumbnail/between/Nairoba"
 	attributes
 		category "Heavy Warship"
 		"cost" 65000000
@@ -778,30 +731,29 @@ ship "Nairoba"
 		"X5700 Ion Thruster"
 		"Cooling Ducts" 6
 		"Hyperdrive"
-	
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
+	turret -50 -50
+	turret 50 -50
+	turret -70 10
+	turret 70 10
+	turret -80 50
+	turret 80 50
+	turret -30 60
+	turret 30 60
+	engine -40 80
+	engine 0 90
+	engine 40 80
+	bay "Fighter" -50 -20
+	bay "Fighter" 50 -20
+	bay "Fighter" -30 -70
+	bay "Fighter" 30 -70
+	bay "Fighter" -10 -100
+	bay "Fighter" 10 -100
+	bay "Drone" -40 20
+	bay "Drone" 40 20
+	bay "Drone" -20 40
+	bay "Drone" 20 40
+	bay "Drone" -60 40
+	bay "Drone" 60 40
 	explode "tiny explosion" 80
 	explode "small explosion" 60
 	explode "medium explosion" 40
@@ -809,12 +761,8 @@ ship "Nairoba"
 	"final explode" "final explosion large"
 	description `A massive super-carrier utilized by The Between.`
 
-
-# --- HEAVY FREIGHTERS ---
-
 ship "Samsokkla"
 	sprite "ship/between/Samsokkla"
-	thumbnail "thumbnail/between/Samsokkla"
 	attributes
 		category "Heavy Freighter"
 		"cost" 20000000
@@ -841,12 +789,11 @@ ship "Samsokkla"
 		"X4700 Ion Thruster"
 		"Cooling Ducts" 2
 		"Hyperdrive"
-	
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	turret -30 -50
+	turret 30 -50
+	engine -20 80
+	engine 0 90
+	engine 20 80
 	explode "tiny explosion" 40
 	explode "small explosion" 30
 	explode "medium explosion" 20
@@ -855,7 +802,6 @@ ship "Samsokkla"
 
 ship "Deii"
 	sprite "ship/between/Deii"
-	thumbnail "thumbnail/between/Deii"
 	attributes
 		category "Heavy Freighter"
 		"cost" 22000000
@@ -882,12 +828,11 @@ ship "Deii"
 		"X4700 Ion Thruster"
 		"Cooling Ducts" 2
 		"Hyperdrive"
-	
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	turret -35 -50
+	turret 35 -50
+	engine -25 80
+	engine 0 90
+	engine 25 80
 	explode "tiny explosion" 42
 	explode "small explosion" 32
 	explode "medium explosion" 22
@@ -896,7 +841,6 @@ ship "Deii"
 
 ship "Qhodu"
 	sprite "ship/between/Qhodu"
-	thumbnail "thumbnail/between/Qhodu"
 	attributes
 		category "Heavy Freighter"
 		"cost" 24000000
@@ -923,13 +867,12 @@ ship "Qhodu"
 		"X4700 Ion Thruster"
 		"Cooling Ducts" 3
 		"Hyperdrive"
-	
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	turret -40 -50
+	turret 40 -50
+	turret 0 -30
+	engine -25 80
+	engine 0 90
+	engine 25 80
 	explode "tiny explosion" 45
 	explode "small explosion" 35
 	explode "medium explosion" 25
@@ -938,7 +881,6 @@ ship "Qhodu"
 
 ship "Phoondu"
 	sprite "ship/between/Phoondu"
-	thumbnail "thumbnail/between/Phoondu"
 	attributes
 		category "Heavy Freighter"
 		"cost" 26000000
@@ -965,13 +907,12 @@ ship "Phoondu"
 		"X4700 Ion Thruster"
 		"Cooling Ducts" 3
 		"Hyperdrive"
-	
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	turret -40 -40
+	turret 40 -40
+	turret 0 -20
+	engine -30 80
+	engine 0 90
+	engine 30 80
 	explode "tiny explosion" 48
 	explode "small explosion" 38
 	explode "medium explosion" 28
@@ -980,7 +921,6 @@ ship "Phoondu"
 
 ship "Djibdjih"
 	sprite "ship/between/Djibdjih"
-	thumbnail "thumbnail/between/Djibdjih"
 	attributes
 		category "Heavy Freighter"
 		"cost" 28000000
@@ -1007,14 +947,13 @@ ship "Djibdjih"
 		"X4700 Ion Thruster"
 		"Cooling Ducts" 4
 		"Hyperdrive"
-	
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	turret -45 -40
+	turret 45 -40
+	turret -20 -20
+	turret 20 -20
+	engine -35 80
+	engine 0 90
+	engine 35 80
 	explode "tiny explosion" 50
 	explode "small explosion" 40
 	"final explode" "final explosion large"
@@ -1022,7 +961,6 @@ ship "Djibdjih"
 
 ship "Tjlo"
 	sprite "ship/between/Tjlo"
-	thumbnail "thumbnail/between/Tjlo"
 	attributes
 		category "Heavy Freighter"
 		"cost" 30000000
@@ -1049,14 +987,13 @@ ship "Tjlo"
 		"X5700 Ion Thruster"
 		"Cooling Ducts" 4
 		"Hyperdrive"
-	
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	turret -50 -40
+	turret 50 -40
+	turret -25 -20
+	turret 25 -20
+	engine -40 80
+	engine 0 90
+	engine 40 80
 	explode "tiny explosion" 52
 	explode "small explosion" 42
 	"final explode" "final explosion large"
@@ -1064,7 +1001,6 @@ ship "Tjlo"
 
 ship "Tje-Tje"
 	sprite "ship/between/Tje-Tje"
-	thumbnail "thumbnail/between/Tje-Tje"
 	attributes
 		category "Heavy Freighter"
 		"cost" 32000000
@@ -1091,14 +1027,13 @@ ship "Tje-Tje"
 		"X5700 Ion Thruster"
 		"Cooling Ducts" 4
 		"Hyperdrive"
-	
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	turret -55 -40
+	turret 55 -40
+	turret -30 -20
+	turret 30 -20
+	engine -45 80
+	engine 0 90
+	engine 45 80
 	explode "tiny explosion" 55
 	explode "small explosion" 45
 	"final explode" "final explosion large"

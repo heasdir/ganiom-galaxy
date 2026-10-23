@@ -1,3 +1,7 @@
+# ============================================================
+# GOVERNMENTS (GANIOM)
+# ============================================================
+
 government "Communist Ganiom"
 	color 1.0 0.3 0.7
 	swizzle 24
@@ -5,6 +9,8 @@ government "Communist Ganiom"
 	"attitude toward"
 		"The Between" -10
 		"Gainen Republic" -10
+		"Hisair" 1000
+		"Paraf" -10
 		
 government "The Between"
 	color 0.0 0.0 0.0
@@ -13,6 +19,7 @@ government "The Between"
 	"attitude toward"
 		"Communist Ganiom" -10
 		"Shizivi" -1
+		"Paraf" -10
 
 government "Shizivi"
 	color 0.5 0.7 0.4
@@ -22,6 +29,7 @@ government "Shizivi"
 		"The Between" -1
 		"Communist Ganiom" 1
 		"Gainen Republic" 10
+		"Paraf" -1000
 		
 government "Hisair"
 	color 1.0 0.0 0.2
@@ -30,15 +38,15 @@ government "Hisair"
 	"player reputation" -10
 	"attitude toward"
 		"The Between" -10
-		"Communist Ganiom" -10
+		"Communist Ganiom" 1000
 		"Gainen Republic" -91
+		"Paraf" -1000
 	"friendly hail" "friendly hisair" 
 	"hostile hail" "normal hisair"
 	
 government "Gainen Republic"
 	swizzle 12
 	color 0.1 0.2 0.9
-	
 	"player reputation" 100
 	"attitude toward"
 		"Communist Ganiom" -1
@@ -47,6 +55,7 @@ government "Gainen Republic"
 		"Hisair" -.1
 		"Merchant" .01
 		"The Between" .1
+		"Paraf" 10
 	"bribe" .2
 	"friendly hail" "friendly gainen"
 	"hostile hail" "hostile gainen"
@@ -56,7 +65,8 @@ government "Kem Relicnain"
 	swizzle 25
 	"player reputation" -1000
 	"attitude toward"
-		"The Forens" -2000
+		"The Forens" -20
+		"Paraf" -1000
 	language "Kem Reli"
 		
 
@@ -70,6 +80,7 @@ government "The Forens"
 		"Gainen Republic" 10
 		"Kem Relicnain" -20
 		"Serbajkil" 9
+		"Paraf" 1
 		
 government "Serbajkil"
 	color 0.6 0.9 0.1
@@ -82,6 +93,7 @@ government "Serbajkil"
 		"Gainen Republic" 10
 		"Kem Relicnain" -.5
 		"The Forens" 9
+		"Paraf" -1000
 		
 government "Bruchaven Issarei"
 	color 0.1 0.4 0.3
@@ -92,6 +104,7 @@ government "Bruchaven Issarei"
 		"Gainen Republic" -19
 		"Communist Ganiom" 1000
 		"Lannen" -170
+		"Paraf" 10
 		
 government "Bruchaven Mekrut"
 	color .4 0.9 0.7
@@ -103,11 +116,11 @@ government "Bruchaven Mekrut"
 		"Gainen Republic" 1000
 		"Communist Ganiom" -17
 		"Lannen" 190
+		"Paraf" 10
 	"friendly hail" "mekrut hail"
 	"friendly disabled hail" "mekrut hail"
 	"hostile hail" "mekrut hail"
 	"hostile disabled hail" "mekrut hail"
-# Bruchaven Mekrut is an exiled splinter faction of Bruchaven Issarei 
 
 government "Vic'Na"
 	color 0.7 0.3 0.7
@@ -125,7 +138,6 @@ government "Vic'Na"
 		"Pirate" -1000
 		"Jovari" 70
 
-
 government "Lannen"
 	color 0.3 0.4 0.2
 	swizzle 9
@@ -134,7 +146,7 @@ government "Lannen"
 		"Bruchaven Issarei" -1
 		"Bruchaven Mekrut" 190
 		"Gainen Republic" 1000
-
+		"Paraf" 10
 
 government "Reisbruth"
 	color 0.6 0.7 0.9
@@ -147,6 +159,7 @@ government "Reisbruth"
 		"Communist Ganiom" -70
 		"The Wings" -0.5
 		"Ssuryie" -1000
+		"Paraf" 10
 
 government "Drak(Ganiom)"
 	color 0.3 0.2 0.7
@@ -169,7 +182,7 @@ government "Onnes"
 		"Ki'k" 70
 		"Ianes" 19
 		"Serbajkil" 9
-		"Ki'k" 4
+		"Paraf" 1
 
 government "Jovari"
 	color 0.3 0.9 0.8
@@ -180,3 +193,28 @@ government "Jovari"
 		"Si'ik'kik'nai" 60
 		"Ji'ik'kik'nai" 7
 		"Une" -10
+		"Paraf" 5
+
+# ============================================================
+# PARAF ASCENDANCY
+# ============================================================
+
+government "Paraf"
+	color 0.8 0.8 0.2
+	swizzle 9
+	"player reputation" 0
+	"attitude toward"
+		"Shizivi" -1000
+		"Onnari" -1000
+		"Hisair" -1000
+		"Serbajkil" -1000
+		"Communist Ganiom" -10
+		"The Between" -10
+		"Gainen Republic" 10
+		"Vic'Na" 10
+		"Reisbruth" 10
+		"Lannen" 10
+		"Bruchaven Issarei" 10
+		"Bruchaven Mekrut" 10
+		"Merchant" 1
+		"Pirate" -1000

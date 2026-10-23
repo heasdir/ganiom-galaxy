@@ -14,6 +14,43 @@
 #	Gainen
 #	REISBRUTH RAAAAAA
 #----------------Wormholes---------------------------------------
+	# tribute 150000
+	# 	fleet "Lannen Fleet" 15
+	# tribute 150000
+	# 	fleet "Lannen Fleet" 15
+	# tribute 150000
+	# 	fleet "Jovari Fleet" 15
+	# No tribute for the Drak. 
+	# No tribute for Kem Relicnain. 
+	# tribute 150000
+	# 	fleet "Lannen Fleet" 15
+	# tribute 150000
+	# 	fleet "Jovari Fleet" 15
+	# tribute 150000
+	# 	fleet "Jovari Fleet" 15
+	# tribute 150000
+	# 	fleet "Lannen Fleet" 15
+	# tribute 150000
+	# 	fleet "Lannen Fleet" 15
+	# tribute 150000
+	# 	fleet "Jovari Fleet" 15
+	# No tribute for Kem Relicnain.
+	# tribute 150000
+	# 	fleet "Lannen Fleet" 15
+	# No tribute for Kem Relicnain.
+	# tribute 150000
+	# 	fleet "Jovari Fleet" 15
+	# tribute 150000
+	# 	fleet "Jovari Fleet" 15
+	# tribute 150000
+	# 	fleet "Lannen Fleet" 15
+	# No tribute for Shizivi (no fleet).
+	# No tribute for Shizivi (no fleet).
+	# No tribute for Kem Relicnain.
+	# tribute 150000
+	# 	fleet "Jovari Fleet" 15
+	# tribute 150000
+	# 	fleet "Jovari Fleet" 15
 
 galaxy Ganiom
 	pos -10000 -5461
@@ -1198,6 +1235,60 @@ system "Extravagance Regional"
 		sprite planet/jupiter
 		distance 2438.15
 		period 2333.39
+
+system Feptwnuua
+	pos -9977.04 -5728.53
+	government Paraf
+	habitable 425.92
+	link Ourafansjaakal
+	link Parafisomantha
+	link Kaveasill
+	asteroids "small rock" 35 2.508
+	asteroids "medium rock" 45 3.3744
+	asteroids "large rock" 12 3.0552
+	asteroids "small metal" 33 2.8728
+	asteroids "medium metal" 81 2.8728
+	asteroids "large metal" 3 5.7456
+	fleet "Paraf Kamikaze Swarm" 290
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/mars
+		distance 148.84
+		period 35.1946
+	object Hrik
+		sprite planet/desert8
+		distance 494.73
+		period 213.279
+		object
+			sprite planet/rock17
+			distance 151
+			period 23.7997
+	object
+		sprite planet/gas11
+		distance 1283.09
+		period 890.803
+	object
+		sprite planet/uranus
+		distance 2299.13
+		period 2136.69
+		object
+			sprite planet/io
+			distance 245
+			period 16.3841
+		object
+			sprite planet/ice7
+			distance 339
+			period 26.6669
+		object
+			sprite planet/rhea
+			distance 499
+			period 47.6238
+		object
+			sprite planet/dust1
+			distance 645
+			period 69.9863
 
 system Forecapin
 	pos -11765.6 -5272.29
@@ -3255,6 +3346,45 @@ system Kalak
 			distance 626
 			period 66.9167
 
+system Kaveasill
+	pos -10037 -5801.53
+	government Paraf
+	habitable 486.68
+	link Feptwnuua
+	asteroids "small rock" 109 9.156
+	asteroids "medium rock" 13 5.544
+	asteroids "large rock" 17 12.432
+	asteroids "small metal" 5 7.056
+	asteroids "medium metal" 15 8.148
+	asteroids "large metal" 40 10.248
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/desert9
+		distance 188
+		period 46.7385
+	object Auur
+		sprite planet/desert3
+		distance 593.49
+		period 262.155
+	object
+		sprite planet/gas0
+		distance 1227.05
+		period 779.348
+		object
+			sprite planet/ice8
+			distance 277
+			period 13.5106
+		object
+			sprite planet/europa
+			distance 397
+			period 23.1815
+	object
+		sprite planet/gas12
+		distance 1918.41
+		period 1523.53
+
 system Kema
 	pos -10168.8 -4644.79
 	government "Bruchaven Issarei"
@@ -3448,6 +3578,7 @@ system La'sha'pa'ri
 	habitable 625
 	link Ga'zri'zro
 	link Nwo'dwo'tsho
+	link Nama'ha'pri
 	asteroids "medium rock" 45 2.65
 	asteroids "large rock" 9 7.45
 	asteroids "small metal" 11 3.2
@@ -4550,6 +4681,49 @@ system Naksimak
 			distance 347
 			period 34.0245
 
+system Nama'ha'pri
+	pos -10451 -6697.53
+	government Vic'Na
+	habitable 425.92
+	link La'sha'pa'ri
+	asteroids "small rock" 26 4.074
+	asteroids "medium rock" 3 2.31
+	asteroids "large rock" 11 4.746
+	asteroids "small metal" 15 4.872
+	asteroids "medium metal" 12 4.158
+	asteroids "large metal" 11 5.292
+	object
+		sprite star/k5
+		period 10
+	object
+		sprite planet/desert4
+		distance 195.25
+		period 52.8789
+	object Ha'zro'pri
+		sprite planet/ocean3
+		distance 365.5
+		period 135.434
+	object
+		sprite planet/gas7
+		distance 996.59
+		period 609.777
+		object
+			sprite planet/rock7
+			distance 216
+			period 11.293
+		object
+			sprite planet/dust5
+			distance 347
+			period 22.9945
+	object
+		sprite planet/desert9
+		distance 1547.55
+		period 1179.95
+	object
+		sprite planet/ice8
+		distance 3431.11
+		period 3895.36
+
 system Nanaskibja
 	pos -11064.6 -6636.47
 	government Uninhabited
@@ -5571,6 +5745,41 @@ system "Osi Lannen"
 		distance 2113.56
 		period 2544.74
 
+system Ourafansjaakal
+	pos -9938.04 -5677.53
+	government Paraf
+	habitable 1080
+	link Feptwnuua
+	link Parafisomantha
+	asteroids "small rock" 2 4.5339
+	asteroids "medium rock" 13 3.7485
+	asteroids "large rock" 5 1.8921
+	asteroids "large metal" 1 3.1416
+	fleet "Paraf Core Armada" 400
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/gas7
+		distance 311.76
+		period 67.0006
+	object
+		sprite planet/lava1
+		distance 656
+		period 204.505
+	object "Norsili Triamuk"
+		sprite planet/ocean7
+		distance 1066
+		period 423.627
+	object
+		sprite planet/gas13
+		distance 1802.44
+		period 931.407
+		object
+			sprite planet/dust4
+			distance 300
+			period 14.6687
+
 system Pakqf
 	pos -10506.9 -4662.2
 	government "Bruchaven Issarei"
@@ -5660,6 +5869,50 @@ system Parafimka
 		sprite planet/dust7
 		distance 2185.07
 		period 1329.05
+
+system Parafisomantha
+	pos -9907.04 -5729.53
+	government Paraf
+	habitable 486.68
+	link Ourafansjaakal
+	link Feptwnuua
+	asteroids "small rock" 1 3.842
+	asteroids "medium rock" 4 2.618
+	asteroids "large rock" 1 2.618
+	asteroids "small metal" 1 2.822
+	asteroids "large metal" 1 3.026
+	fleet "Paraf Core Armada" 390
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/ganymede
+		distance 190.61
+		period 47.7152
+	object Parafsomantha
+		sprite planet/rock13
+		distance 499.86
+		period 202.633
+	object
+		sprite planet/neptune
+		distance 1250.07
+		period 801.382
+		object
+			sprite planet/rock0
+			distance 231
+			period 17.4924
+	object
+		sprite planet/gas4
+		distance 2052.71
+		period 1686.28
+		object
+			sprite planet/rock14
+			distance 232
+			period 12.4632
+		object
+			sprite planet/luna
+			distance 362
+			period 24.2918
 
 system Parafsomanth
 	pos -11767.2 -5955.91
@@ -5934,6 +6187,49 @@ system "Protomous Thanthiya"
 			distance 199
 			period 14.9436
 
+system Raftel
+	pos -10013 -5584.53
+	government Paraf
+	habitable 320
+	asteroids "small rock" 3 1.455
+	asteroids "medium rock" 8 1.215
+	asteroids "large rock" 10 2.07
+	asteroids "small metal" 9 1.86
+	asteroids "medium metal" 55 1.14
+	asteroids "large metal" 11 1.86
+	fleet "Paraf Core Armada" 300
+	object
+		sprite star/m0
+		period 10
+	object Raavikans
+		sprite planet/rock12
+		distance 308.36
+		period 121.08
+		object
+			sprite planet/dust1
+			distance 165
+			period 22.0827
+	object
+		sprite planet/titan
+		distance 646.4
+		period 367.483
+	object
+		sprite planet/gas11
+		distance 1557.04
+		period 1373.84
+		object
+			sprite planet/rock14
+			distance 263
+			period 14.0673
+		object
+			sprite planet/lava0
+			distance 434
+			period 29.8203
+		object
+			sprite planet/rock17
+			distance 529
+			period 40.1293
+
 system Rashabi
 	pos -9922.75 -5625.33
 	government Shizivi
@@ -5982,6 +6278,56 @@ system Rashabi
 			sprite planet/europa
 			distance 402
 			period 28.6728
+
+system Rathaipl
+	pos -9971.04 -5671.53
+	government Paraf
+	habitable 486.68
+	asteroids "small rock" 14 1.173
+	asteroids "medium rock" 72 1.426
+	asteroids "large rock" 6 2.208
+	asteroids "small metal" 12 2.484
+	asteroids "medium metal" 18 1.38
+	asteroids "large metal" 23 2.875
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/lava2
+		distance 127
+		period 25.9504
+	object
+		sprite planet/gas0
+		distance 716.25
+		period 347.564
+		object
+			sprite planet/ice7
+			distance 270
+			period 13.0018
+		object
+			sprite planet/dust4
+			distance 375
+			period 21.2816
+	object
+		sprite planet/cloud2
+		distance 1619.41
+		period 1181.61
+		object
+			sprite planet/rhea
+			distance 180
+			period 19.4259
+	object
+		sprite planet/gas17
+		distance 2371.42
+		period 2093.88
+		object
+			sprite planet/dust7
+			distance 215
+			period 13.4689
+		object
+			sprite planet/io
+			distance 345
+			period 27.378
 
 system Ravuukti
 	pos -10697.7 -7333.33
@@ -6718,6 +7064,7 @@ system Silkar
 	asteroids "large metal" 33 3.465
 	fleet "Hisair High Fleet" 450
 	fleet "Communist Ganiom Avg" 350
+	fleet "Paraf Core Armada" 1200
 	object
 		sprite star/black-hole
 		period 10
@@ -7009,6 +7356,50 @@ system Tarans
 			sprite planet/lava0
 			distance 553
 			period 40.8648
+
+system Telo
+	pos -9991.04 -5631.53
+	government Paraf
+	habitable 486.68
+	asteroids "medium rock" 2 2.015
+	asteroids "large rock" 1 4.5825
+	asteroids "medium metal" 12 2.925
+	asteroids "large metal" 1 4.3875
+	object
+		sprite star/k0
+		period 10
+	object
+		sprite planet/rock19
+		distance 258.25
+		period 75.2487
+		object
+			sprite planet/ice8
+			distance 136
+			period 21.1965
+	object
+		sprite planet/desert5
+		distance 693.41
+		period 331.073
+		object
+			sprite planet/rock7
+			distance 151
+			period 20.4032
+	object
+		sprite planet/gas8
+		distance 1733.85
+		period 1309.05
+		object
+			sprite planet/ice7
+			distance 229
+			period 18.4472
+		object
+			sprite planet/io
+			distance 328
+			period 31.6219
+		object
+			sprite planet/dust4
+			distance 503
+			period 60.0522
 
 system Test
 	pos 0 0
@@ -7391,51 +7782,42 @@ system Treas'se
 	object
 		sprite star/m0
 		period 10
-		fleet "Vic'Na Patrol"
 	object
 		sprite planet/lava1
 		distance 123
 		period 30.503
 		offset 200.224
-		fleet "Vic'Na Patrol"
 	object Haj'li
 		sprite planet/ocean9
 		distance 373.388
 		period 161.334
 		offset 95.7395
-		fleet "Vic'Na Patrol"
 	object
 		sprite planet/desert6
 		distance 897.748
 		period 601.474
 		offset 13.5662
-		fleet "Vic'Na Patrol"
 		object
 			sprite planet/dust4
 			distance 139
 			period 17.0745
-			fleet "Vic'Na Patrol"
 	object
 		sprite planet/gas15
 		distance 1694.84
 		period 1560.19
 		offset 2.69561
-		fleet "Vic'Na Patrol"
 		object
 			sprite planet/dust7
 			distance 205
 			period 15.45
-			fleet "Vic'Na Patrol"
 		object
 			sprite planet/ice0
 			distance 332
 			period 31.8423
-			fleet "Vic'Na Patrol"
 		object
 			sprite planet/dust5
 			distance 491
 			period 57.269
-			fleet "Vic'Na Patrol"
 
 system "Ulke Mavru"
 	pos -11760.9 -5671.35
@@ -8173,8 +8555,6 @@ planet Ad-Osini
 	description `	Ad-Osini is a world with archipelagos everywhere. The Lannen have built floating bridges between islands. The water is crystal clear and teems with exotic fish.`
 	spaceport `A small dock on the main island. Fishing boats and trade vessels share the harbor. The locals are friendly and offer fresh catch.`
 	spaceport `	A small dock on the main island. Fishing boats and trade vessels share the harbor. The locals are friendly and offer fresh catch.`
-	# tribute 150000
-	# 	fleet "Lannen Fleet" 15
 
 planet Aerie
 	landscape land/greenmountains2
@@ -8187,8 +8567,6 @@ planet Ag-deria
 	description `	An ocean world with a single island chain, the only landmass. The Lannen built floating cities here. Underwater, something ancient sleeps. The sailors whisper about it.`
 	spaceport `A floating platform that serves as the main port. The waves are gentle, but the locals avoid the deeper waters after dark.`
 	spaceport `	A floating platform that serves as the main port. The waves are gentle, but the locals avoid the deeper waters after dark.`
-	# tribute 150000
-	# 	fleet "Lannen Fleet" 15
 
 planet Ajma
 	landscape land/greenmountains2
@@ -8205,6 +8583,14 @@ planet Al'Nisan
 	landscape land/brownmountains1
 	description `A terraformed world still in progress. The atmosphere is breathable but thin. Colonists live in pressurized domes while the planet slowly transforms. The mountains are a rusty red.`
 	description `	A terraformed world still in progress. The atmosphere is breathable but thin. Colonists live in pressurized domes while the planet slowly transforms. The mountains are a rusty red.`
+
+planet Auur
+	landscape land/greenmountains1
+	description `Auur is a dry, rocky world on the edge of Paraf space. The Paraf built their first extra-system colony here, and the ruins of their original settlement are still visible from orbit. The planet is now a mining world, its hills honeycombed with shafts. The Paraf who live here are hardy and quiet, and they do not speak of the Serbajkil.`
+	description `	The surface is scarred by ancient mining. The Paraf have begun to reforest the old pits, but it will take centuries. The sky is a dull orange, and the wind carries the smell of dust and iron.`
+	spaceport `A small, functional port built into the side of a hill. The Paraf miners are polite but reserved. They sell ore and buy supplies. A single outfitter serves the entire world.`
+	spaceport `	The port's only bar has a sign: "The Last Hole." It is not clear if it refers to the mine or the drink.`
+	outfitter "Paraf Technology"
 
 planet Ayib'iiahii'onwnl
 	landscape land/greenmountains1
@@ -8253,8 +8639,6 @@ planet Ceasriiste
 	description `	The locals say the mountains are older than the stars. No one knows if they mean it literally.`
 	spaceport `A windswept mountain port. The Jovari here are quiet and watchful. They process your landing request without a word.`
 	spaceport `	The port's weather station warns of a storm approaching. The Jovari shrug. They are used to it.`
-	# tribute 150000
-	# 	fleet "Jovari Fleet" 15
 
 planet Cholintir
 	landscape land/land27
@@ -8265,9 +8649,6 @@ planet Cholintir
 	tribute 300000
 		fleet "Foren Defense Fleet" 20
 		fleet "Foren Occupation Fleet" 10
-
-planet CixAVic
-	landscape ""
 
 planet Da'in:ska;908
 	landscape land/mountainsnow1
@@ -8321,7 +8702,6 @@ planet Drakmagani
 	spaceport `	A small trading post. The Drak are fierce but fair. They offer Archons, strange alien artifacts, to those who can afford them.`
 	shipyard Drak
 	outfitter "Drak All"
-	# No tribute for the Drak. 
 
 planet FAIL-000000
 	landscape land/greenmountains2
@@ -8660,6 +9040,14 @@ planet Ha'ga'dwo
 	tribute 50000
 		fleet "Vic'Na Pirates" 10
 
+planet Ha'zro'pri
+	landscape land/greenmountains1
+	description `Ha'zro'pri is a green, ocean-covered world on the edge of Vic'Na space. Before the war, it was a Paraf colony; now it is a Vic'Na listening post, its old Paraf towers converted into sensor arrays. The Vic'Na who live here are patient, methodical, and very good at their jobs.`
+	description `	The locals call the planet "the Ear." Every signal that passes through this sector is recorded here. The Vic'Na do not share what they hear.`
+	spaceport `A small, well-maintained station. The Vic'Na technicians are polite but distracted. They spend more time looking at their screens than at you.`
+	spaceport `	The station's motto is carved above the airlock: "We Hear Everything." Someone has scratched underneath it: "Except the obvious."`
+	outfitter "Vic'Na Outfits"
+
 planet Haav
 	landscape land/mountainsnow4
 	description `Haav is an Onnes ice world. The surface is frozen, but the Onnes have built a thriving settlement in the warm caves beneath the ice. The locals are hardy and resourceful.`
@@ -8692,14 +9080,11 @@ planet Harvain
 	description `Harvain is a Kem Relicnain observation post. The station is small, cramped, and pointed at a patch of empty sky. The Kem will not say what they are watching for.`
 	spaceport `A single docking bay. The Kem staff are polite but distracted. They keep glancing at their screens.`
 	spaceport `	The station's motto is carved above the airlock: "We Watch So You Do Not Have To."`
-	# No tribute for Kem Relicnain. 
 
 planet Hassaberut
 	landscape land/brownmountains1
 	description `A Lannen industrial world. The factories never sleep. The workers are unionized, proud, and politically active. The revolution started here.`
 	spaceport `A sprawling industrial port. Smoke and steam fill the air. The workers are organizing for better conditions.`
-	# tribute 150000
-	# 	fleet "Lannen Fleet" 15
 
 planet Haty'sa
 	landscape land/brownmountains1
@@ -8723,6 +9108,14 @@ planet Hiswren
 	tribute 200000
 		fleet "Hisair High Fleet" 20
 		fleet "Hisair Private Forces" 15
+
+planet Hrik
+	landscape land/land11
+	description `Hrik is a cold, wind-scoured world on the Paraf frontier. The Paraf have a saying: "Nothing grows on Hrik but Paraf." It is not entirely true, but it is close. The planet's only export is a bitter root vegetable that the Paraf claim tastes better than it looks.`
+	description `	The settlements on Hrik are small and scattered, connected by long ice-roads that are impassable for half the year. The locals are tough, patient, and deeply suspicious of the Serbajkil.`
+	spaceport `A single landing pad, a stone tower, and a heated longhouse. The Paraf who meet you are wrapped in furs and do not remove them.`
+	spaceport `	The longhouse has a sign: "Hrik welcomes the honest. The dishonest are already dead." It is not clear if this is a joke.`
+	outfitter "Paraf Technology"
 
 planet Hrit
 	landscape land/greenmountains1
@@ -8832,8 +9225,6 @@ planet Jarvaik
 	description `	The Jovari of Jarvaik are known for their woodwork. They carve the native hardwood into intricate shapes that are said to bring good luck.`
 	spaceport `A wooden platform built into the canopy. The Jovari here are friendly, if curious. They offer you a carved wooden charm.`
 	spaceport `	The charm is small, intricate, and slightly warm to the touch. You are not sure why.`
-	# tribute 150000
-	# 	fleet "Jovari Fleet" 15
 
 planet Ka'kij
 	landscape land/greenmountains1
@@ -8851,8 +9242,6 @@ planet Kaavanasinuut
 	description `	The locals call the planet "the Sleeping Giant." They say it will wake one day. They do not say what will happen then.`
 	spaceport `A heated ice-cave port. The Jovari here are quiet and reserved. They offer you a hot drink and a blanket.`
 	spaceport `	The blanket is made from the fur of a local animal. It is very warm.`
-	# tribute 150000
-	# 	fleet "Jovari Fleet" 15
 
 planet Kabkonik
 	landscape land/greenmountains1
@@ -8862,7 +9251,7 @@ planet Kabkonik
 	shipyard "Gainen Shipyard"
 	outfitter Rekkebruth
 	tribute 350000
-		fleet "Reisbruth Fleet" 20
+	fleet "Reisbruth Fleet" 20
 
 planet Kharonifa
 	landscape land/land30
@@ -8888,8 +9277,6 @@ planet Lannenuk
 	description `Lannenuk is the Lannen homeworld's first colony, a dry, mountainous world settled by miners and dreamers. The cities cling to the mountainsides, and the air is thin but breathable.`
 	spaceport `A busy mountain port. The Lannen are friendly and talkative. They are proud of their world, and they want you to know it.`
 	spaceport `	The port authority sells a pamphlet titled "Lannenuk: It's Better Than You Think." It is not wrong.`
-	# tribute 150000
-	# 	fleet "Lannen Fleet" 15
 
 planet Lwa'li
 	landscape land/brownmountains1
@@ -8943,8 +9330,6 @@ planet Mqstik
 	description `Mqstik is a desert world with a single oasis city. The Lannen here grow date palms and trade in water rights. The politics are complicated. The dates are excellent.`
 	spaceport `A sun-baked landing strip. The Lannen merchants wave you over. They are selling dates, water, and gossip.`
 	spaceport `	The gossip is more valuable than the dates.`
-	# tribute 150000
-	# 	fleet "Lannen Fleet" 15
 
 planet Napa'ij
 	landscape land/greenmountains1
@@ -8960,8 +9345,6 @@ planet Narpol
 	description `	The Jovari of Narpol are practical and hardworking. They do not have much patience for idle conversation.`
 	spaceport `A heated ice port. The Jovari here are efficient and professional. They process your landing request quickly.`
 	spaceport `	The port has a sign: "Keep Moving. The Cold Does Not Wait."`
-	# tribute 150000
-	# 	fleet "Jovari Fleet" 15
 
 planet Naw'thoi
 	landscape land/land21
@@ -8996,6 +9379,15 @@ planet Nolok
 		fleet "Gainen Fleet" 20
 		fleet "Gainen Defense Fleet" 10
 
+planet "Norsili Triamuk"
+	landscape land/mountainsnow0
+	description `Norsili Triamuk is the Paraf Ascendancy's naval anchorage — a frozen world where the Paraf fleet shelters between campaigns. The shipyards are carved into glaciers; the docks are heated caves.`
+	description `	The world was chosen for its silence. Nothing approaches Norsili Triamuk without the Paraf knowing. Nothing leaves without the Paraf permitting it.`
+	spaceport `A vast ice-cave dock. Paraf warships hang in the frozen air like sleeping animals. The dock crews work without speaking.`
+	spaceport `	The dockmaster checks your credentials three times, then waves you through. "Welcome to the Ascendancy," she says. "Do not touch anything."`
+	shipyard "Paraf Shipyard"
+	outfitter "Paraf Technology"
+
 planet "Northpoint Station"
 	landscape land/land13
 	description `Farthest northern frontier of the Gainen. No Gainen live here, only a skeleton crew maintaining the outpost. Beyond lies Serbajkil territory. The station's logs mention 'something' watching from the void.`
@@ -9024,7 +9416,6 @@ planet Olokrefaro
 	landscape land/land3
 	description `The Kem Relicnain mine rare minerals here. The workers are indentured. The conditions are brutal. The overseers are merciless. This is not a place for tourists.`
 	spaceport `A grim industrial port. The workers are silent. The overseers watch with cold eyes.`
-	# No tribute for Kem Relicnain.
 
 planet Om'Tiera
 	landscape land/brownmountains1
@@ -9061,6 +9452,16 @@ planet Parafkorsa
 	landscape land/lakemountains1
 	description `The Paraf homeworld is no more. Craters. Ash. Silence. Whatever happened here was thorough, deliberate, and complete. The Serbajkil patrols avoid this system.`
 
+planet Parafsomantha
+	landscape land/mountainsnow0
+	description `Parafsomantha is the seat of the Paraf war council — a fortress-world in the heart of the Ascendancy, where the Samaanuak and the Vavaai were designed. Every stone of the planet was chosen for a reason. Every reason is a secret.`
+	description `	From orbit, Parafsomantha is a single vast fortress, its walls rising from the ice. From the ground, it is a city — crowded, quiet, and utterly loyal.`
+	spaceport `A fortified port on the fortress's outer wall. The Paraf war council does not receive visitors, but it does sell ships.`
+	spaceport `	The port's motto is carved above the airlock: "We do not fight. We end."`
+	shipyard "Paraf Shipyard"
+	shipyard "Special Paraf"
+	outfitter "Paraf Technology"
+
 planet Petin
 	landscape land/land27
 	description `A Vic'Na diplomatic station. Small. Unremarkable. The Vic'Na ambassadors here are polite but evasive. They don't answer questions about their government.`
@@ -9094,6 +9495,14 @@ planet Qnanei
 	outfitter "Mekrut Outfitters"
 	tribute 180000
 		fleet "Mekrut Fleet" 20
+
+planet Raavikans
+	landscape land/brownmountains1
+	description `Raavikans is a fortress-moon orbiting the gas giant Raftel. The Paraf built their first deep-space fortifications here, and they have never been abandoned. From orbit, the moon bristles with weapon emplacements; from the ground, it is a single endless bunker.`
+	description `	The Paraf who serve on Raavikans are rotated every six months. They say the moon talks to them. The Paraf high command has never confirmed or denied this.`
+	spaceport `A small, heavily guarded port buried in the moon's crust. The Paraf guards do not greet you; they simply record your arrival.`
+	spaceport `	The port's only decoration is a sign: "Raavikans Has Never Fallen. It Will Not Fall Today."`
+	outfitter "Paraf Technology"
 
 planet "Rao Sik"
 	landscape land/greenmountains1
@@ -9181,8 +9590,6 @@ planet Sialieb
 	landscape land/mountainsnow0
 	description `Lannen colonists transformed this world into a haven for artists and philosophers. The sky is perpetually painted in auroras. They say inspiration comes easier here.`
 	spaceport `A small, artistic port. The Lannen are painters and poets. They offer you a drink and a story.`
-	# tribute 150000
-	# 	fleet "Lannen Fleet" 15
 
 planet "Sinava Nava"
 	landscape land/greenmountains1
@@ -9196,7 +9603,6 @@ planet Siniar
 	landscape land/land12
 	description `A Kem Relicnain fortress-world. The surface is covered in defensive emplacements and bunkers. They do not welcome visitors. The last scout ship never returned.`
 	spaceport `A heavily fortified port. The Kem Relicnain soldiers are hostile. They turn you away.`
-	# No tribute for Kem Relicnain.
 
 planet Siri'Om
 	landscape land/brownmountains1
@@ -9221,8 +9627,6 @@ planet Staukuud
 	description `	The miners of Staukuud are a tight-knit community. They work hard, drink hard, and do not trust outsiders.`
 	spaceport `A small mining port. The Jovari miners eye you with suspicion, but they do not turn you away.`
 	spaceport `	The bar has a sign: "No Trouble. No Exceptions."`
-	# tribute 150000
-	# 	fleet "Jovari Fleet" 15
 
 planet Swerovans
 	landscape land/land26
@@ -9230,18 +9634,11 @@ planet Swerovans
 	description `	The locals say the sands of Swerovans can swallow a man whole. They say this as a warning, and as a point of pride.`
 	spaceport `A fortified landing pad. The Jovari here are cautious and quiet. They ask a lot of questions.`
 	spaceport `	The port's motto is: "Trust is earned. Sand is not."`
-	# tribute 150000
-	# 	fleet "Jovari Fleet" 15
-
-planet Synde
-	landscape ""
 
 planet Sz-Sialobi
 	landscape land/foresttropical0
 	description `The Lannen terraformed this world into a tropical paradise. The cities are built into massive trees. The locals warn visitors not to wander into the deeper forests. The trees remember.`
 	spaceport `A beautiful tree-city port. The Lannen are friendly and relaxed. They warn you about the forest.`
-	# tribute 150000
-	# 	fleet "Lannen Fleet" 15
 
 planet Ta'i'lwi
 	landscape land/foresttropical0
@@ -9258,13 +9655,11 @@ planet Terafandorastha
 	description `	The locals are cheerful and aggressive haggling is the norm. If you don't want to buy something, you should probably stay on your ship.`
 	spaceport `A busy market port. The Shizivi merchants shout prices at you from every direction. It is overwhelming.`
 	spaceport `	A Shizivi trader offers you a "special deal" on a crate of unknown goods. You politely decline.`
-	# No tribute for Shizivi (no fleet).
 
 planet Tirifanailokibasltiranabi
 	landscape land/greenmountains1
 	description `A Shizivi trading post. Small. Unremarkable. The Shizivi are merchants and traders. They offer goods from across their territory.`
 	spaceport `A small market port. The Shizivi haggle loudly. They are cheerful and aggressive.`
-	# No tribute for Shizivi (no fleet).
 
 planet Tisarnann'r'n
 	landscape land/land30
@@ -9298,7 +9693,6 @@ planet Trak
 	description `Trak is a Kem Relicnain agricultural world. The Kem grow crops in terraced fields carved into the mountainsides. The work is done by hand. The Kem say it is meditative.`
 	spaceport `A quiet farming port. The Kem are polite but reserved. They sell produce and say little else.`
 	spaceport `	The spaceport's guestbook has a single entry: "They grow good food here. They do not grow good conversation."`
-	# No tribute for Kem Relicnain.
 
 planet Trimakhol
 	landscape land/brownmountains1
@@ -9334,8 +9728,6 @@ planet Vaasaanansk
 	description `	The researchers of Vaasaanansk are some of the most brilliant minds in Jovari space. They are also some of the most eccentric.`
 	spaceport `A heavily shielded landing pad. The Jovari researchers greet you with a mix of curiosity and caution.`
 	spaceport `	The outpost has a sign: "Warning: High Radiation. Do Not Lick The Rocks."`
-	# tribute 150000
-	# 	fleet "Jovari Fleet" 15
 
 planet Vai'Nui
 	landscape land/brownmountains1
@@ -9408,14 +9800,6 @@ planet Wiivansk
 	description `	The soldiers of Wiivansk are disciplined and loyal. They do not talk about their missions. They do not talk about anything.`
 	spaceport `A heavily fortified military port. The Jovari soldiers watch you closely as you land.`
 	spaceport `	The port has a sign: "Loose Lips Sink Ships. And Also Get You Shot."`
-	# tribute 150000
-	# 	fleet "Jovari Fleet" 15
-
-planet "Wn Wormholr"
-	landscape ""
-
-planet Wormgolin
-	landscape ""
 
 planet Xtrein'nian'frjaklok
 	landscape land/land27
@@ -9427,7 +9811,7 @@ planet Yuso
 	spaceport `Homeworld of the Hisair. The storm rages constantly. The Hisair warriors watch you from the walls.`
 	security 0.9
 	tribute 560000
-		fleet "Hisair High" 34
+		fleet "Hisair High Fleet" 34
 
 planet Zroo'wai
 	landscape land/brownmountains1
@@ -9439,3 +9823,15 @@ planet Zroo'wai
 	tribute 400000
 		fleet "Vic'Na Patrol" 15
 		fleet "Vic'Na Strike Fleet" 10
+
+planet CixAVic
+	landscape ""
+
+planet Synde
+	landscape ""
+
+planet "Wn Wormholr"
+	landscape ""
+
+planet Wormgolin
+	landscape ""

@@ -776,3 +776,104 @@ fleet "Onnes Deep Space Patrol"
 	variant 10
 		"Palgon"
 		"Yhaarail"
+
+# ============================================================
+# PARAF FLEETS (ABOVE T5)
+# ============================================================
+
+# --- STANDARD PATROL ---
+# Just a light scouting force to see what's poking around the Core.
+fleet "Paraf Patrol"
+	government "Paraf"
+	names "Paraf"
+	cargo 0
+	personality
+		heroic
+		unconstrained
+	variant 40
+		"Iovaku" 3
+		"Samaku" 4
+	variant 30
+		"Vavanapta" 2
+		"Nanavaku" 4
+	variant 20
+		"Thawra"
+		"Hanavaku" 3
+	variant 10
+		"Nisezzere"
+		"Rahaga" 2
+
+# --- STRIKE FLEET ---
+# Fast, heavy-hitting ships meant to shatter enemy lines.
+fleet "Paraf Strike Fleet"
+	government "Paraf"
+	names "Paraf"
+	cargo 0
+	personality
+		heroic
+		unconstrained
+	variant 30
+		"Nisezzere" 2
+		"Thawra" 2
+		"Vavanapta" 4
+	variant 25
+		"Osi Dhebur"
+		"Rahaga" 4
+	variant 20
+		"Vavaratha"
+		"Nisezzere" 3
+	variant 15
+		"Norrab"
+		"Thawra" 3
+	variant 10
+		"Dvanuqaa"
+		"Osi Dhebur" 2
+
+# --- KAMIKAZE SWARM ---
+# These fleets exist purely to close the distance and detonate.
+fleet "Paraf Kamikaze Swarm"
+	government "Paraf"
+	names "Paraf"
+	cargo 0
+	personality
+		heroic
+		unconstrained
+	variant 50
+		"Outraj" 10
+	variant 30
+		"Nukazepta" 8
+		"Outraj" 4
+	variant 20
+		"Nusarafe" 2
+		"Nukazepta" 4
+
+# --- CORE DEFENSE ARMADA ---
+# The fleets that guard the Samaanuak and the Vavaai. 
+# If a Shizivi fleet jumps into the Core, this is what greets them.
+fleet "Paraf Core Armada"
+	government "Paraf"
+	names "Paraf"
+	cargo 0
+	personality
+		heroic
+		unconstrained
+	variant 20
+		"Oisnuak"
+		"Norrab"
+		"Nisezzere" 2
+		"Thawra" 4
+	variant 20
+		"Vavaratha"
+		"Osi Dhebur"
+		"Rahaga" 6
+	variant 20
+		"Dvanuqaa"
+		"Vavaratha" 2
+		"Nisezzere" 4
+	variant 15
+		"Samaanuak"
+		"Osi Dhebur" 2
+		"Thawra" 6
+	variant 5
+		"Vavaai"
+		"Samaanuak" 2

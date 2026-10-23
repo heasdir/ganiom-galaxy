@@ -17,11 +17,13 @@ Gainen has a shipyard
 Serbajkil does not have shipyard, but their ships can be bought with the omnis cheat plugin
 ### Fleets
 Gainen, The Between, Hisair, Communist Ganiom Kem relicnain, Bruchaven Issarei, Serbajkil and Bruchaven Mekrut have fleets
-### Ships
+### Ships(Example)
 ![Neutron Star](images/ship/neutron+.png)
 ![Pinoalin](images/ship/pinoalin.png)
 ![Macavtre](images/thumbnail/macavtre_thumb.png)
 ![G12 Attack](images/thumbnail/g12attack_thumb.png)
+![Kaolinha](images/ship/onnes/kaolinha.png)
+![Fkaloo](images/ship/between/fkaloo.png)
 **Gainen Colossus does not show**
 
 # Planned Storyline
@@ -43,6 +45,10 @@ Meghafokluaya Hisair-Hisair War
 J-1 - J-2 Union
 
 ## Changelogs
+
+V0.09 - Added the Onnes. New Ships, Weapons etc.
+
+V0.08 - Ships, Outfits, Weapons
 
 V0.071 - New Serbajkil Ship "Alkorel", and new Serbajkil weapon.
 

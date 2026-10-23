@@ -1,9 +1,3 @@
-# ============================================================
-# BRUCHAVEN ISSAREI SHIPS
-# ============================================================
-
-# --- DRONE / FIGHTER ---
-
 ship "Andalus"
 	sprite "ship/issarei/andalus"
 	attributes
@@ -28,14 +22,11 @@ ship "Andalus"
 		"Issarei Swarm Thruster"
 		"Issarei Scrap Cooling"
 		"Issarei Basic Reactor"
-	
-	gun 0 0
-	engine 0 0
+	gun 0 -15
+	engine 0 20
 	explode "tiny explosion" 10
 	"final explode" "final explosion small"
 	description `A cheap, automated drone. The Issarei use these to swarm enemy ships, overwhelming them with sheer numbers.`
-
-# --- INTERCEPTORS ---
 
 ship "Faxtar"
 	sprite "ship/issarei/faxtar"
@@ -64,10 +55,9 @@ ship "Faxtar"
 		"Issarei Basic Reactor"
 		"Issarei Small Battery"
 		"Hyperdrive"
-	
-	gun 0 0
-	engine 0 0
-	engine 0 0
+	gun 0 -20
+	engine -8 25
+	engine 8 25
 	explode "tiny explosion" 15
 	"final explode" "final explosion small"
 	description `A standard interceptor. Fast and cheap, but fragile. Issarei pilots are expected to overwhelm their targets quickly or die trying.`
@@ -99,11 +89,10 @@ ship "Tirone"
 		"Issarei Basic Reactor"
 		"Issarei Small Battery"
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	engine 0 0
-	engine 0 0
+	gun -8 -20
+	gun 8 -20
+	engine -8 25
+	engine 8 25
 	explode "tiny explosion" 15
 	"final explode" "final explosion small"
 	description `A heavily armed interceptor. It trades armor for an extra gun, relying on speed and firepower to survive.`
@@ -132,18 +121,15 @@ ship "Chroni"
 		"Issarei Scrap Cooling"
 		"Issarei Light Shield"
 		"Issarei Basic Reactor" 2
-	
-	gun 0 0
-	gun 0 0
-	engine 0 0
+	gun -8 -18
+	gun 8 -18
+	engine 0 25
 	explode "tiny explosion" 15
 	"final explode" "final explosion small"
 	description `A dedicated missile fighter. It lacks forward guns, instead relying on a pair of unguided rockets to punch through enemy shields.`
 
-# --- LIGHT / MEDIUM WARSHIPS ---
-
 ship "Abeniie"
-	sprite "ship/issarei/abenie"
+	sprite "ship/issarei/abeniie"
 	attributes
 		category "Light Warship"
 		"cost" 1800000
@@ -170,12 +156,11 @@ ship "Abeniie"
 		"Issarei Basic Reactor"
 		"Issarei Small Battery"
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
+	gun -12 -30
+	gun 12 -30
+	turret 0 10
+	engine -10 35
+	engine 10 35
 	explode "tiny explosion" 20
 	explode "small explosion" 10
 	"final explode" "final explosion medium"
@@ -209,12 +194,11 @@ ship "Indiu"
 		"Issarei Basic Reactor"
 		"Issarei Small Battery"
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
+	gun -15 -30
+	gun 15 -30
+	turret 0 10
+	engine -10 35
+	engine 10 35
 	explode "tiny explosion" 20
 	explode "small explosion" 12
 	"final explode" "final explosion medium"
@@ -248,15 +232,14 @@ ship "Normedi"
 		"Issarei Basic Reactor"
 		"Issarei Small Battery" 2
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	gun -20 -40
+	gun 20 -40
+	gun 0 -50
+	turret -20 10
+	turret 20 10
+	engine -15 45
+	engine 0 50
+	engine 15 45
 	explode "tiny explosion" 25
 	explode "small explosion" 15
 	"final explode" "final explosion medium"
@@ -290,21 +273,18 @@ ship "Ka Aru Ya"
 		"Issarei Basic Reactor"
 		"Issarei Small Battery" 2
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	gun -25 -40
+	gun 25 -40
+	gun 0 -50
+	turret -20 10
+	turret 20 10
+	engine -20 45
+	engine 0 55
+	engine 20 45
 	explode "tiny explosion" 25
 	explode "small explosion" 15
 	"final explode" "final explosion medium"
 	description `A heavy missile boat. It is designed to sit at the back of a formation and rain rockets down on enemy fleets.`
-
-# --- HEAVY WARSHIPS ---
 
 ship "Beheija"
 	sprite "ship/issarei/beheija"
@@ -334,25 +314,24 @@ ship "Beheija"
 		"Issarei Basic Reactor" 2
 		"Issarei Small Battery" 3
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	gun -30 -50
+	gun 30 -50
+	gun -15 -60
+	gun 15 -60
+	turret -40 -10
+	turret 40 -10
+	turret 0 20
+	engine -20 60
+	engine 0 70
+	engine 20 60
+	engine -10 50
 	explode "tiny explosion" 40
 	explode "small explosion" 30
 	explode "medium explosion" 20
 	"final explode" "final explosion large"
 	description `A heavy warship. While not as heavily armored as the Mekrut equivalents, it makes up for it with overwhelming firepower and a large swarm of escort ships.`
 
-ship "Lakan" #Bruchaven Biryani
+ship "Lakan"
 	sprite "ship/issarei/lakan"
 	attributes
 		category "Heavy Warship"
@@ -380,28 +359,27 @@ ship "Lakan" #Bruchaven Biryani
 		"Issarei Basic Reactor" 2
 		"Issarei Small Battery" 3
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
+	gun -25 -60
+	gun 25 -60
+	turret -45 -20
+	turret 45 -20
+	turret -50 20
+	turret 50 20
+	engine -30 65
+	engine 0 75
+	engine 30 65
+	engine -15 55
+	engine 15 55
+	bay "Drone" -15 -35
+	bay "Drone" 15 -35
+	bay "Drone" -35 -5
+	bay "Drone" 35 -5
+	bay "Drone" -35 30
+	bay "Drone" 35 30
+	bay "Fighter" -15 10
+	bay "Fighter" 15 10
+	bay "Fighter" -10 40
+	bay "Fighter" 10 40
 	explode "tiny explosion" 45
 	explode "small explosion" 30
 	explode "medium explosion" 25

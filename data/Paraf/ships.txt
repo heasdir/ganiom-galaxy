@@ -1,0 +1,1278 @@
+# ============================================================
+# PARAF SHIPS (ABOVE T5)
+# ============================================================
+
+# --- INTERCEPTORS ---
+
+ship "Nukazepta"
+	sprite "ship/paraf/Nukazepta"
+		scale 1.0
+	attributes
+		category "Interceptor"
+		"cost" 4500000
+		"shields" 5000000
+		"hull" 1000000
+		"required crew" 0
+		"automaton" 1
+		"bunks" 1
+		"mass" 50000
+		"drag" 1.5
+		"heat dissipation" 0.9
+		"fuel capacity" 600
+		"outfit space" 400
+		"weapon capacity" 200
+		"engine capacity" 100
+		"cooling" 200
+		weapon
+			"blast radius" 200
+			"shield damage" 500000
+			"hull damage" 250000
+			"hit force" 100000
+	outfits
+		"Paraf Kamikaze Engine"
+		"Paraf Micro Reactor"
+		"Paraf Energy Bank"
+		"Experimental Drive"
+	gun 0 -20
+	gun -10 -10
+	gun 10 -10
+	engine 0 30
+	engine -10 25
+	engine 10 25
+	explode "tiny explosion" 20
+	"final explode" "final explosion medium"
+	description `A kamikaze interceptor. It has almost no armor, relying entirely on its speed to close the distance and detonate its antimatter core.`
+
+ship "Samaku"
+	sprite "ship/paraf/Samaku"
+		scale 1.5
+	attributes
+		category "Interceptor"
+		"cost" 5000000
+		"shields" 35000000
+		"hull" 8000000
+		"required crew" 2
+		"bunks" 4
+		"mass" 10000
+		"drag" 1.8
+		"heat dissipation" 0.9
+		"fuel capacity" 1000
+		"outfit space" 500
+		"weapon capacity" 300
+		"engine capacity" 150
+		"cooling" 250
+	outfits
+		"Paraf Spatial Drive"
+		"Paraf Micro Reactor"
+		"Paraf Energy Bank"
+		"Experimental Drive"
+		"Paraf Antimatter Blaster" 2
+	gun -15 -25
+	gun 15 -25
+	engine -10 35
+	engine 10 35
+	explode "tiny explosion" 25
+	"final explode" "final explosion medium"
+	description `A standard Paraf interceptor. Fast, heavily shielded, and armed with antimatter blasters.`
+
+ship "Iovaku"
+	sprite "ship/paraf/Iovaku"
+		scale 1.5
+	attributes
+		category "Interceptor"
+		"cost" 5500000
+		"shields" 40000000
+		"hull" 10000000
+		"required crew" 3
+		"bunks" 5
+		"mass" 15000
+		"drag" 2.0
+		"heat dissipation" 0.9
+		"fuel capacity" 1200
+		"outfit space" 600
+		"weapon capacity" 350
+		"engine capacity" 180
+		"cooling" 280
+	outfits
+		"Paraf Spatial Drive"
+		"Paraf Micro Reactor"
+		"Paraf Energy Bank"
+		"Experimental Drive"
+		"Paraf Antimatter Blaster" 3
+	gun -20 -25
+	gun 0 -30
+	gun 20 -25
+	engine -10 35
+	engine 10 35
+	explode "tiny explosion" 28
+	"final explode" "final explosion medium"
+	description `A heavier Paraf interceptor, utilized for hit-and-run strikes on enemy supply lines.`
+
+
+# --- LIGHT WARSHIPS ---
+
+ship "Nanavaku"
+	sprite "ship/paraf/Nanavaku"
+		scale 2.0
+	attributes
+		category "Light Warship"
+		"cost" 8500000
+		"shields" 80000000
+		"hull" 20000000
+		"required crew" 10
+		"bunks" 20
+		"mass" 50000
+		"drag" 2.5
+		"heat dissipation" 0.9
+		"fuel capacity" 2000
+		"outfit space" 1000
+		"weapon capacity" 500
+		"engine capacity" 300
+		"cooling" 500
+	outfits
+		"Paraf Spatial Drive"
+		"Paraf Micro Reactor" 2
+		"Paraf Energy Bank"
+		"Experimental Drive"
+		"Paraf Antimatter Blaster" 4
+		"Paraf Point Defense" 1
+	gun -25 -40
+	gun 0 -50
+	gun 25 -40
+	gun -15 -20
+	turret 0 10
+	engine -15 45
+	engine 15 45
+	explode "small explosion" 30
+	"final explode" "final explosion large"
+	description `A light Paraf patrol ship. It carries enough shielding to withstand a Gainen fleet.`
+
+ship "Hanavaku"
+	sprite "ship/paraf/Hanavaku"
+		scale 2.5
+	attributes
+		category "Light Warship"
+		"cost" 9000000
+		"shields" 90000000
+		"hull" 25000000
+		"required crew" 12
+		"bunks" 25
+		"mass" 80000
+		"drag" 2.7
+		"heat dissipation" 0.9
+		"fuel capacity" 2200
+		"outfit space" 1100
+		"weapon capacity" 600
+		"engine capacity" 350
+		"cooling" 550
+	outfits
+		"Paraf Spatial Drive"
+		"Paraf Micro Reactor" 2
+		"Paraf Energy Bank"
+		"Experimental Drive"
+		"Paraf Antimatter Blaster" 5
+		"Paraf Heavy Turret" 1
+	gun -30 -40
+	gun 30 -40
+	gun -15 -50
+	gun 15 -50
+	gun -35 -20
+	turret -20 10
+	engine -15 45
+	engine 15 45
+	explode "small explosion" 35
+	"final explode" "final explosion large"
+	description `An up-gunned light warship, often used to escort Paraf mining vessels.`
+
+ship "Vavanapta"
+	sprite "ship/paraf/Vavanapta"
+		scale 2.5
+	attributes
+		category "Light Warship"
+		"cost" 10000000
+		"shields" 100000000
+		"hull" 30000000
+		"required crew" 15
+		"bunks" 30
+		"mass" 120000
+		"drag" 2.9
+		"heat dissipation" 0.9
+		"fuel capacity" 2500
+		"outfit space" 1200
+		"weapon capacity" 700
+		"engine capacity" 400
+		"cooling" 600
+	outfits
+		"Paraf Spatial Drive"
+		"Paraf Micro Reactor" 2
+		"Paraf Energy Bank"
+		"Experimental Drive"
+		"Paraf Antimatter Blaster" 4
+		"Paraf Heavy Turret" 2
+	gun -35 -40
+	gun 35 -40
+	gun -20 -50
+	gun 20 -50
+	turret -25 15
+	turret 25 15
+	engine -20 50
+	engine 0 60
+	engine 20 50
+	explode "small explosion" 40
+	"final explode" "final explosion large"
+	description `A dedicated anti-fighter platform, meant to protect larger Paraf ships from swarms.`
+
+
+# --- MEDIUM WARSHIPS ---
+
+ship "Rahaga"
+	sprite "ship/paraf/Rahaga"
+		scale 3.0
+	attributes
+		category "Medium Warship"
+		"cost" 25000000
+		"shields" 250000000
+		"hull" 60000000
+		"required crew" 40
+		"bunks" 80
+		"mass" 50000
+		"drag" 3.5
+		"heat dissipation" 0.8
+		"fuel capacity" 5000
+		"outfit space" 4000
+		"weapon capacity" 2000
+		"engine capacity" 1000
+		"cooling" 1500
+	outfits
+		"Paraf Spatial Drive"
+		"Paraf Micro Reactor" 4
+		"Paraf Energy Bank" 2
+		"Experimental Drive"
+		"Paraf Antimatter Blaster" 6
+		"Paraf Heavy Turret" 3
+	gun -40 -60
+	gun 40 -60
+	gun -20 -70
+	gun 20 -70
+	gun -10 -80
+	gun 10 -80
+	turret -35 20
+	turret 35 20
+	turret 0 30
+	engine -20 70
+	engine 0 80
+	engine 20 70
+	bay "Mega-Drone" -40 0
+	bay "Mega-Drone" 40 0
+	explode "small explosion" 40
+	explode "medium explosion" 20
+	"final explode" "final explosion large"
+	description `A Paraf medium warship. It is heavily armed and shielded, designed to engage multiple lesser ships at once.`
+
+ship "Thawra"
+	sprite "ship/paraf/Thawra"
+		scale 3.5
+	attributes
+		category "Medium Warship"
+		"cost" 30000000
+		"shields" 300000000
+		"hull" 80000000
+		"required crew" 50
+		"bunks" 100
+		"mass" 80000
+		"drag" 4.0
+		"heat dissipation" 0.8
+		"fuel capacity" 6000
+		"outfit space" 5000
+		"weapon capacity" 2500
+		"engine capacity" 1200
+		"cooling" 2000
+	outfits
+		"Paraf Spatial Drive"
+		"Paraf Micro Reactor" 5
+		"Paraf Energy Bank" 2
+		"Experimental Drive"
+		"Paraf Antimatter Blaster" 8
+		"Paraf Heavy Turret" 4
+	turret -40 -30
+	turret 40 -30
+	turret 0 30
+	turret -20 60
+	gun -50 -70
+	gun 50 -70
+	gun -30 -80
+	gun 30 -80
+	gun -15 -90
+	gun 15 -90
+	gun -40 -40
+	gun 40 -40
+	engine -25 80
+	engine 0 90
+	engine 25 80
+	bay "Mega-Drone" -50 10
+	bay "Mega-Drone" 50 10
+	bay "Mega-Drone" -50 40
+	bay "Mega-Drone" 50 40
+	explode "small explosion" 50
+	explode "medium explosion" 30
+	"final explode" "final explosion large"
+	description `An up-gunned Paraf medium warship. The yellow hazard stripes on its hull warn of the immense radiation its weapons produce.`
+
+
+# --- HEAVY WARSHIPS ---
+
+ship "Nusarafe"
+	sprite "ship/paraf/Nusarafe"
+		scale 4.5
+	attributes
+		category "Heavy Warship"
+		"cost" 90000000
+		"shields" 200000000
+		"hull" 50000000
+		"required crew" 100
+		"bunks" 200
+		"mass" 200000
+		"drag" 5.5
+		"heat dissipation" 0.8
+		"fuel capacity" 10000
+		"outfit space" 20000
+		"weapon capacity" 10000
+		"engine capacity" 6000
+		"cooling" 6000
+		weapon
+			"blast radius" 1500
+			"shield damage" 25000000
+			"hull damage" 50000000
+			"hit force" 10000000
+	outfits
+		"Paraf Kamikaze Engine" 4
+		"Paraf Micro Reactor" 2
+		"Paraf Energy Bank" 2
+		"Experimental Drive"
+		"Paraf Heavy Turret" 6
+	gun -30 -120
+	gun 30 -120
+	gun -15 -130
+	gun 15 -130
+	turret -50 -20
+	turret 50 -20
+	turret -50 20
+	turret 50 20
+	turret -50 60
+	turret 50 60
+	engine -40 110
+	engine 0 120
+	engine 40 110
+	engine -20 115
+	engine 20 115
+	bay "Mega-Drone" -60 -20
+	bay "Mega-Drone" 60 -20
+	bay "Mega-Drone" -60 20
+	bay "Mega-Drone" 60 20
+	bay "Mega-Drone" -60 60
+	bay "Mega-Drone" 60 60
+	explode "medium explosion" 80
+	explode "large explosion" 50
+	"final explode" "final explosion huge"
+	description `A Paraf kamikaze heavy warship. Its hull is stripped down to make room for a massive antimatter payload. It is designed to get close to an enemy fleet and take everything with it.`
+
+ship "Nisezzere"
+	sprite "ship/paraf/Nisezzere"
+		scale 5.0
+	attributes
+		category "Heavy Warship"
+		"cost" 80000000
+		"shields" 1500000000
+		"hull" 300000000
+		"required crew" 200
+		"bunks" 400
+		"mass" 300000
+		"drag" 5.0
+		"heat dissipation" 0.8
+		"fuel capacity" 10000
+		"outfit space" 15000
+		"weapon capacity" 8000
+		"engine capacity" 4000
+		"cooling" 5000
+	outfits
+		"Paraf Spatial Drive"
+		"Paraf Singularity Core"
+		"Paraf Energy Bank" 3
+		"Paraf Stasis Field"
+		"Experimental Drive"
+		"Paraf Antimatter Blaster" 14
+		"Paraf Heavy Turret" 8
+		"Paraf Point Defense" 6
+	turret -60 -50
+	turret 60 -50
+	turret -70 10
+	turret 70 10
+	turret -40 60
+	turret 40 60
+	turret -50 30
+	turret 50 30
+	turret -30 80
+	turret 30 80
+	turret -80 20
+	turret 80 20
+	turret -90 -10
+	turret 90 -10
+	gun -50 -100
+	gun 50 -100
+	gun -30 -110
+	gun 30 -110
+	gun -70 -80
+	gun 70 -80
+	gun -10 -120
+	gun 10 -120
+	gun -85 -60
+	gun 85 -60
+	gun -20 -130
+	gun 20 -130
+	gun -60 -90
+	gun 60 -90
+	gun -40 -110
+	gun 40 -110
+	engine -30 100
+	engine 0 110
+	engine 30 100
+	bay "Mega-Drone" -80 -20
+	bay "Mega-Drone" 80 -20
+	bay "Mega-Drone" -80 20
+	bay "Mega-Drone" 80 20
+	bay "Mega-Drone" -80 60
+	bay "Mega-Drone" 80 60
+	bay "Mega-Drone" -80 100
+	bay "Mega-Drone" 80 100
+	bay "Mega-Drone" -40 -60
+	bay "Mega-Drone" 40 -60
+	explode "medium explosion" 40
+	explode "large explosion" 20
+	"final explode" "final explosion huge"
+	description `A Paraf heavy warship. It is a floating fortress, built to withstand the firepower of entire fleets.`
+
+
+# --- SUPERHEAVY ---
+
+ship "Oisnuak"
+	sprite "ship/paraf/Oisnuak"
+		scale 6.0
+	attributes
+		category "Heavy Warship"
+		"cost" 250000000
+		"shields" 3000000000
+		"hull" 5000000000
+		"required crew" 500000
+		"bunks" 1000000
+		"mass" 1000000
+		"drag" 6.5
+		"heat dissipation" 0.6
+		"fuel capacity" 50000
+		"outfit space" 400000
+		"weapon capacity" 200000
+		"engine capacity" 80000
+		"cooling" 200000
+		"uncapturable" 1
+	outfits
+		"Paraf Spatial Drive" 4
+		"Paraf Singularity Core" 4
+		"Paraf Energy Bank" 6
+		"Paraf Stasis Field" 2
+		"Experimental Drive"
+		"Paraf Antimatter Blaster" 16
+		"Paraf Heavy Turret" 10
+		"Paraf Point Defense" 6
+	turret -110 -80
+	turret 110 -80
+	turret -130 20
+	turret 130 20
+	turret -70 100
+	turret 70 100
+	turret -150 -20
+	turret 150 -20
+	turret -90 150
+	turret 90 150
+	turret -120 -40
+	turret 120 -40
+	turret -100 120
+	turret 100 120
+	turret -60 40
+	turret 60 40
+	turret -140 80
+	turret 140 80
+	gun -50 -180
+	gun 50 -180
+	gun -20 -190
+	gun 20 -190
+	gun -80 -160
+	gun 80 -160
+	gun -110 -120
+	gun 110 -120
+	gun -30 -200
+	gun 30 -200
+	gun -60 -170
+	gun 60 -170
+	gun -90 -140
+	gun 90 -140
+	gun -10 -210
+	gun 10 -210
+	engine -60 150
+	engine 0 180
+	engine 60 150
+	bay "Mega-Drone" -140 -50
+	bay "Mega-Drone" 140 -50
+	bay "Mega-Drone" -140 0
+	bay "Mega-Drone" 140 0
+	bay "Mega-Drone" -140 50
+	bay "Mega-Drone" 140 50
+	bay "Mega-Drone" -140 100
+	bay "Mega-Drone" 140 100
+	bay "Mega-Drone" -140 150
+	bay "Mega-Drone" 140 150
+	bay "Mega-Drone" -100 -120
+	bay "Mega-Drone" 100 -120
+	bay "Mega-Drone" -100 200
+	bay "Mega-Drone" 100 200
+	bay "Mega-Drone" -60 -150
+	bay "Mega-Drone" 60 -150
+	bay "Mega-Drone" -60 230
+	bay "Mega-Drone" 60 230
+	bay "Mega-Drone" 0 -180
+	bay "Mega-Drone" 0 250
+	explode "large explosion" 100
+	"final explode" "final explosion massive"
+	description `A Paraf Superheavy carrier. It carries enough fighters to blot out the sun.`
+
+ship "Norrab"
+	sprite "ship/paraf/Norrab"
+		scale 6.0
+	attributes
+		category "Heavy Warship"
+		"cost" 280000000
+		"shields" 3500000000
+		"hull" 6000000000
+		"required crew" 600000
+		"bunks" 1200000
+		"mass" 1200000
+		"drag" 6.8
+		"heat dissipation" 0.6
+		"fuel capacity" 60000
+		"outfit space" 450000
+		"weapon capacity" 220000
+		"engine capacity" 90000
+		"cooling" 220000
+		"uncapturable" 1
+	outfits
+		"Paraf Spatial Drive" 4
+		"Paraf Singularity Core" 4
+		"Paraf Energy Bank" 6
+		"Paraf Stasis Field" 2
+		"Experimental Drive"
+		"Paraf Antimatter Blaster" 26
+		"Paraf Heavy Turret" 10
+		"Paraf Point Defense" 6
+	turret -120 -90
+	turret 120 -90
+	turret -140 30
+	turret 140 30
+	turret -80 110
+	turret 80 110
+	turret -160 -10
+	turret 160 -10
+	turret -100 160
+	turret 100 160
+	turret -130 -40
+	turret 130 -40
+	turret -110 130
+	turret 110 130
+	turret -70 50
+	turret 70 50
+	turret -150 90
+	turret 150 90
+	gun -60 -200
+	gun 60 -200
+	gun -30 -210
+	gun 30 -210
+	gun -90 -180
+	gun 90 -180
+	gun -120 -140
+	gun 120 -140
+	gun -40 -220
+	gun 40 -220
+	gun -70 -190
+	gun 70 -190
+	gun -100 -160
+	gun 100 -160
+	gun -20 -230
+	gun 20 -230
+	gun -50 -200
+	gun 50 -200
+	gun -80 -170
+	gun 80 -170
+	gun -110 -150
+	gun 110 -150
+	gun -10 -240
+	gun 10 -240
+	gun -55 -210
+	gun 55 -210
+	engine -70 160
+	engine 0 190
+	engine 70 160
+	bay "Mega-Drone" -150 -50
+	bay "Mega-Drone" 150 -50
+	bay "Mega-Drone" -150 0
+	bay "Mega-Drone" 150 0
+	bay "Mega-Drone" -150 50
+	bay "Mega-Drone" 150 50
+	bay "Mega-Drone" -150 100
+	bay "Mega-Drone" 150 100
+	bay "Mega-Drone" -150 150
+	bay "Mega-Drone" 150 150
+	bay "Mega-Drone" -110 -120
+	bay "Mega-Drone" 110 -120
+	bay "Mega-Drone" -110 200
+	bay "Mega-Drone" 110 200
+	bay "Mega-Drone" -70 -150
+	bay "Mega-Drone" 70 -150
+	bay "Mega-Drone" -70 230
+	bay "Mega-Drone" 70 230
+	bay "Mega-Drone" 0 -180
+	bay "Mega-Drone" 0 250
+	explode "large explosion" 120
+	"final explode" "final explosion massive"
+	description `A Paraf Superheavy missile platform. It is capable of launching hundreds of torpedoes in a single volley.`
+
+ship "Vavaratha"
+	sprite "ship/paraf/Vavaratha"
+		scale 6.5
+	attributes
+		category "Heavy Warship"
+		"cost" 320000000
+		"shields" 4000000000
+		"hull" 7000000000
+		"required crew" 700000
+		"bunks" 1400000
+		"mass" 1400000
+		"drag" 7.0
+		"heat dissipation" 0.6
+		"fuel capacity" 70000
+		"outfit space" 500000
+		"weapon capacity" 250000
+		"engine capacity" 100000
+		"cooling" 250000
+		"uncapturable" 1
+	outfits
+		"Paraf Spatial Drive" 5
+		"Paraf Singularity Core" 5
+		"Paraf Energy Bank" 8
+		"Paraf Stasis Field" 3
+		"Experimental Drive"
+		"Paraf Antimatter Blaster" 24
+		"Paraf Heavy Turret" 12
+		"Paraf Point Defense" 8
+	turret -130 -100
+	turret 130 -100
+	turret -150 20
+	turret 150 20
+	turret -90 120
+	turret 90 120
+	turret -170 -20
+	turret 170 -20
+	turret -110 170
+	turret 110 170
+	turret -50 140
+	turret 50 140
+	turret -140 -50
+	turret 140 -50
+	turret -120 140
+	turret 120 140
+	turret -80 60
+	turret 80 60
+	turret -160 100
+	turret 160 100
+	gun -70 -220
+	gun 70 -220
+	gun -40 -230
+	gun 40 -230
+	gun -100 -200
+	gun 100 -200
+	gun -130 -160
+	gun 130 -160
+	gun -50 -240
+	gun 50 -240
+	gun -80 -210
+	gun 80 -210
+	gun -110 -180
+	gun 110 -180
+	gun -30 -250
+	gun 30 -250
+	gun -60 -220
+	gun 60 -220
+	gun -90 -190
+	gun 90 -190
+	gun -120 -170
+	gun 120 -170
+	gun -20 -260
+	gun 20 -260
+	gun -65 -230
+	gun 65 -230
+	engine -80 180
+	engine 0 210
+	engine 80 180
+	bay "Mega-Drone" -160 -60
+	bay "Mega-Drone" 160 -60
+	bay "Mega-Drone" -160 -10
+	bay "Mega-Drone" 160 -10
+	bay "Mega-Drone" -160 40
+	bay "Mega-Drone" 160 40
+	bay "Mega-Drone" -160 90
+	bay "Mega-Drone" 160 90
+	bay "Mega-Drone" -160 140
+	bay "Mega-Drone" 160 140
+	bay "Mega-Drone" -160 190
+	bay "Mega-Drone" 160 190
+	bay "Mega-Drone" -120 -130
+	bay "Mega-Drone" 120 -130
+	bay "Mega-Drone" -120 240
+	bay "Mega-Drone" 120 240
+	bay "Mega-Drone" -80 -160
+	bay "Mega-Drone" 80 -160
+	bay "Mega-Drone" -80 270
+	bay "Mega-Drone" 80 270
+	bay "Mega-Drone" 0 -200
+	bay "Mega-Drone" 0 300
+	explode "large explosion" 130
+	"final explode" "final explosion massive"
+	description `A Paraf Superheavy battlecruiser. It is designed to shatter enemy lines with overwhelming forward firepower.`
+
+ship "Osi Dhebur"
+	sprite "ship/paraf/Osi Dhebur"
+		scale 7.0
+	attributes
+		category "Heavy Warship"
+		"cost" 360000000
+		"shields" 5000000000
+		"hull" 8000000000
+		"required crew" 800000
+		"bunks" 1600000
+		"mass" 1600000
+		"drag" 7.2
+		"heat dissipation" 0.6
+		"fuel capacity" 80000
+		"outfit space" 550000
+		"weapon capacity" 280000
+		"engine capacity" 110000
+		"cooling" 280000
+		"uncapturable" 1
+	outfits
+		"Paraf Spatial Drive" 5
+		"Paraf Singularity Core" 5
+		"Paraf Energy Bank" 8
+		"Paraf Stasis Field" 3
+		"Experimental Drive"
+		"Paraf Antimatter Blaster" 30
+		"Paraf Heavy Turret" 16
+		"Paraf Point Defense" 10
+	turret -140 -110
+	turret 140 -110
+	turret -160 30
+	turret 160 30
+	turret -100 130
+	turret 100 130
+	turret -180 -30
+	turret 180 -30
+	turret -120 180
+	turret 120 180
+	turret -60 150
+	turret 60 150
+	turret -150 -60
+	turret 150 -60
+	turret -130 150
+	turret 130 150
+	turret -90 70
+	turret 90 70
+	turret -170 110
+	turret 170 110
+	turret -190 0
+	turret 190 0
+	turret -50 50
+	turret 50 50
+	gun -80 -240
+	gun 80 -240
+	gun -50 -250
+	gun 50 -250
+	gun -110 -220
+	gun 110 -220
+	gun -140 -180
+	gun 140 -180
+	gun -60 -260
+	gun 60 -260
+	gun -90 -230
+	gun 90 -230
+	gun -120 -200
+	gun 120 -200
+	gun -40 -270
+	gun 40 -270
+	gun -70 -240
+	gun 70 -240
+	gun -100 -210
+	gun 100 -210
+	gun -130 -190
+	gun 130 -190
+	gun -30 -280
+	gun 30 -280
+	gun -75 -250
+	gun 75 -250
+	gun -105 -230
+	gun 105 -230
+	gun -115 -210
+	gun 115 -210
+	engine -90 190
+	engine 0 220
+	engine 90 190
+	bay "Mega-Drone" -170 -60
+	bay "Mega-Drone" 170 -60
+	bay "Mega-Drone" -170 -10
+	bay "Mega-Drone" 170 -10
+	bay "Mega-Drone" -170 40
+	bay "Mega-Drone" 170 40
+	bay "Mega-Drone" -170 90
+	bay "Mega-Drone" 170 90
+	bay "Mega-Drone" -170 140
+	bay "Mega-Drone" 170 140
+	bay "Mega-Drone" -170 190
+	bay "Mega-Drone" 170 190
+	bay "Mega-Drone" -130 -130
+	bay "Mega-Drone" 130 -130
+	bay "Mega-Drone" -130 240
+	bay "Mega-Drone" 130 240
+	bay "Mega-Drone" -90 -160
+	bay "Mega-Drone" 90 -160
+	bay "Mega-Drone" -90 270
+	bay "Mega-Drone" 90 270
+	bay "Mega-Drone" 0 -200
+	bay "Mega-Drone" 0 300
+	explode "large explosion" 140
+	"final explode" "final explosion massive"
+	description `A Paraf Superheavy siege ship, meant to break planetary blockades.`
+
+ship "Dvanuqaa"
+	sprite "ship/paraf/Dvanuqaa"
+		scale 7.5
+	attributes
+		category "Heavy Warship"
+		"cost" 400000000
+		"shields" 6000000000
+		"hull" 9000000000
+		"required crew" 900000
+		"bunks" 1800000
+		"mass" 1800000
+		"drag" 7.5
+		"heat dissipation" 0.6
+		"fuel capacity" 90000
+		"outfit space" 600000
+		"weapon capacity" 300000
+		"engine capacity" 120000
+		"cooling" 300000
+		"uncapturable" 1
+	outfits
+		"Paraf Spatial Drive" 6
+		"Paraf Singularity Core" 6
+		"Paraf Energy Bank" 10
+		"Paraf Stasis Field" 4
+		"Experimental Drive"
+		"Paraf Antimatter Blaster" 40
+		"Paraf Heavy Turret" 22
+		"Paraf Point Defense" 12
+	turret -150 -120
+	turret 150 -120
+	turret -170 40
+	turret 170 40
+	turret -110 140
+	turret 110 140
+	turret -190 -40
+	turret 190 -40
+	turret -130 190
+	turret 130 190
+	turret -70 160
+	turret 70 160
+	turret -30 120
+	turret 30 120
+	turret -160 -70
+	turret 160 -70
+	turret -140 160
+	turret 140 160
+	turret -100 80
+	turret 100 80
+	turret -180 120
+	turret 180 120
+	turret -200 10
+	turret 200 10
+	turret -60 60
+	turret 60 60
+	turret -120 200
+	turret 120 200
+	turret -80 150
+	turret 80 150
+	gun -90 -260
+	gun 90 -260
+	gun -60 -270
+	gun 60 -270
+	gun -120 -240
+	gun 120 -240
+	gun -150 -200
+	gun 150 -200
+	gun -70 -280
+	gun 70 -280
+	gun -100 -250
+	gun 100 -250
+	gun -130 -220
+	gun 130 -220
+	gun -50 -290
+	gun 50 -290
+	gun -80 -260
+	gun 80 -260
+	gun -110 -230
+	gun 110 -230
+	gun -140 -210
+	gun 140 -210
+	gun -40 -300
+	gun 40 -300
+	gun -85 -270
+	gun 85 -270
+	gun -115 -250
+	gun 115 -250
+	gun -125 -230
+	gun 125 -230
+	gun -55 -280
+	gun 55 -280
+	gun -95 -260
+	gun 95 -260
+	engine -100 200
+	engine 0 230
+	engine 100 200
+	bay "Mega-Drone" -180 -70
+	bay "Mega-Drone" 180 -70
+	bay "Mega-Drone" -180 -20
+	bay "Mega-Drone" 180 -20
+	bay "Mega-Drone" -180 30
+	bay "Mega-Drone" 180 30
+	bay "Mega-Drone" -180 80
+	bay "Mega-Drone" 180 80
+	bay "Mega-Drone" -180 130
+	bay "Mega-Drone" 180 130
+	bay "Mega-Drone" -180 180
+	bay "Mega-Drone" 180 180
+	bay "Mega-Drone" -180 230
+	bay "Mega-Drone" 180 230
+	bay "Mega-Drone" -140 -140
+	bay "Mega-Drone" 140 -140
+	bay "Mega-Drone" -140 280
+	bay "Mega-Drone" 140 280
+	bay "Mega-Drone" -100 -170
+	bay "Mega-Drone" 100 -170
+	bay "Mega-Drone" -100 310
+	bay "Mega-Drone" 100 310
+	bay "Mega-Drone" 0 -210
+	bay "Mega-Drone" 0 350
+	explode "large explosion" 150
+	"final explode" "final explosion massive"
+	description `A Paraf Superheavy planetary assault ship.`
+
+ship "Samaanuak"
+	sprite "ship/paraf/Samaanuak"
+		scale 8.0
+	attributes
+		category "Heavy Warship"
+		"cost" 500000000
+		"shields" 8500000000
+		"hull" 12000000000
+		"required crew" 1500000
+		"bunks" 3000000
+		"mass" 4000000
+		"drag" 8.0
+		"heat dissipation" 0.5
+		"fuel capacity" 100000
+		"outfit space" 1000000
+		"weapon capacity" 500000
+		"engine capacity" 200000
+		"cooling" 500000
+		"uncapturable" 1
+	outfits
+		"Paraf Spatial Drive" 8
+		"Paraf Singularity Core" 8
+		"Paraf Energy Bank" 20
+		"Paraf Stasis Field" 6
+		"Experimental Drive"
+		"Paraf Antimatter Annihilator" 2
+		"Paraf Heavy Turret" 30
+		"Paraf Point Defense" 15
+		"Paraf Antimatter Blaster" 20
+	turret -160 -100
+	turret 160 -100
+	turret -210 50
+	turret 210 50
+	turret -110 150
+	turret 110 150
+	turret -200 -60
+	turret 200 -60
+	turret -140 200
+	turret 140 200
+	turret -80 170
+	turret 80 170
+	turret -50 120
+	turret 50 120
+	turret -220 0
+	turret 220 0
+	turret -120 250
+	turret 120 250
+	turret -170 -70
+	turret 170 -70
+	turret -150 170
+	turret 150 170
+	turret -110 90
+	turret 110 90
+	turret -190 130
+	turret 190 130
+	turret -230 10
+	turret 230 10
+	turret -70 70
+	turret 70 70
+	turret -130 210
+	turret 130 210
+	turret -90 160
+	turret 90 160
+	turret -180 20
+	turret 180 20
+	turret -100 230
+	turret 100 230
+	turret -140 140
+	turret 140 140
+	turret -60 100
+	turret 60 100
+	turret 600 600
+	turret -600 -600
+	turret -450 -450
+	turret 450 450
+	gun -60 -250
+	gun 60 -250
+	gun -30 -260
+	gun 30 -260
+	gun -100 -240
+	gun 100 -240
+	gun -130 -200
+	gun 130 -200
+	gun -20 -270
+	gun 20 -270
+	gun -160 -180
+	gun 160 -180
+	gun -80 -220
+	gun 80 -220
+	gun -10 -290
+	gun 10 -290
+	gun -120 -210
+	gun 120 -210
+	gun -40 -280
+	gun 40 -280
+	engine -100 200
+	engine 0 250
+	engine 100 200
+	bay "Mega-Drone" -200 -80
+	bay "Mega-Drone" 200 -80
+	bay "Mega-Drone" -200 -30
+	bay "Mega-Drone" 200 -30
+	bay "Mega-Drone" -200 20
+	bay "Mega-Drone" 200 20
+	bay "Mega-Drone" -200 70
+	bay "Mega-Drone" 200 70
+	bay "Mega-Drone" -200 120
+	bay "Mega-Drone" 200 120
+	bay "Mega-Drone" -200 170
+	bay "Mega-Drone" 200 170
+	bay "Mega-Drone" -200 220
+	bay "Mega-Drone" 200 220
+	bay "Mega-Drone" -200 270
+	bay "Mega-Drone" 200 270
+	bay "Mega-Drone" -150 -150
+	bay "Mega-Drone" 150 -150
+	bay "Mega-Drone" -150 320
+	bay "Mega-Drone" 150 320
+	bay "Mega-Drone" -100 -180
+	bay "Mega-Drone" 100 -180
+	bay "Mega-Drone" -100 350
+	bay "Mega-Drone" 100 350
+	bay "Mega-Drone" 0 -220
+	bay "Mega-Drone" 0 400
+	explode "huge explosion" 200
+	"final explode" "final explosion massive"
+	description `The Samaanuak is a 4,000-gigagram dreadnought. It is the size of a continent and has enough shielding to survive a supernova. If you see this ship, you are already dead.`
+
+
+# --- STAR KILLER ---
+
+ship "Vavaai"
+	sprite "ship/paraf/Vavaai"
+		scale 8.0
+	attributes
+		category "Star-Killer"
+		"cost" 900000000
+		"shields" 4000000000
+		"hull" 8000000000
+		"required crew" 500000
+		"bunks" 1000000
+		"mass" 2500000
+		"drag" 7.0
+		"heat dissipation" 0.5
+		"fuel capacity" 80000
+		"outfit space" 800000
+		"weapon capacity" 400000
+		"engine capacity" 150000
+		"cooling" 400000
+		"uncapturable" 1
+	outfits
+		"Paraf Spatial Drive" 6
+		"Paraf Singularity Core" 6
+		"Paraf Energy Bank" 15
+		"Paraf Stasis Field" 4
+		"Experimental Drive"
+		"Paraf Planet Cracker" 13
+		"Paraf Heavy Turret" 25
+	turret -110 -100
+	turret 110 -100
+	turret -160 50
+	turret 160 50
+	turret -130 -40
+	turret 130 -40
+	turret -90 120
+	turret 90 120
+	turret -170 100
+	turret 170 100
+	turret -120 -80
+	turret 120 -80
+	turret -140 70
+	turret 140 70
+	turret -100 150
+	turret 100 150
+	turret -180 50
+	turret 180 50
+	turret -150 -60
+	turret 150 -60
+	turret -120 100
+	turret 120 100
+	turret -80 80
+	turret 80 80
+	turret -190 0
+	turret 190 0
+	gun 0 -300
+	gun -30 -310
+	gun 30 -310
+	gun -60 -280
+	gun 60 -280
+	gun -90 -250
+	gun 90 -250
+	gun -120 -220
+	gun 120 -220
+	gun -150 -190
+	gun 150 -190
+	gun -40 -290
+	gun 40 -290
+	engine -80 200
+	engine 0 250
+	engine 80 200
+	bay "Mega-Drone" -180 -100
+	bay "Mega-Drone" 180 -100
+	bay "Mega-Drone" -180 -50
+	bay "Mega-Drone" 180 -50
+	bay "Mega-Drone" -180 0
+	bay "Mega-Drone" 180 0
+	bay "Mega-Drone" -180 50
+	bay "Mega-Drone" 180 50
+	bay "Mega-Drone" -180 100
+	bay "Mega-Drone" 180 100
+	bay "Mega-Drone" -180 150
+	bay "Mega-Drone" 180 150
+	bay "Mega-Drone" -180 200
+	bay "Mega-Drone" 180 200
+	bay "Mega-Drone" -180 250
+	bay "Mega-Drone" 180 250
+	bay "Mega-Drone" -180 300
+	bay "Mega-Drone" 180 300
+	bay "Mega-Drone" -180 350
+	bay "Mega-Drone" 180 350
+	bay "Mega-Drone" -180 400
+	bay "Mega-Drone" 180 400
+	bay "Mega-Drone" -180 450
+	bay "Mega-Drone" 180 450
+	bay "Mega-Drone" -180 500
+	bay "Mega-Drone" 180 500
+	bay "Mega-Drone" -180 550
+	bay "Mega-Drone" 180 550
+	bay "Mega-Drone" -130 -170
+	bay "Mega-Drone" 130 -170
+	bay "Mega-Drone" -130 600
+	bay "Mega-Drone" 130 600
+	bay "Mega-Drone" -80 -200
+	bay "Mega-Drone" 80 -200
+	bay "Mega-Drone" -80 630
+	bay "Mega-Drone" 80 630
+	bay "Mega-Drone" 0 -240
+	bay "Mega-Drone" 0 680
+	bay "Mega-Drone" -50 230
+	bay "Mega-Drone" 50 230
+	bay "Mega-Drone" -50 280
+	bay "Mega-Drone" 50 280
+	bay "Mega-Drone" -50 330
+	bay "Mega-Drone" 50 330
+	bay "Mega-Drone" -50 380
+	bay "Mega-Drone" 50 380
+	bay "Mega-Drone" -100 250
+	bay "Mega-Drone" 100 250
+	bay "Mega-Drone" -100 300
+	bay "Mega-Drone" 100 300
+	bay "Mega-Drone" -100 350
+	bay "Mega-Drone" 100 350
+	bay "Mega-Drone" -100 400
+	bay "Mega-Drone" 100 400
+	explode "huge explosion" 500
+	"final explode" "final explosion massive"
+	description `A Paraf Star-Killer. It does not fight fleets. It deletes solar systems.`
+
+
+# --- MEGA-DRONE ---
+
+ship "Outraj"
+	sprite "ship/paraf/Outraj"
+		scale 2.0
+	attributes
+		category "Mega-Drone"
+		"cost" 12000000
+		"shields" 10000000
+		"hull" 5000000
+		"required crew" 0
+		"automaton" 1
+		"bunks" 1
+		"mass" 800000
+		"drag" 2.0
+		"heat dissipation" 0.9
+		"fuel capacity" 0
+		"outfit space" 800
+		"weapon capacity" 400
+		"engine capacity" 200
+		"cooling" 400
+		weapon
+			"blast radius" 400
+			"shield damage" 5000000
+			"hull damage" 10000000
+			"hit force" 2000000
+	outfits
+		"Paraf Kamikaze Engine" 2
+		"Paraf Micro Reactor"
+		"Paraf Energy Bank"
+		"Paraf Antimatter Blaster"
+	gun 0 -30
+	engine 0 40
+	engine -10 35
+	engine 10 35
+	explode "medium explosion" 50
+	"final explode" "final explosion large"
+	description `An automated Paraf mega-drone. Its hull is barely held together around a massive bomb. It is packed with enough explosives to level a city block.`

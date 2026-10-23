@@ -1,9 +1,3 @@
-# ============================================================
-# HISAIR SHIPS (Deadly Cartel Weapons)
-# ============================================================
-
-# --- DRONES ---
-
 ship "HAA Drone"
 	sprite "ship/hisair/HAA Drone"
 	attributes
@@ -29,9 +23,8 @@ ship "HAA Drone"
 		"X1200 Ion Steering"
 		"X1700 Ion Thruster"
 		"Cooling Ducts"
-	
-	gun 0 0
-	engine 0 0
+	gun 0 -15
+	engine 0 25
 	explode "tiny explosion" 10
 	"final explode" "final explosion small"
 	description `A cheap, automated drone used by Hisair enforcers to swarm targets.`
@@ -62,9 +55,8 @@ ship "AAV Drone"
 		"X1200 Ion Steering"
 		"X1700 Ion Thruster"
 		"Cooling Ducts"
-	
-	gun 0 0
-	engine 0 0
+	gun 0 -15
+	engine 0 25
 	explode "tiny explosion" 10
 	"final explode" "final explosion small"
 	description `A missile drone designed to overwhelm point-defense systems with a swarm of unguided rockets.`
@@ -94,16 +86,12 @@ ship "AGV Drone"
 		"X1200 Ion Steering"
 		"X1700 Ion Thruster"
 		"Cooling Ducts"
-	
-	gun 0 0
-	gun 0 0
-	engine 0 0
+	gun -8 -15
+	gun 8 -15
+	engine 0 25
 	explode "tiny explosion" 12
 	"final explode" "final explosion small"
 	description `A heavily armed drone that serves as a cheap, expendable gun platform.`
-
-
-# --- FIGHTERS ---
 
 ship "XAA Fighter"
 	sprite "ship/hisair/XAA Fighter"
@@ -130,10 +118,9 @@ ship "XAA Fighter"
 		"X2700 Ion Thruster"
 		"Cooling Ducts"
 		"D14-RN Shield Generator"
-	
-	gun 0 0
-	gun 0 0
-	engine 0 0
+	gun -8 -22
+	gun 8 -22
+	engine 0 30
 	explode "tiny explosion" 15
 	"final explode" "final explosion small"
 	description `A mass-produced fighter used by the Hisair cartels for escort and raid duties.`
@@ -163,10 +150,9 @@ ship "Shellseeker"
 		"X2700 Ion Thruster"
 		"Cooling Ducts"
 		"D14-RN Shield Generator"
-	
-	gun 0 0
-	gun 0 0
-	engine 0 0
+	gun -10 -22
+	gun 10 -22
+	engine 0 30
 	explode "tiny explosion" 15
 	"final explode" "final explosion small"
 	description `A heavier variant of the XAA, designed to survive longer in a dogfight.`
@@ -197,9 +183,8 @@ ship "XVA Fighter"
 		"X2700 Ion Thruster"
 		"Cooling Ducts"
 		"D14-RN Shield Generator"
-	
-	gun 0 0
-	engine 0 0
+	gun 0 -25
+	engine 0 30
 	explode "tiny explosion" 18
 	"final explode" "final explosion small"
 	description `A dedicated missile fighter that trades forward guns for a heavy Javelin payload.`
@@ -231,11 +216,10 @@ ship "Shellshocker"
 		"X2700 Ion Thruster"
 		"Cooling Ducts"
 		"D14-RN Shield Generator"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	engine 0 0
+	gun -12 -22
+	gun 12 -22
+	gun 0 -28
+	engine 0 30
 	explode "tiny explosion" 20
 	"final explode" "final explosion small"
 	description `A mixed-role fighter that combines blasters with a rocket pod.`
@@ -265,11 +249,10 @@ ship "Av Hisair"
 		"X2700 Ion Thruster"
 		"Cooling Ducts"
 		"D23-QP Shield Generator"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	engine 0 0
+	gun -12 -22
+	gun 0 -28
+	gun 12 -22
+	engine 0 30
 	explode "tiny explosion" 20
 	"final explode" "final explosion small"
 	description `A heavy, heavily armed fighter used by elite cartel pilots.`
@@ -300,15 +283,11 @@ ship "Nogavi"
 		"X2700 Ion Thruster"
 		"Cooling Ducts"
 		"D23-QP Shield Generator"
-	
-	gun 0 0
-	engine 0 0
+	gun 0 -25
+	engine 0 30
 	explode "tiny explosion" 20
 	"final explode" "final explosion small"
 	description `A heavy missile fighter designed to engage larger targets.`
-
-
-# --- LIGHT WARSHIPS & INTERCEPTORS ---
 
 ship "Shooting Nebulae"
 	sprite "ship/hisair/Shooting Nebulae"
@@ -336,12 +315,11 @@ ship "Shooting Nebulae"
 		"Cooling Ducts"
 		"D23-QP Shield Generator"
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	engine 0 0
-	engine 0 0
+	gun -15 -35
+	gun 0 -40
+	gun 15 -35
+	engine -10 40
+	engine 10 40
 	explode "tiny explosion" 20
 	explode "small explosion" 10
 	"final explode" "final explosion small"
@@ -374,12 +352,11 @@ ship "Pirateers"
 		"Cooling Ducts"
 		"D41-HY Shield Generator"
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
+	gun -15 -35
+	gun 15 -35
+	turret 0 10
+	engine -10 40
+	engine 10 40
 	explode "tiny explosion" 25
 	explode "small explosion" 15
 	"final explode" "final explosion medium"
@@ -412,20 +389,16 @@ ship "Nairobi"
 		"Cooling Ducts"
 		"D41-HY Shield Generator"
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
+	gun -18 -35
+	gun 18 -35
+	gun 0 -45
+	turret 0 10
+	engine -10 40
+	engine 10 40
 	explode "tiny explosion" 25
 	explode "small explosion" 15
 	"final explode" "final explosion medium"
 	description `A heavier escort variant, equipped with anti-missile defenses to protect convoys.`
-
-
-# --- MEDIUM WARSHIPS ---
 
 ship "Bonecrusher"
 	sprite "ship/hisair/Bonecrusher"
@@ -455,15 +428,14 @@ ship "Bonecrusher"
 		"Cooling Ducts" 2
 		"D41-HY Shield Generator"
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
+	gun -20 -45
+	gun 20 -45
+	gun -10 -55
+	gun 10 -55
+	turret -25 10
+	turret 25 10
+	engine -15 50
+	engine 15 50
 	explode "tiny explosion" 30
 	explode "small explosion" 20
 	explode "medium explosion" 10
@@ -499,15 +471,14 @@ ship "Bloody Mary"
 		"Cooling Ducts" 2
 		"D41-HY Shield Generator"
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
+	gun -25 -45
+	gun 25 -45
+	gun -15 -55
+	gun 15 -55
+	turret -30 10
+	turret 30 10
+	engine -15 50
+	engine 15 50
 	explode "tiny explosion" 30
 	explode "small explosion" 20
 	explode "medium explosion" 10
@@ -541,13 +512,12 @@ ship "Kras"
 		"Cooling Ducts" 2
 		"D41-HY Shield Generator"
 		"Hyperdrive"
-	
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
+	turret -30 -30
+	turret 30 -30
+	turret -30 20
+	turret 30 20
+	engine -20 50
+	engine 20 50
 	explode "tiny explosion" 30
 	explode "small explosion" 20
 	explode "medium explosion" 10
@@ -581,16 +551,15 @@ ship "Toms"
 		"Cooling Ducts" 2
 		"D41-HY Shield Generator"
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
+	gun -30 -40
+	gun 30 -40
+	gun -15 -50
+	gun 15 -50
+	gun 0 -60
+	turret -30 15
+	turret 30 15
+	engine -20 50
+	engine 20 50
 	explode "tiny explosion" 35
 	explode "small explosion" 25
 	explode "medium explosion" 15
@@ -625,17 +594,14 @@ ship "Nisark"
 		"Cooling Ducts" 2
 		"D41-HY Shield Generator"
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
+	gun -25 -45
+	gun 25 -45
+	turret -35 -10
+	turret 35 -10
+	turret -35 30
+	turret 35 30
+	engine -20 55
+	engine 20 55
 	explode "tiny explosion" 35
 	explode "small explosion" 25
 	explode "medium explosion" 15
@@ -671,16 +637,15 @@ ship "Hisark"
 		"Cooling Ducts" 2
 		"D41-HY Shield Generator"
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
+	gun -30 -45
+	gun 30 -45
+	gun -15 -55
+	gun 15 -55
+	gun 0 -65
+	turret -30 15
+	turret 30 15
+	engine -20 55
+	engine 20 55
 	explode "tiny explosion" 40
 	explode "small explosion" 30
 	explode "medium explosion" 20
@@ -715,17 +680,16 @@ ship "Hisairiyya"
 		"Cooling Ducts" 3
 		"D41-HY Shield Generator"
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
+	gun -35 -45
+	gun 35 -45
+	gun -20 -55
+	gun 20 -55
+	turret -40 -10
+	turret 40 -10
+	turret -40 30
+	turret 40 30
+	engine -25 60
+	engine 25 60
 	explode "tiny explosion" 40
 	explode "small explosion" 30
 	explode "medium explosion" 20
@@ -759,25 +723,21 @@ ship "Fuse"
 		"Cooling Ducts" 3
 		"D41-HY Shield Generator"
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
+	gun -40 -50
+	gun 40 -50
+	gun -25 -60
+	gun 25 -60
+	gun -10 -70
+	gun 10 -70
+	turret -30 20
+	turret 30 20
+	engine -25 60
+	engine 25 60
 	explode "tiny explosion" 45
 	explode "small explosion" 35
 	explode "medium explosion" 25
 	"final explode" "final explosion large"
 	description `A heavily modified gunboat with a terrifying array of forward-facing weapons.`
-
-
-# --- HEAVY WARSHIPS & CARRIERS ---
 
 ship "War"
 	sprite "ship/hisair/War"
@@ -808,22 +768,21 @@ ship "War"
 		"Cooling Ducts" 4
 		"D41-HY Shield Generator" 3
 		"Hyperdrive"
-	
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	turret -40 -40
+	turret 40 -40
+	turret -50 20
+	turret 50 20
+	gun -30 -60
+	gun 30 -60
+	gun -15 -70
+	gun 15 -70
+	gun -40 -20
+	gun 40 -20
+	gun -20 20
+	gun 20 20
+	engine -25 60
+	engine 0 70
+	engine 25 60
 	explode "tiny explosion" 50
 	explode "small explosion" 40
 	explode "medium explosion" 30
@@ -858,22 +817,21 @@ ship "Soul"
 		"Cooling Ducts" 5
 		"D41-HY Shield Generator" 3
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	gun -35 -65
+	gun 35 -65
+	gun -20 -75
+	gun 20 -75
+	gun -5 -85
+	gun 5 -85
+	turret -45 -30
+	turret 45 -30
+	turret -55 20
+	turret 55 20
+	turret -30 50
+	turret 30 50
+	engine -30 65
+	engine 0 75
+	engine 30 65
 	explode "tiny explosion" 60
 	explode "small explosion" 40
 	explode "medium explosion" 30
@@ -908,24 +866,23 @@ ship "Foklaor"
 		"Cooling Ducts" 5
 		"D41-HY Shield Generator" 4
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	gun -40 -65
+	gun 40 -65
+	gun -25 -75
+	gun 25 -75
+	gun -10 -85
+	gun 10 -85
+	gun -45 -45
+	gun 45 -45
+	turret -50 -30
+	turret 50 -30
+	turret -60 20
+	turret 60 20
+	turret -35 50
+	turret 35 50
+	engine -30 65
+	engine 0 75
+	engine 30 65
 	explode "tiny explosion" 60
 	explode "small explosion" 40
 	explode "medium explosion" 30
@@ -961,24 +918,23 @@ ship "Rovaenini"
 		"Cooling Ducts" 5
 		"D41-HY Shield Generator" 4
 		"Hyperdrive"
-	
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	turret -45 -50
+	turret 45 -50
+	turret -55 -10
+	turret 55 -10
+	turret -60 30
+	turret 60 30
+	turret -35 60
+	turret 35 60
+	gun -30 -70
+	gun 30 -70
+	gun -15 -80
+	gun 15 -80
+	gun -40 -20
+	gun 40 -20
+	engine -35 70
+	engine 0 80
+	engine 35 70
 	explode "tiny explosion" 70
 	explode "small explosion" 50
 	explode "medium explosion" 35
@@ -1013,24 +969,23 @@ ship "Radsar"
 		"Cooling Ducts" 6
 		"D41-HY Shield Generator" 5
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	gun -40 -75
+	gun 40 -75
+	gun -25 -85
+	gun 25 -85
+	gun -10 -95
+	gun 10 -95
+	turret -50 -40
+	turret 50 -40
+	turret -60 0
+	turret 60 0
+	turret -65 40
+	turret 65 40
+	turret -40 70
+	turret 40 70
+	engine -35 75
+	engine 0 85
+	engine 35 75
 	explode "tiny explosion" 80
 	explode "small explosion" 60
 	explode "medium explosion" 40
@@ -1067,38 +1022,34 @@ ship "Eattar"
 		"Cooling Ducts" 8
 		"D41-HY Shield Generator" 8
 		"Hyperdrive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	gun -45 -80
+	gun 45 -80
+	gun -30 -90
+	gun 30 -90
+	gun -15 -100
+	gun 15 -100
+	gun -50 -60
+	gun 50 -60
+	turret -55 -40
+	turret 55 -40
+	turret -65 0
+	turret 65 0
+	turret -75 40
+	turret 75 40
+	turret -45 70
+	turret 45 70
+	turret -20 80
+	turret 20 80
+	engine -40 80
+	engine 0 90
+	engine 40 80
+	engine -20 70
 	explode "tiny explosion" 100
 	explode "small explosion" 80
 	explode "medium explosion" 60
 	explode "large explosion" 40
 	"final explode" "final explosion large"
 	description `The absolute peak of Hisair engineering. A massive, heavily armored dreadnought that serves as the mobile headquarters of the cartel's ruling council.`
-
-
-# --- HEAVY FREIGHTERS ---
 
 ship "Bulk Transporter"
 	sprite "ship/hisair/Bulk Transporter"
@@ -1126,11 +1077,10 @@ ship "Bulk Transporter"
 		"Cooling Ducts"
 		"D41-HY Shield Generator"
 		"Hyperdrive"
-	
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	turret 0 -30
+	engine -15 60
+	engine 0 70
+	engine 15 60
 	explode "tiny explosion" 30
 	explode "small explosion" 20
 	explode "medium explosion" 10
@@ -1163,12 +1113,11 @@ ship "Bulk Carrier"
 		"Cooling Ducts"
 		"D41-HY Shield Generator"
 		"Hyperdrive"
-	
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	turret -20 -30
+	turret 20 -30
+	engine -20 60
+	engine 0 70
+	engine 20 60
 	explode "tiny explosion" 35
 	explode "small explosion" 25
 	explode "medium explosion" 15

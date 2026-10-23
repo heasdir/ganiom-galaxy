@@ -1,9 +1,3 @@
-# ============================================================
-# BRUCHAVEN MEKRUT SHIPS
-# ============================================================
-
-# --- DRONES & FIGHTERS (No Fuel, No Drives) ---
-
 ship "Hsabi"
 	sprite "ship/mekrut/hsabi"
 	attributes
@@ -28,9 +22,8 @@ ship "Hsabi"
 		"Mekrut Heavy Thruster"
 		"Mekrut Heat Sink"
 		"Mekrut Industrial Reactor"
-	
-	gun 0 0
-	engine 0 0
+	gun 0 -15
+	engine 0 25
 	explode "tiny explosion" 10
 	"final explode" "final explosion small"
 	description `A small, automated drone designed to swarm enemy ships. It is barely a threat on its own, but in large numbers, its mining laser can chew through hulls.`
@@ -59,9 +52,8 @@ ship "Nawnoh"
 		"Mekrut Heavy Thruster"
 		"Mekrut Heat Sink"
 		"Mekrut Industrial Reactor"
-		
-	gun 0 0
-	engine 0 0
+	gun 0 -15
+	engine 0 25
 	explode "tiny explosion" 12
 	"final explode" "final explosion small"
 	description `A heavily armed drone. The Mekrut use these to soften up targets before their larger warships move in.`
@@ -90,15 +82,11 @@ ship "Klian"
 		"Mekrut Heat Sink"
 		"Mekrut Shield Emitter"
 		"Mekrut Industrial Reactor"
-	
-	gun 0 0
-	engine 0 0
+	gun 0 -25
+	engine 0 30
 	explode "tiny explosion" 20
 	"final explode" "final explosion small"
 	description `A heavy fighter designed for boarding actions. Its Breacher Cannon is powerful enough to shatter bulkheads, allowing Mekrut marines to board enemy vessels.`
-
-
-# --- INTERCEPTORS & LIGHT WARSHIPS (Jump Capable) ---
 
 ship "Ionata"
 	sprite "ship/mekrut/ionata"
@@ -126,11 +114,10 @@ ship "Ionata"
 		"Mekrut Industrial Reactor"
 		"Hyperdrive"
 		"Jump Drive"
-	
-	gun 0 0
-	gun 0 0
-	engine 0 0
-	engine 0 0
+	gun -10 -35
+	gun 10 -35
+	engine -10 40
+	engine 10 40
 	explode "tiny explosion" 20
 	explode "small explosion" 10
 	"final explode" "final explosion small"
@@ -164,14 +151,13 @@ ship "Avaruk"
 		"Mekrut Armor Plating"
 		"Hyperdrive"
 		"Jump Drive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	engine 0 0
-	engine 0 0
+	gun -15 -40
+	gun 0 -50
+	gun 15 -40
+	gun -10 -20
+	gun 10 -20
+	engine -15 45
+	engine 15 45
 	explode "tiny explosion" 30
 	explode "small explosion" 20
 	"final explode" "final explosion medium"
@@ -205,20 +191,16 @@ ship "Nutoq"
 		"Mekrut Armor Plating"
 		"Hyperdrive"
 		"Jump Drive"
-	
-	turret 0 0
-	turret 0 0
-	gun 0 0
-	gun 0 0
-	engine 0 0
-	engine 0 0
+	turret -20 10
+	turret 20 10
+	gun -15 -35
+	gun 15 -35
+	engine -15 45
+	engine 15 45
 	explode "tiny explosion" 30
 	explode "small explosion" 20
 	"final explode" "final explosion medium"
 	description `A specialized anti-fighter platform. The Nutoq trades forward firepower for a pair of heavy salvage turrets, allowing it to shred swarms of smaller ships.`
-
-
-# --- MEDIUM & HEAVY WARSHIPS (Jump Capable) ---
 
 ship "Klaoh"
 	sprite "ship/mekrut/klaoh"
@@ -249,14 +231,13 @@ ship "Klaoh"
 		"Mekrut Capacitor Array"
 		"Hyperdrive"
 		"Jump Drive"
-	
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	gun -20 -50
+	gun 20 -50
+	turret -25 10
+	turret 25 10
+	engine -15 55
+	engine 0 60
+	engine 15 55
 	explode "tiny explosion" 40
 	explode "small explosion" 30
 	explode "medium explosion" 20
@@ -292,39 +273,39 @@ ship "Parsriseys"
 		"Mekrut Capacitor Array" 2
 		"Hyperdrive"
 		"Jump Drive"
-	
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	bay "Drone" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
-	bay "Fighter" 0 0
+	turret -40 -40
+	turret 40 -40
+	turret -60 0
+	turret 60 0
+	turret -40 40
+	turret 40 40
+	gun -25 -60
+	gun 25 -60
+	gun -15 -70
+	gun 15 -70
+	gun -45 -20
+	gun 45 -20
+	engine -25 60
+	engine -10 65
+	engine 10 65
+	engine 25 60
+	bay "Drone" -20 -10
+	bay "Drone" 20 -10
+	bay "Drone" -30 20
+	bay "Drone" 30 20
+	bay "Drone" -15 30
+	bay "Drone" 15 30
+	bay "Fighter" -45 15
+	bay "Fighter" 45 15
+	bay "Fighter" -55 -15
+	bay "Fighter" 55 -15
+	bay "Fighter" -25 -30
+	bay "Fighter" 25 -30
+	bay "Fighter" -10 -40
+	bay "Fighter" 10 -40
+	bay "Fighter" -35 45
+	bay "Fighter" 35 45
+	bay "Fighter" 0 50
 	explode "tiny explosion" 50
 	explode "small explosion" 40
 	explode "medium explosion" 30
@@ -362,22 +343,21 @@ ship "Aben"
 		"Mekrut Capacitor Array" 2
 		"Hyperdrive"
 		"Jump Drive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	gun -30 -70
+	gun 30 -70
+	gun -15 -80
+	gun 15 -80
+	gun -45 -50
+	gun 45 -50
+	gun 0 -90
+	turret -40 -30
+	turret 40 -30
+	turret -50 10
+	turret 50 10
+	engine -25 70
+	engine -10 75
+	engine 10 75
+	engine 25 70
 	explode "tiny explosion" 60
 	explode "small explosion" 40
 	explode "medium explosion" 30
@@ -415,35 +395,32 @@ ship "Manoh Shikuan"
 		"Mekrut Capacitor Array" 3
 		"Hyperdrive"
 		"Jump Drive"
-	
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	gun 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	gun -35 -80
+	gun 35 -80
+	gun -20 -90
+	gun 20 -90
+	gun -50 -60
+	gun 50 -60
+	gun -10 -100
+	gun 10 -100
+	gun -40 -40
+	gun 40 -40
+	gun 0 -110
+	turret -50 -30
+	turret 50 -30
+	turret -60 10
+	turret 60 10
+	engine -30 80
+	engine -15 85
+	engine 0 90
+	engine 15 85
+	engine 30 80
 	explode "tiny explosion" 80
 	explode "small explosion" 60
 	explode "medium explosion" 40
 	explode "large explosion" 20
 	"final explode" "final explosion large"
 	description `The Manoh Shikuan is the pride of the Mekrut fleet. It is a massive, heavily armed warship that serves as the flagship for their raiding parties.`
-
-
-# --- TRANSPORTS (Jump Capable) ---
 
 ship "Ragadan"
 	sprite "ship/mekrut/ragadan"
@@ -471,10 +448,9 @@ ship "Ragadan"
 		"Mekrut Industrial Reactor"
 		"Hyperdrive"
 		"Jump Drive"
-	
-	gun 0 0
-	engine 0 0
-	engine 0 0
+	gun 0 -35
+	engine -15 40
+	engine 15 40
 	explode "tiny explosion" 20
 	explode "small explosion" 10
 	"final explode" "final explosion medium"
@@ -507,11 +483,10 @@ ship "Ratoq"
 		"Mekrut Armor Plating"
 		"Hyperdrive"
 		"Jump Drive"
-	
-	turret 0 0
-	engine 0 0
-	engine 0 0
-	engine 0 0
+	turret 0 -40
+	engine -20 60
+	engine 0 70
+	engine 20 60
 	explode "tiny explosion" 30
 	explode "small explosion" 20
 	explode "medium explosion" 10

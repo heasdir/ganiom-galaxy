@@ -1,0 +1,239 @@
+# ============================================================
+# PARAF OUTFITS & WEAPONS (ABOVE T5)
+# ============================================================
+
+# --- POWER & REACTORS ---
+
+outfit "Paraf Micro Reactor"
+	category "Power"
+	cost 5000000
+	thumbnail "outfit/unknown"
+	"mass" 20
+	"outfit space" -20
+	"energy generation" 150
+	"heat generation" 5
+	description `A tiny, stabilized antimatter reactor. It provides enough power to run a Paraf interceptor's weapons, but is highly volatile if breached.`
+
+outfit "Paraf Singularity Core"
+	category "Power"
+	cost 100000000
+	thumbnail "outfit/unknown"
+	"mass" 500
+	"outfit space" -500
+	"energy generation" 5000
+	"heat generation" 50
+	description `A miniature black hole contained within a magnetic field, used to power the largest Paraf dreadnoughts. It will outlive the ship it is installed in.`
+
+outfit "Paraf Energy Bank"
+	category "Power"
+	cost 15000000
+	thumbnail "outfit/unknown"
+	"mass" 100
+	"outfit space" -100
+	"energy capacity" 10000
+	description `A massive capacitor array designed to store the immense energy required to fire Paraf antimatter weapons.`
+
+
+# --- ENGINES ---
+
+outfit "Paraf Kamikaze Engine"
+	category "Engines"
+	cost 1000000
+	thumbnail "outfit/unknown"
+	"mass" 10
+	"outfit space" -10
+	"engine capacity" -10
+	"thrust" 5000
+	"thrusting energy" 10
+	"thrusting heat" 10
+	"turn" 100000
+	"turning energy" 5
+	"turning heat" 5
+	"flare sprite" "effect/remnant flare/large"
+		"frame rate" 9
+	"flare sound" "plasma huge"
+	description `A highly unstable, overclocked engine used exclusively by Paraf Kamikaze ships. It is designed to burn out in minutes, pushing the ship to terminal velocity before detonating.`
+
+outfit "Paraf Spatial Drive"
+	category "Engines"
+	cost 25000000
+	thumbnail "outfit/unknown"
+	"mass" 150
+	"outfit space" -150
+	"engine capacity" -150
+	"thrust" 120000
+	"thrusting energy" 15
+	"thrusting heat" 12
+	"turn" 800000
+	"turning energy" 8
+	"turning heat" 6
+	"reverse thrust" 120000
+	"reverse thrusting energy" 15
+	"reverse thrusting heat" 12
+	"flare sprite" "effect/remnant flare/huge"
+		"frame rate" 10
+	"flare sound" "plasma huge"
+	"steering flare sprite" "effect/remnant flare/huge"
+		"frame rate" 10
+	"steering flare sound" "plasma huge"
+	description `A Paraf drive system that folds space around the ship. It is impossibly efficient, allowing massive dreadnoughts to move like interceptors.`
+
+
+# --- SYSTEMS ---
+
+outfit "Paraf Stasis Field"
+	category "Systems"
+	cost 50000000
+	thumbnail "outfit/unknown"
+	"mass" 300
+	"outfit space" -300
+	"shield generation" 5000
+	"shield energy" 100
+	"hull repair rate" 1000
+	"hull energy" 50
+	description `A defensive grid that slows the molecular motion of incoming projectiles, effectively turning the ship's shields into a wall of diamond.`
+
+
+# --- WEAPONS ---
+
+outfit "Paraf Antimatter Blaster"
+	category "Guns"
+	cost 15000000
+	thumbnail "outfit/unknown"
+	"mass" 40
+	"outfit space" -40
+	"weapon capacity" -40
+	"gun ports" -1
+	weapon
+		sprite "projectile/ionball"
+			"frame rate" 10
+		sound "plasma"
+		"hit effect" "huge explosion"
+		"inaccuracy" 0.1
+		"velocity" 800
+		"lifetime" 1.5
+		"reload" 10
+		"firing energy" 50
+		"firing heat" 30
+		"shield damage" 50000
+		"hull damage" 50000
+		"hit force" 500
+	description `The standard armament of the Paraf fleet. It fires a stream of stabilized antimatter particles that annihilate matter on contact.`
+
+outfit "Paraf Heavy Turret"
+	category "Turrets"
+	cost 40000000
+	thumbnail "outfit/unknown"
+	"mass" 100
+	"outfit space" -100
+	"weapon capacity" -100
+	"turret mounts" -1
+	weapon
+		sprite "projectile/ionball"
+			"frame rate" 10
+		sound "plasma"
+		"hardpoint sprite" "hardpoint/electron turret"
+		"hit effect" "huge explosion"
+		"inaccuracy" 0.1
+		"turret turn" 3.0
+		"velocity" 600
+		"lifetime" 2.0
+		"reload" 20
+		"firing energy" 150
+		"firing heat" 100
+		"shield damage" 200000
+		"hull damage" 200000
+		"hit force" 1000
+	description `A massive dual-barreled turret that fires high-yield antimatter shells. It is designed to shred the shields of enemy capital ships.`
+
+outfit "Paraf Point Defense"
+	category "Turrets"
+	cost 10000000
+	thumbnail "outfit/unknown"
+	"mass" 50
+	"outfit space" -50
+	"weapon capacity" -50
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/heavy anti-missile"
+		"hit effect" "large anti-missile"
+		"anti-missile" 300
+		"velocity" 1500
+		"lifetime" 1
+		"reload" 1
+		"firing energy" 20
+		"firing heat" 5
+	description `An automated grid that vaporizes any fighter or missile that gets within a three-kilometer radius of the ship.`
+
+outfit "Paraf Antimatter Annihilator"
+	category "Turrets"
+	cost 500000000
+	thumbnail "outfit/unknown"
+	"mass" 1000
+	"outfit space" -1000
+	"weapon capacity" -1000
+	"turret mounts" -1
+	weapon
+		sprite "projectile/ionball"
+			"frame rate" 10
+			"scale" 3.0
+		sound "plasma"
+		"hardpoint sprite" "hardpoint/electron turret"
+		"hit effect" "huge explosion"
+		"inaccuracy" 0.0
+		"turret turn" 1.0
+		"velocity" 400
+		"lifetime" 5.0
+		"reload" 60
+		"firing energy" 2000
+		"firing heat" 1000
+		"shield damage" 500000
+		"hull damage" 1000000
+		"blast radius" 1500
+		"hit force" 50000
+		"piercing" 0.5
+	description `The main gun of the Samaanuak. It fires a bomb containing a kilogram of antimatter. The resulting explosion is visible from orbit.`
+
+outfit "Paraf Planet Cracker"
+	category "Guns"
+	cost 1000000000
+	thumbnail "outfit/unknown"
+	"mass" 2000
+	"outfit space" -2000
+	"weapon capacity" -2000
+	"gun ports" -1
+	weapon
+		sprite "projectile/ionball"
+			"frame rate" 10
+			"scale" 5.0
+		sound "plasma"
+		"hit effect" "huge explosion"
+		"inaccuracy" 0.0
+		"velocity" 2000
+		"lifetime" 5.0
+		"reload" 120
+		"firing energy" 5000
+		"firing heat" 2000
+		"shield damage" 2000000
+		"hull damage" 5000000
+		"piercing" 1
+	description `A spinal-mount weapon designed for the Vavaai Star-Killer. It is not meant for ship-to-ship combat; it is meant to shatter planets.`
+
+
+# --- OUTFITTERS ---
+
+outfitter "Paraf Technology"
+	"Paraf Kamikaze Engine"
+	"Paraf Spatial Drive"
+	"Paraf Micro Reactor"
+	"Paraf Singularity Core"
+	"Paraf Energy Bank"
+	"Paraf Stasis Field"
+	"Paraf Antimatter Blaster"
+	"Paraf Heavy Turret"
+	"Paraf Point Defense"
+	"Paraf Antimatter Annihilator"
+	"Paraf Planet Cracker"
+	"Hyperdrive"
+	"Jump Drive"
+	"Local Map"
