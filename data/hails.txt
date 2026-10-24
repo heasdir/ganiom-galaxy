@@ -67,3 +67,24 @@ phrase "mekrut hail"
 		"'krab"
 		"'stik"
 		"'aimot"
+
+phrase "ianes hail"
+	word
+		"Dahutak"
+		"Ioraba"
+		"Rafuukarsa"
+		"Dohaiobta"
+		"Karmagalabti"
+		"Avanagtakorsa"
+		"Nasbianati"
+	word
+		"fir hasbli "
+		"oi hasbli "
+		"keo hasbli "
+		"fuchuawoa hasbli "
+	word
+		"horkale "
+		"gamcharek "
+		"vashek "
+	word
+		"ianatu."

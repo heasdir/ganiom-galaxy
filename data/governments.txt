@@ -94,6 +94,7 @@ government "Serbajkil"
 		"Kem Relicnain" -.5
 		"The Forens" 9
 		"Paraf" -1000
+		"Ianes" 1000
 		
 government "Bruchaven Issarei"
 	color 0.1 0.4 0.3
@@ -218,3 +219,27 @@ government "Paraf"
 		"Bruchaven Mekrut" 10
 		"Merchant" 1
 		"Pirate" -1000
+		"Ianes" -7000
+
+government "Ianes"
+	color 0.2 0.3 0.7
+	swizzle 1
+	"player reputation" 70
+	"attitude toward"
+		"Shizivi" 1000
+		"Onnari" -1000
+		"Hisair" -1000
+		"Serbajkil" 1000
+		"Communist Ganiom" -10
+		"The Between" 700
+		"Gainen Republic" 10
+		"Vic'Na" 10
+		"Bruchaven Issarei" 10
+		"Bruchaven Mekrut" 10
+		"Merchant" 1
+		"Pirate" -1000
+		"Paraf" -7000"
+	"friendly hail" "ianes hail"
+	"friendly disabled hail" "ianes hail"
+	"hostile hail" "ianes hail"
+	"hostile disabled hail" "ianes hail"

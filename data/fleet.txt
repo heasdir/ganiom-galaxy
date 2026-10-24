@@ -877,3 +877,24 @@ fleet "Paraf Core Armada"
 	variant 5
 		"Vavaai"
 		"Samaanuak" 2
+
+# ============================================================
+# IANES FLEETS
+# ============================================================
+
+fleet "Ianes Hypernova Fleet"
+	government "Ianes"
+	names "Ianes"
+	cargo 0
+	personality
+		heroic
+		unconstrained
+	variant 80
+		"Rafuukarsathamanakatna"
+		"Rafuukarsathaosidehavarhawava" 10
+	variant 19
+		"Rafuukarsathamanakatnaasiabna"
+		"Rafuukarsathaosidehavarhawavakatnaasiabna" 3
+	variant 1
+		"Rafuukarsathamanakatnaasiabnavarkana"
+		"Rafuukarsathaosidehavarhawavakatnaasiabnavarkana" 100

@@ -1,0 +1,508 @@
+# ============================================================
+# IANES
+# ============================================================
+
+# --- LOW TIER (T5) ---
+ship "Rafuukarsathamanakatna"
+	sprite "ship/ianes/bomber"
+	attributes
+		category "Star-Killer"
+		"cost" 75000000
+		"shields" 800000000
+		"hull" 3000000000
+		"required crew" 75
+		"bunks" 150
+		"mass" 800000
+		"drag" 3.5
+		"heat dissipation" 0.9
+		"fuel capacity" 8000
+		"outfit space" 6000
+		"cargo space" 7000
+		"weapon capacity" 1000
+		"engine capacity" 1500
+		"cooling" 2500
+	outfits
+		"Ianes Hyperdrive"
+		"Ianes Reactor"
+		"Ianes Engine"
+		"Patrayaarahavathra"
+		
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	
+	engine 0 60
+	gun 8 8
+	explode "huge explosion" 100
+	"final explode" "final explosion massive"
+	description `The Rafuukarsathamanakatna is a weapon of stellar annihilation. It does not engage in traditional ship-to-ship combat. Instead, it breaches enemy lines, opens its massive ventral bays, and deploys a cluster of radioactive capsules into the void.`
+
+ship "Rafuukarsathaosidehavarhawava"
+	sprite "ship/ianes/releaser"
+	attributes
+		category "Hypernova"
+		"cost" 500000
+		"shields" 0
+		"hull" 1000
+		"required crew" 0
+		"automaton" 1
+		"bunks" 1
+		"mass" 15
+		"drag" 4.5 
+		"heat dissipation" 1
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 10
+		"weapon capacity" 10
+		"engine capacity" 10
+		weapon
+			"blast radius" 600000
+			"shield damage" 50000000
+			"hull damage" 50000000
+			"hit force" 1000000
+	outfits
+		"Hypernova Engine"
+		"Hypernova Reactor"
+		"Hypernova Cooling"
+		
+	engine 0 10
+	explode "huge explosion" 100
+	"final explode" "final explosion massive"
+	description `The Rafuukarsathaosidehavarhawava is a containment capsule filled with highly unstable radioactive isotopes. It has no offensive capabilities. However, if the capsule is breached by a single point of kinetic or energy damage, the isotopes undergo an instantaneous cascade reaction, triggering a localized hypernova.`
+
+
+# --- MID TIER (T6) ---
+ship "Rafuukarsathamanakatnaasiabna"
+	sprite "ship/ianes/ultrabomber"
+		scale 3.0
+	attributes
+		category "Star-Killer"
+		"cost" 5000000000
+		"shields" 120000000000
+		"hull" 30000000000
+		"required crew" 500
+		"bunks" 1000
+		"mass" 5000000
+		"drag" 4.5
+		"heat dissipation" 0.9
+		"fuel capacity" 50000
+		"outfit space" 50000
+		"cargo space" 90000
+		"weapon capacity" 10000
+		"engine capacity" 8000
+		"cooling" 10000
+		"shield generation" 100000
+		"shield energy" 50
+		"hull repair rate" 50000
+		"hull energy" 50
+		"uncapturable" 1
+	outfits
+		"Ianes Hyperdrive" 2
+		"Ianes Reactor" 20
+		"Ianes Engine" 4
+		"Patrayaarahavathra"
+		
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	engine 0 100
+	engine -50 80
+	engine 50 80
+	gun 90 90
+	explode "huge explosion" 500
+	"final explode" "final explosion massive"
+	description `The Rafuukarsathamanakatnaasiabna is the ultimate expression of Ianes stellar dominance. It is not a ship; it is a mobile extinction event. Its 70 ventral bays can deploy an entire cluster of Hypernova Releasers in a single pass, turning entire star systems into radioactive graveyards.`
+
+ship "Rafuukarsathaosidehavarhawavakatnaasiabna"
+	sprite "ship/ianes/ultrareleaser"
+		scale 1.5
+	attributes
+		category "Hypernova"
+		"cost" 5000000
+		"shields" 0
+		"hull" 5000
+		"required crew" 0
+		"automaton" 1
+		"bunks" 1
+		"mass" 50
+		"drag" 4.5 
+		"heat dissipation" 1
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 20
+		"weapon capacity" 20
+		"engine capacity" 20
+		weapon
+			"blast radius" 1000000
+			"shield damage" 500000000
+			"hull damage" 500000000
+			"hit force" 10000000
+	outfits
+		"Hypernova Engine" 2
+		"Hypernova Reactor" 3
+		"Hypernova Cooling" 2
+		
+	engine 0 15
+	explode "huge explosion" 200
+	"final explode" "final explosion massive"
+	description `The Ultrareleaser is a Mid-Tier Ianes weapon. It carries a payload of highly unstable radioactive isotopes that, upon breach, triggers a 500-Million damage cascade reaction. The Ianes use these to turn Paraf dreadnoughts into expanding clouds of plasma.`
+
+
+# --- HIGH TIER (T7) ---
+ship "Rafuukarsathamanakatnaasiabnavarkana"
+	sprite "ship/ianes/advancedbomber"
+		scale 5.0
+	attributes
+		category "Star-Killer"
+		"cost" 50000000000
+		"shields" 500000000000
+		"hull" 150000000000
+		"required crew" 2000
+		"bunks" 4000
+		"mass" 9000000
+		"drag" 5.0
+		"heat dissipation" 0.9
+		"fuel capacity" 100000
+		"outfit space" 100000
+		"cargo space" 200000
+		"weapon capacity" 20000
+		"engine capacity" 15000
+		"cooling" 20000
+		"shield generation" 500000
+		"shield energy" 50
+		"hull repair rate" 250000
+		"hull energy" 50
+		"uncapturable" 1
+	outfits
+		"Ianes Hyperdrive" 4
+		"Ianes Reactor" 50
+		"Ianes Engine" 10
+		"Patrayaarahavathra" 10
+		
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	bay "Hypernova" 0 0
+	
+	engine 0 200
+	engine -100 150
+	engine 100 150
+	gun 90 90
+	gun 90 90
+	gun 70 70
+	gun 70 70
+	gun -70 -70
+	gun -70 -70
+	gun -90 -90
+	gun -20 -20
+	gun 20 20
+	gun 7 7
+	explode "huge explosion" 1000
+	"final explode" "final explosion massive"
+	description `The Advanced Bomber is a High-Tier Ianes warship. It no longer relies solely on suicide drones. Armed with the devastating Patrayaarahavathra optical lasers, it strips the shields of enemy capital ships with Advanced Releasers, then surgically slices their hulls into atoms.`
+
+ship "Rafuukarsathaosidehavarhawavakatnaasiabnavarkana"
+	sprite "ship/ianes/advancedreleaser"
+		scale 2.5
+	attributes
+		category "Hypernova"
+		"cost" 50000000
+		"shields" 0
+		"hull" 25000
+		"required crew" 0
+		"automaton" 1
+		"bunks" 1
+		"mass" 150
+		"drag" 4.5 
+		"heat dissipation" 1
+		"fuel capacity" 0
+		"cargo space" 0
+		"outfit space" 50
+		"weapon capacity" 50
+		"engine capacity" 50
+		weapon
+			"blast radius" 2000000
+			"shield damage" 5000000000
+			"hull damage" 5000000000
+			"hit force" 50000000
+	outfits
+		"Hypernova Engine" 4
+		"Hypernova Reactor" 5
+		"Hypernova Cooling" 4
+		
+	engine 0 25
+	explode "huge explosion" 500
+	"final explode" "final explosion massive"
+	description `The Advanced Releaser is a High-Tier Ianes kamikaze drone. When breached, it triggers a 5-Billion damage hypernova cascade, instantly vaporizing the shields of even the most heavily armored Paraf dreadnoughts.`
+
+# ============================================================
+# IANES OUTFITS & WEAPONS
+# ============================================================
+
+outfit "Patrayaarahavathra"
+	category "Guns"
+	cost 1000000000
+	thumbnail "outfit/unknown"
+	"mass" 500
+	"outfit space" -500
+	"weapon capacity" -500
+	"gun ports" -1
+	weapon
+		sprite "projectile/blue optical laser"
+		sound "optical laser"
+		"hit effect" "huge explosion" # Optical laser impact
+		"inaccuracy" 0.1
+		"velocity" 2000
+		"lifetime" 2
+		"reload" 30
+		"firing energy" 2000
+		"firing heat" 1000
+		"shield damage" 12000000
+		"hull damage" 450000000
+	description `The Patrayaarahavathra is a High-Tier Ianes optical weapon. It is designed to bypass the heavy shielding of Paraf dreadnoughts by delivering a surgical, 450-Million damage strike directly to the hull. Once the shields are stripped by Advanced Releasers, this laser executes the target.`
+
+outfit "Ianes Reactor"
+	category "Power"
+	cost 10000000
+	thumbnail "outfit/unknown"
+	"mass" 100
+	"outfit space" -100
+	"energy generation" 500
+	"heat generation" 10
+	description `A reactor that harnesses the power of a micro-hypernova. It is incredibly stable, considering the volatile nature of the fuel.`
+
+outfit "Ianes Engine"
+	category "Engines"
+	cost 5000000
+	thumbnail "outfit/unknown"
+	"mass" 50
+	"outfit space" -50
+	"engine capacity" -50
+	"thrust" 200000
+	"thrusting energy" 20
+	"thrusting heat" 10
+	"turn" 500000
+	"turning energy" 10
+	"turning heat" 5
+	"flare sprite" "effect/ion flare/huge"
+		"frame rate" 10
+	"flare sound" "ion huge"
+	description `A drive system that pushes the ship using controlled stellar winds.`
+
+outfit "Ianes Hyperdrive"
+	category "Systems"
+	cost 25000000
+	thumbnail "outfit/unknown"
+	"mass" 20
+	"outfit space" -20
+	"jump speed" .3
+	"jump fuel" 200
+	"jump drive" 1
+	"jump range" 500
+	description `A specialized hyperdrive designed to withstand the extreme radiation of the Eastern Wilds.`
+
+outfit "Hypernova Engine"
+	category "Engines"
+	cost 5000000
+	thumbnail "outfit/unknown"
+	"mass" 1
+	"outfit space" -5
+	"engine capacity" -5
+	"thrust" 20
+	"thrusting energy" 2
+	"thrusting heat" 1
+	"turn" 5
+	"turning energy" 1
+	"turning heat" 0.5
+	description `A tiny maneuvering system for the Releaser.`
+
+outfit "Hypernova Reactor"
+	category "Power"
+	cost 100000
+	thumbnail "outfit/unknown"
+	"mass" 1
+	"outfit space" -3
+	"energy generation" 5
+	"heat generation" 1
+	description `A tiny battery to power the Releaser's maneuvering thrusters.`
+
+outfit "Hypernova Cooling"
+	category "Systems"
+	cost 100000
+	thumbnail "outfit/unknown"
+	"mass" 1
+	"outfit space" -2
+	"cooling" 10
+	description `A tiny heat sink for the Releaser.`

@@ -2,7 +2,5 @@
 
 #Add the Onnari
 #Add the Itaien
-#Add the Ianes
-#Add Onnes ships and outfits
 #Ssuryie Licenses
 #Fix problem where NPC Missions do not work due to categories "Light Warship" and "Medium Warship" being bay types
